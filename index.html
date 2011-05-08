@@ -1,0 +1,28 @@
+---
+layout: general
+title: Helping the savvy parent discover exceptional storytelling and illustration.
+bodyId: home
+---
+
+{% for post in site.categories.books %}
+	<article>
+		<header>
+			<a href="http://childlitreview.com{{ post.url }}"><img src="/books/images/{{ post.ISBN-13 }}-a.jpg" width="830" height="300" /></a>
+			<p class="on">Reviewed on {{ post.date | date: "%B %d, %Y" }}</p>
+			<p class="rating">{{ post.rating }}</p>
+			<h2><a href="http://childlitreview.com{{ post.url }}">{{ post.title }}</a></h2>
+			<p class="by">
+				{% if post.author == post.illustrator %}
+					<span class="author">Written &amp; Illustrated by {{ post.author }}</span>
+				{% else %}
+					<span class="author">Written by {{ post.author }},</span>
+					<span class="illustrator">illustrated by {{ post.illustrator }}</span>
+				{% endif %}
+			</p>
+		</header>
+		<section class="content">
+			{{ post.content }}
+			<p><a href="http://childlitreview.com{{ post.url }}">View the full review</a>, or buy at <a href="{{ post.amazonus }}">Amazon.com</a> or <a href="{{ post.amazonuk }}">Amazon.co.uk</a>.</p>
+		</section>
+	</article>
+{% endfor %}

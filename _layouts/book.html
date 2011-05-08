@@ -1,0 +1,80 @@
+---
+layout: general
+bodyId: review
+---
+
+<article>
+	<header>
+		<img src="/books/images/{{ page.ISBN-13 }}-a.jpg" width="830" height="300" />
+		<p class="on">Reviewed on {{ page.date | date: "%B %d, %Y" }}</p>
+		<p class="rating">{{ page.rating }}</p>
+		<h2>{{ page.title }}</h2>
+		<p class="by">
+			{% if page.author == page.illustrator %}
+				<span class="author">Written &amp; Illustrated by {{ page.author }}</span>
+			{% else %}
+				<span class="author">Written by {{ page.author }},</span>
+				<span class="illustrator">illustrated by {{ page.illustrator }}</span>
+			{% endif %}
+		</p>
+	</header>
+	<section class="content">
+		{{ content }}
+		
+		<section class="details">
+			<figure class="cover">
+				<img src="/books/images/{{ page.ISBN-13 }}-b.jpg" width="140" />
+				<p>
+					<strong>View on:</strong><br/>
+					<a href="{{ page.amazonus }}">Amazon.com</a><br/>
+					<a href="{{ page.amazonuk }}">Amazon.co.uk</a>
+				</p>
+			</figure>
+			
+			<ul>
+				<li>
+					<h4>Minimum age:</h4>
+					<p>{{ page.age }}</p>
+				</li>
+				<li>
+					<h4>Reading time:</h4>
+					<p>{{ page.time }}</p>
+				</li>
+				<li>
+					<h4>Book format:</h4>
+					<p>{{ page.format }}</p>
+				</li>
+				<li>
+					<h4>Writing style:</h4>
+					<p>{{ page.style }}</p>
+				</li>
+				<li>
+					<h4>Year of Publication:</h4>
+					<p>{{ page.published }}</p>
+				</li>
+				<li>
+					<h4>Illustration Rating:</h4>
+					<p>{{ page.illustrationrating }} out of 5</p>
+				</li>
+				<li>
+					<h4>Story Rating:</h4>
+					<p>{{ page.storyrating }} out of 5</p>
+				</li>
+				<li>
+					<h4>Moral Rating:</h4>
+					<p>{{ page.moralrating }} out of 5</p>
+				</li>
+				<li>
+					<h4>Overall Rating:</h4>
+					<p>{{ page.rating }} out of 5</p>
+				</li>
+			</ul>
+		</section>
+		
+		<p id="back"><a href="http://childlitreview.com">Back to the homepage</a>
+		
+		<section class="comments">
+			<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="http://childlitreview.com{{ page.url }}" num_posts="5" width="624"></fb:comments>
+		</section>
+	</section>
+</article>

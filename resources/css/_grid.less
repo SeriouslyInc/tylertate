@@ -1,0 +1,33 @@
+@column-width: 60;
+@gutter-width: 10;
+@columns: 16;
+
+
+//////////
+// GRID //
+//////////
+
+body {
+	@total-width: (@column-width*12) + (@gutter-width*12);	
+	
+	padding: 0 ((@gutter-width*.5)/@total-width)*100%;
+	margin: 0;
+}
+
+.row(@columns:@columns) {
+	@total-width: (@column-width*@columns) + (@gutter-width*@columns);
+	
+	overflow: hidden;
+	width: ((@gutter-width + @total-width)/@total-width)*100%;
+	margin: 0 ((@gutter-width*.5)/@total-width)*-100%;
+}
+
+.grid(@x,@columns:@columns) {
+	@total-width: (@column-width*@columns) + (@gutter-width*@columns);
+	
+	overflow: hidden;
+	float: left;
+	width: ((((@gutter-width+@column-width)*@x)-@gutter-width) / @total-width) * 100%;
+	margin: 0 ((@gutter-width*.5)/@total-width)*100%;
+	_display: inline;
+}

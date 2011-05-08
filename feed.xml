@@ -1,0 +1,19 @@
+---
+layout: rss
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Children's Literature Review</title>
+		<description>Helping the savvy parent discover exceptional storytelling and illustration.</description>
+		<link>http://childlitreview.com/</link>
+		{% for post in site.posts %}
+			<item>
+				<title>{{ post.title }}</title>
+				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+				<description>{{ post.content | xml_escape }}</description>
+				<link>http://childlitreview.com{{ post.url }}</link>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

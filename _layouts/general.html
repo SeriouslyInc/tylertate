@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="alternate" type="application/rss+xml" title="Children's Literature Review" href="http://feeds.feedburner.com/childlitreview" />
+	<meta name="description" content="Helping the savvy parent discover exceptional storytelling and illustration."/>
+	<title>Children's Literature Review — {{page.title}}</title>
+
+	{% include head.html %}
+</head>
+
+<body>
+
+	<div id="mainbody">
+		
+		<div id="sidebar">
+			<a id="logo" href="http://childlitreview.com"><h1>Children's<br/>Literature<br/>Review</h1></a>
+			<p class="tagline">Helping the savvy parent discover exceptional storytelling and illustration.</p>
+			
+			<p class="action">Follow <a href="http://twitter.com/childlitreview">@childlitreview</a> on Twitter.</p>
+			<p class="action">Subscribe to the <a href="http://feeds.feedburner.com/childlitreview">RSS feed</a>.</p>
+			<p class="action">Signup for the monthly digest
+				<form action="http://childlitreview.createsend.com/t/r/s/muidkk/" method="post" id="email-newsletter">
+					<input type="text" name="cm-muidkk-muidkk" id="muidkk-muidkk" placeholder="email" />
+					<input type="submit" value="Subscribe" />
+				</form>
+			</p>
+			
+			<p class="tylertate">by <a href="http://tylertate.com/">Tyler Tate</a></p>
+		</div>
+		
+		<div id="content">
+			{{ content }}
+		</div>
+		
+	</div>
+
+</body>
+</html>
