@@ -46,7 +46,6 @@ header#top nav {
   margin: 0 0.8928571428571428%;
   _display: inline;
   padding-bottom: 0.75em;
-  border-bottom: 1px solid #ccc;
 }
 header#top nav h1 {
   float: left;
@@ -160,7 +159,11 @@ section#speaking {
   width: 101.78571428571428%;
   margin: 0 -0.8928571428571428%;
   padding-bottom: 1.5em;
+}
+section#speaking h2 {
+  font-family: sans-serif;
   border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25em;
 }
 section#speaking p {
   margin: 0;
@@ -168,26 +171,26 @@ section#speaking p {
 section#speaking #upcoming {
   overflow: hidden;
   float: left;
-  width: 26.785714285714285%;
+  width: 41.07142857142857%;
   margin: 0 0.8928571428571428%;
   _display: inline;
 }
 section#speaking #past {
   overflow: hidden;
   float: left;
-  width: 69.64285714285714%;
+  width: 55.35714285714286%;
   margin: 0 0.8928571428571428%;
   _display: inline;
 }
 section#speaking #past #past-row {
   overflow: hidden;
-  width: 102.49999999999999%;
-  margin: 0 -1.25%;
+  width: 103.125%;
+  margin: 0 -1.5625%;
 }
 section#speaking #past #past-row .column {
   overflow: hidden;
   float: left;
-  width: 27.500000000000004%;
-  margin: 0 1.25%;
+  width: 46.875%;
+  margin: 0 1.5625%;
   _display: inline;
 }

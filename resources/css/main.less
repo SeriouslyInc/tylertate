@@ -47,7 +47,6 @@ header#top {
 	nav {
 		.grid(14);
 		padding-bottom: 0.75em;
-		border-bottom: 1px solid #ccc;
 		
 		// logo
 		h1 {
@@ -152,23 +151,27 @@ section#writing {
 section#speaking {
 	.row;
 	padding-bottom: 1.5em;
-	border-bottom: 1px solid #ccc;
 	
+	h2 {
+		font-family: sans-serif;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 0.25em;
+	}
 	p {
 		margin: 0;
 	}
 	
 	#upcoming {
-		.grid(4);
+		.grid(6);
 	}
 	#past {
-		.grid(10);
+		.grid(8);
 
 		#past-row {
-			.row(10);
+			.row(8);
 			
 			.column {
-				.grid(3,10);
+				.grid(4,8);
 			}
 		}
 	}

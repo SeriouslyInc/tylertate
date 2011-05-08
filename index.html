@@ -27,6 +27,7 @@ bodyId: home
 
 <section id="speaking">
 	<section id="upcoming">
+		<h2>Upcoming Events</h2>
 		{% for event in site.categories.events %}
 			{% if event.status == 'upcoming' %}
 				<article>
@@ -38,6 +39,7 @@ bodyId: home
 		{% endfor %}
 	</section>
 	<section id="past">
+		<h2>Past Events</h2>
 		<div id="past-row">
 			<div class="column">
 				{% for event in site.categories.events limit: 6 %}
