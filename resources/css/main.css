@@ -26,14 +26,12 @@ body {
 a {
   color: black;
 }
-body {
-  padding: 0 4%;
-}
 #body {
   position: relative;
   max-width: 1160px;
   min-width: 940px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 header#top {
   overflow: hidden;
@@ -66,7 +64,7 @@ header#top nav ul {
 header#top nav ul li {
   list-style: none outside none;
   float: left;
-  margin: 1em 0 0 2em;
+  margin: 0.9em 0 0 2em;
 }
 header#top nav ul li a {
   text-decoration: none;
@@ -111,4 +109,7 @@ section#writings article {
 }
 section#writings article h2 {
   font-weight: normal;
+}
+section#writings article p {
+  padding-right: 3em;
 }

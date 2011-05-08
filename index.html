@@ -11,10 +11,14 @@ bodyId: home
 	{% for post in site.posts %}
 		<article>
 			<header>
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<p>{{ post.publisher }}</p>
 				<p>{{ post.date | date: "%B %d, %Y" }}
+				<p>{{ post.keywords }}
 			</header>
-			{{ post.content }}
+			<section>
+				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				{{ post.content }}
+			</section>
 		</article>
 	{% endfor %}
 </section>
