@@ -42,7 +42,7 @@ a {
 
 header#top {
 	.grid(14);
-	padding: 3em 0 2em;
+	padding: 4em 0 2em;
 
 	nav {
 		.row;
@@ -52,6 +52,7 @@ header#top {
 	h1 {
 		.grid(7);
 		font-style: italic;
+		font-weight: normal;
 	}
 	
 	// navigation
@@ -63,7 +64,7 @@ header#top {
 		li {
 			list-style: none outside none;
 			float: left;
-			margin: 0.75em 0 0 2em;
+			margin: 1em 0 0 2em;
 			
 			a {
 				text-decoration: none;
@@ -73,12 +74,14 @@ header#top {
 	
 	// tagline
 	p {
-		font-size: 1.5em;
+		.grid(14);
+		font-size: 1.2em;
 		padding: 1.5em 0;
+		line-height: 1.4em;
 		
 		span {
 			display: block;
-			font-size: 0.8em;
+			font-size: 1.5em;
 		}
 	}
 }
