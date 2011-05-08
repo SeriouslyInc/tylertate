@@ -1,9 +1,9 @@
+@import '_grid.less';
+@import '_mixins.less';
+
 @column-width: 60;
 @gutter-width: 20;
 @columns: 14;
-
-@import '_grid.less';
-@import '_mixins.less';
 
 
 ///////////
@@ -42,7 +42,7 @@ a {
 
 header#top {
 	.grid(14);
-	padding: 4em 0 2em;
+	padding: 2em 0 2em;
 
 	nav {
 		.row;
@@ -52,7 +52,6 @@ header#top {
 	h1 {
 		.grid(7);
 		font-style: italic;
-		font-weight: normal;
 	}
 	
 	// navigation
@@ -75,13 +74,14 @@ header#top {
 	// tagline
 	p {
 		.grid(14);
-		font-size: 1.2em;
-		padding: 1.5em 0;
+		font-size: 1.1em;
+		padding: 2em 0;
 		line-height: 1.4em;
 		
 		span {
 			display: block;
-			font-size: 1.5em;
+			font-size: 2.25em;
+			line-height: 1.4em;
 		}
 	}
 }
