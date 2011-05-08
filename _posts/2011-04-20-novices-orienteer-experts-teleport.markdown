@@ -2,7 +2,7 @@
 layout: blog
 title: Novices Orienteer, Experts Teleport
 publisher: Boxes & Arrows
-url: http://www.boxesandarrows.com/view/novices-orienteer
+originalurl: http://www.boxesandarrows.com/view/novices-orienteer
 categories: [search,ux]
 ---
 

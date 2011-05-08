@@ -12,9 +12,9 @@ bodyId: home
 		{% for post in site.posts %}
 			<article>
 				<header>
-					<h3><a href="{{ post.url }}">{{ post.publisher }}</a></h3>
-					<p class="date">{{ post.date | date: "%B %d, %Y" }}
-					<p class="categories">{% for category in post.categories %} {{ category }}, {% endfor %}
+					<h3><a href="{{ post.originalurl }}">{{ post.publisher }}</a></h3>
+					<p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+					<p class="categories">{% for category in post.categories %} {{ category }}&nbsp; {% endfor %}</p>
 				</header>
 				<section>
 					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>

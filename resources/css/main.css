@@ -115,25 +115,32 @@ section#writings section#articles article {
 section#writings section#articles article header {
   overflow: hidden;
   float: left;
-  width: 25%;
+  width: 15.909090909090908%;
   margin: 0 1.1363636363636365%;
   _display: inline;
+  font-family: sans-serif;
 }
 section#writings section#articles article header h3 {
   font-size: 1em;
 }
+section#writings section#articles article header h3 a {
+  text-decoration: none;
+}
 section#writings section#articles article header p {
-  margin: none;
+  margin: 0;
 }
 section#writings section#articles article section {
   overflow: hidden;
   float: left;
-  width: 70.45454545454545%;
+  width: 79.54545454545455%;
   margin: 0 1.1363636363636365%;
   _display: inline;
 }
 section#writings section#articles article section h2 {
   font-weight: normal;
+}
+section#writings section#articles article section h2 a {
+  text-decoration: none;
 }
 section#writings section#articles article section p {
   padding-right: 2em;
