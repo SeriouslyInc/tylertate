@@ -4,12 +4,12 @@ title: Making the complex feel simple.
 bodyId: home
 ---
 
-<section id="writings">
+<section id="writing">
 	<aside>
-		Filter
+		&nbsp;
 	</aside>
 	<section id="articles">
-		{% for post in site.posts %}
+		{% for post in site.categories.blog %}
 			<article>
 				<header>
 					<h3><a href="{{ post.originalurl }}">{{ post.publisher }}</a></h3>
@@ -21,6 +21,16 @@ bodyId: home
 					{{ post.content }}
 				</section>
 			</article>
+		{% endfor %}
+	</section>
+</section>
+
+<section id="speaking">
+	<section id="upcoming">
+	</section>
+	<section id="past">
+		{% for post in site.categories.events %}
+			
 		{% endfor %}
 	</section>
 </section>

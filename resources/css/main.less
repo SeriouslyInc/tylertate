@@ -91,8 +91,10 @@ header#top {
 	}
 }
 
-section#writings {
+section#writing {
 	.row;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #ccc;
 	
 	aside {
 		.grid(3);
@@ -105,7 +107,7 @@ section#writings {
 		article {
 			.row(11);
 			margin-top: 1.25em;
-			margin-bottom: 1.25em;			
+			margin-bottom: 1.25em;
 			
 			header {
 				.grid(2,11);
@@ -143,5 +145,19 @@ section#writings {
 				}
 			}
 		}
+	}
+}
+
+// speaking
+section#speaking {
+	.row;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #ccc;
+	
+	#upcoming {
+		.grid(3);
+	}
+	#past {
+		.grid(11);
 	}
 }

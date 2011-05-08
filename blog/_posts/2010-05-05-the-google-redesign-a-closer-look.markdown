@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: The Google Redesign: A Closer Look
+title: A Closer Look at the Google Redesign
 publisher: TwigKit Blog
 originalurl: http://blog.twigkit.com/google-redesign/
 categories: [ux,search]

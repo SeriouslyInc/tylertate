@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Paper & Ink: Sketching Nutshell
+title: Paper & Ink (Sketching Nutshell)
 publisher: Nutshell Blog
 originalurl: http://www.nutshell.com/blog/2010/08/sketch/
 categories: [ux,sketching]

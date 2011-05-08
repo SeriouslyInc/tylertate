@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: The Google Redesign: A Closer Look
+title: A Bright New Future for CRM
 publisher: Nutshell Blog
 originalurl: http://www.nutshell.com/development/2010/04/bright-future-for-crm/
 categories: [business]

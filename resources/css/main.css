@@ -87,12 +87,14 @@ header#top p span {
   line-height: 1.2em;
   padding-bottom: 0.2em;
 }
-section#writings {
+section#writing {
   overflow: hidden;
   width: 101.78571428571428%;
   margin: 0 -0.8928571428571428%;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ccc;
 }
-section#writings aside {
+section#writing aside {
   overflow: hidden;
   float: left;
   width: 19.642857142857142%;
@@ -100,21 +102,21 @@ section#writings aside {
   _display: inline;
   float: right;
 }
-section#writings section#articles {
+section#writing section#articles {
   overflow: hidden;
   float: left;
   width: 76.78571428571429%;
   margin: 0 0.8928571428571428%;
   _display: inline;
 }
-section#writings section#articles article {
+section#writing section#articles article {
   overflow: hidden;
   width: 102.27272727272727%;
   margin: 0 -1.1363636363636365%;
   margin-top: 1.25em;
   margin-bottom: 1.25em;
 }
-section#writings section#articles article header {
+section#writing section#articles article header {
   overflow: hidden;
   float: left;
   width: 15.909090909090908%;
@@ -124,32 +126,53 @@ section#writings section#articles article header {
   font-family: sans-serif;
   font-size: 0.95em;
 }
-section#writings section#articles article header h3 {
+section#writing section#articles article header h3 {
   font-size: 1em;
   margin: 0.15em 0;
 }
-section#writings section#articles article header h3 a {
+section#writing section#articles article header h3 a {
   text-decoration: none;
 }
-section#writings section#articles article header p {
+section#writing section#articles article header p {
   margin: 0.2em 0;
 }
-section#writings section#articles article section {
+section#writing section#articles article section {
   overflow: hidden;
   float: left;
   width: 79.54545454545455%;
   margin: 0 1.1363636363636365%;
   _display: inline;
 }
-section#writings section#articles article section h2 {
+section#writing section#articles article section h2 {
   margin-bottom: 0.5em;
   font-size: 1.75em;
   font-weight: normal;
 }
-section#writings section#articles article section h2 a {
+section#writing section#articles article section h2 a {
   text-decoration: none;
 }
-section#writings section#articles article section p {
+section#writing section#articles article section p {
   padding-right: 2em;
   line-height: 1.3em;
+}
+section#speaking {
+  overflow: hidden;
+  width: 101.78571428571428%;
+  margin: 0 -0.8928571428571428%;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ccc;
+}
+section#speaking #upcoming {
+  overflow: hidden;
+  float: left;
+  width: 19.642857142857142%;
+  margin: 0 0.8928571428571428%;
+  _display: inline;
+}
+section#speaking #past {
+  overflow: hidden;
+  float: left;
+  width: 76.78571428571429%;
+  margin: 0 0.8928571428571428%;
+  _display: inline;
 }

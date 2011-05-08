@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Review: Simple and Usable by Giles Colborne
+title: Review of Simple and Usable by Giles Colborne
 publisher: Amazon.com
 originalurl: http://www.amazon.com/gp/product/0321703545?ie=UTF8&tag=simpandusab-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545http://www.amazon.com/gp/product/0321703545?ie=UTF8&tag=simpandusab-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545#customerreviews
 categories: [ux]

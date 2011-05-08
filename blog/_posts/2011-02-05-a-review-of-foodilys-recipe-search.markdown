@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Search as a Flow Experience
+title: A Review of Foodily’s Recipe Search
 publisher: TwigKit Blog
 originalurl: http://blog.twigkit.com/foodily/
 categories: [ux,search]

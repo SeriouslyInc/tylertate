@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Why Designers Should Give a Bleep
+title: Why Designers Should Care About Search
 publisher: TwigKit Blog
 originalurl: http://www.twigkit.com/blog/2011/03/30/why-designers-should-give-a-bleep.html
 categories: [search,ux]
