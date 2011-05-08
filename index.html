@@ -27,32 +27,25 @@ bodyId: home
 
 <section id="speaking">
 	<section id="upcoming">
-	</section>
-	<section class="past">
-		{% for event in site.categories.events limit:4 %}
-			<article>
-				<p class="date">{{ event.date | date: "%B %d, %Y" }}</p>
-				<h3>{{ event.title }}</h3>
-				<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
-			<article>
+		{% for event in site.categories.events %}
+			{% if event.status == 'upcoming' %}
+				<article>
+					<p class="date">{{ event.date | date: "%B %d, %Y" }}</p>
+					<h3>{{ event.title }}</h3>
+					<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
+				<article>
+			{% endif %}
 		{% endfor %}
 	</section>
-	<section class="past">
-		{% for event in site.categories.events limit:4 offset:4 %}
-			<article>
-				<p class="date">{{ event.date | date: "%B %d, %Y" }}</p>
-				<h3>{{ event.title }}</h3>
-				<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
-			<article>
-		{% endfor %}
-	</section>
-	<section class="past">
-		{% for event in site.categories.events limit:4 offset:8 %}
-			<article>
-				<p class="date">{{ event.date | date: "%B %d, %Y" }}</p>
-				<h3>{{ event.title }}</h3>
-				<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
-			<article>
+	<section id="past">
+		{% for event in site.categories.events %}
+			{% if event.status != 'upcoming' %}
+				<article>
+					<p class="date">{{ event.date | date: "%B %d, %Y" }}</p>
+					<h3>{{ event.title }}</h3>
+					<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
+				<article>
+			{% endif %}
 		{% endfor %}
 	</section>
 </section>
