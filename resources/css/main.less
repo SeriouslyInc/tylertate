@@ -38,7 +38,7 @@ body {
 #body {
 	position: relative;
 	max-width: 1160px;
-	min-width: 760px;
+	min-width: 940px;
 	margin: 0 auto;
 }
 
@@ -94,9 +94,18 @@ header#top {
 }
 
 section#writings {
-	.grid(12);
+	.row;
 	
-	h2 {
-		font-weight: normal;
+	aside {
+		.grid(4);
+		float: right;
+	}
+	
+	article {
+		.grid(10);
+		
+		h2 {
+			font-weight: normal;
+		}
 	}
 }

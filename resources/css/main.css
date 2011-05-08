@@ -32,7 +32,7 @@ body {
 #body {
   position: relative;
   max-width: 1160px;
-  min-width: 760px;
+  min-width: 940px;
   margin: 0 auto;
 }
 header#top {
@@ -91,11 +91,24 @@ header#top p span {
 }
 section#writings {
   overflow: hidden;
+  width: 101.78571428571428%;
+  margin: 0 -0.8928571428571428%;
+}
+section#writings aside {
+  overflow: hidden;
   float: left;
-  width: 83.92857142857143%;
+  width: 26.785714285714285%;
+  margin: 0 0.8928571428571428%;
+  _display: inline;
+  float: right;
+}
+section#writings article {
+  overflow: hidden;
+  float: left;
+  width: 69.64285714285714%;
   margin: 0 0.8928571428571428%;
   _display: inline;
 }
-section#writings h2 {
+section#writings article h2 {
   font-weight: normal;
 }
