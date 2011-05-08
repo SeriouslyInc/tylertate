@@ -8,17 +8,19 @@ bodyId: home
 	<aside>
 		Filter
 	</aside>
-	{% for post in site.posts %}
-		<article>
-			<header>
-				<p>{{ post.publisher }}</p>
-				<p>{{ post.date | date: "%B %d, %Y" }}
-				<p>{{ post.keywords }}
-			</header>
-			<section>
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				{{ post.content }}
-			</section>
-		</article>
-	{% endfor %}
+	<section id="articles">
+		{% for post in site.posts %}
+			<article>
+				<header>
+					<p>{{ post.publisher }}</p>
+					<p>{{ post.date | date: "%B %d, %Y" }}
+					<p>{% for keyword in post.keywords %} {{ keyword }}, {% endfor %}
+				</header>
+				<section>
+					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					{{ post.content }}
+				</section>
+			</article>
+		{% endfor %}
+	</section>
 </section>

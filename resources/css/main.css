@@ -100,16 +100,35 @@ section#writings aside {
   _display: inline;
   float: right;
 }
-section#writings article {
+section#writings section#articles {
   overflow: hidden;
   float: left;
   width: 69.64285714285714%;
   margin: 0 0.8928571428571428%;
   _display: inline;
 }
-section#writings article h2 {
+section#writings section#articles article {
+  overflow: hidden;
+  width: 102.49999999999999%;
+  margin: 0 -1.25%;
+}
+section#writings section#articles article header {
+  overflow: hidden;
+  float: left;
+  width: 17.5%;
+  margin: 0 1.25%;
+  _display: inline;
+}
+section#writings section#articles article section {
+  overflow: hidden;
+  float: left;
+  width: 77.5%;
+  margin: 0 1.25%;
+  _display: inline;
+}
+section#writings section#articles article section h2 {
   font-weight: normal;
 }
-section#writings article p {
+section#writings section#articles article section p {
   padding-right: 3em;
 }
