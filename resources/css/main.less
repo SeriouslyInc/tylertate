@@ -21,11 +21,10 @@ nav, aside, header, article, section, footer { display: block; }
 //////////
 
 body {
-	background-color: #ccc;
 	font-family: Georgia;
 }
 a {
-	color: #0CC;
+	color: black;
 }
 
 
@@ -43,15 +42,16 @@ a {
 
 header#top {
 	.grid(14);
+	padding: 2em 0;
 
 	nav {
 		.row;
-		border-bottom: 1px solid brown;
 	}
 	
 	// logo
 	h1 {
 		.grid(7);
+		font-style: italic;
 	}
 	
 	// navigation
@@ -69,7 +69,6 @@ header#top {
 	// tagline
 	p {
 		font-size: 1.25em;
-		padding: 0.75em;
-		border-bottom: 1px solid brown;
+		padding: 1em 0;
 	}
 }

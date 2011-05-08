@@ -21,11 +21,10 @@ footer {
   display: block;
 }
 body {
-  background-color: #ccc;
   font-family: Georgia;
 }
 a {
-  color: #0CC;
+  color: black;
 }
 #body {
   overflow: hidden;
@@ -42,12 +41,12 @@ header#top {
   width: 86.60714285714286%;
   margin: 0 0.4464285714285714%;
   _display: inline;
+  padding: 2em 0;
 }
 header#top nav {
   overflow: hidden;
   width: 100.89285714285714%;
   margin: 0 -0.4464285714285714%;
-  border-bottom: 1px solid brown;
 }
 header#top h1 {
   overflow: hidden;
@@ -55,6 +54,7 @@ header#top h1 {
   width: 42.857142857142854%;
   margin: 0 0.4464285714285714%;
   _display: inline;
+  font-style: italic;
 }
 header#top ul {
   overflow: hidden;
@@ -71,6 +71,5 @@ header#top ul li {
 }
 header#top p {
   font-size: 1.25em;
-  padding: 0.75em;
-  border-bottom: 1px solid brown;
+  padding: 1em 0;
 }
