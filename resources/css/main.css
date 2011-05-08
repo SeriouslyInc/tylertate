@@ -26,10 +26,13 @@ body {
 a {
   color: black;
 }
+body {
+  padding: 0 4%;
+}
 #body {
   position: relative;
   max-width: 1160px;
-  min-width: 960px;
+  min-width: 760px;
   margin: 0 auto;
 }
 header#top {
@@ -39,14 +42,16 @@ header#top {
   padding: 2em 0;
 }
 header#top nav {
-  margin-bottom: 0.75em;
-}
-header#top nav h1 {
   overflow: hidden;
   float: left;
-  width: 48.214285714285715%;
+  width: 98.21428571428571%;
   margin: 0 0.8928571428571428%;
   _display: inline;
+  padding-bottom: 0.75em;
+  border-bottom: 1px solid #ccc;
+}
+header#top nav h1 {
+  float: left;
   font-style: italic;
 }
 header#top nav ul {
@@ -76,7 +81,6 @@ header#top p {
   padding: 1.5em 0;
   line-height: 1.2em;
   text-align: center;
-  border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
 header#top p span {
