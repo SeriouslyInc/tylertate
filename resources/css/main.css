@@ -162,6 +162,9 @@ section#speaking {
   padding-bottom: 1.5em;
   border-bottom: 1px solid #ccc;
 }
+section#speaking p {
+  margin: 0;
+}
 section#speaking #upcoming {
   overflow: hidden;
   float: left;
@@ -172,7 +175,7 @@ section#speaking #upcoming {
 section#speaking #past {
   overflow: hidden;
   float: left;
-  width: 76.78571428571429%;
+  width: 19.642857142857142%;
   margin: 0 0.8928571428571428%;
   _display: inline;
 }
