@@ -27,11 +27,50 @@ body {
 a {
   color: #0CC;
 }
-#mainbody {
+#body {
   overflow: hidden;
   width: 100.89285714285714%;
   margin: 0 -0.4464285714285714%;
+  position: relative;
   width: 1120px;
   margin: 0 auto;
-  padding: 3em 0;
+  z-index: 1;
+}
+header#top {
+  overflow: hidden;
+  float: left;
+  width: 86.60714285714286%;
+  margin: 0 0.4464285714285714%;
+  _display: inline;
+}
+header#top nav {
+  overflow: hidden;
+  width: 100.89285714285714%;
+  margin: 0 -0.4464285714285714%;
+  border-bottom: 1px solid brown;
+}
+header#top h1 {
+  overflow: hidden;
+  float: left;
+  width: 42.857142857142854%;
+  margin: 0 0.4464285714285714%;
+  _display: inline;
+}
+header#top ul {
+  overflow: hidden;
+  float: left;
+  width: 42.857142857142854%;
+  margin: 0 0.4464285714285714%;
+  _display: inline;
+  float: right;
+}
+header#top ul li {
+  list-style: none outside none;
+  float: left;
+  margin-left: 2em;
+}
+header#top p {
+  font-size: 1.25em;
+  padding: 0.75em;
+  border-bottom: 1px solid brown;
 }

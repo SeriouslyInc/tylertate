@@ -1,5 +1,10 @@
+@column-width: 60;
+@gutter-width: 20;
+@columns: 14;
+
 @import '_grid.less';
 @import '_mixins.less';
+
 
 ///////////
 // reset //
@@ -28,9 +33,43 @@ a {
 // layout //
 ////////////
 
-#mainbody {
+#body {
 	.row;
+	position: relative;
 	width: 1120px;
 	margin: 0 auto;
-	padding: 3em 0;
+	z-index: 1;
+}
+
+header#top {
+	.grid(14);
+
+	nav {
+		.row;
+		border-bottom: 1px solid brown;
+	}
+	
+	// logo
+	h1 {
+		.grid(7);
+	}
+	
+	// navigation
+	ul {
+		.grid(7);
+		float: right;
+		
+		li {
+			list-style: none outside none;
+			float: left;
+			margin-left: 2em;
+		}
+	}
+	
+	// tagline
+	p {
+		font-size: 1.25em;
+		padding: 0.75em;
+		border-bottom: 1px solid brown;
+	}
 }
