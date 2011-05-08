@@ -118,7 +118,9 @@ section#writings section#articles article header {
   width: 15.909090909090908%;
   margin: 0 1.1363636363636365%;
   _display: inline;
+  margin-top: 3em;
   font-family: sans-serif;
+  font-size: 0.95em;
 }
 section#writings section#articles article header h3 {
   font-size: 1em;
@@ -137,6 +139,8 @@ section#writings section#articles article section {
   _display: inline;
 }
 section#writings section#articles article section h2 {
+  margin-bottom: 0.5em;
+  font-size: 1.75em;
   font-weight: normal;
 }
 section#writings section#articles article section h2 a {
@@ -144,4 +148,5 @@ section#writings section#articles article section h2 a {
 }
 section#writings section#articles article section p {
   padding-right: 2em;
+  line-height: 1.3em;
 }
