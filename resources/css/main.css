@@ -179,7 +179,15 @@ section#speaking #past {
   margin: 0 0.8928571428571428%;
   _display: inline;
 }
-section#speaking #past .column {
-  width: 40%;
+section#speaking #past #past-row {
+  overflow: hidden;
+  width: 102.49999999999999%;
+  margin: 0 -1.25%;
+}
+section#speaking #past #past-row .column {
+  overflow: hidden;
   float: left;
+  width: 27.500000000000004%;
+  margin: 0 1.25%;
+  _display: inline;
 }
