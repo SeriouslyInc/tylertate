@@ -95,27 +95,34 @@ section#writings {
 	.row;
 	
 	aside {
-		.grid(4);
+		.grid(3);
 		float: right;
 	}
 	
 	section#articles {
-		.grid(10);
+		.grid(11);
 		
 		article {
-			.row(10);
+			.row(11);
 			
 			header {
-				.grid(2,10);
+				.grid(3,11);
+				
+				h3 {
+					font-size: 1em;
+				}
+				p {
+					margin: none;
+				}
 			}
 			section {
-				.grid(8,10);
+				.grid(8,11);
 				
 				h2 {
 					font-weight: normal;
 				}
 				p {
-					padding-right: 3em;
+					padding-right: 2em;
 				}
 			}
 		}
