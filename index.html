@@ -10,7 +10,7 @@ bodyId: home
 	</aside>
 	<section id="articles">
 		{% for post in site.categories.blog %}
-			<article>
+			<article data-publisher="{{ post.publisher }}">
 				<header>
 					<h3><a href="{{ post.originalurl }}">{{ post.publisher }}</a></h3>
 					<p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
