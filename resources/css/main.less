@@ -22,7 +22,6 @@ nav, aside, header, article, section, footer { display: block; }
 
 body {
 	font-family: Georgia;
-	padding: 0 1em;
 }
 a {
 	color: black;
@@ -34,20 +33,17 @@ a {
 ////////////
 
 #body {
-	.row;
 	position: relative;
 	max-width: 1160px;
 	min-width: 960px;
 	margin: 0 auto;
-	z-index: 1;
 }
 
 header#top {
-	.grid(14);
+	.row;
 	padding: 2em 0;
 
 	nav {
-		.row(14);
 		margin-bottom: 0.75em;
 		
 		// logo
@@ -76,9 +72,10 @@ header#top {
 	
 	// tagline
 	p {
+		.grid(14);
 		font-size: 1.1em;
 		padding: 1.5em 0;
-		line-height: 1.25em;
+		line-height: 1.2em;
 		text-align: center;
 		border-top: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
@@ -86,12 +83,16 @@ header#top {
 		span {
 			display: block;
 			font-size: 2em;
-			line-height: 1.25em;
-			padding-bottom: 0.25em;
+			line-height: 1.2em;
+			padding-bottom: 0.2em;
 		}
 	}
 }
 
 section#writings {
-	.grid(9);
+	.grid(12);
+	
+	h2 {
+		font-weight: normal;
+	}
 }
