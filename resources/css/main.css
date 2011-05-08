@@ -168,14 +168,18 @@ section#speaking p {
 section#speaking #upcoming {
   overflow: hidden;
   float: left;
-  width: 48.214285714285715%;
+  width: 26.785714285714285%;
   margin: 0 0.8928571428571428%;
   _display: inline;
 }
 section#speaking #past {
   overflow: hidden;
   float: left;
-  width: 48.214285714285715%;
+  width: 69.64285714285714%;
   margin: 0 0.8928571428571428%;
   _display: inline;
+}
+section#speaking #past .column {
+  width: 40%;
+  float: left;
 }
