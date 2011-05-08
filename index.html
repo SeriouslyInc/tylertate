@@ -30,7 +30,11 @@ bodyId: home
 	</section>
 	<section id="past">
 		{% for event in site.categories.events %}
-			{{ event.title }}
+			<article>
+				<p class="date">{{ event.date }}</p>
+				<h3>{{ event.title }}</h3>
+				<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
+			<article>
 		{% endfor %}
 	</section>
 </section>
