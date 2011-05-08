@@ -1,10 +1,10 @@
 ---
 layout: general
-title: Making the complex feel simple.
+title: Making the complex feel simple
 bodyId: home
 ---
 
-{% for post in site %}
+{% for post in site.posts %}
 	<article>
 		{{ post.url }}
 		{{ post.date | date: "%B %d, %Y" }}
