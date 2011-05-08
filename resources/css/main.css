@@ -41,7 +41,7 @@ header#top {
   width: 86.60714285714286%;
   margin: 0 0.4464285714285714%;
   _display: inline;
-  padding: 2em 0;
+  padding: 3em 0 2em;
 }
 header#top nav {
   overflow: hidden;
@@ -62,14 +62,22 @@ header#top ul {
   width: 42.857142857142854%;
   margin: 0 0.4464285714285714%;
   _display: inline;
+  width: auto;
   float: right;
 }
 header#top ul li {
   list-style: none outside none;
   float: left;
-  margin-left: 2em;
+  margin: 0.75em 0 0 2em;
+}
+header#top ul li a {
+  text-decoration: none;
 }
 header#top p {
   font-size: 1.25em;
-  padding: 1em 0;
+  padding: 1.5em 0;
+}
+header#top p blockqote {
+  display: block;
+  font-size: 1.25em;
 }

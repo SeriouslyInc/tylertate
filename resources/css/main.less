@@ -42,7 +42,7 @@ a {
 
 header#top {
 	.grid(14);
-	padding: 2em 0;
+	padding: 3em 0 2em;
 
 	nav {
 		.row;
@@ -57,18 +57,28 @@ header#top {
 	// navigation
 	ul {
 		.grid(7);
+		width: auto;
 		float: right;
 		
 		li {
 			list-style: none outside none;
 			float: left;
-			margin-left: 2em;
+			margin: 0.75em 0 0 2em;
+			
+			a {
+				text-decoration: none;
+			}
 		}
 	}
 	
 	// tagline
 	p {
 		font-size: 1.25em;
-		padding: 1em 0;
+		padding: 1.5em 0;
+		
+		blockqote {
+			display: block;
+			font-size: 1.25em;
+		}
 	}
 }
