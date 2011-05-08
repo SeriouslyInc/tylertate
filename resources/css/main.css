@@ -22,6 +22,7 @@ footer {
 }
 body {
   font-family: Georgia;
+  padding: 0 1em;
 }
 a {
   color: black;
@@ -31,7 +32,7 @@ a {
   width: 101.78571428571428%;
   margin: 0 -0.8928571428571428%;
   position: relative;
-  max-width: 1140px;
+  max-width: 1160px;
   min-width: 960px;
   margin: 0 auto;
   z-index: 1;
@@ -78,7 +79,7 @@ header#top nav ul li a {
 header#top p {
   font-size: 1.1em;
   padding: 1.5em 0;
-  line-height: 1.4em;
+  line-height: 1.25em;
   text-align: center;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -86,7 +87,8 @@ header#top p {
 header#top p span {
   display: block;
   font-size: 2em;
-  line-height: 1.4em;
+  line-height: 1.25em;
+  padding-bottom: 0.25em;
 }
 section#writings {
   overflow: hidden;
