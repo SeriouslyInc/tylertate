@@ -46,6 +46,7 @@ header#top nav {
   margin: 0 0.8928571428571428%;
   _display: inline;
   padding-bottom: 0.75em;
+  border-bottom: 1px solid #ccc;
 }
 header#top nav h1 {
   float: left;
@@ -91,7 +92,6 @@ section#writing {
   width: 101.78571428571428%;
   margin: 0 -0.8928571428571428%;
   padding-bottom: 1.5em;
-  border-bottom: 1px solid #ccc;
 }
 section#writing aside {
   overflow: hidden;
