@@ -29,8 +29,8 @@ bodyId: home
 	<section id="upcoming">
 	</section>
 	<section id="past">
-		{% for post in site.categories.events %}
-			
+		{% for event in site.categories.events %}
+			{{ event.title }}
 		{% endfor %}
 	</section>
 </section>
