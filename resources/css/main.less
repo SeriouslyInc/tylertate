@@ -72,13 +72,16 @@ header#top {
 	}
 	
 	// tagline
-	p {
+	blockqote {
 		font-size: 1.25em;
 		padding: 1.5em 0;
 		
-		blockqote {
-			display: block;
-			font-size: 1.25em;
+		p {
+			margin: 0;
+			
+			&#tagline {
+				font-size: 1.25em;
+			}
 		}
 	}
 }

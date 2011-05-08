@@ -73,11 +73,13 @@ header#top ul li {
 header#top ul li a {
   text-decoration: none;
 }
-header#top p {
+header#top blockqote {
   font-size: 1.25em;
   padding: 1.5em 0;
 }
-header#top p blockqote {
-  display: block;
+header#top blockqote p {
+  margin: 0;
+}
+header#top blockqote p#tagline {
   font-size: 1.25em;
 }
