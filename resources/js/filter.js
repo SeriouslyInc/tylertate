@@ -7,7 +7,14 @@ $(document).ready(function() {
 	});
 
 	for (var i=0; i<publishers.length; i++) {
-		$("#writing aside ul#publisher").append('<li>'+ publishers[i] +'</li>');
+		var selector = $("#writing aside ul#publisher li[data-publisher='"+publishers[i]+"']");
+		if (selector) {
+			var originalCount = selector.children('span').text() * 1;
+			var newCount = originalCount + 1;
+			selector.children('span').text(newCount);
+		} else {
+			$("#writing aside ul#publisher").append('<li data-publisher="'+ publishers[i] +'"><label>'+ publishers[i] +'</label><span>1</span></li>');
+		}
 	}
 	
 	console.log(publishers);
