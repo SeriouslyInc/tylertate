@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 	for (var i=0; i<publishers.length; i++) {
 		var selector = $("#writing aside ul#publisher li[data-publisher='"+publishers[i]+"']");
-		if (selector) {
+		if (selector.length > 0) {
 			var originalCount = selector.children('span').text() * 1;
 			var newCount = originalCount + 1;
 			selector.children('span').text(newCount);
