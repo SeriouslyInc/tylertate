@@ -1,11 +1,10 @@
 $(document).ready(function() {
-	var publishers;
+	var publishers = [];
 	
 	$("#writing article").each(function() {
 		var publisher = $(this).attr('data-publisher');
-		console.log(publisher);
-		//publishers.push(publisher);
+		publishers.push(publisher);
 	});
 	
-	
+	console.log(publishers);
 });
