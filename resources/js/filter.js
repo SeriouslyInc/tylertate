@@ -3,8 +3,9 @@ $(document).ready(function() {
 	
 	$("#writing article").each(function() {
 		var publisher = $(this).attr('data-publisher');
-		publishers.push(publisher);
+		console.log(publisher);
+		//publishers.push(publisher);
 	});
 	
-	console.log(publishers);
+	
 });
