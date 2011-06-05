@@ -133,16 +133,9 @@ section#writing section#articles article header {
 section#writing section#articles article header h3 {
   display: inline;
   font-size: 1em;
-  padding-right: 0.75em;
 }
 section#writing section#articles article header h3 a {
   text-decoration: none;
-}
-section#writing section#articles article header p.date {
-  display: inline;
-  padding-left: 0.75em;
-  text-transform: uppercase;
-  color: #999;
 }
 section#writing section#articles article header h2 {
   margin: 0;
@@ -153,12 +146,15 @@ section#writing section#articles article header h2 {
 section#writing section#articles article header h2 a {
   text-decoration: none;
 }
-section#writing section#articles article header p.categories {
-  display: none;
-}
 section#writing section#articles article section p {
   padding-right: 2em;
   line-height: 1.3em;
+}
+section#writing section#articles article section p.more {
+  text-align: center;
+}
+section#writing section#articles article section p.categories {
+  text-align: center;
 }
 section#speaking {
   overflow: hidden;

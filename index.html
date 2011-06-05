@@ -14,12 +14,12 @@ bodyId: home
 			<article id="{{ post.date | date: "%B-%d-%Y" }}" data-publisher="{{ post.publisher }}" >
 				<header>
 					<h3><a href="{{ post.originalurl }}">{{ post.publisher }}</a></h3>
-					<p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
 					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					<p class="categories">{% for keyword in post.keywords %} {{ keyword }}&nbsp; {% endfor %}</p>
 				</header>
 				<section>
 					{{ post.content }}
+					<p class="more">Read the rest on <a href="{{ post.originalurl }}">{{ post.publisher }}</a>. Originally published <span class="date">{{ post.date | date: "%B %d, %Y" }}</span></p>
+					<p class="categories">{% for keyword in post.keywords %} {{ keyword }}&nbsp; {% endfor %}</p>
 				</section>
 			</article>
 		{% endfor %}
