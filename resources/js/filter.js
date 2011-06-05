@@ -22,5 +22,8 @@ $(document).ready(function() {
 		}
 	}
 	
-
+	$("#writing aside ul#publisher li").click( function() {
+		var publisher = $(this).attr('data-publisher');
+	});
+	
 });
