@@ -234,8 +234,8 @@ section#speaking #past #past-row .column {
 }
 @media screen and (max-device-width: 480px) {
   #body {
-    max-width: 480px;
-    min-width: 480px;
+    max-width: 380px;
+    min-width: 380px;
     -webkit-text-size-adjust: none;
   }
   section#writing aside {
