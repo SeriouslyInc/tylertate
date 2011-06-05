@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	// About link
-	$("#top a.about").click(function() {
+	$("#top li.about").click(function() {
 		$("#top #tagline").slideToggle();
 	});
 	
