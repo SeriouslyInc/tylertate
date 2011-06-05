@@ -7,7 +7,7 @@ $(document).ready(function() {
 	// publishers
 	var publishers = [];
 	
-	$("#writing article").each(function() {
+	$("#writing #articles article").each(function() {
 		var publisher = $(this).attr('data-publisher');
 		publishers.push(publisher);
 	});
