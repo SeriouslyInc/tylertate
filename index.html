@@ -14,11 +14,11 @@ bodyId: home
 			<article id="{{ post.date | date: "%B-%d-%Y" }}" data-publisher="{{ post.publisher }}" >
 				<header>
 					<h3><a href="{{ post.originalurl }}">{{ post.publisher }}</a></h3>
+					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 					<p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
 					<p class="categories">{% for keyword in post.keywords %} {{ keyword }}&nbsp; {% endfor %}</p>
 				</header>
 				<section>
-					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 					{{ post.content }}
 				</section>
 			</article>

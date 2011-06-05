@@ -34,7 +34,7 @@ a {
 
 #body {
 	position: relative;
-	max-width: 1160px;
+	max-width: 1020px;
 	min-width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -97,7 +97,6 @@ section#writing {
 	
 	aside {
 		.grid(3);
-		float: right;
 	}
 	
 	section#articles {
@@ -120,12 +119,6 @@ section#writing {
 						text-decoration: none;
 					}
 				}
-				p {
-					margin: 0.2em 0;
-				}
-			}
-			section {
-				
 				h2 {
 					margin-bottom: 0.5em;
 					font-size: 1.75em;
@@ -135,6 +128,15 @@ section#writing {
 						text-decoration: none;
 					}
 				}
+				p {
+					margin: 0.2em 0;
+					
+					&.categories {
+						text-transform: uppercase;
+					}
+				}
+			}
+			section {
 				p {
 					padding-right: 2em;
 					line-height: 1.3em;

@@ -28,7 +28,7 @@ a {
 }
 #body {
   position: relative;
-  max-width: 1160px;
+  max-width: 1020px;
   min-width: 940px;
   margin: 0 auto;
   padding: 0 20px;
@@ -99,7 +99,6 @@ section#writing aside {
   width: 19.642857142857142%;
   margin: 0 0.8928571428571428%;
   _display: inline;
-  float: right;
 }
 section#writing section#articles {
   overflow: hidden;
@@ -124,16 +123,19 @@ section#writing section#articles article header h3 {
 section#writing section#articles article header h3 a {
   text-decoration: none;
 }
-section#writing section#articles article header p {
-  margin: 0.2em 0;
-}
-section#writing section#articles article section h2 {
+section#writing section#articles article header h2 {
   margin-bottom: 0.5em;
   font-size: 1.75em;
   font-weight: normal;
 }
-section#writing section#articles article section h2 a {
+section#writing section#articles article header h2 a {
   text-decoration: none;
+}
+section#writing section#articles article header p {
+  margin: 0.2em 0;
+}
+section#writing section#articles article header p.categories {
+  text-transform: uppercase;
 }
 section#writing section#articles article section p {
   padding-right: 2em;
