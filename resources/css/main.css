@@ -96,13 +96,14 @@ section#writing {
 section#writing aside {
   overflow: hidden;
   float: left;
-  width: 26.785714285714285%;
+  width: 19.642857142857142%;
   margin: 0 0.8928571428571428%;
   _display: inline;
+  padding-right: 7.1428%;
+  margin-top: 1.25em;
 }
 section#writing aside ul#publisher {
   border-top: 1px solid #ccc;
-  margin-top: 1.25em;
 }
 section#writing aside ul#publisher li {
   border-bottom: 1px solid #ccc;
@@ -145,6 +146,7 @@ section#writing section#articles article header h2 a {
 }
 section#writing section#articles article header p {
   margin: 0.5em 0;
+  padding-right: 0.5em;
   display: inline-block;
   color: #999;
 }
