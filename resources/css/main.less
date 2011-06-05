@@ -96,11 +96,25 @@ section#writing {
 	padding-bottom: 1.5em;
 	
 	aside {
-		.grid(3);
+		.grid(4);
+		
+		ul#publisher {
+			border-top: 1px solid #ccc;
+			margin-top: 1.25em;
+			
+			li {
+				border-bottom: 1px solid #ccc;
+				padding: 0.33em 0;
+				
+				span {
+					color: #999;
+				}
+			}
+		}
 	}
 	
 	section#articles {
-		.grid(11);
+		.grid(10);
 		
 		article {
 			margin-top: 1.25em;
@@ -130,11 +144,16 @@ section#writing {
 					}
 				}
 				p {
-					margin: 0.2em 0;
+					margin: 0.5em 0;
 					display: inline-block;
+					color: #999;
 					
-					&.categories {
+					&.date {
 						text-transform: uppercase;
+						
+						&:after {
+							content: "•";
+						}
 					}
 				}
 			}
