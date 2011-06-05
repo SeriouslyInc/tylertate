@@ -131,11 +131,13 @@ section#writing section#articles article header {
   text-align: center;
 }
 section#writing section#articles article header h3 {
-  display: inline;
-  font-size: 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 section#writing section#articles article header h3 a {
   text-decoration: none;
+  color: #999;
 }
 section#writing section#articles article header h2 {
   margin: 0;
@@ -151,10 +153,13 @@ section#writing section#articles article section p {
   line-height: 1.3em;
 }
 section#writing section#articles article section p.more {
+  font-family: sans-serif;
   text-align: center;
+  color: #999;
+  font-style: italic;
 }
 section#writing section#articles article section p.categories {
-  text-align: center;
+  display: none;
 }
 section#speaking {
   overflow: hidden;
