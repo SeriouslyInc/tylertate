@@ -102,6 +102,7 @@ section#writing {
 		
 		ul#publisher {
 			border-top: 1px solid #ccc;
+			margin-top: 0.25em;
 			
 			li {
 				border-bottom: 1px solid #ccc;
@@ -145,15 +146,18 @@ section#writing {
 					}
 				}
 				p {
-					margin: 0.5em 0;
+					margin: 0.5em 1em 0.5em 0;
 					padding-right: 0.5em;
 					display: inline-block;
 					color: #999;
 					
 					&.date {
 						text-transform: uppercase;
+					}
+					&.categories {
+						padding-left: 0.5em;
 						
-						&:after {
+						&:before {
 							content: "•";
 						}
 					}

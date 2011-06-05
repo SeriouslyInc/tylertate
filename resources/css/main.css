@@ -104,6 +104,7 @@ section#writing aside {
 }
 section#writing aside ul#publisher {
   border-top: 1px solid #ccc;
+  margin-top: 0.25em;
 }
 section#writing aside ul#publisher li {
   border-bottom: 1px solid #ccc;
@@ -145,7 +146,7 @@ section#writing section#articles article header h2 a {
   text-decoration: none;
 }
 section#writing section#articles article header p {
-  margin: 0.5em 0;
+  margin: 0.5em 1em 0.5em 0;
   padding-right: 0.5em;
   display: inline-block;
   color: #999;
@@ -153,7 +154,10 @@ section#writing section#articles article header p {
 section#writing section#articles article header p.date {
   text-transform: uppercase;
 }
-section#writing section#articles article header p.date:after {
+section#writing section#articles article header p.categories {
+  padding-left: 0.5em;
+}
+section#writing section#articles article header p.categories:before {
   content: "•";
 }
 section#writing section#articles article section p {
