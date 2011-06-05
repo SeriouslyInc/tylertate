@@ -8,7 +8,7 @@
 //////////
 
 body {
-	@total-width: (@column-width*12) + (@gutter-width*12);	
+	@total-width: (@column-width*@columns) + (@gutter-width*@columns);	
 	
 	padding: 0 ((@gutter-width*.5)/@total-width)*100%;
 	margin: 0;
