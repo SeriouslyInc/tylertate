@@ -28,8 +28,8 @@ a {
 }
 #body {
   position: relative;
-  max-width: 1020px;
-  min-width: 940px;
+  max-width: 1050px;
+  min-width: 480px;
   margin: 0 auto;
   padding: 0 50px;
 }
@@ -149,7 +149,7 @@ section#writing section#articles article header h2 a {
 }
 section#writing section#articles article section p {
   padding-right: 2em;
-  font-size: 1.05em;
+  font-size: 1em;
   line-height: 1.4em;
 }
 section#writing section#articles article section p.more {
@@ -232,8 +232,8 @@ section#speaking #past #past-row .column {
 @media screen and (max-device-width: 480px) {
   #body {
     padding: 0 20px;
-    max-width: 480px;
-    min-width: 480px;
+    max-width: 440px;
+    min-width: 440px;
     font-size: 1.3em;
   }
   section#writing aside {
