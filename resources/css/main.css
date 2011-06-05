@@ -206,3 +206,18 @@ section#speaking #past #past-row .column {
   margin: 0 1.5625%;
   _display: inline;
 }
+@media screen and (orientation:portrait) {
+  #body {
+    max-width: 768px;
+  }
+  section#writing aside {
+    display: none;
+  }
+  section#writing section#articles {
+    overflow: hidden;
+    float: left;
+    width: 98.21428571428571%;
+    margin: 0 0.8928571428571428%;
+    _display: inline;
+  }
+}
