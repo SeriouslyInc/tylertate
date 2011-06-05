@@ -18,7 +18,7 @@ bodyId: home
 				</header>
 				<section>
 					{{ post.content }}
-					<p class="more">Read the rest on <a href="{{ post.originalurl }}">{{ post.publisher }}</a>. Originally published <span class="date">{{ post.date | date: "%B %d, %Y" }}</span></p>
+					<p class="more"><a class="glyph" href="{{ post.originalurl }}">&#x2192;</a> Read the rest on <a href="{{ post.originalurl }}">{{ post.publisher }}</a>. Originally published <span class="date">{{ post.date | date: "%B %d, %Y" }}</span></p>
 					<p class="categories">{% for keyword in post.keywords %} {{ keyword }}&nbsp; {% endfor %}</p>
 				</section>
 			</article>
