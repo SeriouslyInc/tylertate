@@ -1,4 +1,10 @@
 $(document).ready(function() {
+	// About link
+	$("#top a.about").click(function() {
+		$("#top #tagline").slideToggle();
+	});
+	
+	// publishers
 	var publishers = [];
 	
 	$("#writing article").each(function() {
