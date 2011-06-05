@@ -210,7 +210,9 @@ section#speaking {
 	}
 }
 
-@media screen and (orientation:portrait) {
+
+// iPad Portait
+@media screen and (orientation:portrait) and (max-device-width: 1024px) {
 	#body {
 		max-width: 768px;
 		min-width: 768px;
@@ -224,7 +226,28 @@ section#speaking {
 			.grid(14);
 			
 			article section p {
-				font-size: 1.2em;
+				font-size: 1.1em;
+			}
+		}
+	}
+}
+
+// iPhone 
+@media screen and (max-device-width: 480px) {
+	#body {
+		max-width: 480px;
+		min-width: 480px;
+		font-size: 1.3em;
+	}
+	section#writing {
+		aside {
+			display: none;
+		}
+		section#articles {
+			.grid(14);
+			
+			article section p {
+				font-size: 1.1em;
 			}
 		}
 	}

@@ -209,7 +209,7 @@ section#speaking #past #past-row .column {
   margin: 0 1.5625%;
   _display: inline;
 }
-@media screen and (orientation:portrait) {
+@media screen and (orientation:portrait) and (max-device-width: 1024px) {
   #body {
     max-width: 768px;
     min-width: 768px;
@@ -226,6 +226,26 @@ section#speaking #past #past-row .column {
     _display: inline;
   }
   section#writing section#articles article section p {
-    font-size: 1.2em;
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  #body {
+    max-width: 480px;
+    min-width: 480px;
+    font-size: 1.3em;
+  }
+  section#writing aside {
+    display: none;
+  }
+  section#writing section#articles {
+    overflow: hidden;
+    float: left;
+    width: 98.21428571428571%;
+    margin: 0 0.8928571428571428%;
+    _display: inline;
+  }
+  section#writing section#articles article section p {
+    font-size: 1.1em;
   }
 }
