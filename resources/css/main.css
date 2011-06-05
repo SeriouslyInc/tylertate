@@ -70,6 +70,7 @@ header#top nav ul li a {
   text-decoration: none;
 }
 header#top p {
+  display: none;
   overflow: hidden;
   float: left;
   width: 98.21428571428571%;
@@ -154,9 +155,13 @@ section#writing section#articles article section p {
 }
 section#writing section#articles article section p.more {
   font-family: sans-serif;
+  font-size: 0.9em;
   text-align: center;
-  color: #999;
+  color: #666;
   font-style: italic;
+}
+section#writing section#articles article section p.more a {
+  color: #666;
 }
 section#writing section#articles article section p.categories {
   display: none;
