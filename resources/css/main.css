@@ -234,9 +234,8 @@ section#speaking #past #past-row .column {
 }
 @media screen and (max-device-width: 480px) {
   #body {
-    max-width: 860px;
-    min-width: 860px;
-    font-size: 2.0em;
+    max-width: 480px;
+    min-width: 480px;
     -webkit-text-size-adjust: none;
   }
   section#writing aside {
@@ -254,7 +253,5 @@ section#speaking #past #past-row .column {
   }
 }
 @media screen and (max-device-width: 480px) and (orientation:portrait) {
-  #body {
-    font-size: 2.25em;
-  }
+  
 }
