@@ -209,6 +209,7 @@ section#speaking #past #past-row .column {
 @media screen and (orientation:portrait) {
   #body {
     max-width: 768px;
+    font-size: 1.3em;
   }
   section#writing aside {
     display: none;
