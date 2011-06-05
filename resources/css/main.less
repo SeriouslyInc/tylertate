@@ -102,12 +102,11 @@ section#writing {
 		margin-top: 1.25em;
 		
 		ul#publisher {
-			border-top: 1px solid #ccc;
 			margin-top: 0.25em;
 			
 			li {
-				border-bottom: 1px solid #e9e9e9;
 				padding: 0.33em 0;
+				font-family: sans-serif;
 				
 				span {
 					color: #999;
@@ -154,7 +153,7 @@ section#writing {
 				p {
 					padding-right: 2em;
 					font-size: 1.05em;
-					line-height: 1.35em;
+					line-height: 1.4em;
 					
 					&.more {
 						font-family: sans-serif;
@@ -165,6 +164,11 @@ section#writing {
 						
 						a {
 							color: #666;
+							
+							&.glyph {
+								text-decoration: none;
+								color: black;
+							}
 						}
 					}
 					&.categories {
@@ -212,10 +216,16 @@ section#speaking {
 		min-width: 768px;
 		font-size: 1.3em;
 	}
-	section#writing aside {
-		display: none;
-	}
-	section#writing section#articles {
-		.grid(14);
+	section#writing {
+		aside {
+			display: none;
+		}
+		section#articles {
+			.grid(14);
+			
+			article section p {
+				font-size: 1.2em;
+			}
+		}
 	}
 }

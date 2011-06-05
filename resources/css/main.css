@@ -104,12 +104,11 @@ section#writing aside {
   margin-top: 1.25em;
 }
 section#writing aside ul#publisher {
-  border-top: 1px solid #ccc;
   margin-top: 0.25em;
 }
 section#writing aside ul#publisher li {
-  border-bottom: 1px solid #e9e9e9;
   padding: 0.33em 0;
+  font-family: sans-serif;
 }
 section#writing aside ul#publisher li span {
   color: #999;
@@ -151,7 +150,7 @@ section#writing section#articles article header h2 a {
 section#writing section#articles article section p {
   padding-right: 2em;
   font-size: 1.05em;
-  line-height: 1.35em;
+  line-height: 1.4em;
 }
 section#writing section#articles article section p.more {
   font-family: sans-serif;
@@ -162,6 +161,10 @@ section#writing section#articles article section p.more {
 }
 section#writing section#articles article section p.more a {
   color: #666;
+}
+section#writing section#articles article section p.more a.glyph {
+  text-decoration: none;
+  color: black;
 }
 section#writing section#articles article section p.categories {
   display: none;
@@ -221,5 +224,8 @@ section#speaking #past #past-row .column {
     width: 98.21428571428571%;
     margin: 0 0.8928571428571428%;
     _display: inline;
+  }
+  section#writing section#articles article section p {
+    font-size: 1.2em;
   }
 }
