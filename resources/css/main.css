@@ -109,10 +109,10 @@ section#writing section#articles {
 }
 section#writing section#articles article {
   margin-top: 1.25em;
-  margin-bottom: 1.25em;
+  margin-bottom: 3em;
 }
 section#writing section#articles article header {
-  margin-top: 3em;
+  margin: 0 0 1em 0;
   font-family: sans-serif;
   font-size: 0.95em;
 }
@@ -124,15 +124,17 @@ section#writing section#articles article header h3 a {
   text-decoration: none;
 }
 section#writing section#articles article header h2 {
-  margin-bottom: 0.5em;
+  margin: 0;
   font-size: 1.75em;
   font-weight: normal;
+  font-family: Georgia;
 }
 section#writing section#articles article header h2 a {
   text-decoration: none;
 }
 section#writing section#articles article header p {
   margin: 0.2em 0;
+  display: inline-block;
 }
 section#writing section#articles article header p.categories {
   text-transform: uppercase;
