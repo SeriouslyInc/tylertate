@@ -23,8 +23,8 @@ body {
 .center {
   position: relative;
   overflow: hidden;
-  max-width: 1200px;
-  min-width: 960px;
+  max-width: 1140px;
+  min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -40,8 +40,8 @@ body {
 header#top {
   position: relative;
   overflow: hidden;
-  max-width: 1200px;
-  min-width: 960px;
+  max-width: 1140px;
+  min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
   margin-bottom: 1.5em;
@@ -51,8 +51,9 @@ header#top h1 {
   float: left;
   width: 22.22222222222222%;
   margin: 0 1.3888888888888888%;
-  font-style: italic;
   padding: 0.5em 0;
+  font-size: 1.5em;
+  font-style: italic;
   color: #e4d4c2;
   background-color: #634d36;
   opacity: 0.33;
@@ -90,17 +91,11 @@ header#top p#tagline span {
 section#writing {
   position: relative;
   overflow: hidden;
-  max-width: 1200px;
-  min-width: 960px;
+  max-width: 1140px;
+  min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
   padding-bottom: 1.5em;
-}
-section#writing .advert {
-  display: inline;
-  float: left;
-  width: 13.88888888888889%;
-  margin: 0 1.3888888888888888%;
 }
 section#writing aside {
   display: inline;
@@ -182,8 +177,8 @@ section#writing section#articles article section p.categories {
 section#speaking {
   position: relative;
   overflow: hidden;
-  max-width: 1200px;
-  min-width: 960px;
+  max-width: 1140px;
+  min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
   padding-bottom: 1.5em;
