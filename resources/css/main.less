@@ -21,8 +21,8 @@
 .center {
 	position: relative;
 	overflow: hidden;
-	max-width: 1140px;
-	min-width: 720px;
+	max-width: 1200px;
+	min-width: 960px;
 	padding: 0 20px;
 	margin: 0 auto;
 }
@@ -60,12 +60,11 @@ header#top {
 	margin-bottom: 1.5em;
 	
 	section {
-		.column(12);
 		
 		h1 {
-			float: left;
+			.column(2);
 			font-style: italic;
-			padding: 0.5em 1em;
+			padding: 0.5em 0;
 			color: @tan;
 		
 			background-color: hsla(30,30%,30%,1);
@@ -104,6 +103,10 @@ section#writing {
 	.center;
 	padding-bottom: 1.5em;
 	
+	.left-placeholder {
+		.column(2);
+	}
+	
 	aside {
 		.column(3);
 		margin-top: 1.25em;
@@ -128,7 +131,7 @@ section#writing {
 	}
 	
 	section#articles {
-		.column(9);
+		.column(7);
 		
 		article {
 			margin-top: 1.25em;

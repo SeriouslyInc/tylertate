@@ -23,8 +23,8 @@ body {
 .center {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
-  min-width: 720px;
+  max-width: 1200px;
+  min-width: 960px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -40,22 +40,19 @@ body {
 header#top {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
-  min-width: 720px;
+  max-width: 1200px;
+  min-width: 960px;
   padding: 0 20px;
   margin: 0 auto;
   margin-bottom: 1.5em;
 }
-header#top section {
+header#top section h1 {
   display: inline;
   float: left;
-  width: 97.22222222222221%;
+  width: 13.88888888888889%;
   margin: 0 1.3888888888888888%;
-}
-header#top section h1 {
-  float: left;
   font-style: italic;
-  padding: 0.5em 1em;
+  padding: 0.5em 0;
   color: #e4d4c2;
   background-color: #634d36;
   opacity: 0.33;
@@ -90,11 +87,17 @@ header#top p#tagline span {
 section#writing {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
-  min-width: 720px;
+  max-width: 1200px;
+  min-width: 960px;
   padding: 0 20px;
   margin: 0 auto;
   padding-bottom: 1.5em;
+}
+section#writing .left-placeholder {
+  display: inline;
+  float: left;
+  width: 13.88888888888889%;
+  margin: 0 1.3888888888888888%;
 }
 section#writing aside {
   display: inline;
@@ -121,7 +124,7 @@ section#writing aside ul#publisher li span {
 section#writing section#articles {
   display: inline;
   float: left;
-  width: 72.22222222222221%;
+  width: 55.55555555555556%;
   margin: 0 1.3888888888888888%;
 }
 section#writing section#articles article {
@@ -176,8 +179,8 @@ section#writing section#articles article section p.categories {
 section#speaking {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
-  min-width: 720px;
+  max-width: 1200px;
+  min-width: 960px;
   padding: 0 20px;
   margin: 0 auto;
   padding-bottom: 1.5em;

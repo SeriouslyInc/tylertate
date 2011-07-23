@@ -5,6 +5,7 @@ bodyId: home
 ---
 
 <section id="writing">
+	<section class="left-placeholder">&nbsp;</section>
 	<section id="articles">
 		{% for post in site.categories.blog %}
 			<article id="{{ post.date | date: "%B-%d-%Y" }}" data-publisher="{{ post.publisher }}" >
