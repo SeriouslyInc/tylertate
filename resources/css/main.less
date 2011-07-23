@@ -22,6 +22,7 @@
 	position: relative;
 	overflow: hidden;
 	max-width: 1200px;
+	min-width: 720px;
 	padding: 0 20px;
 	margin: 0 auto;
 }
@@ -59,7 +60,8 @@ header#top {
 
 	// logo
 	#logo {
-		.column(4);
+		.column(8);
+		padding-left: @total-width*((((@gutter-width+@column-width)*4)-@gutter-width) / @_gridsystem-width);
 		
 		h1 {
 			float: right;

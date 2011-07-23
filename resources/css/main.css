@@ -24,6 +24,7 @@ body {
   position: relative;
   overflow: hidden;
   max-width: 1200px;
+  min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -40,14 +41,16 @@ header#top {
   position: relative;
   overflow: hidden;
   max-width: 1200px;
+  min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
 }
 header#top #logo {
   display: inline;
   float: left;
-  width: 26.190476190476193%;
+  width: 54.761904761904766%;
   margin: 0 1.1904761904761905%;
+  padding-left: 26.190476190476193%;
 }
 header#top #logo h1 {
   float: right;
@@ -84,6 +87,7 @@ section#writing {
   position: relative;
   overflow: hidden;
   max-width: 1200px;
+  min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
   padding-bottom: 1.5em;
@@ -168,6 +172,7 @@ section#speaking {
   position: relative;
   overflow: hidden;
   max-width: 1200px;
+  min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
   padding-bottom: 1.5em;
