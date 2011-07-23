@@ -58,19 +58,23 @@ body {
 header#top {
 	.center;
 	margin-bottom: 1.5em;
+	
+	section {
+		.column(12);
 		
-	h1 {
-		float: left;
-		font-style: italic;
-		padding: 0.5em 1em;
-		color: @tan;
+		h1 {
+			float: left;
+			font-style: italic;
+			padding: 0.5em 1em;
+			color: @tan;
 		
-		background-color: hsla(30,30%,30%,1);
-		.opacity(0.4);
-		-webkit-transition: opacity 0.2s ease-out;
+			background-color: hsla(30,30%,30%,1);
+			.opacity(0.33);
+			-webkit-transition: opacity 0.2s ease-out;
 		
-		&:hover {
-			.opacity(0.66);
+			&:hover {
+				.opacity(0.5);
+			}
 		}
 	}
 	

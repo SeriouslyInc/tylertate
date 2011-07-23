@@ -46,19 +46,25 @@ header#top {
   margin: 0 auto;
   margin-bottom: 1.5em;
 }
-header#top h1 {
+header#top section {
+  display: inline;
+  float: left;
+  width: 97.22222222222221%;
+  margin: 0 1.3888888888888888%;
+}
+header#top section h1 {
   float: left;
   font-style: italic;
   padding: 0.5em 1em;
   color: #e4d4c2;
   background-color: #634d36;
-  opacity: 0.4;
-  filter: alpha "(opacity = 0.4)";
+  opacity: 0.33;
+  filter: alpha "(opacity = 0.33)";
   -webkit-transition: opacity 0.2s ease-out;
 }
-header#top h1:hover {
-  opacity: 0.66;
-  filter: alpha "(opacity = 0.66)";
+header#top section h1:hover {
+  opacity: 0.5;
+  filter: alpha "(opacity = 0.5)";
 }
 header#top p#tagline {
   display: inline;
