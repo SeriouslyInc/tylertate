@@ -57,6 +57,11 @@ body {
 header#top {
 	.center;
 	margin-top: -7.75em;
+	-webkit-transition: margin 0.5s ease-out;
+	
+	&:hover {
+		margin-top: 0;
+	}
 
 	nav {
 		.column(14);
@@ -76,7 +81,6 @@ header#top {
 	// tagline
 	p#tagline {
 		.column(14);
-		display: none;
 		font-size: 1.1em;
 		padding: 1.5em 0;
 		line-height: 1.2em;
@@ -87,10 +91,6 @@ header#top {
 			font-size: 2em;
 			line-height: 1.2em;
 			padding-bottom: 0.2em;
-		}
-		
-		&:active {
-			display: block;
 		}
 	}
 }

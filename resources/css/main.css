@@ -43,6 +43,10 @@ header#top {
   padding: 0 20px;
   margin: 0 auto;
   margin-top: -7.75em;
+  -webkit-transition: margin 0.5s ease-out;
+}
+header#top:hover {
+  margin-top: 0;
 }
 header#top nav {
   display: inline;
@@ -65,7 +69,6 @@ header#top p#tagline {
   float: left;
   width: 98.21428571428571%;
   margin: 0 0.8928571428571428%;
-  display: none;
   font-size: 1.1em;
   padding: 1.5em 0;
   line-height: 1.2em;
@@ -76,9 +79,6 @@ header#top p#tagline span {
   font-size: 2em;
   line-height: 1.2em;
   padding-bottom: 0.2em;
-}
-header#top p#tagline:active {
-  display: block;
 }
 section#writing {
   position: relative;
