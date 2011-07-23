@@ -1,33 +1,34 @@
+// Defaults which you can freely override
 @column-width: 60;
-@gutter-width: 10;
-@columns: 16;
+@gutter-width: 20;
+@columns: 14;
+
+// Set @total-width to 100% for a fluid layout
+@total-width: @_gridsystem-width;
 
 
 //////////
 // GRID //
 //////////
 
+// Utility variable — you should never need to modify this
+@_gridsystem-width: (@column-width*@columns) + (@gutter-width*@columns) * 1px;
+
 body {
-	@total-width: (@column-width*@columns) + (@gutter-width*@columns);	
-	
-	padding: 0 ((@gutter-width*.5)/@total-width)*100%;
-	margin: 0;
+	width: 100%;
+	float: left;
 }
 
 .row(@columns:@columns) {
-	@total-width: (@column-width*@columns) + (@gutter-width*@columns);
-	
+	display: inline-block;
 	overflow: hidden;
-	width: ((@gutter-width + @total-width)/@total-width)*100%;
-	margin: 0 ((@gutter-width*.5)/@total-width)*-100%;
+	width: @total-width*((@gutter-width + @_gridsystem-width)/@_gridsystem-width);
+	margin: 0 @total-width*(((@gutter-width*.5)/@_gridsystem-width)*-1);
 }
 
-.grid(@x,@columns:@columns) {
-	@total-width: (@column-width*@columns) + (@gutter-width*@columns);
-	
-	overflow: hidden;
+.column(@x,@columns:@columns) {
+	display: inline;
 	float: left;
-	width: ((((@gutter-width+@column-width)*@x)-@gutter-width) / @total-width) * 100%;
-	margin: 0 ((@gutter-width*.5)/@total-width)*100%;
-	_display: inline;
+	width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @_gridsystem-width);
+	margin: 0 @total-width*((@gutter-width*.5)/@_gridsystem-width);
 }

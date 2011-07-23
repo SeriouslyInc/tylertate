@@ -32,21 +32,24 @@ a {
 // layout //
 ////////////
 
-#body {
-	background: #e4d4c2 url('../images/graph-paper.png') repeat;
+.center {
 	position: relative;
-	max-width: 1050px;
-	min-width: 430px;
+	overflow: hidden;
+	max-width: 1200px;
 	margin: 0 auto;
+}
+
+body {
+	background: #e4d4c2 url('../images/graph-paper.png') repeat;
 	padding: 0 50px;
 }
 
 header#top {
-	.row;
 	padding: 2em 0;
+	.center;
 
 	nav {
-		.grid(14);
+		.column(14);
 		padding-bottom: 0.75em;
 		border-bottom: 1px solid #ccc;
 		
@@ -58,7 +61,7 @@ header#top {
 
 		// navigation
 		ul {
-			.grid(7);
+			.column(7);
 			width: auto;
 			float: right;
 
@@ -77,7 +80,7 @@ header#top {
 	// tagline
 	p {
 		display: none;
-		.grid(14);
+		.column(14);
 		font-size: 1.1em;
 		padding: 1.5em 0;
 		line-height: 1.2em;
@@ -94,11 +97,11 @@ header#top {
 }
 
 section#writing {
-	.row;
+	.center;
 	padding-bottom: 1.5em;
 	
 	aside {
-		.grid(4);
+		.column(4);
 		margin-top: 1.25em;
 		
 		ul#publisher {
@@ -120,7 +123,7 @@ section#writing {
 	}
 	
 	section#articles {
-		.grid(10);
+		.column(10);
 		
 		article {
 			margin-top: 1.25em;
@@ -186,7 +189,7 @@ section#writing {
 
 // speaking
 section#speaking {
-	.row;
+	.center;
 	padding-bottom: 1.5em;
 	
 	h2 {
@@ -199,16 +202,16 @@ section#speaking {
 	}
 	
 	#upcoming {
-		.grid(6);
+		.column(6);
 	}
 	#past {
-		.grid(8);
+		.column(8);
 
 		#past-row {
 			.row(8);
 			
-			.column {
-				.grid(4,8);
+			.xcolumn {
+				.column(4,8);
 			}
 		}
 	}
@@ -227,7 +230,7 @@ section#speaking {
 			display: none;
 		}
 		section#articles {
-			.grid(14);
+			.column(14);
 			
 			article section p {
 				font-size: 1.1em;
@@ -249,7 +252,7 @@ section#speaking {
 			display: none;
 		}
 		section#articles {
-			.grid(14);
+			.column(14);
 			
 			article section p {
 				font-size: 1.1em;
