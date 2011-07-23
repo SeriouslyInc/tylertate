@@ -12,7 +12,7 @@
 // Specify the number of columns and set column and gutter widths
 @columns: 14;
 @column-width: 60;
-@gutter-width: 20;
+@gutter-width: 30;
 
 // Remove the definition below for a pixel-based layout (it's percentage-based by default).
 @total-width: 100%;
@@ -55,27 +55,12 @@ body {
 }
 
 header#top {
-	margin-top: -7.5em;
-	-webkit-transition: margin 0.2s ease-out;
-	
-	&:hover {
-		margin-top: 0;
-		
-		#logo h1,
-		p#tagline {
-			.opacity(0.75);
-		}
-	}
-	
-	section {
-		.center;
-	}
+	.center;
 
+	// logo
 	#logo {
 		.column(4);
-		padding-bottom: 0.75em;
 		
-		// logo
 		h1 {
 			float: right;
 			font-style: italic;
@@ -119,7 +104,7 @@ section#writing {
 		margin-top: 1.25em;
 		
 		ul#publisher {
-			margin: 0.25em 10% 0 0;
+			margin: 0.25em 0 0 0;
 			border-top: 1px dotted #ccc;
 			
 			li {

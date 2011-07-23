@@ -37,17 +37,6 @@ body {
   background: #e4d4c2 url('../images/graph-paper.png') repeat;
 }
 header#top {
-  margin-top: -7.5em;
-  -webkit-transition: margin 0.2s ease-out;
-}
-header#top:hover {
-  margin-top: 0;
-}
-header#top:hover #logo h1, header#top:hover p#tagline {
-  opacity: 0.75;
-  filter: alpha "(opacity = 0.75)";
-}
-header#top section {
   position: relative;
   overflow: hidden;
   max-width: 1200px;
@@ -57,9 +46,8 @@ header#top section {
 header#top #logo {
   display: inline;
   float: left;
-  width: 26.785714285714285%;
-  margin: 0 0.8928571428571428%;
-  padding-bottom: 0.75em;
+  width: 26.190476190476193%;
+  margin: 0 1.1904761904761905%;
 }
 header#top #logo h1 {
   float: right;
@@ -74,8 +62,8 @@ header#top #logo h1 {
 header#top p#tagline {
   display: inline;
   float: left;
-  width: 98.21428571428571%;
-  margin: 0 0.8928571428571428%;
+  width: 97.61904761904762%;
+  margin: 0 1.1904761904761905%;
   font-size: 1.1em;
   padding: 1.5em 0;
   line-height: 1.2em;
@@ -103,12 +91,12 @@ section#writing {
 section#writing aside {
   display: inline;
   float: left;
-  width: 26.785714285714285%;
-  margin: 0 0.8928571428571428%;
+  width: 26.190476190476193%;
+  margin: 0 1.1904761904761905%;
   margin-top: 1.25em;
 }
 section#writing aside ul#publisher {
-  margin: 0.25em 10% 0 0;
+  margin: 0.25em 0 0 0;
   border-top: 1px dotted #ccc;
 }
 section#writing aside ul#publisher li {
@@ -124,8 +112,8 @@ section#writing aside ul#publisher li span {
 section#writing section#articles {
   display: inline;
   float: left;
-  width: 69.64285714285714%;
-  margin: 0 0.8928571428571428%;
+  width: 69.04761904761905%;
+  margin: 0 1.1904761904761905%;
 }
 section#writing section#articles article {
   margin-top: 1.25em;
@@ -195,26 +183,26 @@ section#speaking p {
 section#speaking #upcoming {
   display: inline;
   float: left;
-  width: 41.07142857142857%;
-  margin: 0 0.8928571428571428%;
+  width: 40.476190476190474%;
+  margin: 0 1.1904761904761905%;
 }
 section#speaking #past {
   display: inline;
   float: left;
-  width: 55.35714285714286%;
-  margin: 0 0.8928571428571428%;
+  width: 54.761904761904766%;
+  margin: 0 1.1904761904761905%;
 }
 section#speaking #past #past-row {
   display: inline-block;
   overflow: hidden;
-  width: 103.125%;
-  margin: 0 -1.5625%;
+  width: 104.16666666666667%;
+  margin: 0 -2.083333333333333%;
 }
 section#speaking #past #past-row .xcolumn {
   display: inline;
   float: left;
-  width: 46.875%;
-  margin: 0 1.5625%;
+  width: 45.83333333333333%;
+  margin: 0 2.083333333333333%;
 }
 @media screen and (orientation:portrait) and (max-device-width: 1024px) {
   #body {
@@ -228,8 +216,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 98.21428571428571%;
-    margin: 0 0.8928571428571428%;
+    width: 97.61904761904762%;
+    margin: 0 1.1904761904761905%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
@@ -248,8 +236,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 98.21428571428571%;
-    margin: 0 0.8928571428571428%;
+    width: 97.61904761904762%;
+    margin: 0 1.1904761904761905%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
