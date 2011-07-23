@@ -23,7 +23,7 @@ body {
 .center {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
+  max-width: 1200px;
   min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
@@ -40,7 +40,7 @@ body {
 header#top {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
+  max-width: 1200px;
   min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
@@ -49,8 +49,8 @@ header#top {
 header#top h1 {
   display: inline;
   float: left;
-  width: 31.25%;
-  margin: 0 3.125%;
+  width: 21.428571428571427%;
+  margin: 0 3.571428571428571%;
   padding: 0.5em 0;
   font-size: 1.5em;
   font-style: italic;
@@ -70,8 +70,8 @@ header#top h1:hover {
 header#top p#tagline {
   display: inline;
   float: left;
-  width: 143.75%;
-  margin: 0 3.125%;
+  width: 164.28571428571428%;
+  margin: 0 3.571428571428571%;
   font-size: 1.1em;
   padding: 1.5em 0;
   line-height: 1.2em;
@@ -91,7 +91,7 @@ header#top p#tagline span {
 section#writing {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
+  max-width: 1200px;
   min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
@@ -100,8 +100,8 @@ section#writing {
 section#writing aside {
   display: inline;
   float: left;
-  width: 18.75%;
-  margin: 0 3.125%;
+  width: 21.428571428571427%;
+  margin: 0 3.571428571428571%;
   margin-top: 1.25em;
 }
 section#writing aside ul#publisher {
@@ -122,8 +122,8 @@ section#writing aside ul#publisher li span {
 section#writing section#articles {
   display: inline;
   float: left;
-  width: 43.75%;
-  margin: 0 3.125%;
+  width: 50%;
+  margin: 0 3.571428571428571%;
 }
 section#writing section#articles article {
   margin-top: 1.25em;
@@ -177,7 +177,7 @@ section#writing section#articles article section p.categories {
 section#speaking {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
+  max-width: 1200px;
   min-width: 720px;
   padding: 0 20px;
   margin: 0 auto;
@@ -194,14 +194,14 @@ section#speaking p {
 section#speaking #upcoming {
   display: inline;
   float: left;
-  width: 68.75%;
-  margin: 0 3.125%;
+  width: 78.57142857142857%;
+  margin: 0 3.571428571428571%;
 }
 section#speaking #past {
   display: inline;
   float: left;
-  width: 93.75%;
-  margin: 0 3.125%;
+  width: 107.14285714285714%;
+  margin: 0 3.571428571428571%;
 }
 section#speaking #past #past-row {
   display: inline-block;
@@ -227,8 +227,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 168.75%;
-    margin: 0 3.125%;
+    width: 192.85714285714286%;
+    margin: 0 3.571428571428571%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
@@ -247,8 +247,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 168.75%;
-    margin: 0 3.125%;
+    width: 192.85714285714286%;
+    margin: 0 3.571428571428571%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
