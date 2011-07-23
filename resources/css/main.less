@@ -67,15 +67,16 @@ header#top {
 			float: left;
 			font-style: italic;
 			padding: 0.5em 1em;
-			background-color: hsla(30,30%,30%,0.33);
+			background-color: hsla(30,30%,30%,1);
+			.opacity(0.33);
 			color: @tan;
 		}
 	}
 	
 	// tagline
-	p {
-		display: none;
+	p#tagline {
 		.column(14);
+		display: none;
 		font-size: 1.1em;
 		padding: 1.5em 0;
 		line-height: 1.2em;
@@ -86,6 +87,10 @@ header#top {
 			font-size: 2em;
 			line-height: 1.2em;
 			padding-bottom: 0.2em;
+		}
+		
+		&:active {
+			display: block;
 		}
 	}
 }

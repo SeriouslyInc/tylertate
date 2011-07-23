@@ -55,25 +55,30 @@ header#top nav h1 {
   float: left;
   font-style: italic;
   padding: 0.5em 1em;
-  background-color: rgba(99, 77, 54, 0.33);
+  background-color: #634d36;
+  opacity: 0.33;
+  filter: alpha "(opacity = 0.33)";
   color: #e4d4c2;
 }
-header#top p {
-  display: none;
+header#top p#tagline {
   display: inline;
   float: left;
   width: 98.21428571428571%;
   margin: 0 0.8928571428571428%;
+  display: none;
   font-size: 1.1em;
   padding: 1.5em 0;
   line-height: 1.2em;
   text-align: center;
 }
-header#top p span {
+header#top p#tagline span {
   display: block;
   font-size: 2em;
   line-height: 1.2em;
   padding-bottom: 0.2em;
+}
+header#top p#tagline:active {
+  display: block;
 }
 section#writing {
   position: relative;
