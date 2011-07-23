@@ -50,7 +50,7 @@ header#top #logo {
   float: left;
   width: 54.761904761904766%;
   margin: 0 1.1904761904761905%;
-  padding-left: 26.190476190476193%;
+  float: right;
 }
 header#top #logo h1 {
   float: right;
