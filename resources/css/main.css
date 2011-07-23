@@ -46,10 +46,10 @@ header#top {
   margin: 0 auto;
   margin-bottom: 1.5em;
 }
-header#top section h1 {
+header#top h1 {
   display: inline;
   float: left;
-  width: 13.88888888888889%;
+  width: 22.22222222222222%;
   margin: 0 1.3888888888888888%;
   font-style: italic;
   padding: 0.5em 0;
@@ -59,7 +59,10 @@ header#top section h1 {
   filter: alpha "(opacity = 0.33)";
   -webkit-transition: opacity 0.2s ease-out;
 }
-header#top section h1:hover {
+header#top h1 span {
+  padding-left: 15px;
+}
+header#top h1:hover {
   opacity: 0.5;
   filter: alpha "(opacity = 0.5)";
 }
@@ -93,7 +96,7 @@ section#writing {
   margin: 0 auto;
   padding-bottom: 1.5em;
 }
-section#writing .left-placeholder {
+section#writing .right-placeholder {
   display: inline;
   float: left;
   width: 13.88888888888889%;

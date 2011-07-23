@@ -58,23 +58,25 @@ body {
 header#top {
 	.center;
 	margin-bottom: 1.5em;
-	
-	section {
 		
-		h1 {
-			.column(2);
-			font-style: italic;
-			padding: 0.5em 0;
-			color: @tan;
-		
-			background-color: hsla(30,30%,30%,1);
-			.opacity(0.33);
-			-webkit-transition: opacity 0.2s ease-out;
-		
-			&:hover {
-				.opacity(0.5);
-			}
+	h1 {
+		.column(3);
+		font-style: italic;
+		padding: 0.5em 0;
+		color: @tan;
+
+		background-color: hsla(30,30%,30%,1);
+		.opacity(0.33);
+		-webkit-transition: opacity 0.2s ease-out;
+
+		span {
+			padding-left: 15px;
 		}
+
+		&:hover {
+			.opacity(0.5);
+		}
+
 	}
 	
 	// tagline
@@ -103,7 +105,7 @@ section#writing {
 	.center;
 	padding-bottom: 1.5em;
 	
-	.left-placeholder {
+	.right-placeholder {
 		.column(2);
 	}
 	
