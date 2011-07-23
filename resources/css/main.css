@@ -48,8 +48,8 @@ header#top {
 header#top #logo {
   display: inline;
   float: left;
-  width: 61.904761904761905%;
-  margin: 0 1.1904761904761905%;
+  width: 72.22222222222221%;
+  margin: 0 1.3888888888888888%;
   float: right;
 }
 header#top #logo h1 {
@@ -65,8 +65,8 @@ header#top #logo h1 {
 header#top p#tagline {
   display: inline;
   float: left;
-  width: 83.33333333333334%;
-  margin: 0 1.1904761904761905%;
+  width: 97.22222222222221%;
+  margin: 0 1.3888888888888888%;
   font-size: 1.1em;
   padding: 1.5em 0;
   line-height: 1.2em;
@@ -95,8 +95,8 @@ section#writing {
 section#writing aside {
   display: inline;
   float: left;
-  width: 19.047619047619047%;
-  margin: 0 1.1904761904761905%;
+  width: 22.22222222222222%;
+  margin: 0 1.3888888888888888%;
   margin-top: 1.25em;
 }
 section#writing aside ul#publisher {
@@ -116,8 +116,8 @@ section#writing aside ul#publisher li span {
 section#writing section#articles {
   display: inline;
   float: left;
-  width: 61.904761904761905%;
-  margin: 0 1.1904761904761905%;
+  width: 72.22222222222221%;
+  margin: 0 1.3888888888888888%;
 }
 section#writing section#articles article {
   margin-top: 1.25em;
@@ -188,14 +188,14 @@ section#speaking p {
 section#speaking #upcoming {
   display: inline;
   float: left;
-  width: 40.476190476190474%;
-  margin: 0 1.1904761904761905%;
+  width: 47.22222222222222%;
+  margin: 0 1.3888888888888888%;
 }
 section#speaking #past {
   display: inline;
   float: left;
-  width: 54.761904761904766%;
-  margin: 0 1.1904761904761905%;
+  width: 63.888888888888886%;
+  margin: 0 1.3888888888888888%;
 }
 section#speaking #past #past-row {
   display: inline-block;
@@ -221,8 +221,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 97.61904761904762%;
-    margin: 0 1.1904761904761905%;
+    width: 113.88888888888889%;
+    margin: 0 1.3888888888888888%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
@@ -241,8 +241,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 97.61904761904762%;
-    margin: 0 1.1904761904761905%;
+    width: 113.88888888888889%;
+    margin: 0 1.3888888888888888%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
