@@ -48,12 +48,12 @@ header#top {
 header#top #logo {
   display: inline;
   float: left;
-  width: 54.761904761904766%;
+  width: 61.904761904761905%;
   margin: 0 1.1904761904761905%;
   float: right;
 }
 header#top #logo h1 {
-  float: right;
+  float: left;
   font-style: italic;
   padding: 0.5em 1em;
   color: #e4d4c2;
@@ -65,7 +65,7 @@ header#top #logo h1 {
 header#top p#tagline {
   display: inline;
   float: left;
-  width: 97.61904761904762%;
+  width: 83.33333333333334%;
   margin: 0 1.1904761904761905%;
   font-size: 1.1em;
   padding: 1.5em 0;
@@ -95,7 +95,7 @@ section#writing {
 section#writing aside {
   display: inline;
   float: left;
-  width: 26.190476190476193%;
+  width: 19.047619047619047%;
   margin: 0 1.1904761904761905%;
   margin-top: 1.25em;
 }
@@ -116,7 +116,7 @@ section#writing aside ul#publisher li span {
 section#writing section#articles {
   display: inline;
   float: left;
-  width: 69.04761904761905%;
+  width: 61.904761904761905%;
   margin: 0 1.1904761904761905%;
 }
 section#writing section#articles article {
