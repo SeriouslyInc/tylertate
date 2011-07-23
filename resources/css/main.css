@@ -42,27 +42,32 @@ header#top {
   max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto;
-  margin-top: -7.75em;
-  -webkit-transition: margin 0.5s ease-out;
+  margin-top: -7.5em;
+  -webkit-transition: margin 0.2s ease-out;
 }
 header#top:hover {
   margin-top: 0;
 }
-header#top nav {
+header#top:hover h1, header#top:hover p#tagline {
+  opacity: 0.75;
+  filter: alpha "(opacity = 0.75)";
+}
+header#top #logo {
   display: inline;
   float: left;
-  width: 98.21428571428571%;
+  width: 26.785714285714285%;
   margin: 0 0.8928571428571428%;
   padding-bottom: 0.75em;
 }
-header#top nav h1 {
-  float: left;
+header#top #logo h1 {
+  float: right;
   font-style: italic;
   padding: 0.5em 1em;
+  color: #e4d4c2;
   background-color: #634d36;
   opacity: 0.33;
   filter: alpha "(opacity = 0.33)";
-  color: #e4d4c2;
+  -webkit-transition: opacity 0.2s ease-out;
 }
 header#top p#tagline {
   display: inline;
@@ -73,6 +78,11 @@ header#top p#tagline {
   padding: 1.5em 0;
   line-height: 1.2em;
   text-align: center;
+  color: white;
+  background-color: #634d36;
+  opacity: 0.33;
+  filter: alpha "(opacity = 0.33)";
+  -webkit-transition: opacity 0.2s ease-out;
 }
 header#top p#tagline span {
   display: block;

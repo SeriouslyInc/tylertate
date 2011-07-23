@@ -56,25 +56,32 @@ body {
 
 header#top {
 	.center;
-	margin-top: -7.75em;
-	-webkit-transition: margin 0.5s ease-out;
+	margin-top: -7.5em;
+	-webkit-transition: margin 0.2s ease-out;
 	
 	&:hover {
 		margin-top: 0;
+		
+		h1,
+		p#tagline {
+			.opacity(0.75);
+		}
 	}
 
-	nav {
-		.column(14);
+	#logo {
+		.column(4);
 		padding-bottom: 0.75em;
 		
 		// logo
 		h1 {
-			float: left;
+			float: right;
 			font-style: italic;
 			padding: 0.5em 1em;
+			color: @tan;
+			
 			background-color: hsla(30,30%,30%,1);
 			.opacity(0.33);
-			color: @tan;
+			-webkit-transition: opacity 0.2s ease-out;
 		}
 	}
 	
@@ -85,6 +92,11 @@ header#top {
 		padding: 1.5em 0;
 		line-height: 1.2em;
 		text-align: center;
+		color: white;
+		
+		background-color: hsla(30,30%,30%,1);
+		.opacity(0.33);
+		-webkit-transition: opacity 0.2s ease-out;
 		
 		span {
 			display: block;
