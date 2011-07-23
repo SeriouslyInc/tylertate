@@ -1,24 +1,42 @@
+// This stylesheet uses LESS.js (learn more at http://lesscss.org/)
+
+@import '_reset.less';
 @import '_grid.less';
 @import '_mixins.less';
 
+
+/////////////////
+// GRID SYSTEM // The layout is driven by the Semantic Grid System, see http://Semantic.gs
+/////////////////
+
+// Specify the number of columns and set column and gutter widths
+@columns: 14;
 @column-width: 60;
 @gutter-width: 20;
-@columns: 14;
+
+// Remove the definition below for a pixel-based layout (it's percentage-based by default).
+@total-width: 100%;
+
+// Fluid, but with a maximum width
+.center {
+	position: relative;
+	overflow: hidden;
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
 
 
-///////////
-// reset //
-///////////
+////////////
+// COLORS //
+////////////
 
-* { margin: 0; padding: 0; }
-a img, form, fieldset { border: none; }
-p { margin-bottom: 20px; }
-nav, aside, header, article, section, footer { display: block; }
+@tan: #e4d4c2;
 
 
-//////////
-// type //
-//////////
+////////////////
+// TYPOGRAPHY //
+////////////////
 
 body {
 	font-family: Georgia;
@@ -32,20 +50,11 @@ a {
 // layout //
 ////////////
 
-.center {
-	position: relative;
-	overflow: hidden;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
 body {
-	background: #e4d4c2 url('../images/graph-paper.png') repeat;
-	padding: 0 50px;
+	background: @tan url('../images/graph-paper.png') repeat;
 }
 
 header#top {
-	padding: 2em 0;
 	.center;
 
 	nav {
@@ -57,6 +66,9 @@ header#top {
 		h1 {
 			float: left;
 			font-style: italic;
+			padding: 0.75em 1.5em;
+			background-color: #665745;
+			color: @tan;
 		}
 
 		// navigation
