@@ -56,36 +56,19 @@ body {
 
 header#top {
 	.center;
+	margin-top: -7.75em;
 
 	nav {
 		.column(14);
 		padding-bottom: 0.75em;
-		border-bottom: 1px solid #ccc;
 		
 		// logo
 		h1 {
 			float: left;
 			font-style: italic;
 			padding: 0.5em 1em;
-			background-color: hsla(30,30,30,0.33);
+			background-color: hsla(30,30%,30%,0.33);
 			color: @tan;
-		}
-
-		// navigation
-		ul {
-			.column(7);
-			width: auto;
-			float: right;
-
-			li {
-				list-style: none outside none;
-				float: left;
-				margin: 0.9em 0 0 2em;
-
-				a {
-					text-decoration: none;
-				}
-			}
 		}
 	}
 	
@@ -97,7 +80,6 @@ header#top {
 		padding: 1.5em 0;
 		line-height: 1.2em;
 		text-align: center;
-		border-bottom: 1px solid #ccc;
 		
 		span {
 			display: block;

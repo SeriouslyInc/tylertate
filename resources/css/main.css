@@ -42,6 +42,7 @@ header#top {
   max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto;
+  margin-top: -7.75em;
 }
 header#top nav {
   display: inline;
@@ -49,30 +50,13 @@ header#top nav {
   width: 98.21428571428571%;
   margin: 0 0.8928571428571428%;
   padding-bottom: 0.75em;
-  border-bottom: 1px solid #ccc;
 }
 header#top nav h1 {
   float: left;
   font-style: italic;
   padding: 0.5em 1em;
-  background-color: rgba(-214200, 7650, 229500, 0.33);
+  background-color: rgba(99, 77, 54, 0.33);
   color: #e4d4c2;
-}
-header#top nav ul {
-  display: inline;
-  float: left;
-  width: 48.214285714285715%;
-  margin: 0 0.8928571428571428%;
-  width: auto;
-  float: right;
-}
-header#top nav ul li {
-  list-style: none outside none;
-  float: left;
-  margin: 0.9em 0 0 2em;
-}
-header#top nav ul li a {
-  text-decoration: none;
 }
 header#top p {
   display: none;
@@ -84,7 +68,6 @@ header#top p {
   padding: 1.5em 0;
   line-height: 1.2em;
   text-align: center;
-  border-bottom: 1px solid #ccc;
 }
 header#top p span {
   display: block;
