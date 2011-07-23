@@ -55,17 +55,20 @@ body {
 }
 
 header#top {
-	.center;
 	margin-top: -7.5em;
 	-webkit-transition: margin 0.2s ease-out;
 	
 	&:hover {
 		margin-top: 0;
 		
-		h1,
+		#logo h1,
 		p#tagline {
 			.opacity(0.75);
 		}
+	}
+	
+	section {
+		.center;
 	}
 
 	#logo {

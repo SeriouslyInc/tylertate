@@ -37,20 +37,22 @@ body {
   background: #e4d4c2 url('../images/graph-paper.png') repeat;
 }
 header#top {
-  position: relative;
-  overflow: hidden;
-  max-width: 1200px;
-  padding: 0 20px;
-  margin: 0 auto;
   margin-top: -7.5em;
   -webkit-transition: margin 0.2s ease-out;
 }
 header#top:hover {
   margin-top: 0;
 }
-header#top:hover h1, header#top:hover p#tagline {
+header#top:hover #logo h1, header#top:hover p#tagline {
   opacity: 0.75;
   filter: alpha "(opacity = 0.75)";
+}
+header#top section {
+  position: relative;
+  overflow: hidden;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 header#top #logo {
   display: inline;
