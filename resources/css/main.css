@@ -49,8 +49,8 @@ header#top {
 header#top h1 {
   display: inline;
   float: left;
-  width: 22.22222222222222%;
-  margin: 0 1.3888888888888888%;
+  width: 31.25%;
+  margin: 0 3.125%;
   padding: 0.5em 0;
   font-size: 1.5em;
   font-style: italic;
@@ -70,8 +70,8 @@ header#top h1:hover {
 header#top p#tagline {
   display: inline;
   float: left;
-  width: 97.22222222222221%;
-  margin: 0 1.3888888888888888%;
+  width: 143.75%;
+  margin: 0 3.125%;
   font-size: 1.1em;
   padding: 1.5em 0;
   line-height: 1.2em;
@@ -100,8 +100,8 @@ section#writing {
 section#writing aside {
   display: inline;
   float: left;
-  width: 22.22222222222222%;
-  margin: 0 1.3888888888888888%;
+  width: 18.75%;
+  margin: 0 3.125%;
   margin-top: 1.25em;
 }
 section#writing aside ul#publisher {
@@ -122,8 +122,8 @@ section#writing aside ul#publisher li span {
 section#writing section#articles {
   display: inline;
   float: left;
-  width: 55.55555555555556%;
-  margin: 0 1.3888888888888888%;
+  width: 43.75%;
+  margin: 0 3.125%;
 }
 section#writing section#articles article {
   margin-top: 1.25em;
@@ -194,26 +194,26 @@ section#speaking p {
 section#speaking #upcoming {
   display: inline;
   float: left;
-  width: 47.22222222222222%;
-  margin: 0 1.3888888888888888%;
+  width: 68.75%;
+  margin: 0 3.125%;
 }
 section#speaking #past {
   display: inline;
   float: left;
-  width: 63.888888888888886%;
-  margin: 0 1.3888888888888888%;
+  width: 93.75%;
+  margin: 0 3.125%;
 }
 section#speaking #past #past-row {
   display: inline-block;
   overflow: hidden;
-  width: 104.16666666666667%;
-  margin: 0 -2.083333333333333%;
+  width: 106.25%;
+  margin: 0 -3.125%;
 }
 section#speaking #past #past-row .xcolumn {
   display: inline;
   float: left;
-  width: 45.83333333333333%;
-  margin: 0 2.083333333333333%;
+  width: 43.75%;
+  margin: 0 3.125%;
 }
 @media screen and (orientation:portrait) and (max-device-width: 1024px) {
   #body {
@@ -227,8 +227,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 113.88888888888889%;
-    margin: 0 1.3888888888888888%;
+    width: 168.75%;
+    margin: 0 3.125%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
@@ -247,8 +247,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 113.88888888888889%;
-    margin: 0 1.3888888888888888%;
+    width: 168.75%;
+    margin: 0 3.125%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
