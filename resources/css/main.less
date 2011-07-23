@@ -21,7 +21,7 @@
 .center {
 	position: relative;
 	overflow: hidden;
-	max-width: 1200px;
+	max-width: 1140px;
 	min-width: 720px;
 	padding: 0 20px;
 	margin: 0 auto;
@@ -57,21 +57,20 @@ body {
 
 header#top {
 	.center;
-
-	// logo
-	#logo {
-		.column(9);
-		float: right;
+	margin-bottom: 1.5em;
 		
-		h1 {
-			float: left;
-			font-style: italic;
-			padding: 0.5em 1em;
-			color: @tan;
-			
-			background-color: hsla(30,30%,30%,1);
-			.opacity(0.33);
-			-webkit-transition: opacity 0.2s ease-out;
+	h1 {
+		float: left;
+		font-style: italic;
+		padding: 0.5em 1em;
+		color: @tan;
+		
+		background-color: hsla(30,30%,30%,1);
+		.opacity(0.4);
+		-webkit-transition: opacity 0.2s ease-out;
+		
+		&:hover {
+			.opacity(0.66);
 		}
 	}
 	
@@ -110,6 +109,7 @@ section#writing {
 			border-top: 1px dotted #ccc;
 			
 			li {
+				list-style: none outside none;
 				border-bottom: 1px dotted #ccc;
 				padding: 0.5em 0;
 				font-family: sans-serif;
