@@ -54,18 +54,7 @@ header#top h1 {
   padding: 0.5em 0;
   font-size: 1.5em;
   font-style: italic;
-  color: #e4d4c2;
-  background-color: #634d36;
-  opacity: 0.33;
-  filter: alpha "(opacity = 0.33)";
-  -webkit-transition: opacity 0.2s ease-out;
-}
-header#top h1 span {
-  padding-left: 15px;
-}
-header#top h1:hover {
-  opacity: 0.5;
-  filter: alpha "(opacity = 0.5)";
+  color: #665545;
 }
 header#top p#tagline {
   display: inline;
