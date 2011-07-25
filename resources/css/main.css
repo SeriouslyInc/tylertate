@@ -49,33 +49,12 @@ header#top {
 header#top h1 {
   display: inline;
   float: left;
-  width: 21.428571428571427%;
-  margin: 0 3.571428571428571%;
+  width: 25%;
+  margin: 0 4.166666666666666%;
   padding: 0.5em 0;
   font-size: 1.5em;
   font-style: italic;
   color: #665545;
-}
-header#top p#tagline {
-  display: inline;
-  float: left;
-  width: 164.28571428571428%;
-  margin: 0 3.571428571428571%;
-  font-size: 1.1em;
-  padding: 1.5em 0;
-  line-height: 1.2em;
-  text-align: center;
-  color: white;
-  background-color: #634d36;
-  opacity: 0.33;
-  filter: alpha "(opacity = 0.33)";
-  -webkit-transition: opacity 0.2s ease-out;
-}
-header#top p#tagline span {
-  display: block;
-  font-size: 2em;
-  line-height: 1.2em;
-  padding-bottom: 0.2em;
 }
 section#writing {
   position: relative;
@@ -89,8 +68,8 @@ section#writing {
 section#writing aside {
   display: inline;
   float: left;
-  width: 21.428571428571427%;
-  margin: 0 3.571428571428571%;
+  width: 25%;
+  margin: 0 4.166666666666666%;
   margin-top: 1.25em;
 }
 section#writing aside ul#publisher {
@@ -111,8 +90,8 @@ section#writing aside ul#publisher li span {
 section#writing section#articles {
   display: inline;
   float: left;
-  width: 50%;
-  margin: 0 3.571428571428571%;
+  width: 58.333333333333336%;
+  margin: 0 4.166666666666666%;
 }
 section#writing section#articles article {
   margin-top: 1.25em;
@@ -183,14 +162,14 @@ section#speaking p {
 section#speaking #upcoming {
   display: inline;
   float: left;
-  width: 78.57142857142857%;
-  margin: 0 3.571428571428571%;
+  width: 91.66666666666666%;
+  margin: 0 4.166666666666666%;
 }
 section#speaking #past {
   display: inline;
   float: left;
-  width: 107.14285714285714%;
-  margin: 0 3.571428571428571%;
+  width: 125%;
+  margin: 0 4.166666666666666%;
 }
 section#speaking #past #past-row {
   display: inline-block;
@@ -216,8 +195,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 192.85714285714286%;
-    margin: 0 3.571428571428571%;
+    width: 225%;
+    margin: 0 4.166666666666666%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
@@ -236,8 +215,8 @@ section#speaking #past #past-row .xcolumn {
   section#writing section#articles {
     display: inline;
     float: left;
-    width: 192.85714285714286%;
-    margin: 0 3.571428571428571%;
+    width: 225%;
+    margin: 0 4.166666666666666%;
   }
   section#writing section#articles article section p {
     font-size: 1.1em;
