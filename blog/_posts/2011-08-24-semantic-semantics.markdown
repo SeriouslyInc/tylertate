@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Semantic Semantics
+published: false
 ---
 
 Yesterday we released a new CSS grid called the [Semantic Grid System](http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/), or [Semantic.gs](http://Semantic.gs) for short. Not long afterwards, [Nathan Smith](https://twitter.com/nathansmith) had a long discussion on Twitter over the meaning of "semantic." But, as is often the case, Twitter just doesn't do justice to nuanced discussions. Hence this blog post.
