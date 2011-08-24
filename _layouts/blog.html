@@ -4,5 +4,15 @@ bodyId: blog
 ---
 
 <article>
+	<header>
+		<p>
+			{% if post.publisher %}
+				<a class="publisher" href="{{ page.originalurl }}">{{ page.publisher }}</a>
+				&nbsp;&bull;&nbsp;
+			{% endif %}
+			<span class="date">{{ page.date | date: "%b %d, %Y" }}</span>
+		</p>
+		<h2>{{ page.title }}</h2>
+	</header>
 	{{ content }}
 </article>

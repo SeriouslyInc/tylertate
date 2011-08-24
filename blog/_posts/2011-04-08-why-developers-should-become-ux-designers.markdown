@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Why Developers Should Become UX Designers
+title: Why Devs Should Become UXers
 publisher: TwigKit Blog
 originalurl: http://www.twigkit.com/blog/2011/04/08/why-developers-should-become-ux-designers.html
 keywords: [ux,dev]

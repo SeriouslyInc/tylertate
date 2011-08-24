@@ -4,88 +4,32 @@ title: Making the complex feel simple.
 bodyId: home
 ---
 
-<section id="writing">
-	<aside>
-		<h4>Published on</h4>
-		<ul style="display: none;" id="publisher"></ul>
-		
-		<div style="display: none;" class="ad">
-			<!-- AdPacks.com Zone Code -->
-			<div id="bsap_1259205" class="bsarocks bsap_25779f8aebf23dd2e6c5b30743833cb3"></div>
-			<a href="http://adpacks.com" id="bsap_aplink">via Ad Packs</a>
-			<!-- End AdPacks.com Zone Code -->
-		</div>
-	</aside>
-	<section id="articles">
-		{% for post in site.categories.blog %}
-			<article id="{{ post.date | date: "%B-%d-%Y" }}" data-publisher="{{ post.publisher }}" >
-				<header>
-					<h3><a href="{{ post.originalurl }}">{{ post.publisher }}</a></h3>
-					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				</header>
-				<section>
-					{{ post.content }}
-					<p class="more"><a class="glyph" href="{{ post.originalurl }}">&#x2192;</a> Read the rest on <a href="{{ post.originalurl }}">{{ post.publisher }}</a>. Originally published <span class="date">{{ post.date | date: "%B %d, %Y" }}</span></p>
-					<p class="categories">{% for keyword in post.keywords %} {{ keyword }}&nbsp; {% endfor %}</p>
-				</section>
-			</article>
-		{% endfor %}
-	</section>
-	<section id="articles2" style="display: none;">
-		{% for post in site.categories.blog %}
-			<article id="{{ post.date | date: "%B-%d-%Y" }}" data-publisher="{{ post.publisher }}" >
-				<header>
-					<h3><a href="{{ post.originalurl }}">{{ post.publisher }}</a></h3>
-					<p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-					<p class="categories">{% for keyword in post.keywords %} {{ keyword }}&nbsp; {% endfor %}</p>
-				</header>
-				<section>
-					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					{{ post.content }}
-				</section>
-			</article>
-		{% endfor %}
-	</section>
-</section>
-
-<section id="speaking" style="display: none;">
-	<section id="upcoming">
-		<h2>Upcoming Events</h2>
-		{% for event in site.categories.events %}
-			{% if event.status == 'upcoming' %}
-				<article>
-					<p class="date">{{ event.date | date: "%B %d, %Y" }}</p>
-					<h3>{{ event.title }}</h3>
-					<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
-				<article>
+{% for post in site.categories.blog %}
+	<article id="{{ post.date | date: "%B-%d-%Y" }}" data-publisher="{{ post.publisher }}" >
+		<header>
+			<p>
+				{% if post.publisher %}
+					<a class="publisher" href="{{ post.originalurl }}">{{ post.publisher }}</a>
+					&nbsp;&bull;&nbsp;
+				{% endif %}
+				<span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
+			</p>
+			<h2>
+				{% if post.publisher %}
+					<a href="{{ post.originalurl }}">{{ post.title }}</a>
+				{% else %}
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				{% endif %}
+			</h2>
+		</header>
+		<section>
+			{{ post.content }}
+			
+			{% if post.publisher %}
+				<p class="more">
+					<a href="{{ post.originalurl }}">Read the rest on {{ post.publisher }}.</a>
+				</p>
 			{% endif %}
-		{% endfor %}
-	</section>
-	<section id="past">
-		<h2>Past Events</h2>
-		<div id="past-row">
-			<div class="column">
-				{% for event in site.categories.events limit: 6 %}
-					{% if event.status != 'upcoming' %}
-						<article>
-							<p class="date">{{ event.date | date: "%B %d, %Y" }}</p>
-							<h3>{{ event.title }}</h3>
-							<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
-						<article>
-					{% endif %}
-				{% endfor %}
-			</div>
-			<div class="column">
-				{% for event in site.categories.events limit: 6 offset: 6 %}
-					{% if event.status != 'upcoming' %}
-						<article>
-							<p class="date">{{ event.date | date: "%B %d, %Y" }}</p>
-							<h3>{{ event.title }}</h3>
-							<p class="event"><a href="{{ event.eventurl }}">{{ event.event }}</a></p>
-						<article>
-					{% endif %}
-				{% endfor %}
-			</div>
-		</div>
-	</section>
-</section>
+		</section>
+	</article>
+{% endfor %}

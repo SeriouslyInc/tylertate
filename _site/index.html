@@ -1,0 +1,810 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+	<title>Tyler Tate. Making the complex feel simple.</title>
+
+	<link rel="stylesheet" href="http://localhost:4000//resources/css/main.css" type="text/css" media="screen" charset="utf-8">
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-761992-5");
+			pageTracker._trackPageview();
+			} catch(err) {}
+	</script>
+</head>
+
+<body id="home">
+	
+	<!-- AdPacks.com Ad Code -->
+	<script type="text/javascript">
+	(function(){
+	  var bsa = document.createElement('script');
+	     bsa.type = 'text/javascript';
+	     bsa.async = true;
+	     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+	  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+	})();
+	</script>
+	
+	<div id="container">
+
+		<header id="page-header">
+			<h1><a href="/">Tyler Tate</a></h1>
+		</header>
+
+		<article id="mainbody">
+			
+	<article id="August-24-2011" data-publisher="" >
+		<header>
+			<p>
+				
+				<span class="date">Aug 24, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="/blog/2011/08/24/semantic-semantics.html">Semantic Semantics</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Yesterday we released a new CSS grid called the <a href='http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/'>Semantic Grid System</a>, or <a href='http://Semantic.gs'>Semantic.gs</a> for short. Not long afterwards, <a href='https://twitter.com/nathansmith'>Nathan Smith</a> had a long discussion on Twitter over the meaning of &#8220;semantic.&#8221; But, as is often the case, Twitter just doesn&#8217;t do justice to nuanced discussions. Hence this blog post.</p>
+
+<h3 id='the_backdrop'>The Backdrop</h3>
+
+<p>One key difference between Semantic.gs and &#8220;traditional&#8221; CSS Grid systems is that layout decisions are <strong>isolated to the stylesheet</strong> in the case of former, while layout commands are <strong>mixed with the HTML markup</strong> in the latter. Here is an example of the same operation in Semantic.gs, and my <a href='http://1kbgrid.com'>1KB Grid</a> from a couple years ago (which borrowed from the landmark <a href='http://960.gs'>960 Grid</a>):</p>
+
+<p>The Semantic.gs way:</p>
+
+<pre><code>// HTML
+&lt;article&gt;Main&lt;/article&gt;
+&lt;section&gt;Sidebar&lt;/section&gt;
+
+// STYLESHEET
+article { .column(9); }
+section { .column(3); }</code></pre>
+
+<p>The traditional grid system way:</p>
+
+<pre><code>// HTML
+&lt;article class=&quot;column grid_9&quot;&gt;
+	Main
+&lt;/article&gt;
+&lt;section class=&quot;column grid_3&quot;&gt;
+	Sidebar
+&lt;/section&gt;</code></pre>
+
+<h3 id='the_question'>The Question</h3>
+
+<p>While the traditional approach references both content and display information in the HTML, Semantic.gs clearly distinguishes between the two, isolating presentational information to the stylesheet. I describe this approach as &#8220;semantic.&#8221; However, there seems to be contention over the definition of the word, and whether or not its fair to describe the traditional CSS grid approach as non-semantic. In particular, do CSS class names apply to the conversation of semantics, or are they completely neutral of any semantic/non-semantic quality? Here&#8217;s what I think.</p>
+
+<h3 id='lowercase_semantic_web'>Lowercase Semantic Web</h3>
+
+<p>The <a href='http://en.wikipedia.org/wiki/Meaning_%28linguistic%29'>Wikipedia definition</a> of semantic is: &#8220;content carried by words or signs … when communicating through language.&#8221;</p>
+
+<p>In context of the web, however, it&#8217;s helpful to begin by differentiating between two uses of the word in question. Founding figures of microformats such as <a href='http://complexspiral.com/events/archive/2005/sxsw/'>Eric Meyer</a> and <a href='http://tantek.com/presentations/2004etech/realworldsemanticspres.html'>Tantek Çelik and Kevin Marks</a> used to distinguish between the &#8220;lowercase semantic web&#8221; as thought of in standards-based web design, and <a href='http://www.w3.org/DesignIssues/Semantic.html'>The Semantic Web</a>, Tim Berners-Lee&#8217;s grand plan to re-architect the future Internet. I speak of lowercase semantics.</p>
+
+<p>The general thrust of the now decade-old web standards movement has been towards greater separation between content and display by shunning table-based layouts and font tags, while embracing semantic markup and CSS. Here&#8217;s how Dan Cederholm explained semantics in his book <em>Web Standards Solutions</em>:</p>
+
+<blockquote>
+<p>&#8220;What I mean when I talk about semantics is that we&#8217;re striving to use tags that imply meaning, rather than a presentational instruction… By structuring web pages with semantic markup, we&#8217;ll move closer to separating content from presentation.&#8221; — <em>Dan Cederholm</em></p>
+</blockquote>
+
+<h3 id='css_classes_count'>CSS Classes Count</h3>
+
+<p>Taken to its logical conclusion, semantics must refer to the entire body of the HTML document; no parts are spared, including the CSS class names added to HTML elements. In fact, the <code>id</code> and <code>class</code> attributes are repeatedly discussed as inherent means of extending the semantic nature of HTML&#8217;s limited vocabulary of elements. John Allsopp, in his informative <a href='http://microformatique.com/?p=83'>three-part series on semantics</a>, says:</p>
+
+<blockquote>
+<p>&#8220;The semantics of HTML were, and remain, lightweight - though the small number of mechanisms for extending the semantics of HTML marked up documents, such as the use of the class attribute, and attributes such as rel have been increasingly used over the last half a decade or so to <strong>increase the semantic nature</strong> of web content, and extend HTML’s reasonably limited built in semantics.&#8221; — <em>John Allsopp</em></p>
+</blockquote>
+
+<p>Not only can <code>id</code> and <code>class</code> attributes be used to <em>extend</em> the semantics of the document, but using them haphazardly can indeed detract from the semantic-ness of the page, as Jeffrey Zeldman explains in his book <em>Designing with Web Standards</em>:</p>
+
+<blockquote>
+<p>&#8220;Gladys&#8221; or &#8220;orangebox&#8221; would be perfectly kosher <span>names</span> within the rules of XHTML. But semantic or meta-structureal names (names that explain the function performed by elements contained within) are best. You would feel pretty sill having labeled a part of your site &#8220;orangebox&#8221; when the client decides to go with blue.&#8221; — <em>Jeffrey Zeldman</em></p>
+</blockquote>
+
+<p>So if a class of &#8220;orangebox&#8221; is considered non-semantic, the same logic would apply to class names like &#8220;grid_6&#8221;. Zeldman goes on to draw a very sharp distinction between <code>id</code> / <code>class</code> names and design:</p>
+
+<blockquote>
+<p>&#8220;Crafting structural <code>id</code> labels like &#8216;menu&#8217; or &#8216;content&#8217; or &#8216;search form&#8217; helps you remember that markup is not design and that a well-structured page can be made to look any way you desire.&#8221;</p>
+</blockquote>
+
+<h3 id='but_it_still_validates'>But it Still Validates</h3>
+
+<p>There are a lot of wise voices who advocate semantic markup, including semantic CSS classes, to achieve separation between content and presentation. However, a distinction should be made between <em>semantic</em> markup and <em>valid</em> markup. Do non-semantic CSS classes like &#8220;orangebox&#8221; or &#8220;grid_6&#8221; still validate? Of course! Do they still render correctly in browsers, screen readers, and search engines? Naturally. This harks back to <a href='http://www.kottke.org/03/08/standards-semantically-correct'>Jason Kottke&#8217;s</a> observation back in 2003:</p>
+
+<blockquote>
+<p>&#8220;Last time I checked (about two minutes ago&#8230;to see if I was actually correct), both the <code>&lt;table&gt;</code> and <code>&lt;font&gt;</code> tags are valid XHTML 1.0 Transitional tags and the <code>&lt;table&gt;</code> tag is a valid XHTML 1.1 tag. Documents with <code>&lt;table&gt;</code> and <code>&lt;font&gt;</code> tags are standards-compliant.&#8221; — <em>Jason Kottke</em></p>
+</blockquote>
+
+<p>To which <a href='http://www.mezzoblue.com/archives/2003/08/26/semantics_an/'>Dave Shea</a> replied:</p>
+
+<blockquote>
+<p>&#8220;Jason is absolutely correct. You are allowed to use <code>&lt;font&gt;</code> tags in your valid XHTML. You are allowed to continue designing with tables. As long as you lowercase your tags and watch your nesting, there is nothing stopping you from building your XHTML sites without a lick of CSS. But if this is all you’re doing, you are like the driver of the VW Beetle carefully pulling to a stop at the light, failing to move for the Mack truck barrelling toward him at 120km/h. Sure he’s following the letter of the law, but the light was put there for his safety. He’s completely missing the spirit in which it was written.&#8221; — <em>Dave Shea</em></p>
+</blockquote>
+
+<h3 id='is_semantic_better'>Is Semantic Better?</h3>
+
+<p>David Shea&#8217;s response was a bit harsh. Absolute purity is not always necessary, and there are plenty who think that <a href='http://www.lukew.com/ff/entry.asp?1379'>more semantic is not always better</a>. It is sometimes worth cutting a few semantic corners — such as by using &#8220;grid_x&#8221; class names — to save time or make things simpler for developers. It&#8217;s a tradeoff that should be made judiciously rather than pursuing pure semantics at all cost.</p>
+
+<p>However, truly semantic markup (including semantic <code>class</code> names) does have distinct advantages. Above all else, non-semantic markup will always be tied to a given format. To achieve a future of <a href='http://www.alistapart.com/articles/responsive-web-design/'>responsive design</a>, we need to separate content from how it is presented.</p>
+			
+			
+		</section>
+	</article>
+
+	<article id="August-23-2011" data-publisher="Smashing Magazine" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/">Smashing Magazine</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Aug 23, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/">The Semantic Grid System</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>CSS grid frameworks can make your life easier, but they’re not without their faults. Fortunately for us, modern techniques offer a new approach to constructing page layouts. But before getting to the solution, we must first understand the three seemingly insurmountable flaws currently affecting CSS grids.</p>
+			
+			
+				<p class="more">
+					<a href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/">Read the rest on Smashing Magazine.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="August-19-2011" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.twigkit.com/blog/2011/08/19/redesigning-wikipedia-search.html">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Aug 19, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.twigkit.com/blog/2011/08/19/redesigning-wikipedia-search.html">Redesigning Wikipedia's Search</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Yesterday was the deadline to submit a redesign of Wikipedia’s search page to the search design contest organized by Greplin. While the contest isn’t officially endorsed by Wikipedia, we found the challenge too much fun to turn down.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.twigkit.com/blog/2011/08/19/redesigning-wikipedia-search.html">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="July-26-2011" data-publisher="A List Apart" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.alistapart.com/articles/the-ux-of-learning/">A List Apart</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Jul 26, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.alistapart.com/articles/the-ux-of-learning/">The UX of Learning</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Think of the last time you ordered a book, booked a flight, or bought a car. How did you choose which book to read, where to go for vacation, or which car was best for you? You may have searched online, read reviews, or asked others for advice to help you make an informed decision. In a word, you learned. Learning is a complex process with distinct stages, each with corresponding tasks and emotions. Understanding how users learn can help us design experiences that support the user throughout the entire process. To design better learning experiences online, start by learning a thing or two about learning itself.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.alistapart.com/articles/the-ux-of-learning/">Read the rest on A List Apart.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="June-16-2011" data-publisher="Johnny Holland" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://johnnyholland.org/2011/06/16/learning-styles-the-cognitive-side-of-content/">Johnny Holland</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Jun 16, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://johnnyholland.org/2011/06/16/learning-styles-the-cognitive-side-of-content/">Learning Styles</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>You and I are different. It’s obvious, but has a profound impact on fulfilling the needs of disparate users. Not only do you and I have different accents, hairstyles, and musical tastes, but even our cognitive processes — the very building blocks of being human — are substantially different. I recently wrote about individual differences in expertise and cognitive style, but there is a third dimension: learning style. Understanding how people learn is fundamental to delivering desirable content, a prerequisite of any good user experience.</p>
+			
+			
+				<p class="more">
+					<a href="http://johnnyholland.org/2011/06/16/learning-styles-the-cognitive-side-of-content/">Read the rest on Johnny Holland.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="May-20-2011" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.twigkit.com/blog/2011/05/20/a-call-for-high-quality-open-source-demo-data.html">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">May 20, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.twigkit.com/blog/2011/05/20/a-call-for-high-quality-open-source-demo-data.html">A Call for High Quality Demo Data</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>There is a huge need for a standard corpus of high-quality, free-to-use demo data. When building search applications, for instance, getting your hands on actual data can be near impossible, forcing you to design for unrealistic situations and compromising the end result. Well-rounded demo data would help ensure you’re working towards the right target.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.twigkit.com/blog/2011/05/20/a-call-for-high-quality-open-source-demo-data.html">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="May-12-2011" data-publisher="UX Magazine" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://uxmag.com/design/cognitive-styles">UX Magazine</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">May 12, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://uxmag.com/design/cognitive-styles">Cognitive Styles</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>We pour over analytics, conduct ethnographic studies, and interview users in order to understand the demographics, goals, and tasks of the people using our product. We create personas, write scenarios, and list use cases. And so we should; understanding who our users are and what they want to achieve is foundational to our job as designers.</p>
+
+<p>But how deep does our understanding of users actually go? Sure, we know their socio-economic bracket, what industry they work in, and the top few tasks they want to achieve on our website. But are there deeper, more innately personal characteristics at work? Can we figure out what really makes them tick?</p>
+
+<p>For over a century, psychologists have been trying to account for the range of individual differences people exhibit when interacting with new information. At the heart of their research lie cognitive styles—the stable attitudes, preferences, and habitual strategies that determine how an individual processes information. Understanding cognitive styles will help us design better experiences for users.</p>
+			
+			
+				<p class="more">
+					<a href="http://uxmag.com/design/cognitive-styles">Read the rest on UX Magazine.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="April-20-2011" data-publisher="Boxes & Arrows" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.boxesandarrows.com/view/novices-orienteer">Boxes & Arrows</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Apr 20, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.boxesandarrows.com/view/novices-orienteer">Novices Orienteer, Experts Teleport</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Would you rather take a photo using your phone, a point-and-shoot camera, or a digital SLR? How you answer this question is probably a good indicator of your photographic expertise. If you snap casual shots, your phone or a point-and-shoot camera will probably suffice. If you’re a professional photographer, on the other hand, you probably prefer using an SLR that gives you control over the focus, aperture, and exposure. Expertise significantly impacts how we seek information online. Just as novice and expert photographers prefer different tools, so novices and experts behave differently when searching for information. Understanding these differences will help us design better search interfaces for both groups of users.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.boxesandarrows.com/view/novices-orienteer">Read the rest on Boxes & Arrows.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="April-08-2011" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.twigkit.com/blog/2011/04/08/why-developers-should-become-ux-designers.html">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Apr 08, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.twigkit.com/blog/2011/04/08/why-developers-should-become-ux-designers.html">Why Devs Should Become UXers</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Why do you code? It’s probably not just for a pay check (lets face it, there are plenty of boring jobs out there that pay the bills). Maybe you code because you like working with the latest technology, or perhaps you take pleasure in crafting concise, elegant solutions to tough problems. Did I hear you say, “I code to deliver value to users”? Hmm, didn’t think so. But you’re not alone: designers have their own set of motivations devoid of the user, from seeking the praise of others to creating a work of art. It’s imperative that both designers and developers fight against our natural inclinations and treat the user as king. Whatever you’re working on, whether it’s an API for a payment gateway or a new request handler for Solr, you’re building it for the people who will use it. Want to become a better developer? Then start designing the user experience.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.twigkit.com/blog/2011/04/08/why-developers-should-become-ux-designers.html">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="March-30-2011" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.twigkit.com/blog/2011/03/30/why-designers-should-give-a-bleep.html">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Mar 30, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.twigkit.com/blog/2011/03/30/why-designers-should-give-a-bleep.html">Why Designers Should Care About Search</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Why do you code? It’s probably not just for a pay check (lets face it, there are plenty of boring jobs out there that pay the bills). Maybe you code because you like working with the latest technology, or perhaps you take pleasure in crafting concise, elegant solutions to tough problems. Did I hear you say, “I code to deliver value to users”? Hmm, didn’t think so. But you’re not alone: designers have their own set of motivations devoid of the user, from seeking the praise of others to creating a work of art. It’s imperative that both designers and developers fight against our natural inclinations and treat the user as king. Whatever you’re working on, whether it’s an API for a payment gateway or a new request handler for Solr, you’re building it for the people who will use it. Want to become a better developer? Then start designing the user experience.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.twigkit.com/blog/2011/03/30/why-designers-should-give-a-bleep.html">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="February-09-2011" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.twigkit.com/blog/2011/02/09/search-as-a-flow-experience.html">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Feb 09, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.twigkit.com/blog/2011/02/09/search-as-a-flow-experience.html">Search as a Flow Experience</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>When was the last time that you were “in the zone”? Do you remember being so absorbed in an activity that you forgot about the outside world, time seemed to fade away, and you felt invigorated? Maybe you’re an avid tennis player and remember a rigorous game when you seemed on fire. Or perhaps you’re a musician and recall feeling as if the notes were flowing through your fingertips. Psychologist Mihaly Csikszentmihalyi calls this state of optimal experience flow. In his research, he found that musicians, composers, athletes, and even chess players all used the same words to explain their enjoyment. Csikszentmihalyi identified 8 elements that contribute to a flow experience.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.twigkit.com/blog/2011/02/09/search-as-a-flow-experience.html">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="February-05-2011" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://blog.twigkit.com/foodily/">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Feb 05, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://blog.twigkit.com/foodily/">A Review of Foodily’s Recipe Search</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>This past week I discovered a new recipe search engine called Foodily. Both the interaction and the visual design are superb, and Foodily makes use of several novel patterns that I thought would be worth pointing out.</p>
+			
+			
+				<p class="more">
+					<a href="http://blog.twigkit.com/foodily/">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="January-05-2011" data-publisher="UX Magazine" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.uxmag.com/technology/from-pattern-to-component">UX Magazine</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Jan 05, 2011</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.uxmag.com/technology/from-pattern-to-component">From Pattern to Component</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>In 1899 the largest automobile producer in world, Benz &amp; Cie, made a grand total of 572 cars. Few could afford such hand-built luxuries. But in 1908 Henry Ford began to mass-produce the Model T using an assembly line. By distilling the complex process of constructing an automobile into a distinct set of repeatable tasks, Ford reduced the time required to assemble a car down to just 93 minutes. By the 1920s, 10,000 cars were being produced every day, each with a price tag of just $290. Software, too, thrives on the transformation of abstract ideas into concrete, reusable components.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.uxmag.com/technology/from-pattern-to-component">Read the rest on UX Magazine.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="November-18-2010" data-publisher="Nutshell Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.nutshell.com/development/2010/11/nutshell-launches-in-nyc/">Nutshell Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Nov 18, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.nutshell.com/development/2010/11/nutshell-launches-in-nyc/">Nutshell Launches in NYC</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>It’s been an exciting week for the Nutshell team. We’ve been in New York City officially launching the company in front of about 500 of our peers at the Future of Web Design conference. On Monday, Andy Fowler (our lead developer) and I went on stage at the end of the conference to make the big announcement. We shared some of the key tenets of our development strategy including cross-platform design, building the API first, and prototyping on paper.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.nutshell.com/development/2010/11/nutshell-launches-in-nyc/">Read the rest on Nutshell Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="September-27-2010" data-publisher="Amazon.com" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.amazon.com/gp/product/0321703545?ie=UTF8&tag=simpandusab-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545http://www.amazon.com/gp/product/0321703545?ie=UTF8&tag=simpandusab-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545#customerreviews">Amazon.com</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Sep 27, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.amazon.com/gp/product/0321703545?ie=UTF8&tag=simpandusab-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545http://www.amazon.com/gp/product/0321703545?ie=UTF8&tag=simpandusab-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545#customerreviews">Review of Simple and Usable by Giles Colborne</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>We&#8217;ve all been frustrated by a gadget, from trying to install a printer to spending hours setting up a new mobile phone. Page one of Simple and Usable points out that: “The Technology that is supposed to make our lives easier often feels like it&#8217;s on the march against us.” What then is the antidote to confusing products, software, and web sites? The answer is — as one might guess from the title of the book — simplicity. Simple and Usable is both an extremely approachable and an incredibly practical guide to simplicity. Author Giles Colborne compelling shares four fundamental strategies for accomplishing simplicity: remove, organize, hide, and displace.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.amazon.com/gp/product/0321703545?ie=UTF8&tag=simpandusab-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545http://www.amazon.com/gp/product/0321703545?ie=UTF8&tag=simpandusab-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321703545#customerreviews">Read the rest on Amazon.com.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="August-31-2010" data-publisher="Lucid Imagination" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.lucidimagination.com/blog/2010/08/31/guest-post-qa-on-designing-the-search-experience-with-twigkits-tyler-tate/">Lucid Imagination</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Aug 31, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.lucidimagination.com/blog/2010/08/31/guest-post-qa-on-designing-the-search-experience-with-twigkits-tyler-tate/">Q&A on Designing the Search Experience</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Lucid Imagination recently invited me to present a webinar on designing user interfaces for search. At the end of the webinar, a number of participants sent in several really good questions. Here are 10 of them, accompanied by my answers.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.lucidimagination.com/blog/2010/08/31/guest-post-qa-on-designing-the-search-experience-with-twigkits-tyler-tate/">Read the rest on Lucid Imagination.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="August-26-2010" data-publisher="Nutshell Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.nutshell.com/blog/2010/08/sketch/">Nutshell Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Aug 26, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.nutshell.com/blog/2010/08/sketch/">Paper & Ink (Sketching Nutshell)</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>What does building a brand new CRM for medium-sized businesses look like? Way before pushing our first pixel, we listened to people recount their frustrations with CRMs on the market today. We had long discussions about how we wanted to both empower sales people to do their job more efficiently, and enable the business to control and codify the sales process. We spent long sessions in front of the whiteboard, and days sketching out and talking through these ideas. Now in the final stages of development (eying a launch later this year), we thought it as good a time as any to show you a few of those early sketches.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.nutshell.com/blog/2010/08/sketch/">Read the rest on Nutshell Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="July-05-2010" data-publisher="Johnny Holland" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://johnnyholland.org/2010/07/05/the-scent-of-search/">Johnny Holland</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Jul 05, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://johnnyholland.org/2010/07/05/the-scent-of-search/">The Scent of Search</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>The implications of Information Foraging Theory on designing user-centred websites have not gone unnoticed. Jakob Nielsen and Jared Spool, among others, have put forth considered recommendations on how to enhance information scent on the web. Most of their guidelines, however, tend to assume that the designer has direct control over the explicit words used in the interface. While this is certainly the case for browse-based websites dependent on site-wide navigation and hyperlinks, it breaks down for search interfaces where both content and navigation are completely dynamic.</p>
+			
+			
+				<p class="more">
+					<a href="http://johnnyholland.org/2010/07/05/the-scent-of-search/">Read the rest on Johnny Holland.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="June-29-2010" data-publisher="UX Booth" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.uxbooth.com/blog/concerning-fidelity-and-design/">UX Booth</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Jun 29, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.uxbooth.com/blog/concerning-fidelity-and-design/">Concerning Fidelity in Design</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>People swear by their design process. Rachel Glaves insists on sketching by hand, Dan Brown urges extensive wireframing, and Ryan Singer goes straight to HTML. Conferences are filled with heated debates as advocates of each staunchly defend their favoured technique. With all of these different methods to choose from, should you be sketching, wireframing, mocking-up, or prototyping? The answer is simply: Yes, you should.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.uxbooth.com/blog/concerning-fidelity-and-design/">Read the rest on UX Booth.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="May-05-2010" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://blog.twigkit.com/google-redesign/">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">May 05, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://blog.twigkit.com/google-redesign/">A Closer Look at the Google Redesign</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>This morning I got out of bed, ate my cereal, took my shower. Everything was proceeding pretty predictably. But then I did a Google search — usually a pretty mundane task — but this morning, Google looked very different than it did yesterday.</p>
+			
+			
+				<p class="more">
+					<a href="http://blog.twigkit.com/google-redesign/">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="April-27-2010" data-publisher="Nutshell Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.nutshell.com/development/2010/04/bright-future-for-crm/">Nutshell Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Apr 27, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.nutshell.com/development/2010/04/bright-future-for-crm/">A Bright New Future for CRM</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>We’ve been putting together a small slide deck explaining what’s wrong with customer relationship management (CRM) as we know it, and how Nutshell is getting it right. Fortunately for us, there’s a whole lot of room for improvement.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.nutshell.com/development/2010/04/bright-future-for-crm/">Read the rest on Nutshell Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="April-01-2010" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://blog.twigkit.com/ecir-industry-day-2010/">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Apr 01, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://blog.twigkit.com/ecir-industry-day-2010/">ECIR Industry Day 2010</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>The event consisted of 12 different speakers each presenting for exactly 20 minutes, with about 10 minutes of Q&amp;A after each. I particularly enjoyed the presentations from the major search engines: Yahoo, Google, Bing, and Wolfram Alpha. A topic that seemed to arise in each of those talks was how query reformulation data can provide a feedback loop to make search better. But without further ado, here are my summaries of each talk.</p>
+			
+			
+				<p class="more">
+					<a href="http://blog.twigkit.com/ecir-industry-day-2010/">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="February-08-2010" data-publisher="TwigKit Blog" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://blog.twigkit.com/search-suggestions-part-1/">TwigKit Blog</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Feb 08, 2010</span>
+			</p>
+			<h2>
+				
+					<a href="http://blog.twigkit.com/search-suggestions-part-1/">Search Suggestions</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>You used to be expected to type for yourself. But today people have come to expect a reasonable amount of help at even this task. Our phones now help us form correctly-spelled words, our browsers fill in long addresses after we’ve typed only a few characters, and search engines recommend searching for “Humphrey Bogart” after we’ve typed just “boga.” But not all as-you-type search suggests are created equal. Careful observation seems to reveal three different approaches: completion, suggestion, and instant results. These approaches range in cognitive burden on the one hand, and utility on the other. We’ll look at several examples of each and consider when they should be used.</p>
+			
+			
+				<p class="more">
+					<a href="http://blog.twigkit.com/search-suggestions-part-1/">Read the rest on TwigKit Blog.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="October-07-2009" data-publisher="Smashing Magazine" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.smashingmagazine.com/2009/10/07/minimizing-complexity-in-user-interfaces/">Smashing Magazine</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">Oct 07, 2009</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.smashingmagazine.com/2009/10/07/minimizing-complexity-in-user-interfaces/">Minimizing Complexity</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Clean. Easy to use. User-friendly. Intuitive. This mantra is proclaimed by many but often gets lost in translation. The culprit: complexity. How one deals with complexity can make or break an application. A complex interface can disorient the user in a mild case and completely alienate them in an extreme case. But if you take measures first to reduce actual complexity and then to minimise perceived complexity, the user will be rewarded with a gratifying experience.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.smashingmagazine.com/2009/10/07/minimizing-complexity-in-user-interfaces/">Read the rest on Smashing Magazine.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="May-29-2009" data-publisher="Usability Post" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://www.usabilitypost.com/2009/05/29/the-1kb-css-grid-part-1/">Usability Post</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">May 29, 2009</span>
+			</p>
+			<h2>
+				
+					<a href="http://www.usabilitypost.com/2009/05/29/the-1kb-css-grid-part-1/">The 1KB CSS Grid</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Other CSS frameworks try to do everything—grid system, style reset, basic typography, form styles. But complex systems are, well, complex. Looking for a simple, lightweight approach that doesn&#8217;t require a PhD? Meet The 1KB CSS Grid.</p>
+			
+			
+				<p class="more">
+					<a href="http://www.usabilitypost.com/2009/05/29/the-1kb-css-grid-part-1/">Read the rest on Usability Post.</a>
+				</p>
+			
+		</section>
+	</article>
+
+	<article id="May-22-2009" data-publisher="Web Design Ledger" >
+		<header>
+			<p>
+				
+					<a class="publisher" href="http://webdesignledger.com/tutorials/create-a-resizable-image-grid-with-jquery">Web Design Ledger</a>
+					&nbsp;&bull;&nbsp;
+				
+				<span class="date">May 22, 2009</span>
+			</p>
+			<h2>
+				
+					<a href="http://webdesignledger.com/tutorials/create-a-resizable-image-grid-with-jquery">Creating a Resizable Image Grid</a>
+				
+			</h2>
+		</header>
+		<section>
+			<p>Other CSS frameworks try to do everything—grid system, style reset, basic typography, form styles. But complex systems are, well, complex. Looking for a simple, lightweight approach that doesn&#8217;t require a PhD? Meet The 1KB CSS Grid.</p>
+			
+			
+				<p class="more">
+					<a href="http://webdesignledger.com/tutorials/create-a-resizable-image-grid-with-jquery">Read the rest on Web Design Ledger.</a>
+				</p>
+			
+		</section>
+	</article>
+
+		</article>
+		
+		<aside id="ad">
+			<!-- AdPacks.com Zone Code -->
+			<div id="bsap_1259205" class="bsarocks bsap_25779f8aebf23dd2e6c5b30743833cb3"></div>
+			<a href="http://adpacks.com" id="bsap_aplink">via Ad Packs</a>
+			<!-- End AdPacks.com Zone Code -->
+		</aside>
+		
+	</div>
+
+</body>
+</html>

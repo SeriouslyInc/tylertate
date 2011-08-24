@@ -1,0 +1,146 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+	<title>Tyler Tate. Semantic Semantics</title>
+
+	<link rel="stylesheet" href="http://localhost:4000//resources/css/main.css" type="text/css" media="screen" charset="utf-8">
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-761992-5");
+			pageTracker._trackPageview();
+			} catch(err) {}
+	</script>
+</head>
+
+<body id="blog">
+	
+	<!-- AdPacks.com Ad Code -->
+	<script type="text/javascript">
+	(function(){
+	  var bsa = document.createElement('script');
+	     bsa.type = 'text/javascript';
+	     bsa.async = true;
+	     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+	  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+	})();
+	</script>
+	
+	<div id="container">
+
+		<header id="page-header">
+			<h1><a href="/">Tyler Tate</a></h1>
+		</header>
+
+		<article id="mainbody">
+			<article>
+	<header>
+		<p>
+			
+			<span class="date">Aug 24, 2011</span>
+		</p>
+		<h2>Semantic Semantics</h2>
+	</header>
+	<p>Yesterday we released a new CSS grid called the <a href='http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/'>Semantic Grid System</a>, or <a href='http://Semantic.gs'>Semantic.gs</a> for short. Not long afterwards, <a href='https://twitter.com/nathansmith'>Nathan Smith</a> had a long discussion on Twitter over the meaning of &#8220;semantic.&#8221; But, as is often the case, Twitter just doesn&#8217;t do justice to nuanced discussions. Hence this blog post.</p>
+
+<h3 id='the_backdrop'>The Backdrop</h3>
+
+<p>One key difference between Semantic.gs and &#8220;traditional&#8221; CSS Grid systems is that layout decisions are <strong>isolated to the stylesheet</strong> in the case of former, while layout commands are <strong>mixed with the HTML markup</strong> in the latter. Here is an example of the same operation in Semantic.gs, and my <a href='http://1kbgrid.com'>1KB Grid</a> from a couple years ago (which borrowed from the landmark <a href='http://960.gs'>960 Grid</a>):</p>
+
+<p>The Semantic.gs way:</p>
+
+<pre><code>// HTML
+&lt;article&gt;Main&lt;/article&gt;
+&lt;section&gt;Sidebar&lt;/section&gt;
+
+// STYLESHEET
+article { .column(9); }
+section { .column(3); }</code></pre>
+
+<p>The traditional grid system way:</p>
+
+<pre><code>// HTML
+&lt;article class=&quot;column grid_9&quot;&gt;
+	Main
+&lt;/article&gt;
+&lt;section class=&quot;column grid_3&quot;&gt;
+	Sidebar
+&lt;/section&gt;</code></pre>
+
+<h3 id='the_question'>The Question</h3>
+
+<p>While the traditional approach references both content and display information in the HTML, Semantic.gs clearly distinguishes between the two, isolating presentational information to the stylesheet. I describe this approach as &#8220;semantic.&#8221; However, there seems to be contention over the definition of the word, and whether or not its fair to describe the traditional CSS grid approach as non-semantic. In particular, do CSS class names apply to the conversation of semantics, or are they completely neutral of any semantic/non-semantic quality? Here&#8217;s what I think.</p>
+
+<h3 id='lowercase_semantic_web'>Lowercase Semantic Web</h3>
+
+<p>The <a href='http://en.wikipedia.org/wiki/Meaning_%28linguistic%29'>Wikipedia definition</a> of semantic is: &#8220;content carried by words or signs … when communicating through language.&#8221;</p>
+
+<p>In context of the web, however, it&#8217;s helpful to begin by differentiating between two uses of the word in question. Founding figures of microformats such as <a href='http://complexspiral.com/events/archive/2005/sxsw/'>Eric Meyer</a> and <a href='http://tantek.com/presentations/2004etech/realworldsemanticspres.html'>Tantek Çelik and Kevin Marks</a> used to distinguish between the &#8220;lowercase semantic web&#8221; as thought of in standards-based web design, and <a href='http://www.w3.org/DesignIssues/Semantic.html'>The Semantic Web</a>, Tim Berners-Lee&#8217;s grand plan to re-architect the future Internet. I speak of lowercase semantics.</p>
+
+<p>The general thrust of the now decade-old web standards movement has been towards greater separation between content and display by shunning table-based layouts and font tags, while embracing semantic markup and CSS. Here&#8217;s how Dan Cederholm explained semantics in his book <em>Web Standards Solutions</em>:</p>
+
+<blockquote>
+<p>&#8220;What I mean when I talk about semantics is that we&#8217;re striving to use tags that imply meaning, rather than a presentational instruction… By structuring web pages with semantic markup, we&#8217;ll move closer to separating content from presentation.&#8221; — <em>Dan Cederholm</em></p>
+</blockquote>
+
+<h3 id='css_classes_count'>CSS Classes Count</h3>
+
+<p>Taken to its logical conclusion, semantics must refer to the entire body of the HTML document; no parts are spared, including the CSS class names added to HTML elements. In fact, the <code>id</code> and <code>class</code> attributes are repeatedly discussed as inherent means of extending the semantic nature of HTML&#8217;s limited vocabulary of elements. John Allsopp, in his informative <a href='http://microformatique.com/?p=83'>three-part series on semantics</a>, says:</p>
+
+<blockquote>
+<p>&#8220;The semantics of HTML were, and remain, lightweight - though the small number of mechanisms for extending the semantics of HTML marked up documents, such as the use of the class attribute, and attributes such as rel have been increasingly used over the last half a decade or so to <strong>increase the semantic nature</strong> of web content, and extend HTML’s reasonably limited built in semantics.&#8221; — <em>John Allsopp</em></p>
+</blockquote>
+
+<p>Not only can <code>id</code> and <code>class</code> attributes be used to <em>extend</em> the semantics of the document, but using them haphazardly can indeed detract from the semantic-ness of the page, as Jeffrey Zeldman explains in his book <em>Designing with Web Standards</em>:</p>
+
+<blockquote>
+<p>&#8220;Gladys&#8221; or &#8220;orangebox&#8221; would be perfectly kosher <span>names</span> within the rules of XHTML. But semantic or meta-structureal names (names that explain the function performed by elements contained within) are best. You would feel pretty sill having labeled a part of your site &#8220;orangebox&#8221; when the client decides to go with blue.&#8221; — <em>Jeffrey Zeldman</em></p>
+</blockquote>
+
+<p>So if a class of &#8220;orangebox&#8221; is considered non-semantic, the same logic would apply to class names like &#8220;grid_6&#8221;. Zeldman goes on to draw a very sharp distinction between <code>id</code> / <code>class</code> names and design:</p>
+
+<blockquote>
+<p>&#8220;Crafting structural <code>id</code> labels like &#8216;menu&#8217; or &#8216;content&#8217; or &#8216;search form&#8217; helps you remember that markup is not design and that a well-structured page can be made to look any way you desire.&#8221;</p>
+</blockquote>
+
+<h3 id='but_it_still_validates'>But it Still Validates</h3>
+
+<p>There are a lot of wise voices who advocate semantic markup, including semantic CSS classes, to achieve separation between content and presentation. However, a distinction should be made between <em>semantic</em> markup and <em>valid</em> markup. Do non-semantic CSS classes like &#8220;orangebox&#8221; or &#8220;grid_6&#8221; still validate? Of course! Do they still render correctly in browsers, screen readers, and search engines? Naturally. This harks back to <a href='http://www.kottke.org/03/08/standards-semantically-correct'>Jason Kottke&#8217;s</a> observation back in 2003:</p>
+
+<blockquote>
+<p>&#8220;Last time I checked (about two minutes ago&#8230;to see if I was actually correct), both the <code>&lt;table&gt;</code> and <code>&lt;font&gt;</code> tags are valid XHTML 1.0 Transitional tags and the <code>&lt;table&gt;</code> tag is a valid XHTML 1.1 tag. Documents with <code>&lt;table&gt;</code> and <code>&lt;font&gt;</code> tags are standards-compliant.&#8221; — <em>Jason Kottke</em></p>
+</blockquote>
+
+<p>To which <a href='http://www.mezzoblue.com/archives/2003/08/26/semantics_an/'>Dave Shea</a> replied:</p>
+
+<blockquote>
+<p>&#8220;Jason is absolutely correct. You are allowed to use <code>&lt;font&gt;</code> tags in your valid XHTML. You are allowed to continue designing with tables. As long as you lowercase your tags and watch your nesting, there is nothing stopping you from building your XHTML sites without a lick of CSS. But if this is all you’re doing, you are like the driver of the VW Beetle carefully pulling to a stop at the light, failing to move for the Mack truck barrelling toward him at 120km/h. Sure he’s following the letter of the law, but the light was put there for his safety. He’s completely missing the spirit in which it was written.&#8221; — <em>Dave Shea</em></p>
+</blockquote>
+
+<h3 id='is_semantic_better'>Is Semantic Better?</h3>
+
+<p>David Shea&#8217;s response was a bit harsh. Absolute purity is not always necessary, and there are plenty who think that <a href='http://www.lukew.com/ff/entry.asp?1379'>more semantic is not always better</a>. It is sometimes worth cutting a few semantic corners — such as by using &#8220;grid_x&#8221; class names — to save time or make things simpler for developers. It&#8217;s a tradeoff that should be made judiciously rather than pursuing pure semantics at all cost.</p>
+
+<p>However, truly semantic markup (including semantic <code>class</code> names) does have distinct advantages. Above all else, non-semantic markup will always be tied to a given format. To achieve a future of <a href='http://www.alistapart.com/articles/responsive-web-design/'>responsive design</a>, we need to separate content from how it is presented.</p>
+</article>
+		</article>
+		
+		<aside id="ad">
+			<!-- AdPacks.com Zone Code -->
+			<div id="bsap_1259205" class="bsarocks bsap_25779f8aebf23dd2e6c5b30743833cb3"></div>
+			<a href="http://adpacks.com" id="bsap_aplink">via Ad Packs</a>
+			<!-- End AdPacks.com Zone Code -->
+		</aside>
+		
+	</div>
+
+</body>
+</html>
