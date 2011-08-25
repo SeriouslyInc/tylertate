@@ -9,8 +9,9 @@ layout: rss
 		<link>http://www.tylertate.com/</link>
 		{% for post in site.posts %}
 			<item>
-				<title>{{ post.title }}</title>
-				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+				<title>{{ post.title | xml_escape }}</title>
+				<guid>{{ post.url }}</guid>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
 				<description>{{ post.content | xml_escape }}</description>
 				<link>http://www.tylertate.com{{ post.url }}</link>
 			</item>
