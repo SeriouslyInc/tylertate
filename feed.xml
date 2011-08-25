@@ -7,6 +7,7 @@ layout: rss
 		<title>Tyler Tate</title>
 		<description>Making the complex feel simple.</description>
 		<link>http://www.tylertate.com/</link>
+		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
@@ -16,6 +17,5 @@ layout: rss
 				<guid>http://www.tylertate.com{{ post.url }}</guid>
 			</item>
 		{% endfor %}
-		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
