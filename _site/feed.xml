@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tyler Tate</title>
 		<description>Making the complex feel simple.</description>
@@ -7,47 +7,46 @@
 		
 			<item>
 				<title>The Semantic Grid System</title>
-				<guid>/blog/2011/08/23/semantic-grid-system.html</guid>
 				<pubDate>Tue, 23 Aug 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;CSS grid frameworks can make your life easier, but they’re not without their faults. Fortunately for us, modern techniques offer a new approach to constructing page layouts. But before getting to the solution, we must first understand the three seemingly insurmountable flaws currently affecting CSS grids.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/08/23/semantic-grid-system.html</link>
+				<guid>http://www.tylertate.com/blog/2011/08/23/semantic-grid-system.html</guid>
 			</item>
 		
 			<item>
 				<title>Redesigning Wikipedia's Search</title>
-				<guid>/blog/2011/08/19/redesigning-wikipedia-search.html</guid>
 				<pubDate>Fri, 19 Aug 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Yesterday was the deadline to submit a redesign of Wikipedia’s search page to the search design contest organized by Greplin. While the contest isn’t officially endorsed by Wikipedia, we found the challenge too much fun to turn down.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/08/19/redesigning-wikipedia-search.html</link>
+				<guid>http://www.tylertate.com/blog/2011/08/19/redesigning-wikipedia-search.html</guid>
 			</item>
 		
 			<item>
 				<title>The UX of Learning</title>
-				<guid>/blog/2011/07/26/ux-of-learning.html</guid>
 				<pubDate>Tue, 26 Jul 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Think of the last time you ordered a book, booked a flight, or bought a car. How did you choose which book to read, where to go for vacation, or which car was best for you? You may have searched online, read reviews, or asked others for advice to help you make an informed decision. In a word, you learned. Learning is a complex process with distinct stages, each with corresponding tasks and emotions. Understanding how users learn can help us design experiences that support the user throughout the entire process. To design better learning experiences online, start by learning a thing or two about learning itself.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/07/26/ux-of-learning.html</link>
+				<guid>http://www.tylertate.com/blog/2011/07/26/ux-of-learning.html</guid>
 			</item>
 		
 			<item>
 				<title>Learning Styles</title>
-				<guid>/blog/2011/06/16/learning-styles.html</guid>
 				<pubDate>Thu, 16 Jun 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;You and I are different. It’s obvious, but has a profound impact on fulfilling the needs of disparate users. Not only do you and I have different accents, hairstyles, and musical tastes, but even our cognitive processes — the very building blocks of being human — are substantially different. I recently wrote about individual differences in expertise and cognitive style, but there is a third dimension: learning style. Understanding how people learn is fundamental to delivering desirable content, a prerequisite of any good user experience.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/06/16/learning-styles.html</link>
+				<guid>http://www.tylertate.com/blog/2011/06/16/learning-styles.html</guid>
 			</item>
 		
 			<item>
 				<title>A Call for High Quality Demo Data</title>
-				<guid>/blog/2011/05/20/call-for-high-quality-demo-data.html</guid>
 				<pubDate>Fri, 20 May 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;There is a huge need for a standard corpus of high-quality, free-to-use demo data. When building search applications, for instance, getting your hands on actual data can be near impossible, forcing you to design for unrealistic situations and compromising the end result. Well-rounded demo data would help ensure you’re working towards the right target.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/05/20/call-for-high-quality-demo-data.html</link>
+				<guid>http://www.tylertate.com/blog/2011/05/20/call-for-high-quality-demo-data.html</guid>
 			</item>
 		
 			<item>
 				<title>Cognitive Styles</title>
-				<guid>/blog/2011/05/12/cognitive-styles.html</guid>
 				<pubDate>Thu, 12 May 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;We pour over analytics, conduct ethnographic studies, and interview users in order to understand the demographics, goals, and tasks of the people using our product. We create personas, write scenarios, and list use cases. And so we should; understanding who our users are and what they want to achieve is foundational to our job as designers.&lt;/p&gt;
 
@@ -55,247 +54,249 @@
 
 &lt;p&gt;For over a century, psychologists have been trying to account for the range of individual differences people exhibit when interacting with new information. At the heart of their research lie cognitive styles—the stable attitudes, preferences, and habitual strategies that determine how an individual processes information. Understanding cognitive styles will help us design better experiences for users.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/05/12/cognitive-styles.html</link>
+				<guid>http://www.tylertate.com/blog/2011/05/12/cognitive-styles.html</guid>
 			</item>
 		
 			<item>
 				<title>From Lookup to Learning</title>
-				<guid>/events/2011/04/21/from-lookup-to-learning.html</guid>
 				<pubDate>Thu, 21 Apr 2011 00:00:00 BST</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2011/04/21/from-lookup-to-learning.html</link>
+				<guid>http://www.tylertate.com/events/2011/04/21/from-lookup-to-learning.html</guid>
 			</item>
 		
 			<item>
 				<title>Novices Orienteer, Experts Teleport</title>
-				<guid>/blog/2011/04/20/novices-orienteer-experts-teleport.html</guid>
 				<pubDate>Wed, 20 Apr 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Would you rather take a photo using your phone, a point-and-shoot camera, or a digital SLR? How you answer this question is probably a good indicator of your photographic expertise. If you snap casual shots, your phone or a point-and-shoot camera will probably suffice. If you’re a professional photographer, on the other hand, you probably prefer using an SLR that gives you control over the focus, aperture, and exposure. Expertise significantly impacts how we seek information online. Just as novice and expert photographers prefer different tools, so novices and experts behave differently when searching for information. Understanding these differences will help us design better search interfaces for both groups of users.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/04/20/novices-orienteer-experts-teleport.html</link>
+				<guid>http://www.tylertate.com/blog/2011/04/20/novices-orienteer-experts-teleport.html</guid>
 			</item>
 		
 			<item>
 				<title>Designing a Modern CRM</title>
-				<guid>/events/2011/04/19/designing-a-modern-crm.html</guid>
 				<pubDate>Tue, 19 Apr 2011 00:00:00 BST</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2011/04/19/designing-a-modern-crm.html</link>
+				<guid>http://www.tylertate.com/events/2011/04/19/designing-a-modern-crm.html</guid>
 			</item>
 		
 			<item>
 				<title>Why Devs Should Become UXers</title>
-				<guid>/blog/2011/04/08/why-developers-should-become-ux-designers.html</guid>
 				<pubDate>Fri, 08 Apr 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Why do you code? It’s probably not just for a pay check (lets face it, there are plenty of boring jobs out there that pay the bills). Maybe you code because you like working with the latest technology, or perhaps you take pleasure in crafting concise, elegant solutions to tough problems. Did I hear you say, “I code to deliver value to users”? Hmm, didn’t think so. But you’re not alone: designers have their own set of motivations devoid of the user, from seeking the praise of others to creating a work of art. It’s imperative that both designers and developers fight against our natural inclinations and treat the user as king. Whatever you’re working on, whether it’s an API for a payment gateway or a new request handler for Solr, you’re building it for the people who will use it. Want to become a better developer? Then start designing the user experience.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/04/08/why-developers-should-become-ux-designers.html</link>
+				<guid>http://www.tylertate.com/blog/2011/04/08/why-developers-should-become-ux-designers.html</guid>
 			</item>
 		
 			<item>
 				<title>From Lookup to Learning</title>
-				<guid>/events/2011/04/05/from-lookup-to-learning.html</guid>
 				<pubDate>Tue, 05 Apr 2011 00:00:00 BST</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2011/04/05/from-lookup-to-learning.html</link>
+				<guid>http://www.tylertate.com/events/2011/04/05/from-lookup-to-learning.html</guid>
 			</item>
 		
 			<item>
 				<title>Why Designers Should Care About Search</title>
-				<guid>/blog/2011/03/30/why-designers-should-care-about-search.html</guid>
 				<pubDate>Wed, 30 Mar 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Why do you code? It’s probably not just for a pay check (lets face it, there are plenty of boring jobs out there that pay the bills). Maybe you code because you like working with the latest technology, or perhaps you take pleasure in crafting concise, elegant solutions to tough problems. Did I hear you say, “I code to deliver value to users”? Hmm, didn’t think so. But you’re not alone: designers have their own set of motivations devoid of the user, from seeking the praise of others to creating a work of art. It’s imperative that both designers and developers fight against our natural inclinations and treat the user as king. Whatever you’re working on, whether it’s an API for a payment gateway or a new request handler for Solr, you’re building it for the people who will use it. Want to become a better developer? Then start designing the user experience.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/03/30/why-designers-should-care-about-search.html</link>
+				<guid>http://www.tylertate.com/blog/2011/03/30/why-designers-should-care-about-search.html</guid>
 			</item>
 		
 			<item>
 				<title>Search as a Flow Experience</title>
-				<guid>/blog/2011/02/09/search-as-a-flow-experience.html</guid>
 				<pubDate>Wed, 09 Feb 2011 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;When was the last time that you were “in the zone”? Do you remember being so absorbed in an activity that you forgot about the outside world, time seemed to fade away, and you felt invigorated? Maybe you’re an avid tennis player and remember a rigorous game when you seemed on fire. Or perhaps you’re a musician and recall feeling as if the notes were flowing through your fingertips. Psychologist Mihaly Csikszentmihalyi calls this state of optimal experience flow. In his research, he found that musicians, composers, athletes, and even chess players all used the same words to explain their enjoyment. Csikszentmihalyi identified 8 elements that contribute to a flow experience.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/02/09/search-as-a-flow-experience.html</link>
+				<guid>http://www.tylertate.com/blog/2011/02/09/search-as-a-flow-experience.html</guid>
 			</item>
 		
 			<item>
 				<title>Search as a Flow Experience</title>
-				<guid>/events/2011/02/08/search-as-a-flow-experience.html</guid>
 				<pubDate>Tue, 08 Feb 2011 00:00:00 GMT</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2011/02/08/search-as-a-flow-experience.html</link>
+				<guid>http://www.tylertate.com/events/2011/02/08/search-as-a-flow-experience.html</guid>
 			</item>
 		
 			<item>
 				<title>A Review of Foodily’s Recipe Search</title>
-				<guid>/blog/2011/02/05/a-review-of-foodilys-recipe-search.html</guid>
 				<pubDate>Sat, 05 Feb 2011 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;This past week I discovered a new recipe search engine called Foodily. Both the interaction and the visual design are superb, and Foodily makes use of several novel patterns that I thought would be worth pointing out.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/02/05/a-review-of-foodilys-recipe-search.html</link>
+				<guid>http://www.tylertate.com/blog/2011/02/05/a-review-of-foodilys-recipe-search.html</guid>
 			</item>
 		
 			<item>
 				<title>From Pattern to Component</title>
-				<guid>/events/2011/02/01/from-pattern-to-component.html</guid>
 				<pubDate>Tue, 01 Feb 2011 00:00:00 GMT</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2011/02/01/from-pattern-to-component.html</link>
+				<guid>http://www.tylertate.com/events/2011/02/01/from-pattern-to-component.html</guid>
 			</item>
 		
 			<item>
 				<title>From Pattern to Component</title>
-				<guid>/blog/2011/01/05/from-pattern-to-component.html</guid>
 				<pubDate>Wed, 05 Jan 2011 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;In 1899 the largest automobile producer in world, Benz &amp;amp; Cie, made a grand total of 572 cars. Few could afford such hand-built luxuries. But in 1908 Henry Ford began to mass-produce the Model T using an assembly line. By distilling the complex process of constructing an automobile into a distinct set of repeatable tasks, Ford reduced the time required to assemble a car down to just 93 minutes. By the 1920s, 10,000 cars were being produced every day, each with a price tag of just $290. Software, too, thrives on the transformation of abstract ideas into concrete, reusable components.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2011/01/05/from-pattern-to-component.html</link>
+				<guid>http://www.tylertate.com/blog/2011/01/05/from-pattern-to-component.html</guid>
 			</item>
 		
 			<item>
 				<title>Dealing with Diverse Data</title>
-				<guid>/events/2010/12/02/dealing-with-diverse-data.html</guid>
 				<pubDate>Thu, 02 Dec 2010 00:00:00 GMT</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2010/12/02/dealing-with-diverse-data.html</link>
+				<guid>http://www.tylertate.com/events/2010/12/02/dealing-with-diverse-data.html</guid>
 			</item>
 		
 			<item>
 				<title>Nutshell Launches in NYC</title>
-				<guid>/blog/2010/11/18/nutshell-launches-in-nyc.html</guid>
 				<pubDate>Thu, 18 Nov 2010 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;It’s been an exciting week for the Nutshell team. We’ve been in New York City officially launching the company in front of about 500 of our peers at the Future of Web Design conference. On Monday, Andy Fowler (our lead developer) and I went on stage at the end of the conference to make the big announcement. We shared some of the key tenets of our development strategy including cross-platform design, building the API first, and prototyping on paper.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/11/18/nutshell-launches-in-nyc.html</link>
+				<guid>http://www.tylertate.com/blog/2010/11/18/nutshell-launches-in-nyc.html</guid>
 			</item>
 		
 			<item>
 				<title>Review of Simple and Usable by Giles Colborne</title>
-				<guid>/blog/2010/09/27/review-simple-and-usable-by-giles-colborne.html</guid>
 				<pubDate>Mon, 27 Sep 2010 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;We&amp;#8217;ve all been frustrated by a gadget, from trying to install a printer to spending hours setting up a new mobile phone. Page one of Simple and Usable points out that: “The Technology that is supposed to make our lives easier often feels like it&amp;#8217;s on the march against us.” What then is the antidote to confusing products, software, and web sites? The answer is — as one might guess from the title of the book — simplicity. Simple and Usable is both an extremely approachable and an incredibly practical guide to simplicity. Author Giles Colborne compelling shares four fundamental strategies for accomplishing simplicity: remove, organize, hide, and displace.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/09/27/review-simple-and-usable-by-giles-colborne.html</link>
+				<guid>http://www.tylertate.com/blog/2010/09/27/review-simple-and-usable-by-giles-colborne.html</guid>
 			</item>
 		
 			<item>
 				<title>Q&amp;A on Designing the Search Experience</title>
-				<guid>/blog/2010/08/31/q-a-designing-the-search-experience.html</guid>
 				<pubDate>Tue, 31 Aug 2010 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Lucid Imagination recently invited me to present a webinar on designing user interfaces for search. At the end of the webinar, a number of participants sent in several really good questions. Here are 10 of them, accompanied by my answers.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/08/31/q-a-designing-the-search-experience.html</link>
+				<guid>http://www.tylertate.com/blog/2010/08/31/q-a-designing-the-search-experience.html</guid>
 			</item>
 		
 			<item>
 				<title>Paper &amp; Ink (Sketching Nutshell)</title>
-				<guid>/blog/2010/08/26/paper-and-ink-sketching-nutshell.html</guid>
 				<pubDate>Thu, 26 Aug 2010 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;What does building a brand new CRM for medium-sized businesses look like? Way before pushing our first pixel, we listened to people recount their frustrations with CRMs on the market today. We had long discussions about how we wanted to both empower sales people to do their job more efficiently, and enable the business to control and codify the sales process. We spent long sessions in front of the whiteboard, and days sketching out and talking through these ideas. Now in the final stages of development (eying a launch later this year), we thought it as good a time as any to show you a few of those early sketches.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/08/26/paper-and-ink-sketching-nutshell.html</link>
+				<guid>http://www.tylertate.com/blog/2010/08/26/paper-and-ink-sketching-nutshell.html</guid>
 			</item>
 		
 			<item>
 				<title>Designing the Search Experience</title>
-				<guid>/events/2010/08/18/designing-the-search-experience.html</guid>
 				<pubDate>Wed, 18 Aug 2010 00:00:00 BST</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2010/08/18/designing-the-search-experience.html</link>
+				<guid>http://www.tylertate.com/events/2010/08/18/designing-the-search-experience.html</guid>
 			</item>
 		
 			<item>
 				<title>The Scent of Search</title>
-				<guid>/blog/2010/07/05/the-scent-of-search.html</guid>
 				<pubDate>Mon, 05 Jul 2010 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;The implications of Information Foraging Theory on designing user-centred websites have not gone unnoticed. Jakob Nielsen and Jared Spool, among others, have put forth considered recommendations on how to enhance information scent on the web. Most of their guidelines, however, tend to assume that the designer has direct control over the explicit words used in the interface. While this is certainly the case for browse-based websites dependent on site-wide navigation and hyperlinks, it breaks down for search interfaces where both content and navigation are completely dynamic.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/07/05/the-scent-of-search.html</link>
+				<guid>http://www.tylertate.com/blog/2010/07/05/the-scent-of-search.html</guid>
 			</item>
 		
 			<item>
 				<title>The Story for Complexity</title>
-				<guid>/events/2010/06/30/the-story-for-complexity.html</guid>
 				<pubDate>Wed, 30 Jun 2010 00:00:00 BST</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2010/06/30/the-story-for-complexity.html</link>
+				<guid>http://www.tylertate.com/events/2010/06/30/the-story-for-complexity.html</guid>
 			</item>
 		
 			<item>
 				<title>Concerning Fidelity in Design</title>
-				<guid>/blog/2010/06/29/concerning-fidelity-in-design.html</guid>
 				<pubDate>Tue, 29 Jun 2010 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;People swear by their design process. Rachel Glaves insists on sketching by hand, Dan Brown urges extensive wireframing, and Ryan Singer goes straight to HTML. Conferences are filled with heated debates as advocates of each staunchly defend their favoured technique. With all of these different methods to choose from, should you be sketching, wireframing, mocking-up, or prototyping? The answer is simply: Yes, you should.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/06/29/concerning-fidelity-in-design.html</link>
+				<guid>http://www.tylertate.com/blog/2010/06/29/concerning-fidelity-in-design.html</guid>
 			</item>
 		
 			<item>
 				<title>The Scent of Search</title>
-				<guid>/events/2010/05/21/the-scent-of-search.html</guid>
 				<pubDate>Fri, 21 May 2010 00:00:00 BST</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2010/05/21/the-scent-of-search.html</link>
+				<guid>http://www.tylertate.com/events/2010/05/21/the-scent-of-search.html</guid>
 			</item>
 		
 			<item>
 				<title>A Closer Look at the Google Redesign</title>
-				<guid>/blog/2010/05/05/the-google-redesign-a-closer-look.html</guid>
 				<pubDate>Wed, 05 May 2010 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;This morning I got out of bed, ate my cereal, took my shower. Everything was proceeding pretty predictably. But then I did a Google search — usually a pretty mundane task — but this morning, Google looked very different than it did yesterday.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/05/05/the-google-redesign-a-closer-look.html</link>
+				<guid>http://www.tylertate.com/blog/2010/05/05/the-google-redesign-a-closer-look.html</guid>
 			</item>
 		
 			<item>
 				<title>A Bright New Future for CRM</title>
-				<guid>/blog/2010/04/27/a-bright-new-future-for-crm.html</guid>
 				<pubDate>Tue, 27 Apr 2010 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;We’ve been putting together a small slide deck explaining what’s wrong with customer relationship management (CRM) as we know it, and how Nutshell is getting it right. Fortunately for us, there’s a whole lot of room for improvement.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html</link>
+				<guid>http://www.tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html</guid>
 			</item>
 		
 			<item>
 				<title>ECIR Industry Day 2010</title>
-				<guid>/blog/2010/04/01/ecir-industry-day-2010.html</guid>
 				<pubDate>Thu, 01 Apr 2010 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;The event consisted of 12 different speakers each presenting for exactly 20 minutes, with about 10 minutes of Q&amp;amp;A after each. I particularly enjoyed the presentations from the major search engines: Yahoo, Google, Bing, and Wolfram Alpha. A topic that seemed to arise in each of those talks was how query reformulation data can provide a feedback loop to make search better. But without further ado, here are my summaries of each talk.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/04/01/ecir-industry-day-2010.html</link>
+				<guid>http://www.tylertate.com/blog/2010/04/01/ecir-industry-day-2010.html</guid>
 			</item>
 		
 			<item>
 				<title>A History of Color</title>
-				<guid>/events/2010/03/02/a-history-of-color.html</guid>
 				<pubDate>Tue, 02 Mar 2010 00:00:00 GMT</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2010/03/02/a-history-of-color.html</link>
+				<guid>http://www.tylertate.com/events/2010/03/02/a-history-of-color.html</guid>
 			</item>
 		
 			<item>
 				<title>Search Suggestions</title>
-				<guid>/blog/2010/02/08/search-suggestions.html</guid>
 				<pubDate>Mon, 08 Feb 2010 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;You used to be expected to type for yourself. But today people have come to expect a reasonable amount of help at even this task. Our phones now help us form correctly-spelled words, our browsers fill in long addresses after we’ve typed only a few characters, and search engines recommend searching for “Humphrey Bogart” after we’ve typed just “boga.” But not all as-you-type search suggests are created equal. Careful observation seems to reveal three different approaches: completion, suggestion, and instant results. These approaches range in cognitive burden on the one hand, and utility on the other. We’ll look at several examples of each and consider when they should be used.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2010/02/08/search-suggestions.html</link>
+				<guid>http://www.tylertate.com/blog/2010/02/08/search-suggestions.html</guid>
 			</item>
 		
 			<item>
 				<title>Search Suggestions</title>
-				<guid>/events/2010/02/04/search-suggestions.html</guid>
 				<pubDate>Thu, 04 Feb 2010 00:00:00 GMT</pubDate>
 				<description></description>
 				<link>http://www.tylertate.com/events/2010/02/04/search-suggestions.html</link>
+				<guid>http://www.tylertate.com/events/2010/02/04/search-suggestions.html</guid>
 			</item>
 		
 			<item>
 				<title>Minimizing Complexity</title>
-				<guid>/blog/2009/10/07/minimizing-complexity.html</guid>
 				<pubDate>Wed, 07 Oct 2009 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Clean. Easy to use. User-friendly. Intuitive. This mantra is proclaimed by many but often gets lost in translation. The culprit: complexity. How one deals with complexity can make or break an application. A complex interface can disorient the user in a mild case and completely alienate them in an extreme case. But if you take measures first to reduce actual complexity and then to minimise perceived complexity, the user will be rewarded with a gratifying experience.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2009/10/07/minimizing-complexity.html</link>
+				<guid>http://www.tylertate.com/blog/2009/10/07/minimizing-complexity.html</guid>
 			</item>
 		
 			<item>
 				<title>The 1KB CSS Grid</title>
-				<guid>/blog/2009/05/29/the-1kb-css-grid.html</guid>
 				<pubDate>Fri, 29 May 2009 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Other CSS frameworks try to do everything—grid system, style reset, basic typography, form styles. But complex systems are, well, complex. Looking for a simple, lightweight approach that doesn&amp;#8217;t require a PhD? Meet The 1KB CSS Grid.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2009/05/29/the-1kb-css-grid.html</link>
+				<guid>http://www.tylertate.com/blog/2009/05/29/the-1kb-css-grid.html</guid>
 			</item>
 		
 			<item>
 				<title>Creating a Resizable Image Grid</title>
-				<guid>/blog/2009/05/22/resizable-image-grid.html</guid>
 				<pubDate>Fri, 22 May 2009 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;Other CSS frameworks try to do everything—grid system, style reset, basic typography, form styles. But complex systems are, well, complex. Looking for a simple, lightweight approach that doesn&amp;#8217;t require a PhD? Meet The 1KB CSS Grid.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2009/05/22/resizable-image-grid.html</link>
+				<guid>http://www.tylertate.com/blog/2009/05/22/resizable-image-grid.html</guid>
 			</item>
 		
+		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

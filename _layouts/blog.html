@@ -15,4 +15,10 @@ bodyId: blog
 		<h2>{{ page.title }}</h2>
 	</header>
 	{{ content }}
+
+	{% if post.publisher %}
+		<p class="more">
+			<a href="{{ post.originalurl }}">Read the rest on {{ post.publisher }}.</a>
+		</p>
+	{% endif %}
 </article>
