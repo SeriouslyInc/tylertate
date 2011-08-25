@@ -16,9 +16,9 @@ bodyId: blog
 	</header>
 	{{ content }}
 
-	{% if post.publisher %}
+	{% if page.publisher %}
 		<p class="more">
-			<a href="{{ page.originalurl }}">Read the rest on {{ post.publisher }}.</a>
+			<a href="{{ page.originalurl }}">Read the rest on {{ page.publisher }}.</a>
 		</p>
 	{% endif %}
 </article>
