@@ -29,9 +29,11 @@ body {
   margin: 0 auto;
 }
 body {
-  font-family: Georgia;
-  background: #ede7e1;
+  font-family: Georgia, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background: #ede7e1 url('/resources/images/graph-paper.png') repeat;
+  background-image: url('/resources/images/border.png'), url('/resources/images/graph-paper.png');
+  background-repeat: repeat-x, repeat;
 }
 h1 {
   margin-top: 0.95em;
