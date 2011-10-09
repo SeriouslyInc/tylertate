@@ -9,7 +9,7 @@ More recently, mass adoption of the world wide web and the plethora of Internet-
 
 We are now on the cusp of yet another technological sea change. The pendulum which swung from physical to digital is swinging back to the real world, but this time, information is formless, contextual, and ubiquitous. In their book [Pervasive Information Architecture](http://pervasiveia.com/), Andrea Resmini and Luca Rosati describe this brave new world of ubiquitous computing:
 
-	> "Information is going everywhere. It is bleeding out of the Internet and out of personal computers, and it is being embedded into the real world. Mobile devices, networked resources, and real-time information systems are making our interactions with information constant and ubiquitous. Information is becoming pervasive."
+> "Information is going everywhere. It is bleeding out of the Internet and out of personal computers, and it is being embedded into the real world. Mobile devices, networked resources, and real-time information systems are making our interactions with information constant and ubiquitous. Information is becoming pervasive."
 
 The future lies in cross-channel experiences. Interactions in which the technology fades to the background and the personal, physical, and social context of the present mediate the devices and methods with which we interact with information.
 
