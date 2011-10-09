@@ -180,6 +180,9 @@ aside#ad #bsap_aplink, aside#ad body #bsap_aplink:hover {
   margin: 8px 0 0;
   text-align: left;
 }
+#disqus_thread {
+  margin-top: 50px;
+}
 body#blog h2 {
   font-weight: bold;
 }
