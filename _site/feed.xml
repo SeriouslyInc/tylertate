@@ -7,6 +7,50 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Mobile Information Needs</title>
+				<pubDate>Tue, 06 Dec 2011 00:00:00 GMT</pubDate>
+				<description>&lt;p&gt;Mobile information needs can be assed by two criteria: scope and type. Scope describes the sophistication of the information need, the degree of higher-level thinking it involves, and the time commitment required to satisfy it. The lookup, learn, and investigate elements of scope are derived from Gary Marchionini’s work on exploratory search, while the casual component has been more recently advocated by Max Wilson and others.&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2011/12/06/mobile-information-needs.html</link>
+				<guid>http://www.tylertate.com/blog/2011/12/06/mobile-information-needs.html</guid>
+			</item>
+		
+			<item>
+				<title>The Rise of Cross-Channel UX Design</title>
+				<pubDate>Mon, 17 Oct 2011 00:00:00 BST</pubDate>
+				<description>&lt;p&gt;A few Saturdays ago, I was walking around Greenwich in southeast London when I decided to peruse the local bookshop. Drawn to a display titled “Utopias and Dystopias,” I noticed the book A Brave New World sitting beside George Orwell’s 1984, which I had read and remembered enjoying. Curious about the association between the two, I picked up A Brave New World and glanced over the back cover. I then pulled out my phone and searched Google to see what others were saying about the book and noted that it is often considered one of the top-100 novels of all time. My mind was settled: I wanted to read this book. But rather than walking, book in hand, to the checkout counter, I instead used my phone to navigate to Amazon’s Kindle Store, where I typed in the name of the book and used their 1-click ordering to purchase the book. Leaving the bookshop empty handed, I caught the next bus home. On the way home, I pulled out my tablet device and started reading page 1 of A Brave New World.&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2011/10/17/cross-channel-ux-design.html</link>
+				<guid>http://www.tylertate.com/blog/2011/10/17/cross-channel-ux-design.html</guid>
+			</item>
+		
+			<item>
+				<title>Search Analytics by Lou Rosenfeld</title>
+				<pubDate>Thu, 13 Oct 2011 00:00:00 BST</pubDate>
+				<description>&lt;p&gt;The book is a very practical guide on how to exploit query logs to improve your company’s search experience. Lou outlines a collection of simple but potent techniques for analyzing search logs, spotting insightful patterns, and putting those insights to use.&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2011/10/13/book-review-search-analytics.html</link>
+				<guid>http://www.tylertate.com/blog/2011/10/13/book-review-search-analytics.html</guid>
+			</item>
+		
+			<item>
+				<title>From physical to digital to ubiquitous</title>
+				<pubDate>Tue, 11 Oct 2011 00:00:00 BST</pubDate>
+				<description>&lt;p&gt;The invention of the printing press transformed the physical object that is the book from an artefact of human transcription to that of mass production. By 1500, just 40 years after Gutenberg&amp;#8217;s invention, an estimated 150 to 200 million copies had rolled off the press; a century later, the by then pervasive technology led to the rise of a new medium: the newspaper. This was the era of information as physical object.&lt;/p&gt;
+
+&lt;p&gt;More recently, mass adoption of the world wide web and the plethora of Internet-connected devices has led to digital information augmenting and, to a certain degree, displacing the physical. News was consumed online rather than on paper, new mediums of self expression arose from the blog to the social networks, and a new pair of shoes could be acquired without ever stepping foot in a store.&lt;/p&gt;
+
+&lt;p&gt;We are now on the cusp of yet another technological sea change. The pendulum which swung from physical to digital is swinging back to the real world, but this time, information is formless, contextual, and ubiquitous. In their book &lt;a href='http://pervasiveia.com/'&gt;Pervasive Information Architecture&lt;/a&gt;, Andrea Resmini and Luca Rosati describe this brave new world of ubiquitous computing:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;Information is going everywhere. It is bleeding out of the Internet and out of personal computers, and it is being embedded into the real world. Mobile devices, networked resources, and real-time information systems are making our interactions with information constant and ubiquitous. Information is becoming pervasive.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The future lies in cross-channel experiences. Interactions in which the technology fades to the background and the personal, physical, and social context of the present mediate the devices and methods with which we interact with information.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You know the Hemingway line, &amp;#8220;Write all the story, take out all the good lines, and see if it still works&amp;#8221;? Well, I&amp;#8217;m posting these simple thoughts here because I just deleted them from a longer piece, but still wanted them to see the light of day.&lt;/em&gt;&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2011/10/11/from-physical-to-digital-to-ubiquitous.html</link>
+				<guid>http://www.tylertate.com/blog/2011/10/11/from-physical-to-digital-to-ubiquitous.html</guid>
+			</item>
+		
+			<item>
 				<title>The Semantic Grid System</title>
 				<pubDate>Tue, 23 Aug 2011 00:00:00 BST</pubDate>
 				<description>&lt;p&gt;CSS grid frameworks can make your life easier, but they’re not without their faults. Fortunately for us, modern techniques offer a new approach to constructing page layouts. But before getting to the solution, we must first understand the three seemingly insurmountable flaws currently affecting CSS grids.&lt;/p&gt;</description>
