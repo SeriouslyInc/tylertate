@@ -65,7 +65,7 @@
 </blockquote>
 
 <p>Below is the output of this <a href='http://tylertate.github.com/subpixel-rounding/examples/four/four.html'>example page</a> in the major browsers. I&#8217;ve extended John Resig&#8217;s original demonstration by testing 4 columns, each 25% wide, within three differently sized containers: 49px, 50px, and 51px. The number shown below each container is the theoretical pixel width of one of the columns (e.g. 50px * .25 = 12.5).</p>
-<img src='http://localhost:4000/resources/images/2012-01-05/browser-subpixel-rounding.png' height='240' width='620' style='margin-left: -122px;  margin-bottom: 0.9em;' />
+<img src='http://tylertate.com/resources/images/2012-01-05/browser-subpixel-rounding.png' height='240' width='620' style='margin-left: -122px;  margin-bottom: 0.9em;' />
 <p>You&#8217;ll notice that in Webkit and Opera, which use the rounding-down strategy, there is space leftover. FireFox, IE8, and IE9, on other hand, vary the widths of the boxes so that, in total, they occupy all of the available space. <strong>But here&#8217;s the catch:</strong> when the floating decimal is .5 or greater, our old friends IE6 and 7 stupidly <strong>round up</strong>, forcing the final column in our example to wrap to the next line since the four columns become collectively wider than their parent container. Facepalm.</p>
 
 <p>This is certainly not a new problem; it&#8217;s been the source of head-to-wall bashing for over a decade. Yet it&#8217;s an important problem to understand and address in the modern era of fluid, responsive layouts. While it&#8217;s true that the problem will mostly go away when IE6 and 7 support is no longer necessary, many of us need a solution now.</p>
@@ -87,7 +87,7 @@
 <pre><code>O.5 / containerWidth = correctionLevel</code></pre>
 
 <p><code>ContainerWidth</code> is the pixel width of the container, while <code>correctionLevel</code> represents the percentage that needs to be subtracted in order for IE to round down to the nearest pixel. Thus for our 50px container above, the <code>correctionLevel</code> is <code>0.5 / 50 = 0.01</code>, or 1%. That means instead of the four columns each being 25%, they would need to be 24% (25 - 1). With that correction applied, the columns would each be computed as 12px rather than 12.5px, and our layout will display correctly, as shown below.</p>
-<img src='http://localhost:4000/resources/images/2012-01-05/browser-subpixel-rounding-corrected.png' height='192' width='620' style='margin-left: -122px; margin-bottom: 0.9em;' />
+<img src='http://tylertate.com/resources/images/2012-01-05/browser-subpixel-rounding-corrected.png' height='192' width='620' style='margin-left: -122px; margin-bottom: 0.9em;' />
 <p>But the whole point of using percentages, I hear you saying, is to be pixel-independent. If I have to specify the container&#8217;s pixel width, doesn&#8217;t that defeat the purpose of using percentages in the first place? It&#8217;s painfully inconvenient, to be sure, but the very fact that you&#8217;re reading this is evidence enough that we must work around this problem somehow.</p>
 
 <blockquote>
