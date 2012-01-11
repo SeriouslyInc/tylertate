@@ -106,7 +106,18 @@
   *width: 25%-0.0694%;
 }</code></pre>
 
-<p>I&#8217;m currently looking into incorporating this rounding correction technique into <a href='http://Semantic.gs'>The Semantic Grid System</a>, which uses the power of CSS frameworks to elegantly power fixed, fluid, and responsive layouts.</p>
+<p><em>Updated January 11, 2012.</em> The newly-released version 1.2 of <a href='http://Semantic.gs'>The Semantic Grid System</a>—which uses the power of CSS frameworks to elegantly power fixed, fluid, and responsive layouts—incorporates the above formula. It allows you to specify the minimum width of your layout, from which it then derives the correction level.</p>
+
+<pre><code>@min-width: 960;
+@correction: 0.5 / @min-width * 100 * 1%;</code></pre>
+
+<p>It then subtracts the correction level from the IE-specific width and margin declarations of each column in the layout:</p>
+
+<pre><code>width: @computedWidth;
+margin: 0 @computedMargin;
+
+*width: @computedWidth-@correction;
+*margin: 0 @computedMargin-@correction;</code></pre>
 
 <h3 id='the_last_word'>The last word</h3>
 

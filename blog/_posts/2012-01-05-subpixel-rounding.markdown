@@ -54,7 +54,18 @@ If you're using a CSS framework such as [LESS.js](http://lesscss.org/) or [SaSS]
 	  *width: 25%-0.0694%;
 	}
 
-I'm currently looking into incorporating this rounding correction technique into [The Semantic Grid System](http://Semantic.gs), which uses the power of CSS frameworks to elegantly power fixed, fluid, and responsive layouts.
+*Updated January 11, 2012.* The newly-released version 1.2 of [The Semantic Grid System](http://Semantic.gs)—which uses the power of CSS frameworks to elegantly power fixed, fluid, and responsive layouts—incorporates the above formula. It allows you to specify the minimum width of your layout, from which it then derives the correction level.
+
+	@min-width: 960;
+	@correction: 0.5 / @min-width * 100 * 1%;
+	
+It then subtracts the correction level from the IE-specific width and margin declarations of each column in the layout:
+
+	width: @computedWidth;
+	margin: 0 @computedMargin;
+
+	*width: @computedWidth-@correction;
+	*margin: 0 @computedMargin-@correction;
 
 ### The last word
 So there you have it: a predictable formula for correcting the sub-pixel rounding problem in Internet Explorer 6 and 7. It's just one more reason we can all rejoice when IE6 and 7 go the way of the grave.
