@@ -36,7 +36,7 @@ But the tricky bit is getting from pixels back to percentages. What percentage d
 
 But the whole point of using percentages, I hear you saying, is to be pixel-independent. If I have to specify the container's pixel width, doesn't that defeat the purpose of using percentages in the first place? It's painfully inconvenient, to be sure, but the very fact that you're reading this is evidence enough that we must work around this problem somehow.
 
-> Here are two strategies for applying this correction formula.
+Here are two strategies for applying this correction formula.
 
 ### Do-it-yourself calculations
 You can quickly apply the above formula to your existing fluid layouts to fix the sub-pixel rounding issue in IE6 and 7 without adversely affecting other browsers. First, lets assume you have constructed a percentage-based layout that has a set minimum width of **720px**. Using this number as our baseline `containerWidth`, our formula tells us that the correctionLevel is **.0694%**. Whenever a percentage is used as the value of a width, padding, border, or margin declaration, we'll use the star hack to add IE6/7-specific declarations which subtract .0694% from the original value. Here's a simplistic example:
