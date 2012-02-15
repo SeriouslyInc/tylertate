@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: A Review of Foodily’s Recipe Search
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://blog.twigkit.com/foodily/
 keywords: [ux,search]
 ---

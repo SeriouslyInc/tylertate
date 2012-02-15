@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Mobile Information Needs
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://twigkit.com/blog/2011/12/06/mobile-information-needs.html
 ---
 

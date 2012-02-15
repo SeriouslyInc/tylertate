@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Search Analytics by Lou Rosenfeld"
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://twigkit.com/blog/2011/10/13/book-review-search-analytics-lou-rosenfeld.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Search as a Flow Experience
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://www.twigkit.com/blog/2011/02/09/search-as-a-flow-experience.html
 keywords: [ux,search]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Redesigning Wikipedia's Search
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://www.twigkit.com/blog/2011/08/19/redesigning-wikipedia-search.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Why Designers Should Care About Search
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://www.twigkit.com/blog/2011/03/30/why-designers-should-give-a-bleep.html
 keywords: [search,ux]
 ---

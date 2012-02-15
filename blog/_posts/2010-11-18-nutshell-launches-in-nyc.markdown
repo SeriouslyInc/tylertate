@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Nutshell Launches in NYC
-publisher: Nutshell Blog
+publisher: The Nutshell Blog
 originalurl: http://www.nutshell.com/development/2010/11/nutshell-launches-in-nyc/
 keywords: [business]
 ---

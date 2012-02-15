@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: ECIR Industry Day 2010
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://blog.twigkit.com/ecir-industry-day-2010/
 keywords: [search]
 ---

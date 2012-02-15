@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: A Call for High Quality Demo Data
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://www.twigkit.com/blog/2011/05/20/a-call-for-high-quality-open-source-demo-data.html
 ---
 

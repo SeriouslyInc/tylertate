@@ -9,28 +9,18 @@
 // GRID SYSTEM // The layout is driven by the Semantic Grid System, see http://Semantic.gs
 /////////////////
 
-@columns: 4;
-@column-width: 180;
-@gutter-width: 60;
+@columns: 8;
+@column-width: 3;
+@gutter-width: 1;
 @total-width: 100%;
-
-// Fluid, but with a maximum width
-.center {
-	position: relative;
-	overflow: hidden;
-	max-width: 1140px;
-	min-width: 780px;
-	padding: 0 20px;
-	margin: 0 auto;
-}
 
 
 ////////////
 // COLORS //
 ////////////
 
-@blue: #2f6da2;
-@gray: #666666;
+@blue: #d93f21;
+@gray: #777777;
 
 
 ////////////////
@@ -38,133 +28,187 @@
 ////////////////
 
 body {
-	font-family: Georgia, serif;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-	background: #ede7e1 url('/resources/images/graph-paper.png') repeat;
-	
-	background-image: url('/resources/images/border.png'), url('/resources/images/graph-paper.png');
-	background-repeat: repeat-x, repeat;
+	font: normal normal normal 1em/1.5em Georgia, 'Times New Roman', serif;
+	border-top: 1px solid @blue;
 }
-h1 {
-	margin-top: 0.95em;
-	font-family: 'IM Fell English', Georgia, serif;
-	font-size: 1.75em;
-	margin-bottom: 2.5em;
-	
-	a {
-		color: black;
-	}
-}
-h2 {
-	font-family: 'IM Fell English', Georgia, serif;
-	margin: 0 0 0.5em 0;
-	font-size: 1.75em;
-	font-weight: normal;
-	color: @blue;
-}
-h3 {
-	font-family: 'IM Fell English', Georgia, serif;
-	margin: 1.5em 0 0.25em 0;
-	font-size: 1.5em;
-	font-weight: normal;
-}
-header p {
-	margin: 0 0 0.25em 0;
-	font-size: 1em;
-	font-weight: normal;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	color: @gray;
-	
-	a {
-		color: @gray;		
-	}
-	.date {
-		text-transform: lowercase;
-		font-variant: small-caps;
-	}
-}
-blockquote {
-	font-size: 1.25em;
-	margin-left: -3em;
-	color: @gray;
-	
-	p {
-		margin-bottom: 0.7em;
-		padding: 0.35em 0;
-	}
+h1, h2, h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p {
-	margin-bottom: 0.9em;
-	line-height: 1.4em;
+	margin-bottom: 1em;
 }
 a {
 	color: @blue;
 	text-decoration: none;
-}
-.more {
-	font-style: italic;
-	color: @gray;
-	
-	a {
-		color: @gray;
-	}
-}
-pre {
-	padding: 0.45em 2em;
-	margin-bottom: 0.9em;
-	max-height: 400px;
-	overflow-x: auto;
-	font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
 
-	em {
-		font-style: normal;
-		font-weight: bold;
-	}
-	span {
-		color: #999;
+	&:hover {
+		text-decoration: underline;
 	}
 }
 
-////////////
-// layout //
-////////////
+
+///////////////
+// CONTAINER // Center the page and enforce a maximum width
+///////////////
 
 #container {
-	.center;
-	padding-top: 5em;
+	position: relative;
+	overflow: hidden;
+	max-width: 1200px;
+	padding: 0 1em;
+	margin: 0 auto;
 }
+
+
+////////////////
+// TOP HEADER //
+////////////////
+
 header#page-header {
-	.column(1);
-	text-align: right;
-}
-article#mainbody {
-	.column(2);
+	padding: 3em 0 6em 0;
+	overflow: hidden;
+
+	// LOGO
+	h1 {
+		.column(2);
+		font-size: 2.25em;
+		line-height: 1.5em;
 	
-	article {
-		margin-bottom: 5em;
+		a {
+			color: black;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	// BIO
+	p {
+		.column(5);
+		margin-top: 1.375em;
+		color: @gray;
+		font-style: italic;
+
+		a {
+			color: @gray;
+		}
 	}
 }
-aside#ad {
-	.column(1);
-	margin-top: 1.65em;
+
+
+///////////////
+// MAIN BODY //
+///////////////
+
+section#mainbody {
+	.column(5);
+	.push(2);
+	.pull(1);
+	margin-bottom: 3em;
 	
-	.adpacks{background:#fff;border:3px solid #eee;}
-	.one .bsa_it_ad{background:transparent;border:none;font-family:inherit;padding:0;width: 130px; text-align:left;}
-	.one .bsa_it_ad .bsa_it_i{display:block;padding:0;float:none;margin:0 0 5px;}
-	.one .bsa_it_ad .bsa_it_i img{padding:0;border:none;}
-	.one .bsa_it_ad .bsa_it_t{padding:0 0 0;}
-	.one .bsa_it_ad .bsa_it_t, .one .bsa_it_ad .bsa_it_d {font-size: 13px;}
-	.one .bsa_it_p{display:none;}
-	#bsap_aplink,body #bsap_aplink:hover{display:block;font-size:11px;line-height: 13px;margin:8px 0 0;text-align:left;}
+	// INDIVIDUAL BLOG POSTS
+	article {
+		margin-bottom: 6em;
+
+		// BLOG POST HEADER
+		header {
+
+			// DATE
+			p {
+				margin: 0;
+				font-size: 0.875em;
+				line-height: 1.5em;
+				letter-spacing: 0.1em;
+				font-weight: normal;
+				text-transform: uppercase;
+				color: @gray;
+
+				a {
+					color: @gray;
+				}
+			}
+
+			// TITLE
+			h2 {
+				margin: 0 0 1em 0;
+				font-size: 1.5em;
+				line-height: 1.5em;
+				color: @blue;
+			}
+		}
+
+		// SUBHEADING
+		h3 {
+			margin: 1.5em 0 0.75em 0;
+			font-size: 1em;
+			line-height: 1.5em;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		// CALLOUT
+		blockquote {
+			p {
+				margin: 0 0 0.667em -5%;
+				font-size: 1.5em;
+				line-height: 1.5em;
+				color: @gray;
+			}
+		}
+
+		// SYNTAX HIGHLIGHTING
+		pre {
+			max-height: 400px;
+			padding: 0.5em 1.5em;
+			margin-bottom: 1em;
+			overflow-x: auto;
+			font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+			background-color: #ebebeb;
+		}
+
+		// IMAGES
+		img {
+			margin-bottom: 1em;
+		}
+
+		// "READ THE REST" LINK
+		.more {
+			margin-top: 1.714em;
+			font-size: 0.875em;
+			line-height: 1.5em;
+			font-style: italic;
+			color: @gray;
+			
+			a {
+				color: @gray;
+			}
+		}
+	}
+
+	// COMMENTS
+	#disqus_thread {
+		border-top: 1px dotted #CCC;
+		margin-top: 6em;
+	}
 }
 
-#disqus_thread {
-	margin-top: 50px;
-}
 
-body#blog {
-	h2 {
-		font-weight: bold;
+////////////////////////
+// RESPONSIVE LAYOUTS //
+////////////////////////
+
+@media screen and (max-width: 825px) {
+	header#page-header {
+		h1, p {
+			.column(8);
+		}
+	}
+	section#mainbody {
+		.column(8);
+
+		article blockquote p {
+			margin-left: 1em;
+		}
 	}
 }

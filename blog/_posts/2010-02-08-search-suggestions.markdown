@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Search Suggestions
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://blog.twigkit.com/search-suggestions-part-1/
 keywords: [ux,search]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Q&A on Designing the Search Experience
+title: Q&amp;A on Designing the Search Experience
 publisher: Lucid Imagination
 originalurl: http://www.lucidimagination.com/blog/2010/08/31/guest-post-qa-on-designing-the-search-experience-with-twigkits-tyler-tate/
 keywords: [ux,search]

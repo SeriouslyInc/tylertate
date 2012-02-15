@@ -5,9 +5,6 @@
 a img, form, fieldset {
   border: none;
 }
-p {
-  margin-bottom: 20px;
-}
 nav,
 aside,
 header,
@@ -17,172 +14,141 @@ footer {
   display: block;
 }
 body {
-  width: 100%;
-  float: left;
+  font: normal normal normal 1em/1.5em Georgia, 'Times New Roman', serif;
+  border-top: 1px solid #d93f21;
 }
-.center {
-  position: relative;
-  overflow: hidden;
-  max-width: 1140px;
-  min-width: 780px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-body {
-  font-family: Georgia, serif;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  background: #ede7e1 url('/resources/images/graph-paper.png') repeat;
-  background-image: url('/resources/images/border.png'), url('/resources/images/graph-paper.png');
-  background-repeat: repeat-x, repeat;
-}
-h1 {
-  margin-top: 0.95em;
-  font-family: 'IM Fell English', Georgia, serif;
-  font-size: 1.75em;
-  margin-bottom: 2.5em;
-}
-h1 a {
-  color: black;
-}
-h2 {
-  font-family: 'IM Fell English', Georgia, serif;
-  margin: 0 0 0.5em 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  color: #2f6da2;
-}
-h3 {
-  font-family: 'IM Fell English', Georgia, serif;
-  margin: 1.5em 0 0.25em 0;
-  font-size: 1.5em;
-  font-weight: normal;
-}
-header p {
-  margin: 0 0 0.25em 0;
-  font-size: 1em;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #666666;
-}
-header p a {
-  color: #666666;
-}
-header p .date {
-  text-transform: lowercase;
-  font-variant: small-caps;
-}
-blockquote {
-  font-size: 1.25em;
-  margin-left: -3em;
-  color: #666666;
-}
-blockquote p {
-  margin-bottom: 0.7em;
-  padding: 0.35em 0;
+h1, h2, h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p {
-  margin-bottom: 0.9em;
-  line-height: 1.4em;
+  margin-bottom: 1em;
 }
 a {
-  color: #2f6da2;
+  color: #d93f21;
   text-decoration: none;
 }
-.more {
-  font-style: italic;
-  color: #666666;
-}
-.more a {
-  color: #666666;
-}
-pre {
-  padding: 0.45em 2em;
-  margin-bottom: 0.9em;
-  max-height: 400px;
-  overflow-x: auto;
-  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
-}
-pre em {
-  font-style: normal;
-  font-weight: bold;
-}
-pre span {
-  color: #999;
+a:hover {
+  text-decoration: underline;
 }
 #container {
   position: relative;
   overflow: hidden;
-  max-width: 1140px;
-  min-width: 780px;
-  padding: 0 20px;
+  max-width: 1200px;
+  padding: 0 1em;
   margin: 0 auto;
-  padding-top: 5em;
 }
 header#page-header {
+  padding: 3em 0 6em 0;
+  overflow: hidden;
+}
+header#page-header h1 {
   display: inline;
   float: left;
-  width: 18.75%;
-  margin: 0 3.125%;
-  text-align: right;
+  width: 21.875%;
+  margin: 0 1.5625%;
+  font-size: 2.25em;
+  line-height: 1.5em;
 }
-article#mainbody {
+header#page-header h1 a {
+  color: black;
+}
+header#page-header h1 a:hover {
+  text-decoration: none;
+}
+header#page-header p {
   display: inline;
   float: left;
-  width: 43.75%;
-  margin: 0 3.125%;
+  width: 59.375%;
+  margin: 0 1.5625%;
+  margin-top: 1.375em;
+  color: #777777;
+  font-style: italic;
 }
-article#mainbody article {
-  margin-bottom: 5em;
+header#page-header p a {
+  color: #777777;
 }
-aside#ad {
+section#mainbody {
   display: inline;
   float: left;
-  width: 18.75%;
-  margin: 0 3.125%;
-  margin-top: 1.65em;
+  width: 59.375%;
+  margin: 0 1.5625%;
+  margin-left: 26.5625%;
+  margin-right: 14.0625%;
+  margin-bottom: 3em;
 }
-aside#ad .adpacks {
-  background: #fff;
-  border: 3px solid #eee;
+section#mainbody article {
+  margin-bottom: 6em;
 }
-aside#ad .one .bsa_it_ad {
-  background: transparent;
-  border: none;
-  font-family: inherit;
-  padding: 0;
-  width: 130px;
-  text-align: left;
+section#mainbody article header p {
+  margin: 0;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #777777;
 }
-aside#ad .one .bsa_it_ad .bsa_it_i {
-  display: block;
-  padding: 0;
-  float: none;
-  margin: 0 0 5px;
+section#mainbody article header p a {
+  color: #777777;
 }
-aside#ad .one .bsa_it_ad .bsa_it_i img {
-  padding: 0;
-  border: none;
+section#mainbody article header h2 {
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #d93f21;
 }
-aside#ad .one .bsa_it_ad .bsa_it_t {
-  padding: 0 0 0;
-}
-aside#ad .one .bsa_it_ad .bsa_it_t, aside#ad .one .bsa_it_ad .bsa_it_d {
-  font-size: 13px;
-}
-aside#ad .one .bsa_it_p {
-  display: none;
-}
-aside#ad #bsap_aplink, aside#ad body #bsap_aplink:hover {
-  display: block;
-  font-size: 11px;
-  line-height: 13px;
-  margin: 8px 0 0;
-  text-align: left;
-}
-#disqus_thread {
-  margin-top: 50px;
-}
-body#blog h2 {
+section#mainbody article h3 {
+  margin: 1.5em 0 0.75em 0;
+  font-size: 1em;
+  line-height: 1.5em;
   font-weight: bold;
+  text-transform: uppercase;
+}
+section#mainbody article blockquote p {
+  margin: 0 0 0.667em -5%;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #777777;
+}
+section#mainbody article pre {
+  max-height: 400px;
+  padding: 0.5em 1.5em;
+  margin-bottom: 1em;
+  overflow-x: auto;
+  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+  background-color: #ebebeb;
+}
+section#mainbody article img {
+  margin-bottom: 1em;
+}
+section#mainbody article .more {
+  margin-top: 1.714em;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  font-style: italic;
+  color: #777777;
+}
+section#mainbody article .more a {
+  color: #777777;
+}
+section#mainbody #disqus_thread {
+  border-top: 1px dotted #CCC;
+  margin-top: 6em;
+}
+@media screen and (max-width: 825px) {
+  header#page-header h1, header#page-header p {
+    display: inline;
+    float: left;
+    width: 96.875%;
+    margin: 0 1.5625%;
+  }
+  section#mainbody {
+    display: inline;
+    float: left;
+    width: 96.875%;
+    margin: 0 1.5625%;
+  }
+  section#mainbody article blockquote p {
+    margin-left: 1em;
+  }
 }

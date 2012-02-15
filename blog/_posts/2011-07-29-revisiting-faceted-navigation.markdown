@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Revisited Faceted Navigation
-publisher: TwigKit Blog
+publisher: The TwigKit Blog
 originalurl: http://www.twigkit.com/blog/2011/07/29/revisiting-faceted-navigation.html
 published: false
 ---
