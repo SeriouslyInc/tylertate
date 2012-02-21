@@ -37,9 +37,15 @@ What would a tool that aimed to facilitate consistent, optimized, continuous cro
 
 *[Resmini and Rosati's](http://pervasiveia.com/) CHU cube plots channels, heuristics, and tasks using three dimensions.*
 
+Ammendment: *After publishing this post, [Gianluca Brugnoli](https://twitter.com/#!/lowresolution) of Frog Design pointed out its resemblence to the [Touchpoints Matrix](http://www.servicedesigntools.org/tools/108) he himself developed in 2009. I hadn't come across this tool before, but the similarity is striking.*
+
+<img src="http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png" width="712" class="normal-width" alt="The Touchpoints Matrix by Gianluca Brugnoli" />
+
+*The Touchpoints Matrix by Gianluca Brugnoli*
+
 ###Building on the foundation
 
-Juxtaposing tasks and channels is a useful starting point, though the CHUbe's multidimensional layers make it impractical. For our diagram, let's do the following:
+Juxtaposing tasks and channels is a useful starting point, though the CHUbe's multidimensional layers make it a bit unwieldy. For our diagram, let's do the following:
 
 1. **Identify user tasks**—these become the X-axis.
 2. **List channels**—these become the Y-axis.

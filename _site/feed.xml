@@ -55,9 +55,13 @@
 &lt;img class='twothirds-width' src='http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg' alt='The CHU Cube' width='475' /&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href='http://pervasiveia.com/'&gt;Resmini and Rosati&amp;#8217;s&lt;/a&gt; CHU cube plots channels, heuristics, and tasks using three dimensions.&lt;/em&gt;&lt;/p&gt;
 
+&lt;p&gt;Ammendment: &lt;em&gt;After publishing this post, &lt;a href='https://twitter.com/#!/lowresolution'&gt;Gianluca Brugnoli&lt;/a&gt; of Frog Design pointed out its resemblence to the &lt;a href='http://www.servicedesigntools.org/tools/108'&gt;Touchpoints Matrix&lt;/a&gt; he himself developed in 2009. I hadn&amp;#8217;t come across this tool before, but the similarity is striking.&lt;/em&gt;&lt;/p&gt;
+&lt;img class='normal-width' src='http://localhost:4000/resources/images/2012-02-21/touchpoints-matrix.png' alt='The Touchpoints Matrix by Gianluca Brugnoli' width='712' /&gt;
+&lt;p&gt;&lt;em&gt;The Touchpoints Matrix by Gianluca Brugnoli&lt;/em&gt;&lt;/p&gt;
+
 &lt;h3 id='building_on_the_foundation'&gt;Building on the foundation&lt;/h3&gt;
 
-&lt;p&gt;Juxtaposing tasks and channels is a useful starting point, though the CHUbe&amp;#8217;s multidimensional layers make it impractical. For our diagram, let&amp;#8217;s do the following:&lt;/p&gt;
+&lt;p&gt;Juxtaposing tasks and channels is a useful starting point, though the CHUbe&amp;#8217;s multidimensional layers make it a bit unwieldy. For our diagram, let&amp;#8217;s do the following:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Identify user tasks&lt;/strong&gt;—these become the X-axis.&lt;/li&gt;
