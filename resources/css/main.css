@@ -121,6 +121,24 @@ section#mainbody article pre {
 section#mainbody article img {
   margin-bottom: 1em;
 }
+section#mainbody article img.full-width {
+  width: 163%;
+  margin-left: -42%;
+  margin-right: -21%;
+  max-width: 1160px;
+}
+section#mainbody article img.normal-width {
+  width: 100%;
+}
+section#mainbody article img.twothirds-width {
+  display: block;
+  width: 66%;
+  max-width: 475px;
+  margin: 0 auto 1em auto;
+}
+section#mainbody article ol, section#mainbody article ul {
+  margin-bottom: 1em;
+}
 section#mainbody article .more {
   margin-top: 1.714em;
   font-size: 0.875em;
@@ -150,5 +168,10 @@ section#mainbody #disqus_thread {
   }
   section#mainbody article blockquote p {
     margin-left: 1em;
+  }
+  section#mainbody article img.full-width {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

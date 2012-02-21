@@ -7,6 +7,92 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Cross-Channel Blueprints: A tool for modern IA</title>
+				<pubDate>Tue, 21 Feb 2012 00:00:00 GMT</pubDate>
+				<description>&lt;p&gt;The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect&amp;#8217;s skillset is well-suited for this new challenge, our existing tools are not.&lt;/p&gt;
+
+&lt;h3 id='service_blueprints_arent_exactly_what_we_need'&gt;Service blueprints aren&amp;#8217;t exactly what we need&lt;/h3&gt;
+
+&lt;p&gt;Imported from the field of service design, G. Lynn Shostack&amp;#8217;s &lt;em&gt;service blueprint&lt;/em&gt; is often suggested as a tool for cross-channel planning. Yet it&amp;#8217;s not a perfect fit:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Too process-oriented&lt;/strong&gt;. Service blueprints present customer actions sequentially. While desirable for planning specific flows (such as a checkout process), it&amp;#8217;s obstructive when trying to outline a comprehensive strategy.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Minimal attention to channels&lt;/strong&gt;. Service blueprints document the &amp;#8220;physical evidence&amp;#8221; associated with each action, but fail to account for how a single action might be performed on multiple channels.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Meant for a different purpose&lt;/strong&gt;. With their lines of interaction, visibility, and internal visibility, service blueprints simply weren&amp;#8217;t intended to be used for planning cross-channel information architecture&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img class='normal-width' src='http://tylertate.com/resources/images/2012-02-21/service-blueprint-brandonschauer.png' alt='A service blueprint by Brandon Schauer' width='712' /&gt;
+&lt;p&gt;&lt;em&gt;A service blueprint created by &lt;a href='http://www.flickr.com/photos/brandonschauer/3363169836/'&gt;Brandon Schauer&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id='what_do_we_need_then'&gt;What do we need, then?&lt;/h3&gt;
+
+&lt;p&gt;Before brainstorming solutions, we should clarify the problem. Andrea Resmini and Lucas Rosati have discussed five principles for designing successful cross-channel experiences; &lt;a href='http://www.slideshare.net/mobile/morville/crosschannel-strategy'&gt;Peter Morville&lt;/a&gt; advocates six; to me, these three seem the most fundamental:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Consistent.&lt;/strong&gt; Each channel should enable users to perform a given task in a like manner. For instance, a bank customer experienced in paying bills on the web should find the corresponding smartphone bill-paying facility familiar, even on first use.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Optimized.&lt;/strong&gt; Each channel should play to its strengths. Desktop applications are optimized for large screens; mobile apps for small ones. Optimization is in tension with consistency.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Continuous.&lt;/strong&gt; Each channel must be aware of all the others. Add a bicycle helmet to your shopping cart on the Web, and it should appear in the cart on your phone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='a_starting_point'&gt;A starting point&lt;/h3&gt;
+
+&lt;p&gt;What would a tool that aimed to facilitate consistent, optimized, continuous cross-channel planning look like? In &lt;a href='http://pervasiveia.com/'&gt;Pervasive Information Architecture&lt;/a&gt;, Resmini and Rosati presented their CHU cube which places &lt;em&gt;tasks&lt;/em&gt; and &lt;em&gt;channels&lt;/em&gt; each on their own axes.&lt;/p&gt;
+&lt;img class='twothirds-width' src='http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg' alt='The CHU Cube' width='475' /&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href='http://pervasiveia.com/'&gt;Resmini and Rosati&amp;#8217;s&lt;/a&gt; CHU cube plots channels, heuristics, and tasks using three dimensions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id='building_on_the_foundation'&gt;Building on the foundation&lt;/h3&gt;
+
+&lt;p&gt;Juxtaposing tasks and channels is a useful starting point, though the CHUbe&amp;#8217;s multidimensional layers make it impractical. For our diagram, let&amp;#8217;s do the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Identify user tasks&lt;/strong&gt;—these become the X-axis.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;List channels&lt;/strong&gt;—these become the Y-axis.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Prioritize and describe each per-channel task&lt;/strong&gt;—these are the table cells&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Identify shared components&lt;/strong&gt;—these are listed in a bottom row&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img class='full-width' src='http://tylertate.com/resources/images/2012-02-21/cross-channel-blueprint.png' alt='A Cross-Channel Blueprint' width='1030' /&gt;
+&lt;p&gt;I call this a &lt;em&gt;cross-channel blueprint&lt;/em&gt;. The exercise can be performed by a lone designer or collaboratively with sticky notes or in front of a whiteboard. It brings about:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A global view of important user tasks&lt;/li&gt;
+
+&lt;li&gt;The possible channels through which users might attempt those tasks&lt;/li&gt;
+
+&lt;li&gt;A set of task priorities for each channel&lt;/li&gt;
+
+&lt;li&gt;A set of channel priorities for each task&lt;/li&gt;
+
+&lt;li&gt;An overview of which components need to be shared across channels&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='what_do_you_think'&gt;What do you think?&lt;/h3&gt;
+
+&lt;p&gt;This is but a first attempt at a developing a tool suitable for the new era of cross-channel information architecture. As such, it needs practice, iteration, and experimentation. If you&amp;#8217;ve been working in this space, please chime in with how the cross-channel blueprint jives with your own experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;See my article &lt;a href='http://uxmatters.com/mt/archives/2011/10/the-rise-of-cross-channel-ux-design.php'&gt;The Rise of Cross-Channel UX Design&lt;/a&gt; on UX Matters for related reading. You can also &lt;a href='http://www.twitter.com/tylertate'&gt;follow me on Twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html</link>
+				<guid>http://www.tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html</guid>
+			</item>
+		
+			<item>
 				<title>Three Circles of Collaborative Search</title>
 				<pubDate>Mon, 23 Jan 2012 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;Search often appears personal, introspective, and private; an activity of the individual in isolation. In fact, most researchers depict search as a single-user activity. Yet a 2008 survey found that over half of respondents self-reported having co-operated with other people to search the web, while an impressive 97.1% went on to indicate at least one form of collaborative search activity in which they had engaged (Morris, 2008). It’s safe to say that collaboration is pervasive.&lt;/p&gt;
@@ -61,9 +147,7 @@
 &lt;img src='http://tylertate.com/resources/images/2012-01-05/browser-subpixel-rounding-corrected.png' alt='Sub-pixel rounding with the correction formula applied' width='620' style='width: 100%; max-width: 620px;' /&gt;
 &lt;p&gt;But the whole point of using percentages, I hear you saying, is to be pixel-independent. If I have to specify the container&amp;#8217;s pixel width, doesn&amp;#8217;t that defeat the purpose of using percentages in the first place? It&amp;#8217;s painfully inconvenient, to be sure, but the very fact that you&amp;#8217;re reading this is evidence enough that we must work around this problem somehow.&lt;/p&gt;
 
-&lt;blockquote&gt;
 &lt;p&gt;Here are two strategies for applying this correction formula.&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;h3 id='doityourself_calculations'&gt;Do-it-yourself calculations&lt;/h3&gt;
 
