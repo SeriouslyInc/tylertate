@@ -8,7 +8,7 @@ User experience design is growing up. We've finally realized that UX is less abo
 ### Multi-disciplinary is Good
 As part of this journey, we've wisely been reaching out to other disciplines for inspiration. *Service design* has taught us to consider customer journeys from touchpoint to touchpoint across multiple channels. *Customer experience design* has encouraged us to put our business hats on and align user experience with business strategy. Both of these disciplines exert a positive influence on user experience design.
 
-### But customers aren't the only users
+### Customers aren't the only users
 Yet there is one flaw in all of this. As we've been striving towards cross-channel design, mapping customer journeys, and dwelling on customer experience, our thinking has been invariably focused on just that: *customers*. This is unsurprising—retailers with both online and brick-and-mortar presences are a natural birthplace for such innovation. Yet we must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer.
 
 >"We must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer."
