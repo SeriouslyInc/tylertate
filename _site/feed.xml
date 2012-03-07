@@ -7,6 +7,34 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>UX, CX, and Service Design: Employees Are Customers Too</title>
+				<pubDate>Wed, 07 Mar 2012 00:00:00 GMT</pubDate>
+				<description>&lt;p&gt;User experience design is growing up. We&amp;#8217;ve finally realized that UX is less about creating end-all-be-all websites, and more about designing cross-channel ecosystems that encompass both the digital and physical.&lt;/p&gt;
+
+&lt;h3 id='multidisciplinary_is_good'&gt;Multi-disciplinary is Good&lt;/h3&gt;
+
+&lt;p&gt;As part of this journey, we&amp;#8217;ve wisely been reaching out to other disciplines for inspiration. &lt;em&gt;Service design&lt;/em&gt; has taught us to consider customer journeys from touchpoint to touchpoint across multiple channels. &lt;em&gt;Customer experience design&lt;/em&gt; has encouraged us to put our business hats on and align user experience with business strategy. Both of these disciplines exert a positive influence on user experience design.&lt;/p&gt;
+
+&lt;h3 id='but_customers_arent_the_only_users'&gt;But customers aren&amp;#8217;t the only users&lt;/h3&gt;
+
+&lt;p&gt;Yet there is one flaw in all of this. As we&amp;#8217;ve been striving towards cross-channel design, mapping customer journeys, and dwelling on customer experience, our thinking has been invariably focused on just that: &lt;em&gt;customers&lt;/em&gt;. This is unsurprising—retailers with both online and brick-and-mortar presences are a natural birthplace for such innovation. Yet we must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;We must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id='meet_mr_employee'&gt;Meet Mr. Employee&lt;/h3&gt;
+
+&lt;p&gt;In particular, seamless cross-channel experiences are vital to &lt;em&gt;employees&lt;/em&gt; as well. Imagine a doctor moving between his private office, the clinic hallway, and the patient&amp;#8217;s consulting room. Or an engineer moving from the design lab, to the assembly room, to the testing facility. Or a sales person rarely at her desk who stops off at coffee shops between sales calls. Understanding the user&amp;#8217;s journey and designing effective cross-channel experiences is just as important for employees as it is for customers.&lt;/p&gt;
+
+&lt;h3 id='my_point'&gt;My point?&lt;/h3&gt;
+
+&lt;p&gt;It&amp;#8217;s not that we have nothing to learn from service design or customer experience design, quite the contrary. However, let&amp;#8217;s not turn UX design into a discipline focused solely on &lt;em&gt;customers&lt;/em&gt;; let&amp;#8217;s keep designing for &lt;em&gt;users&lt;/em&gt; of all sorts.&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2012/03/07/employees-are-customers-too.html</link>
+				<guid>http://www.tylertate.com/blog/2012/03/07/employees-are-customers-too.html</guid>
+			</item>
+		
+			<item>
 				<title>Cross-Channel Blueprints: A tool for modern IA</title>
 				<pubDate>Tue, 21 Feb 2012 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect&amp;#8217;s skillset is well-suited for this new challenge, our existing tools are not.&lt;/p&gt;
@@ -56,7 +84,7 @@
 &lt;p&gt;&lt;em&gt;&lt;a href='http://pervasiveia.com/'&gt;Resmini and Rosati&amp;#8217;s&lt;/a&gt; CHU cube plots channels, heuristics, and tasks using three dimensions.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Ammendment: &lt;em&gt;After publishing this post, &lt;a href='https://twitter.com/#!/lowresolution'&gt;Gianluca Brugnoli&lt;/a&gt; of Frog Design pointed out its resemblence to the &lt;a href='http://www.servicedesigntools.org/tools/108'&gt;Touchpoints Matrix&lt;/a&gt; he himself developed in 2009. I hadn&amp;#8217;t come across this tool before, but the similarity is striking.&lt;/em&gt;&lt;/p&gt;
-&lt;img class='normal-width' src='http://localhost:4000/resources/images/2012-02-21/touchpoints-matrix.png' alt='The Touchpoints Matrix by Gianluca Brugnoli' width='712' /&gt;
+&lt;img class='normal-width' src='http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png' alt='The Touchpoints Matrix by Gianluca Brugnoli' width='712' /&gt;
 &lt;p&gt;&lt;em&gt;The Touchpoints Matrix by Gianluca Brugnoli&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id='building_on_the_foundation'&gt;Building on the foundation&lt;/h3&gt;
