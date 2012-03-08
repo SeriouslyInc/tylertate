@@ -7,6 +7,38 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>On Consistency, Part 1: Three Levels</title>
+				<pubDate>Thu, 08 Mar 2012 00:00:00 GMT</pubDate>
+				<description>&lt;p&gt;Consistency is lauded as a staple ingredient of every good user experience; a fundamental principle of interaction design; a golden rule of the user interface. Yet it&amp;#8217;s a heuristic that&amp;#8217;s sometimes misunderstood and often oversimplified. Consistency is more complex than intuition would lead us to believe, rife with tension and competing forces, and often seemingly contradictory.&lt;/p&gt;
+
+&lt;h3 id='consistent_with_what'&gt;Consistent with what?&lt;/h3&gt;
+
+&lt;p&gt;We often judge &amp;#8220;that&amp;#8217;s consistent&amp;#8221; or &amp;#8220;that&amp;#8217;s inconsistent&amp;#8221; without specifying the object of our comparison. Yet something may be both consistent and inconsistent &lt;em&gt;at the same time&lt;/em&gt;. The question is: consistent with what?&lt;/p&gt;
+
+&lt;p&gt;To date, the components of consistency have most often been described as internal, external, functional, and aesthetic (see &lt;a href='http://www.amazon.co.uk/Universal-Principles-Design-Usability-Perception/dp/1592530079'&gt;Universal Principles of Design&lt;/a&gt;). I&amp;#8217;d like to focus on just the first two in this post. Internal and external occupy two polarities of a single continuum that we can call the &lt;em&gt;level&lt;/em&gt; of consistency.&lt;/p&gt;
+&lt;img class='normal-width' src='http://tylertate.com/resources/images/2012-03-08/continuum.jpg' alt='Three levels: internal, local, external' width='712' /&gt;
+&lt;h3 id='three_levels_of_consistency'&gt;Three levels of consistency&lt;/h3&gt;
+
+&lt;p&gt;While the traditional continuum is useful, the points along that continuum deserve further exploration. In particular, we need to account for how consistency affects cross-channel experiences. In that light, I suggest that three points—not two—should underpin our thinking:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Internal&lt;/strong&gt;. A specific &lt;em&gt;website, application, or experience&lt;/em&gt; in isolation from all others.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Local&lt;/strong&gt;. The immediate &lt;em&gt;habitat&lt;/em&gt; in which a website, habitat, or experience coexists. It could be the web as a whole or a device&amp;#8217;s operating system, for instance.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;External&lt;/strong&gt;. The &lt;em&gt;ecosystem&lt;/em&gt; encompassing the habitats in which the various websites, applications, and experiences reside.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img class='normal-width' src='http://tylertate.com/resources/images/2012-03-08/ecosystem.jpg' alt='Three levels: internal, local, external' width='712' /&gt;
+&lt;h3 id='lets_be_clear'&gt;Let&amp;#8217;s be clear&lt;/h3&gt;
+
+&lt;p&gt;From this vantage point we can rationalize how some forms of consistency should trump others. For instance, certain OS conventions—such as the visual style for buttons—should usually take precedence over ecosystem-wide consistency; the local application, on the other hand, should most often be subservient to a ensuring a seamless experience across the ecosystem as a whole.&lt;/p&gt;
+
+&lt;p&gt;I hope to discuss a second dimension of consistency in a future post: &lt;em&gt;type&lt;/em&gt;.&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2012/03/08/on-consistency-three-levels.html</link>
+				<guid>http://www.tylertate.com/blog/2012/03/08/on-consistency-three-levels.html</guid>
+			</item>
+		
+			<item>
 				<title>UX, CX, and Service Design: Employees Are Customers Too</title>
 				<pubDate>Wed, 07 Mar 2012 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;User experience design is growing up. We&amp;#8217;ve finally realized that UX is less about creating end-all-be-all websites, and more about designing cross-channel ecosystems that encompass both the digital and physical.&lt;/p&gt;
@@ -15,7 +47,7 @@
 
 &lt;p&gt;As part of this journey, we&amp;#8217;ve wisely been reaching out to other disciplines for inspiration. &lt;em&gt;Service design&lt;/em&gt; has taught us to consider customer journeys from touchpoint to touchpoint across multiple channels. &lt;em&gt;Customer experience design&lt;/em&gt; has encouraged us to put our business hats on and align user experience with business strategy. Both of these disciplines exert a positive influence on user experience design.&lt;/p&gt;
 
-&lt;h3 id='but_customers_arent_the_only_users'&gt;But customers aren&amp;#8217;t the only users&lt;/h3&gt;
+&lt;h3 id='customers_arent_the_only_users'&gt;Customers aren&amp;#8217;t the only users&lt;/h3&gt;
 
 &lt;p&gt;Yet there is one flaw in all of this. As we&amp;#8217;ve been striving towards cross-channel design, mapping customer journeys, and dwelling on customer experience, our thinking has been invariably focused on just that: &lt;em&gt;customers&lt;/em&gt;. This is unsurprising—retailers with both online and brick-and-mortar presences are a natural birthplace for such innovation. Yet we must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer.&lt;/p&gt;
 
