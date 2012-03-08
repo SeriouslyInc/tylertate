@@ -12,6 +12,8 @@ To date, the components of consistency have most often been described as interna
 
 <img src="http://tylertate.com/resources/images/2012-03-08/continuum.jpg" width="712" class="normal-width" alt="Three levels: internal, local, external" />
 
+*The levels of consistency continuum.*
+
 ###Three levels of consistency
 While the traditional continuum is useful, the points along that continuum deserve further exploration. In particular, we need to account for how consistency affects cross-channel experiences. In that light, I suggest that three points—not two—should underpin our thinking:
 
