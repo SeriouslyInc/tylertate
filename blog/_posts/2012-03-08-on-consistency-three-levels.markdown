@@ -16,7 +16,7 @@ To date, the components of consistency have most often been described as interna
 While the traditional continuum is useful, the points along that continuum deserve further exploration. In particular, we need to account for how consistency affects cross-channel experiences. In that light, I suggest that three points—not two—should underpin our thinking:
 
 * **Internal**. The *creature* itself. A specific website, application, or experience in isolation from all others.
-* **Local**. The immediate *habitat* in which a website, habitat, or experience coexists. It could be the web as a whole or a device's operating system, for instance.
+* **Local**. The immediate *habitat* in which a website, application, or experience coexists. It could be the web as a whole or a device's operating system, for instance.
 * **External**. The *ecosystem* encompassing the habitats in which the various websites, applications, and experiences reside.
 
 <img src="http://tylertate.com/resources/images/2012-03-08/ecosystem.jpg" width="712" class="normal-width" alt="Three levels: internal, local, external" />
