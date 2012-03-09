@@ -7,6 +7,38 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>On Consistency, Part 2: Four Types</title>
+				<pubDate>Fri, 09 Mar 2012 00:00:00 GMT</pubDate>
+				<description>&lt;p&gt;In &lt;a href='http://tylertate.com/blog/2012/03/08/on-consistency-three-levels.html'&gt;part 1&lt;/a&gt; we outlined three common &lt;em&gt;levels&lt;/em&gt; of consistency: internal, local, and external (analogous to creature, habitat, ecosystem). Here we turn our attention to a second dimension: &lt;em&gt;type&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;While &lt;em&gt;level&lt;/em&gt; answers the question, &amp;#8220;Is object A similar to object B?&amp;#8221;, &lt;em&gt;type&lt;/em&gt; is concerned with: &amp;#8221;&lt;em&gt;In what way&lt;/em&gt; is object A similar with object B?&amp;#8221;&lt;/p&gt;
+
+&lt;h3 id='four_types_of_consistency'&gt;Four types of consistency&lt;/h3&gt;
+
+&lt;p&gt;There are many ways to slice cakes and skin cats, yet these four types of consistency seem most relevant to cross-channel design:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Function&lt;/strong&gt;. &lt;em&gt;Purpose&lt;/em&gt;. The purpose of a print catalog is to encourage serendipitous discovery. The purpose of a retailer&amp;#8217;s website is to facilitate both discovery and the lookup of known items.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Behavior&lt;/strong&gt;. &lt;em&gt;How it works&lt;/em&gt;. The interaction design. The process flow involved in completing a task.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;. &lt;em&gt;How it&amp;#8217;s organized&lt;/em&gt;. The taxonomy driving both digital and physical wayfinding. For instance, the way in which products are organized in stores of both the online and brick-and-mortar sort.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Aesthetics&lt;/strong&gt;. &lt;em&gt;How it looks&lt;/em&gt;. The visual style.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='putting_the_pieces_together'&gt;Putting the pieces together&lt;/h3&gt;
+
+&lt;p&gt;Breaking consistency down into its component parts is more than just a thought exercise. A careful consideration of the levels and types of consistency is central to designing seamless cross-channel experiences.&lt;/p&gt;
+
+&lt;p&gt;In particular, it&amp;#8217;s useful to consider which levels and types of consistency should take precedence over others. A retailer creating an iPhone application, for instance, might decide that the &lt;em&gt;behavior&lt;/em&gt; should be consistent with its &lt;em&gt;local&lt;/em&gt; habitat (in this case, other iPhone apps), whereas the &lt;em&gt;organization&lt;/em&gt; scheme should match that of the &lt;em&gt;external&lt;/em&gt; ecosystem.&lt;/p&gt;
+&lt;img class='normal-width' src='http://www.tylertate.com/resources/images/2012-03-09/consistency-strategy.jpg' alt='A consistency diagram' width='712' /&gt;
+&lt;p&gt;&lt;em&gt;A consistency diagram.&lt;/em&gt;&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2012/03/09/on-consistency-four-types.html</link>
+				<guid>http://www.tylertate.com/blog/2012/03/09/on-consistency-four-types.html</guid>
+			</item>
+		
+			<item>
 				<title>On Consistency, Part 1: Three Levels</title>
 				<pubDate>Thu, 08 Mar 2012 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;Consistency is lauded as a staple ingredient of every good user experience; a fundamental principle of interaction design; a golden rule of the user interface. Yet it&amp;#8217;s a heuristic that&amp;#8217;s sometimes misunderstood and often oversimplified. Consistency is more complex than intuition would lead us to believe, rife with tension and competing forces, and often seemingly contradictory.&lt;/p&gt;
@@ -17,21 +49,25 @@
 
 &lt;p&gt;To date, the components of consistency have most often been described as internal, external, functional, and aesthetic (see &lt;a href='http://www.amazon.co.uk/Universal-Principles-Design-Usability-Perception/dp/1592530079'&gt;Universal Principles of Design&lt;/a&gt;). I&amp;#8217;d like to focus on just the first two in this post. Internal and external occupy two polarities of a single continuum that we can call the &lt;em&gt;level&lt;/em&gt; of consistency.&lt;/p&gt;
 &lt;img class='normal-width' src='http://tylertate.com/resources/images/2012-03-08/continuum.jpg' alt='Three levels: internal, local, external' width='712' /&gt;
+&lt;p&gt;&lt;em&gt;The levels of consistency continuum.&lt;/em&gt;&lt;/p&gt;
+
 &lt;h3 id='three_levels_of_consistency'&gt;Three levels of consistency&lt;/h3&gt;
 
 &lt;p&gt;While the traditional continuum is useful, the points along that continuum deserve further exploration. In particular, we need to account for how consistency affects cross-channel experiences. In that light, I suggest that three points—not two—should underpin our thinking:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Internal&lt;/strong&gt;. A specific &lt;em&gt;website, application, or experience&lt;/em&gt; in isolation from all others.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internal&lt;/strong&gt;. The &lt;em&gt;creature&lt;/em&gt; itself. A specific website, application, or experience in isolation from all others.&lt;/li&gt;
 
-&lt;li&gt;&lt;strong&gt;Local&lt;/strong&gt;. The immediate &lt;em&gt;habitat&lt;/em&gt; in which a website, habitat, or experience coexists. It could be the web as a whole or a device&amp;#8217;s operating system, for instance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local&lt;/strong&gt;. The immediate &lt;em&gt;habitat&lt;/em&gt; in which a website, application, or experience coexists. It could be the web as a whole or a device&amp;#8217;s operating system, for instance.&lt;/li&gt;
 
 &lt;li&gt;&lt;strong&gt;External&lt;/strong&gt;. The &lt;em&gt;ecosystem&lt;/em&gt; encompassing the habitats in which the various websites, applications, and experiences reside.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img class='normal-width' src='http://tylertate.com/resources/images/2012-03-08/ecosystem.jpg' alt='Three levels: internal, local, external' width='712' /&gt;
+&lt;p&gt;&lt;em&gt;The three levels can be thought of in ecological terms: the creature, the habitat, and the ecosystem.&lt;/em&gt;&lt;/p&gt;
+
 &lt;h3 id='lets_be_clear'&gt;Let&amp;#8217;s be clear&lt;/h3&gt;
 
-&lt;p&gt;From this vantage point we can rationalize how some forms of consistency should trump others. For instance, certain OS conventions—such as the visual style for buttons—should usually take precedence over ecosystem-wide consistency; the local application, on the other hand, should most often be subservient to a ensuring a seamless experience across the ecosystem as a whole.&lt;/p&gt;
+&lt;p&gt;From this vantage point we can rationalize how some forms of consistency should trump others. For instance, certain OS conventions—such as the visual style for buttons—should usually take precedence over ecosystem-wide consistency; the local application, on the other hand, should most often be subservient to ensuring a seamless experience across the ecosystem as a whole.&lt;/p&gt;
 
 &lt;p&gt;I hope to discuss a second dimension of consistency in a future post: &lt;em&gt;type&lt;/em&gt;.&lt;/p&gt;</description>
 				<link>http://www.tylertate.com/blog/2012/03/08/on-consistency-three-levels.html</link>
