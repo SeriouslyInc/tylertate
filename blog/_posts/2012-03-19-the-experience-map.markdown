@@ -21,6 +21,6 @@ Despite its many varieties, creating a basic experience map involves these three
 
 Once these basic components have been created, additional analysis can be added as needed. Here's an example experience map I've created following these steps:
 
-<div class="full-width"><img src="http://localhost:4000/resources/images/2012-03-19/experience-map.png" width="2933" height="480" alt="An example experience map" /></div>
+<div class="full-width"><img src="http://tylertate.com/resources/images/2012-03-19/experience-map.png" width="2933" height="480" alt="An example experience map" /></div>
 
 In summary, the experience map is an effective tool for understanding how users interact with an ecosystem, and is an ideal companion to the [cross-channel blueprint](http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html).
