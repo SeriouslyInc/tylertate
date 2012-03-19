@@ -118,19 +118,17 @@ section#mainbody article pre {
   font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
   background-color: #ebebeb;
 }
-section#mainbody article img {
+section#mainbody article .full-width {
+  width: 163%;
+  margin: 0 -21% 1em -42%;
+  max-width: 1160px;
+  overflow-x: auto;
+}
+section#mainbody article .normal-width {
+  width: 100%;
   margin-bottom: 1em;
 }
-section#mainbody article img.full-width {
-  width: 163%;
-  margin-left: -42%;
-  margin-right: -21%;
-  max-width: 1160px;
-}
-section#mainbody article img.normal-width {
-  width: 100%;
-}
-section#mainbody article img.twothirds-width {
+section#mainbody article .twothirds-width {
   display: block;
   width: 66%;
   max-width: 475px;
@@ -169,7 +167,7 @@ section#mainbody #disqus_thread {
   section#mainbody article blockquote p {
     margin-left: 1em;
   }
-  section#mainbody article img.full-width {
+  section#mainbody article .full-width {
     width: 100%;
     margin-left: 0;
     margin-right: 0;

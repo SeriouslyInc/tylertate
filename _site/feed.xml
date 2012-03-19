@@ -7,6 +7,38 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The Experience Map</title>
+				<pubDate>Mon, 19 Mar 2012 00:00:00 GMT</pubDate>
+				<description>&lt;p&gt;Last month when I blogged about the &lt;a href='http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html'&gt;cross-channel blueprint&lt;/a&gt; as a tool for planning the tasks and channels of an ecosystem, several people commented that it failed to fully account for user. Indeed, those comments helped me realize that the cross-channel blueprint is itself a &lt;em&gt;system-oriented&lt;/em&gt; diagram—useful as a planning tool and for the concise overview it provides—but that it must be paired with a &lt;em&gt;user-centered&lt;/em&gt; perspective. One such tool is an obvious companion: the experience map.&lt;/p&gt;
+
+&lt;h3 id='what_is_an_experience_map'&gt;What is an experience map?&lt;/h3&gt;
+
+&lt;p&gt;Sometimes called a &lt;a href='http://www.servicedesigntools.org/tools/8'&gt;customer journey map&lt;/a&gt; (the first term of which &lt;a href='http://tylertate.com/blog/2012/03/07/employees-are-customers-too.html'&gt;I take issue&lt;/a&gt;), the experience map is a tool born out of service design. It visually represents not only a user&amp;#8217;s interactions with the system, but is also concerned with the emotional state of the user throughout the entire process. Experience maps help everyone involved put themselves in the user&amp;#8217;s shoes.&lt;/p&gt;
+
+&lt;p&gt;Unlike the cross-channel blueprint that can be created in front of a whiteboard &lt;em&gt;ex nihilo&lt;/em&gt;, experience maps rely on user research. Both quantitative measures such as log data and survey results, and particularly qualitative techniques such as field studies should be used to shape an accurate map of the user&amp;#8217;s experience. In addition, the experience map can focus either on a group of users—portraying their behavior and attitudes in aggregate—or on an individual user, in which case an accompanying persona is valuable.&lt;/p&gt;
+
+&lt;p&gt;Experience maps come in many different forms. &lt;a href='http://www.adaptivepath.com/ideas/the-anatomy-of-an-experience-map'&gt;Chris Risdon&lt;/a&gt; of Adaptive Path uses five dimensions—the lens, the journey model, qualitative insight, quantitative information, and takeaways; &lt;a href='http://www.mycustomer.com/topic/customer-intelligence/customer-journey-mapping/105167'&gt;Arne van Oosterom&lt;/a&gt; describes ten—including the customer journey, moments of truth, and the emotional journey; and &lt;a href='http://experiencinginformation.wordpress.com/2010/05/10/customer-journey-mapping-resources-on-the-web/'&gt;James Kalbach&lt;/a&gt; has compiled a long list of related resources, each with a slightly different take on the tool.&lt;/p&gt;
+
+&lt;h3 id='creating_an_experience_map'&gt;Creating an experience map&lt;/h3&gt;
+
+&lt;p&gt;Despite its many varieties, creating a basic experience map involves these three steps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Outline the user&amp;#8217;s journey&lt;/strong&gt;. Start by creating a list of all the occurrences that constitute the user&amp;#8217;s experience not just within the ecosystem, but throughout their entire journey from beginning to end. These occurrences can then be arranged horizontally to form a timeline.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;List the channel and goal&lt;/strong&gt; for each step of the user&amp;#8217;s journey. Channel refers to the medium through which the action is performed. Goal describes the underlying motivation for performing the action. These components should be consistent with the two dimensions of the cross-channel blueprint.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Describe the user&amp;#8217;s emotion&lt;/strong&gt; and rate their satisfaction for every step of the process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once these basic components have been created, additional analysis can be added as needed. Here&amp;#8217;s an example experience map I&amp;#8217;ve created following these steps:&lt;/p&gt;
+&lt;div class='full-width'&gt;&lt;img src='http://localhost:4000/resources/images/2012-03-19/experience-map.png' height='480' alt='An example experience map' width='2933' /&gt;&lt;/div&gt;
+&lt;p&gt;In summary, the experience map is an effective tool for understanding how users interact with an ecosystem, and is an ideal companion to the &lt;a href='http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html'&gt;cross-channel blueprint&lt;/a&gt;.&lt;/p&gt;</description>
+				<link>http://www.tylertate.com/blog/2012/03/19/the-experience-map.html</link>
+				<guid>http://www.tylertate.com/blog/2012/03/19/the-experience-map.html</guid>
+			</item>
+		
+			<item>
 				<title>On Optimization: The Division of Labor</title>
 				<pubDate>Mon, 12 Mar 2012 00:00:00 GMT</pubDate>
 				<description>&lt;p&gt;In the opening pages of &lt;em&gt;The Wealth of Nations&lt;/em&gt;, Adam Smith demonstrates the power of the division of labor through the example of a pin factory. At that time, the process for manufacturing sewing pins consisted of about 18 operations, such as drawing out the wire, straightening it, cutting it, pointing it, sanding it, and so on. Each tasks was sufficiently involved, Smith maintained, that a single individual could perhaps &amp;#8220;make one pin in a day, and certainly could not make twenty.&amp;#8221; Yet when each operation was distributed to a tradesmen specialized in that task, the team &amp;#8220;could make amongst them upwards of 48,000 pins in a day.&amp;#8221;&lt;/p&gt;
@@ -39,7 +71,7 @@
 			<item>
 				<title>On Consistency, Part 2: Four Types</title>
 				<pubDate>Fri, 09 Mar 2012 00:00:00 GMT</pubDate>
-				<description>&lt;p&gt;In &lt;a href='http://tylertate.com/blog/2012/03/08/on-consistency-three-levels.html'&gt;part 1&lt;/a&gt; we outlined three common &lt;em&gt;levels&lt;/em&gt; of consistency: internal, local, and external (analogous to creature, habitat, ecosystem). Here we turn our attention to a second dimension: &lt;em&gt;type&lt;/em&gt;.&lt;/p&gt;
+				<description>&lt;p&gt;In &lt;a href='http://tylertate.com/blog/2012/03/08/on-consistency-three-levels.html'&gt;part 1&lt;/a&gt; I outlined three common &lt;em&gt;levels&lt;/em&gt; of consistency: internal, local, and external (analogous to creature, habitat, ecosystem). Here I&amp;#8217;d like to turn our attention to a second dimension: &lt;em&gt;type&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;While &lt;em&gt;level&lt;/em&gt; answers the question, &amp;#8220;Is object A similar to object B?&amp;#8221;, &lt;em&gt;type&lt;/em&gt; is concerned with: &amp;#8221;&lt;em&gt;In what way&lt;/em&gt; is object A similar with object B?&amp;#8221;&lt;/p&gt;
 

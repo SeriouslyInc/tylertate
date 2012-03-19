@@ -168,24 +168,21 @@ section#mainbody {
 		}
 
 		// IMAGES
-		img {
+		.full-width {
+			width: 163%;
+			margin: 0 -21% 1em -42%;
+			max-width: 1160px;
+			overflow-x: auto;
+		}
+		.normal-width {
+			width: 100%;
 			margin-bottom: 1em;
-
-			&.full-width {
-				width: 163%;
-				margin-left: -42%;
-				margin-right: -21%;
-				max-width: 1160px;
-			}
-			&.normal-width {
-				width: 100%;
-			}
-			&.twothirds-width {
-				display: block;
-				width: 66%;
-				max-width: 475px;
-				margin: 0 auto 1em auto;
-			}
+		}
+		.twothirds-width {
+			display: block;
+			width: 66%;
+			max-width: 475px;
+			margin: 0 auto 1em auto;
 		}
 
 		// LISTS
@@ -231,7 +228,7 @@ section#mainbody {
 		article blockquote p {
 			margin-left: 1em;
 		}
-		article img.full-width {
+		article .full-width {
 			width: 100%;
 			margin-left: 0;
 			margin-right: 0;
