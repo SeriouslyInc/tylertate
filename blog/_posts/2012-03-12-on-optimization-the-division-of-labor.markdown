@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: "On Optimization: The Division of Labor"
+topic: design
+type: blog-post
 ---
 
 In the opening pages of *The Wealth of Nations*, Adam Smith demonstrates the power of the division of labor through the example of a pin factory. At that time, the process for manufacturing sewing pins consisted of about 18 operations, such as drawing out the wire, straightening it, cutting it, pointing it, sanding it, and so on. Each tasks was sufficiently involved, Smith maintained, that a single individual could perhaps "make one pin in a day, and certainly could not make twenty." Yet when each operation was distributed to a tradesmen specialized in that task, the team "could make amongst them upwards of 48,000 pins in a day."

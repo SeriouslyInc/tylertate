@@ -1,6 +1,9 @@
 ---
 layout: blog
 title: "On Consistency, Part 2: Four Types"
+description: "In part 1 I outlined three common levels of consistency: internal, local, and external (analogous to creature, habitat, ecosystem). Here I'd like to turn our attention to a second dimension: type."
+topic: design
+type: blog-post
 ---
 
 In [part 1](http://tylertate.com/blog/2012/03/08/on-consistency-three-levels.html) I outlined three common *levels* of consistency: internal, local, and external (analogous to creature, habitat, ecosystem). Here I'd like to turn our attention to a second dimension: *type*.

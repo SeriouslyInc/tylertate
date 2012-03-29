@@ -7,9 +7,8 @@
 	<link rel="alternate" type="application/rss+xml" title="Tyler Tate. Designer. Co-founder of TwigKit. Creator of Semantic.gs." href="http://feeds.feedburner.com/TylerTate" />
 	<title>Tyler Tate. Cognitive Styles</title>
 
-	<link rel="stylesheet" href="http://tylertate.com/resources/css/main.css" type="text/css">
+	<link rel="stylesheet" href="http://localhost:4000/resources/css/main.css" type="text/css">
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=IM+Fell+English' type='text/css'>
 	
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
@@ -22,16 +21,54 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 	</script>
+
+	<script type="text/javascript">
+		function addClickEvents() {
+			var facetList = document.getElementById('filters').children;
+
+			for (var i = 0; i < facetList.length; i++) {
+				var filterList = facetList[i].children;
+
+				for (var x = 0; x < filterList.length; x++) {
+					var filter = filterList[x];
+
+					filter.addEventListener("click", applyFilter);
+				}
+			}
+		}
+		function applyFilter() {
+			document.getElementsByTagName('body')[0].className = this.className;
+		}
+	</script>
 </head>
 
-<body id="blog">
+<body id="blog" onLoad="addClickEvents()">
 	
 	<div id="container">
 
 		<header id="page-header">
 			<h1><a href="/">Tyler Tate</a></h1>
-			<p><a href="http://twitter.com/tylertate">Designer</a>. Co-founder of <a href="http://TwigKit.com/">TwigKit</a>. <!--Creator of <a href="http://Semantic.gs">Semantic.gs</a>.--></p>
+			<p>Hello there. I am <a href="http://www.twitter.com/tylertate">@TyleTate</a>: designer, co-founder of <a href="http://TwigKit.com/">TwigKit</a>, co-author of <a href="#">Designing the Search Experience</a>, and creator of <a href="http://Semantic.gs">Semantic.gs</a>. I'm an American living in Cambridge, England with my wife two little boys. Welcome to my blog.</p>
 		</header>
+
+		<nav id="filters">
+			<ul>
+				<li class="blog-posts"><a>Blog Posts</a></li>
+				<li class="articles"><a >Articles</a></li>
+				<li class="events"><a>Events</a></li>
+			</ul>
+
+			<ul>
+				<li class="design"><a>Design</a></li>
+				<li class="development"><a>Development</a></li>
+			</ul>
+
+			<ul>
+				<li class="full-text"><a>Full Text</a></li>
+				<li class="excerpt"><a>Excerpt</a></li>
+				<li class="title-only"><a>Title Only</a></li>
+			</ul>
+		</nav>
 
 		<section id="mainbody">
 			<article>
@@ -57,6 +94,7 @@
 		</section>
 		
 	</div>
+
 
 </body>
 </html>

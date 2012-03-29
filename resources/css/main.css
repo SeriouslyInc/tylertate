@@ -38,7 +38,7 @@ a:hover {
   margin: 0 auto;
 }
 header#page-header {
-  padding: 3em 0 6em 0;
+  padding: 3em 0;
   overflow: hidden;
 }
 header#page-header h1 {
@@ -65,7 +65,66 @@ header#page-header p {
   font-style: italic;
 }
 header#page-header p a {
-  color: #777777;
+  color: #515151;
+}
+nav#filters {
+  overflow: hidden;
+  padding-bottom: 3em;
+}
+nav#filters ul {
+  display: inline;
+  float: left;
+  width: 17.5%;
+  margin: 0 1.5625%;
+}
+nav#filters ul:first-child {
+  margin-left: 26.5625%;
+}
+body.articles section#mainbody article {
+  display: none;
+}
+body.articles section#mainbody article.article {
+  display: block;
+}
+body.blog-posts section#mainbody article {
+  display: none;
+}
+body.blog-posts section#mainbody article.blog-post {
+  display: block;
+}
+body.design section#mainbody article {
+  display: none;
+}
+body.design section#mainbody article.design {
+  display: block;
+}
+body.development section#mainbody article {
+  display: none;
+}
+body.development section#mainbody article.development {
+  display: block;
+}
+body.title-only section#mainbody article {
+  margin-bottom: 3em;
+}
+body.title-only section#mainbody article section {
+  display: none;
+}
+body.excerpt section#mainbody article {
+  margin-bottom: 4.5em;
+}
+body.excerpt section#mainbody article section p,
+body.excerpt section#mainbody article section h3,
+body.excerpt section#mainbody article section ol,
+body.excerpt section#mainbody article section ul,
+body.excerpt section#mainbody article section blockquote,
+body.excerpt section#mainbody article section img,
+body.excerpt section#mainbody article section div,
+body.excerpt section#mainbody article section pre {
+  display: none;
+}
+body.excerpt section#mainbody article section p:first-child {
+  display: block;
 }
 section#mainbody {
   display: inline;

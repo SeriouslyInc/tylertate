@@ -65,7 +65,7 @@ a {
 ////////////////
 
 header#page-header {
-	padding: 3em 0 6em 0;
+	padding: 3em 0;
 	overflow: hidden;
 
 	// LOGO
@@ -91,7 +91,68 @@ header#page-header {
 		font-style: italic;
 
 		a {
-			color: @gray;
+			color: darken(@gray,15%);
+		}
+	}
+}
+
+/////////////
+// FILTERS //
+/////////////
+
+nav#filters {
+	overflow: hidden;
+	padding-bottom: 3em;
+
+	ul {
+		.column(1.65);
+
+		&:first-child {
+			.push(2);
+		}
+	}
+}
+
+
+///////////////
+// FILTERING //
+///////////////
+
+// Only show articles
+body.articles section#mainbody article { display: none; }
+body.articles section#mainbody article.article { display: block; }
+
+// Only show blog posts
+body.blog-posts section#mainbody article { display: none; }
+body.blog-posts section#mainbody article.blog-post { display: block; }
+
+// Only show design posts
+body.design section#mainbody article { display: none; }
+body.design section#mainbody article.design { display: block; }
+
+// Only show dev posts
+body.development section#mainbody article { display: none; }
+body.development section#mainbody article.development { display: block; }
+
+// Concise
+body.title-only section#mainbody article {
+	margin-bottom: 3em;
+
+	section {
+		display: none;
+	}
+}
+
+// Normal
+body.excerpt section#mainbody article {
+	margin-bottom: 4.5em;
+
+	section {
+		p, h3, ol, ul, blockquote, img, div, pre {
+			display: none;
+		}
+		p:first-child {
+			display: block;
 		}
 	}
 }

@@ -1,6 +1,9 @@
 ---
 layout: blog
 title: "Cross-Channel Blueprints: A tool for modern IA"
+description: "The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect's skillset is well-suited for this new challenge, our existing tools are not."
+topic: design
+type: blog-post
 ---
 
 The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect's skillset is well-suited for this new challenge, our existing tools are not.

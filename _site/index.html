@@ -7,9 +7,8 @@
 	<link rel="alternate" type="application/rss+xml" title="Tyler Tate. Designer. Co-founder of TwigKit. Creator of Semantic.gs." href="http://feeds.feedburner.com/TylerTate" />
 	<title>Tyler Tate. Designer. Co-founder of TwigKit. Creator of Semantic.gs.</title>
 
-	<link rel="stylesheet" href="http://tylertate.com/resources/css/main.css" type="text/css">
+	<link rel="stylesheet" href="http://localhost:4000/resources/css/main.css" type="text/css">
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=IM+Fell+English' type='text/css'>
 	
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
@@ -22,20 +21,58 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 	</script>
+
+	<script type="text/javascript">
+		function addClickEvents() {
+			var facetList = document.getElementById('filters').children;
+
+			for (var i = 0; i < facetList.length; i++) {
+				var filterList = facetList[i].children;
+
+				for (var x = 0; x < filterList.length; x++) {
+					var filter = filterList[x];
+
+					filter.addEventListener("click", applyFilter);
+				}
+			}
+		}
+		function applyFilter() {
+			document.getElementsByTagName('body')[0].className = this.className;
+		}
+	</script>
 </head>
 
-<body id="home">
+<body id="home" onLoad="addClickEvents()">
 	
 	<div id="container">
 
 		<header id="page-header">
 			<h1><a href="/">Tyler Tate</a></h1>
-			<p><a href="http://twitter.com/tylertate">Designer</a>. Co-founder of <a href="http://TwigKit.com/">TwigKit</a>. <!--Creator of <a href="http://Semantic.gs">Semantic.gs</a>.--></p>
+			<p>Hello there. I am <a href="http://www.twitter.com/tylertate">@TyleTate</a>: designer, co-founder of <a href="http://TwigKit.com/">TwigKit</a>, co-author of <a href="#">Designing the Search Experience</a>, and creator of <a href="http://Semantic.gs">Semantic.gs</a>. I'm an American living in Cambridge, England with my wife two little boys. Welcome to my blog.</p>
 		</header>
+
+		<nav id="filters">
+			<ul>
+				<li class="blog-posts"><a>Blog Posts</a></li>
+				<li class="articles"><a >Articles</a></li>
+				<li class="events"><a>Events</a></li>
+			</ul>
+
+			<ul>
+				<li class="design"><a>Design</a></li>
+				<li class="development"><a>Development</a></li>
+			</ul>
+
+			<ul>
+				<li class="full-text"><a>Full Text</a></li>
+				<li class="excerpt"><a>Excerpt</a></li>
+				<li class="title-only"><a>Title Only</a></li>
+			</ul>
+		</nav>
 
 		<section id="mainbody">
 			
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -72,7 +109,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -115,7 +152,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -156,7 +193,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -199,7 +236,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -246,7 +283,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -285,7 +322,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -386,7 +423,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -414,7 +451,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -440,7 +477,7 @@
 		</section>
 	</article>
 
-	<article>
+	<article class="development blog-post">
 		<header>
 			<p>
 				
@@ -528,7 +565,7 @@ margin: 0 @computedMargin;
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -547,14 +584,10 @@ margin: 0 @computedMargin;
 			<p>Mobile information needs can be assed by two criteria: scope and type. Scope describes the sophistication of the information need, the degree of higher-level thinking it involves, and the time commitment required to satisfy it. The lookup, learn, and investigate elements of scope are derived from Gary Marchionini’s work on exploratory search, while the casual component has been more recently advocated by Max Wilson and others.</p>
 			
 			
-				<p class="more">
-					<a href="http://twigkit.com/blog/2011/12/06/mobile-information-needs.html">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -573,14 +606,10 @@ margin: 0 @computedMargin;
 			<p>A few Saturdays ago, I was walking around Greenwich in southeast London when I decided to peruse the local bookshop. Drawn to a display titled “Utopias and Dystopias,” I noticed the book A Brave New World sitting beside George Orwell’s 1984, which I had read and remembered enjoying. Curious about the association between the two, I picked up A Brave New World and glanced over the back cover. I then pulled out my phone and searched Google to see what others were saying about the book and noted that it is often considered one of the top-100 novels of all time. My mind was settled: I wanted to read this book. But rather than walking, book in hand, to the checkout counter, I instead used my phone to navigate to Amazon’s Kindle Store, where I typed in the name of the book and used their 1-click ordering to purchase the book. Leaving the bookshop empty handed, I caught the next bus home. On the way home, I pulled out my tablet device and started reading page 1 of A Brave New World.</p>
 			
 			
-				<p class="more">
-					<a href="http://uxmatters.com/mt/archives/2011/10/the-rise-of-cross-channel-ux-design.php">Read the rest on UX Matters.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -599,14 +628,10 @@ margin: 0 @computedMargin;
 			<p>The book is a very practical guide on how to exploit query logs to improve your company’s search experience. Lou outlines a collection of simple but potent techniques for analyzing search logs, spotting insightful patterns, and putting those insights to use.</p>
 			
 			
-				<p class="more">
-					<a href="http://twigkit.com/blog/2011/10/13/book-review-search-analytics-lou-rosenfeld.html">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -637,7 +662,7 @@ margin: 0 @computedMargin;
 		</section>
 	</article>
 
-	<article>
+	<article class=" article">
 		<header>
 			<p>
 				
@@ -656,14 +681,10 @@ margin: 0 @computedMargin;
 			<p>CSS grid frameworks can make your life easier, but they’re not without their faults. Fortunately for us, modern techniques offer a new approach to constructing page layouts. But before getting to the solution, we must first understand the three seemingly insurmountable flaws currently affecting CSS grids.</p>
 			
 			
-				<p class="more">
-					<a href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/">Read the rest on Smashing Magazine.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -682,14 +703,10 @@ margin: 0 @computedMargin;
 			<p>Yesterday was the deadline to submit a redesign of Wikipedia’s search page to the search design contest organized by Greplin. While the contest isn’t officially endorsed by Wikipedia, we found the challenge too much fun to turn down.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.twigkit.com/blog/2011/08/19/redesigning-wikipedia-search.html">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -708,14 +725,10 @@ margin: 0 @computedMargin;
 			<p>Think of the last time you ordered a book, booked a flight, or bought a car. How did you choose which book to read, where to go for vacation, or which car was best for you? You may have searched online, read reviews, or asked others for advice to help you make an informed decision. In a word, you learned. Learning is a complex process with distinct stages, each with corresponding tasks and emotions. Understanding how users learn can help us design experiences that support the user throughout the entire process. To design better learning experiences online, start by learning a thing or two about learning itself.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.alistapart.com/articles/the-ux-of-learning/">Read the rest on A List Apart.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -734,14 +747,10 @@ margin: 0 @computedMargin;
 			<p>You and I are different. It’s obvious, but has a profound impact on fulfilling the needs of disparate users. Not only do you and I have different accents, hairstyles, and musical tastes, but even our cognitive processes — the very building blocks of being human — are substantially different. I recently wrote about individual differences in expertise and cognitive style, but there is a third dimension: learning style. Understanding how people learn is fundamental to delivering desirable content, a prerequisite of any good user experience.</p>
 			
 			
-				<p class="more">
-					<a href="http://johnnyholland.org/2011/06/16/learning-styles-the-cognitive-side-of-content/">Read the rest on Johnny Holland.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="development blog-post">
 		<header>
 			<p>
 				
@@ -760,14 +769,10 @@ margin: 0 @computedMargin;
 			<p>There is a huge need for a standard corpus of high-quality, free-to-use demo data. When building search applications, for instance, getting your hands on actual data can be near impossible, forcing you to design for unrealistic situations and compromising the end result. Well-rounded demo data would help ensure you’re working towards the right target.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.twigkit.com/blog/2011/05/20/a-call-for-high-quality-open-source-demo-data.html">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -790,14 +795,10 @@ margin: 0 @computedMargin;
 <p>For over a century, psychologists have been trying to account for the range of individual differences people exhibit when interacting with new information. At the heart of their research lie cognitive styles—the stable attitudes, preferences, and habitual strategies that determine how an individual processes information. Understanding cognitive styles will help us design better experiences for users.</p>
 			
 			
-				<p class="more">
-					<a href="http://uxmag.com/design/cognitive-styles">Read the rest on UX Magazine.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -816,14 +817,10 @@ margin: 0 @computedMargin;
 			<p>Would you rather take a photo using your phone, a point-and-shoot camera, or a digital SLR? How you answer this question is probably a good indicator of your photographic expertise. If you snap casual shots, your phone or a point-and-shoot camera will probably suffice. If you’re a professional photographer, on the other hand, you probably prefer using an SLR that gives you control over the focus, aperture, and exposure. Expertise significantly impacts how we seek information online. Just as novice and expert photographers prefer different tools, so novices and experts behave differently when searching for information. Understanding these differences will help us design better search interfaces for both groups of users.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.boxesandarrows.com/view/novices-orienteer">Read the rest on Boxes & Arrows.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -842,14 +839,10 @@ margin: 0 @computedMargin;
 			<p>Why do you code? It’s probably not just for a pay check (lets face it, there are plenty of boring jobs out there that pay the bills). Maybe you code because you like working with the latest technology, or perhaps you take pleasure in crafting concise, elegant solutions to tough problems. Did I hear you say, “I code to deliver value to users”? Hmm, didn’t think so. But you’re not alone: designers have their own set of motivations devoid of the user, from seeking the praise of others to creating a work of art. It’s imperative that both designers and developers fight against our natural inclinations and treat the user as king. Whatever you’re working on, whether it’s an API for a payment gateway or a new request handler for Solr, you’re building it for the people who will use it. Want to become a better developer? Then start designing the user experience.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.twigkit.com/blog/2011/04/08/why-developers-should-become-ux-designers.html">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -868,14 +861,10 @@ margin: 0 @computedMargin;
 			<p>Why do you code? It’s probably not just for a pay check (lets face it, there are plenty of boring jobs out there that pay the bills). Maybe you code because you like working with the latest technology, or perhaps you take pleasure in crafting concise, elegant solutions to tough problems. Did I hear you say, “I code to deliver value to users”? Hmm, didn’t think so. But you’re not alone: designers have their own set of motivations devoid of the user, from seeking the praise of others to creating a work of art. It’s imperative that both designers and developers fight against our natural inclinations and treat the user as king. Whatever you’re working on, whether it’s an API for a payment gateway or a new request handler for Solr, you’re building it for the people who will use it. Want to become a better developer? Then start designing the user experience.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.twigkit.com/blog/2011/03/30/why-designers-should-give-a-bleep.html">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -894,14 +883,10 @@ margin: 0 @computedMargin;
 			<p>When was the last time that you were “in the zone”? Do you remember being so absorbed in an activity that you forgot about the outside world, time seemed to fade away, and you felt invigorated? Maybe you’re an avid tennis player and remember a rigorous game when you seemed on fire. Or perhaps you’re a musician and recall feeling as if the notes were flowing through your fingertips. Psychologist Mihaly Csikszentmihalyi calls this state of optimal experience flow. In his research, he found that musicians, composers, athletes, and even chess players all used the same words to explain their enjoyment. Csikszentmihalyi identified 8 elements that contribute to a flow experience.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.twigkit.com/blog/2011/02/09/search-as-a-flow-experience.html">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -920,14 +905,10 @@ margin: 0 @computedMargin;
 			<p>This past week I discovered a new recipe search engine called Foodily. Both the interaction and the visual design are superb, and Foodily makes use of several novel patterns that I thought would be worth pointing out.</p>
 			
 			
-				<p class="more">
-					<a href="http://blog.twigkit.com/foodily/">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -946,14 +927,10 @@ margin: 0 @computedMargin;
 			<p>In 1899 the largest automobile producer in world, Benz &amp; Cie, made a grand total of 572 cars. Few could afford such hand-built luxuries. But in 1908 Henry Ford began to mass-produce the Model T using an assembly line. By distilling the complex process of constructing an automobile into a distinct set of repeatable tasks, Ford reduced the time required to assemble a car down to just 93 minutes. By the 1920s, 10,000 cars were being produced every day, each with a price tag of just $290. Software, too, thrives on the transformation of abstract ideas into concrete, reusable components.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.uxmag.com/technology/from-pattern-to-component">Read the rest on UX Magazine.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="business blog-post">
 		<header>
 			<p>
 				
@@ -972,14 +949,10 @@ margin: 0 @computedMargin;
 			<p>It’s been an exciting week for the Nutshell team. We’ve been in New York City officially launching the company in front of about 500 of our peers at the Future of Web Design conference. On Monday, Andy Fowler (our lead developer) and I went on stage at the end of the conference to make the big announcement. We shared some of the key tenets of our development strategy including cross-platform design, building the API first, and prototyping on paper.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.nutshell.com/development/2010/11/nutshell-launches-in-nyc/">Read the rest on The Nutshell Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -998,14 +971,10 @@ margin: 0 @computedMargin;
 			<p>We&#8217;ve all been frustrated by a gadget, from trying to install a printer to spending hours setting up a new mobile phone. Page one of Simple and Usable points out that: “The Technology that is supposed to make our lives easier often feels like it&#8217;s on the march against us.” What then is the antidote to confusing products, software, and web sites? The answer is — as one might guess from the title of the book — simplicity. Simple and Usable is both an extremely approachable and an incredibly practical guide to simplicity. Author Giles Colborne compelling shares four fundamental strategies for accomplishing simplicity: remove, organize, hide, and displace.</p>
 			
 			
-				<p class="more">
-					<a href="http://tinyurl.com/simple-and-usable">Read the rest on Amazon.com.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -1024,14 +993,10 @@ margin: 0 @computedMargin;
 			<p>Lucid Imagination recently invited me to present a webinar on designing user interfaces for search. At the end of the webinar, a number of participants sent in several really good questions. Here are 10 of them, accompanied by my answers.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.lucidimagination.com/blog/2010/08/31/guest-post-qa-on-designing-the-search-experience-with-twigkits-tyler-tate/">Read the rest on Lucid Imagination.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -1050,14 +1015,10 @@ margin: 0 @computedMargin;
 			<p>What does building a brand new CRM for medium-sized businesses look like? Way before pushing our first pixel, we listened to people recount their frustrations with CRMs on the market today. We had long discussions about how we wanted to both empower sales people to do their job more efficiently, and enable the business to control and codify the sales process. We spent long sessions in front of the whiteboard, and days sketching out and talking through these ideas. Now in the final stages of development (eying a launch later this year), we thought it as good a time as any to show you a few of those early sketches.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.nutshell.com/blog/2010/08/sketch/">Read the rest on The Nutshell Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -1076,14 +1037,10 @@ margin: 0 @computedMargin;
 			<p>The implications of Information Foraging Theory on designing user-centred websites have not gone unnoticed. Jakob Nielsen and Jared Spool, among others, have put forth considered recommendations on how to enhance information scent on the web. Most of their guidelines, however, tend to assume that the designer has direct control over the explicit words used in the interface. While this is certainly the case for browse-based websites dependent on site-wide navigation and hyperlinks, it breaks down for search interfaces where both content and navigation are completely dynamic.</p>
 			
 			
-				<p class="more">
-					<a href="http://johnnyholland.org/2010/07/05/the-scent-of-search/">Read the rest on Johnny Holland.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -1102,14 +1059,10 @@ margin: 0 @computedMargin;
 			<p>People swear by their design process. Rachel Glaves insists on sketching by hand, Dan Brown urges extensive wireframing, and Ryan Singer goes straight to HTML. Conferences are filled with heated debates as advocates of each staunchly defend their favoured technique. With all of these different methods to choose from, should you be sketching, wireframing, mocking-up, or prototyping? The answer is simply: Yes, you should.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.uxbooth.com/blog/concerning-fidelity-and-design/">Read the rest on UX Booth.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -1128,14 +1081,10 @@ margin: 0 @computedMargin;
 			<p>This morning I got out of bed, ate my cereal, took my shower. Everything was proceeding pretty predictably. But then I did a Google search — usually a pretty mundane task — but this morning, Google looked very different than it did yesterday.</p>
 			
 			
-				<p class="more">
-					<a href="http://blog.twigkit.com/google-redesign/">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="business blog-post">
 		<header>
 			<p>
 				
@@ -1154,14 +1103,10 @@ margin: 0 @computedMargin;
 			<p>We’ve been putting together a small slide deck explaining what’s wrong with customer relationship management (CRM) as we know it, and how Nutshell is getting it right. Fortunately for us, there’s a whole lot of room for improvement.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.nutshell.com/development/2010/04/bright-future-for-crm/">Read the rest on The Nutshell Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="development blog-post">
 		<header>
 			<p>
 				
@@ -1180,14 +1125,10 @@ margin: 0 @computedMargin;
 			<p>The event consisted of 12 different speakers each presenting for exactly 20 minutes, with about 10 minutes of Q&amp;A after each. I particularly enjoyed the presentations from the major search engines: Yahoo, Google, Bing, and Wolfram Alpha. A topic that seemed to arise in each of those talks was how query reformulation data can provide a feedback loop to make search better. But without further ado, here are my summaries of each talk.</p>
 			
 			
-				<p class="more">
-					<a href="http://blog.twigkit.com/ecir-industry-day-2010/">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design blog-post">
 		<header>
 			<p>
 				
@@ -1206,14 +1147,10 @@ margin: 0 @computedMargin;
 			<p>You used to be expected to type for yourself. But today people have come to expect a reasonable amount of help at even this task. Our phones now help us form correctly-spelled words, our browsers fill in long addresses after we’ve typed only a few characters, and search engines recommend searching for “Humphrey Bogart” after we’ve typed just “boga.” But not all as-you-type search suggests are created equal. Careful observation seems to reveal three different approaches: completion, suggestion, and instant results. These approaches range in cognitive burden on the one hand, and utility on the other. We’ll look at several examples of each and consider when they should be used.</p>
 			
 			
-				<p class="more">
-					<a href="http://blog.twigkit.com/search-suggestions-part-1/">Read the rest on The TwigKit Blog.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="design article">
 		<header>
 			<p>
 				
@@ -1232,14 +1169,10 @@ margin: 0 @computedMargin;
 			<p>Clean. Easy to use. User-friendly. Intuitive. This mantra is proclaimed by many but often gets lost in translation. The culprit: complexity. How one deals with complexity can make or break an application. A complex interface can disorient the user in a mild case and completely alienate them in an extreme case. But if you take measures first to reduce actual complexity and then to minimise perceived complexity, the user will be rewarded with a gratifying experience.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.smashingmagazine.com/2009/10/07/minimizing-complexity-in-user-interfaces/">Read the rest on Smashing Magazine.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="development article">
 		<header>
 			<p>
 				
@@ -1258,14 +1191,10 @@ margin: 0 @computedMargin;
 			<p>Other CSS frameworks try to do everything—grid system, style reset, basic typography, form styles. But complex systems are, well, complex. Looking for a simple, lightweight approach that doesn&#8217;t require a PhD? Meet The 1KB CSS Grid.</p>
 			
 			
-				<p class="more">
-					<a href="http://www.usabilitypost.com/2009/05/29/the-1kb-css-grid-part-1/">Read the rest on Usability Post.</a>
-				</p>
-			
 		</section>
 	</article>
 
-	<article>
+	<article class="development blog-post">
 		<header>
 			<p>
 				
@@ -1284,16 +1213,13 @@ margin: 0 @computedMargin;
 			<p>Other CSS frameworks try to do everything—grid system, style reset, basic typography, form styles. But complex systems are, well, complex. Looking for a simple, lightweight approach that doesn&#8217;t require a PhD? Meet The 1KB CSS Grid.</p>
 			
 			
-				<p class="more">
-					<a href="http://webdesignledger.com/tutorials/create-a-resizable-image-grid-with-jquery">Read the rest on Web Design Ledger.</a>
-				</p>
-			
 		</section>
 	</article>
 
 		</section>
 		
 	</div>
+
 
 </body>
 </html>

@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: From physical to digital to ubiquitous
+topic: design
+type: blog-post
 ---
 
 The invention of the printing press transformed the physical object that is the book from an artefact of human transcription to that of mass production. By 1500, just 40 years after Gutenberg's invention, an estimated 150 to 200 million copies had rolled off the press; a century later, the by then pervasive technology led to the rise of a new medium: the newspaper. This was the era of information as physical object.

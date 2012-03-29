@@ -5,7 +5,7 @@ bodyId: home
 ---
 
 {% for post in site.categories.blog %}
-	<article>
+	<article class="{{post.topic}} {{post.type}}">
 		<header>
 			<p>
 				{% if post.publisher %}
@@ -25,7 +25,7 @@ bodyId: home
 		<section>
 			{{ post.content }}
 			
-			{% if post.publisher %}
+			{% if post.publisher and forloop.index <= 10 %}
 				<p class="more">
 					<a href="{{ post.originalurl }}">Read the rest on {{ post.publisher }}.</a>
 				</p>

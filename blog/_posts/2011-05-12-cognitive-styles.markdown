@@ -3,6 +3,8 @@ layout: blog
 title: Cognitive Styles
 publisher: UX Magazine
 originalurl: http://uxmag.com/design/cognitive-styles
+topic: design
+type: article
 ---
 
 We pour over analytics, conduct ethnographic studies, and interview users in order to understand the demographics, goals, and tasks of the people using our product. We create personas, write scenarios, and list use cases. And so we should; understanding who our users are and what they want to achieve is foundational to our job as designers.
