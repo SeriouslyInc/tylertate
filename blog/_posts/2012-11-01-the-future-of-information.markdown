@@ -48,6 +48,6 @@ In this faceted future, there are no pages. The story that began millennia ago i
 
 ###References
 
-# Forsythe, G. (2012). History of Information Retrieval. Retrieved from http://www.asindexing.org/i4a/pages/index.cfm?pageID=3300 on Oct 29, 2012.
-# Wellisch, H. (1991). Indexing from A to Z. Hw Wilson Co.
-# Tunkelang, D. (2009). Faceted Search. Synthesis Lectures on Information Concepts, Retrieval, and Services. Morgan & Claypool. p7.
+1. Forsythe, G. (2012). History of Information Retrieval. Retrieved from http://www.asindexing.org/i4a/pages/index.cfm?pageID=3300 on Oct 29, 2012.
+2. Wellisch, H. (1991). Indexing from A to Z. Hw Wilson Co.
+3. Tunkelang, D. (2009). Faceted Search. Synthesis Lectures on Information Concepts, Retrieval, and Services. Morgan & Claypool. p7.
