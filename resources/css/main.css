@@ -190,6 +190,7 @@ section#mainbody #disqus_thread {
     float: left;
     width: 96.875%;
     margin: 0 1.5625%;
+    margin-bottom: 7em;
   }
   section#mainbody article article blockquote p {
     margin-left: 1em;
