@@ -1,11 +1,11 @@
 ---
 layout: general
-title: Designer. Co-founder of TwigKit. Creator of Semantic.gs.
+title: Designer. Cofounder of TwigKit. Author of Designing the Search Experience. Creator of Semantic.gs.
 bodyId: home
 ---
 
 {% for post in site.categories.blog %}
-	<article>
+	<article class="post-{{forloop.index}}">
 		<header>
 			<p>
 				{% if post.publisher %}
