@@ -6,7 +6,7 @@ bodyId: home
 
 {% for post in site.categories.blog limit:1 %}
 	<div class="featured-article">
-		<article class="post-{{forloop.index}}">
+		<article class="post">
 			<header>
 				<p>
 					{% if post.publisher %}
@@ -36,7 +36,7 @@ bodyId: home
 	</div>
 {% endfor %}
 {% for post in site.categories.blog offset:1 %}
-	<article class="post-{{forloop.index}}">
+	<article class="post">
 		<header>
 			<p>
 				{% if post.publisher %}
@@ -54,7 +54,7 @@ bodyId: home
 			</h2>
 		</header>
 		<section>
-			{{ post.content }}
+			{{ post.snippet | markdownify }}
 			
 			{% if post.publisher %}
 				<p class="more">
