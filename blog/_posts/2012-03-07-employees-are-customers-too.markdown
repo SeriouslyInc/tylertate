@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "UX, CX, and Service Design: Employees Are Customers Too"
+snippet: User experience design is growing up. We've finally realized that UX is less about creating end-all-be-all websites, and more about designing cross-channel ecosystems that encompass both the digital and physical.
 ---
 
 User experience design is growing up. We've finally realized that UX is less about creating end-all-be-all websites, and more about designing cross-channel ecosystems that encompass both the digital and physical.

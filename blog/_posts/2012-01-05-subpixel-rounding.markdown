@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Coping with Sub-pixel Rounding in IE
+snippet: "An old, ugly problem still plagues fluid layouts: sub-pixel rounding. You've experienced this nasty issue when elements within your percentage-based layout unexpectedly wrap to the next line in Internet Explorer, or aren't flush with the right-hand edge in Safari and Chrome."
 ---
 
 An old, ugly problem still plagues fluid layouts: sub-pixel rounding. You've experienced this nasty issue when elements within your percentage-based layout unexpectedly wrap to the next line in Internet Explorer, or aren't flush with the right-hand edge in Safari and Chrome.

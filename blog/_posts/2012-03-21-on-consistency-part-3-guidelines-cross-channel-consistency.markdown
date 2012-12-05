@@ -1,6 +1,9 @@
 ---
 layout: blog
 title: "On Consistency, Part 3: Cross-Channel Guidelines"
+snippet: "In [Part 1](http://tylertate.com/blog/2012/03/08/on-consistency-three-levels.html) I identified three *levels* of consistency: internal, local, and external (analogous to creature, habitat, and ecosystem). In [Part 2](http://tylertate.com/blog/2012/03/09/on-consistency-four-types.html) I discussed four *types* of consistency: functional, behavioral, organizational, and aesthetic.
+
+In this third and final installment, I'd like to offer some very basic guidelines for appropriately aligning consistency across the multiple channels of an ecosystem."
 ---
 
 In [Part 1](http://tylertate.com/blog/2012/03/08/on-consistency-three-levels.html) I identified three *levels* of consistency: internal, local, and external (analogous to creature, habitat, and ecosystem). In [Part 2](http://tylertate.com/blog/2012/03/09/on-consistency-four-types.html) I discussed four *types* of consistency: functional, behavioral, organizational, and aesthetic.

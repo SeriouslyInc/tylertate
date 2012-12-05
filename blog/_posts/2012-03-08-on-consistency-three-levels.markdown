@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "On Consistency, Part 1: Three Levels"
+snippet: "Consistency is lauded as a staple ingredient of every good user experience; a fundamental principle of interaction design; a golden rule of the user interface. Yet it's a heuristic that's sometimes misunderstood and often oversimplified. Consistency is more complex than intuition would lead us to believe, rife with tension and competing forces, and often seemingly contradictory."
 ---
 
 Consistency is lauded as a staple ingredient of every good user experience; a fundamental principle of interaction design; a golden rule of the user interface. Yet it's a heuristic that's sometimes misunderstood and often oversimplified. Consistency is more complex than intuition would lead us to believe, rife with tension and competing forces, and often seemingly contradictory.

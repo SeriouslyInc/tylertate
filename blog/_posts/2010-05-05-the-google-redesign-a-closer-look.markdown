@@ -4,6 +4,7 @@ title: A Closer Look at the Google Redesign
 publisher: The TwigKit Blog
 originalurl: http://blog.twigkit.com/google-redesign/
 keywords: [ux,search]
+snippet: "This morning I got out of bed, ate my cereal, took my shower. Everything was proceeding pretty predictably. But then I did a Google search — usually a pretty mundane task — but this morning, Google looked very different than it did yesterday."
 ---
 
 This morning I got out of bed, ate my cereal, took my shower. Everything was proceeding pretty predictably. But then I did a Google search — usually a pretty mundane task — but this morning, Google looked very different than it did yesterday.
