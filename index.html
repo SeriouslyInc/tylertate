@@ -4,7 +4,38 @@ title: Designer. Cofounder of TwigKit. Author of Designing the Search Experience
 bodyId: home
 ---
 
-{% for post in site.categories.blog %}
+{% for post in site.categories.blog limit:1 %}
+	<div class="featured-article">
+		<article class="post-{{forloop.index}}">
+			<header>
+				<p>
+					{% if post.publisher %}
+						<a class="publisher" href="{{ post.originalurl }}">{{ post.publisher }}</a>
+						&nbsp;&bull;&nbsp;
+					{% endif %}
+					<span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
+				</p>
+				<h2>
+					{% if post.publisher %}
+						<a href="{{ post.originalurl }}">{{ post.title }}</a>
+					{% else %}
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					{% endif %}
+				</h2>
+			</header>
+			<section>
+				{{ post.content }}
+				
+				{% if post.publisher %}
+					<p class="more">
+						<a href="{{ post.originalurl }}">Read the rest on {{ post.publisher }}.</a>
+					</p>
+				{% endif %}
+			</section>
+		</article>
+	</div>
+{% endfor %}
+{% for post in site.categories.blog offset:1 %}
 	<article class="post-{{forloop.index}}">
 		<header>
 			<p>

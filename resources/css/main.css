@@ -71,6 +71,7 @@ header#page-header p a {
   color: #777777;
 }
 section#mainbody {
+  overflow: hidden;
   margin-bottom: 3em;
 }
 section#mainbody article {
