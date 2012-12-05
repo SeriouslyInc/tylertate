@@ -181,16 +181,20 @@ section#mainbody #disqus_thread {
     width: 96.875%;
     margin: 0 1.5625%;
   }
-  section#mainbody {
+  body#blog header#page-header {
+    margin-bottom: 0;
+    padding-bottom: 6em;
+  }
+  section#mainbody article {
     display: inline;
     float: left;
     width: 96.875%;
     margin: 0 1.5625%;
   }
-  section#mainbody article blockquote p {
+  section#mainbody article article blockquote p {
     margin-left: 1em;
   }
-  section#mainbody article .full-width {
+  section#mainbody article article .full-width {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
