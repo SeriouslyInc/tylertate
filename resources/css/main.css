@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-a img, form, fieldset {
+a img,
+form,
+fieldset {
   border: none;
 }
 nav,
@@ -15,16 +17,17 @@ footer {
 }
 body {
   font: normal normal normal 1em/1.5em Georgia, 'Times New Roman', serif;
-  border-top: 1px solid #d93f21;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p {
   margin-bottom: 1em;
 }
 a {
-  color: #d93f21;
+  color: #339991;
   text-decoration: none;
 }
 a:hover {
@@ -33,8 +36,8 @@ a:hover {
 #container {
   position: relative;
   overflow: hidden;
-  max-width: 1200px;
-  padding: 0 1em;
+  max-width: 1216px;
+  padding: 0 1.5em;
   margin: 0 auto;
 }
 header#page-header {
@@ -58,7 +61,7 @@ header#page-header h1 a:hover {
 header#page-header p {
   display: inline;
   float: left;
-  width: 59.375%;
+  width: 71.875%;
   margin: 0 1.5625%;
   margin-top: 1.375em;
   color: #777777;
@@ -68,15 +71,15 @@ header#page-header p a {
   color: #777777;
 }
 section#mainbody {
+  margin-bottom: 3em;
+}
+section#mainbody article {
   display: inline;
   float: left;
   width: 59.375%;
   margin: 0 1.5625%;
   margin-left: 26.5625%;
   margin-right: 14.0625%;
-  margin-bottom: 3em;
-}
-section#mainbody article {
   margin-bottom: 6em;
 }
 section#mainbody article header p {
@@ -95,7 +98,7 @@ section#mainbody article header h2 {
   margin: 0 0 1em 0;
   font-size: 1.5em;
   line-height: 1.5em;
-  color: #d93f21;
+  color: #339991;
 }
 section#mainbody article h3 {
   margin: 1.5em 0 0.75em 0;
@@ -134,7 +137,8 @@ section#mainbody article .twothirds-width {
   max-width: 475px;
   margin: 0 auto 1em auto;
 }
-section#mainbody article ol, section#mainbody article ul {
+section#mainbody article ol,
+section#mainbody article ul {
   margin-bottom: 1em;
 }
 section#mainbody article .more {
@@ -152,7 +156,8 @@ section#mainbody #disqus_thread {
   margin-top: 6em;
 }
 @media screen and (max-width: 825px) {
-  header#page-header h1, header#page-header p {
+  header#page-header h1,
+  header#page-header p {
     display: inline;
     float: left;
     width: 96.875%;
