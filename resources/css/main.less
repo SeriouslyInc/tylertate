@@ -30,7 +30,7 @@
 body {
 	font: normal normal normal 1em/1.5em Georgia, 'Times New Roman', serif;
 }
-h1, h2, h3 {
+h1, h2, h3, header#page-header p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p {
@@ -87,11 +87,25 @@ header#page-header {
 		.column(6);
 		margin-top: 1.375em;
 		color: @gray;
-		font-style: italic;
+		font-weight: 200;
 
 		a {
 			color: @gray;
 		}
+	}
+}
+
+
+//////////////////////////////
+// TOP HEADER - BLOG DETAIL //
+//////////////////////////////
+
+body#blog header#page-header {
+	padding-bottom: 0;
+	margin-bottom: -3.82em;
+
+	p {
+		display: none;
 	}
 }
 
@@ -101,14 +115,25 @@ header#page-header {
 ///////////////
 
 section#mainbody {
-	overflow: hidden;
 	margin-bottom: 3em;
 	
+	.featured-article {
+		background-color: #ece6df;
+		overflow: hidden;
+		margin: 0 -24px 7em;
+		padding: 3em 24px 0;
+
+		article.post {
+			margin-bottom: 3em;
+		}
+	}
+
 	// INDIVIDUAL BLOG POSTS
 	article {
 		.column(5);
 		.push(2);
 		.pull(1);
+		clear: both;
 		margin-bottom: 6em;
 
 		// BLOG POST HEADER
@@ -210,6 +235,7 @@ section#mainbody {
 		margin-top: 6em;
 	}
 }
+
 
 
 ////////////////////////

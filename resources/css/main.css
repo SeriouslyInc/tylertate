@@ -20,7 +20,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+header#page-header p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p {
@@ -65,13 +66,28 @@ header#page-header p {
   margin: 0 1.5625%;
   margin-top: 1.375em;
   color: #777777;
-  font-style: italic;
+  font-weight: 200;
 }
 header#page-header p a {
   color: #777777;
 }
+body#blog header#page-header {
+  padding-bottom: 0;
+  margin-bottom: -3.82em;
+}
+body#blog header#page-header p {
+  display: none;
+}
 section#mainbody {
+  margin-bottom: 3em;
+}
+section#mainbody .featured-article {
+  background-color: #ece6df;
   overflow: hidden;
+  margin: 0 -24px 7em;
+  padding: 3em 24px 0;
+}
+section#mainbody .featured-article article.post {
   margin-bottom: 3em;
 }
 section#mainbody article {
@@ -81,6 +97,7 @@ section#mainbody article {
   margin: 0 1.5625%;
   margin-left: 26.5625%;
   margin-right: 14.0625%;
+  clear: both;
   margin-bottom: 6em;
 }
 section#mainbody article header p {
