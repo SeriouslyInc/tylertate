@@ -1,13 +1,5 @@
 ---
 layout: blog
-title: "The Future of Information"
-publisher: BCS IRSG Informer
-originalurl: http://irsg.bcs.org/informer/2012/11/the-future-of-information/
-snippet: "Web pages are dead. The future of information—and how people interact with it—is undergoing a profound metamorphosis. Our eulogy must begin long before web pages were conceived. Before the Internet, there was the written word; the book was the preeminent artefact for disseminating and assimilating information."
----
-
----
-layout: blog
 title: "The Information Architecture of Discovery"
 snippet: "Despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. That’s why Tony Russell-Rose and I set out to write Designing the Search Experience: the Information Architecture of Discovery. For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. Tony and I are pleased with the results - we hope you will be too."
 ---
