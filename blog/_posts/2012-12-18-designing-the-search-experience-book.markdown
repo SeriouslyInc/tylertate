@@ -22,6 +22,8 @@ For the last year and half we have been researching, drafting and editing; striv
 2. **Holistic**: individual design patterns should be related to the overall user experience, and search itself re-framed within the broader context of analysis and discovery-oriented problem solving.
 3. **Readable**: The tone of voice should be informal and approachable, and the narrative driven by examples.
 
+<a href="http://designingthesearchexperience.com"><img src="http://tylertate.com/resources/images/2012-12-18/cover.jpg" width="382" class="onethirds-width" alt="The information architecture of discovery." /></a>
+
 ### Thank You
 But we haven’t worked alone. In particular, we’d like to thank [Cennydd Bowles](http://www.cennydd.co.uk), [James Kalbach](http://experiencinginformation.wordpress.com), and [Max Wilson](http://www.cs.nott.ac.uk/~mlw/) for their heroic efforts in reviewing every chapter and providing invaluable feedback all along the way. We are greatly in their debt.
 
@@ -29,7 +31,5 @@ We are also very appreciative to those who contributed essays to the book: [Ann 
 
 Thank you to Meg Dunkerley, Heather Scherer, Andrea Dierna, Rachel Roumeliotis, and the rest of the Morgan Kaufmann team for their ongoing support. We are proud of what we’ve achieved together. 
 
-<img src="http://designingthesearchexperience.com/images/cover/designing-the-search-experience_large.jpg" width="382" class="onethirds-width" alt="The information architecture of discovery." />
-
 ### Check it out
-_Designing the Search Experience: the Information Architecture of Discovery_ is finally available in print. You can find more details at **[DesigningTheSearchExperience.com](http://designingthesearchexperience.com)** along with a [free sample chapter](http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf). Tony and I are pleased with the result—we hope you will be too.
+_Designing the Search Experience: the Information Architecture of Discovery_ is finally available in print. You can [find more details](http://designingthesearchexperience.com) at the associated website, along with a [free sample chapter](http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf). Tony and I are pleased with the result—we hope you will be too.
