@@ -32,4 +32,4 @@ We are also very appreciative to those who contributed essays to the book: [Ann 
 Thank you to Meg Dunkerley, Heather Scherer, Andrea Dierna, Rachel Roumeliotis, and the rest of the Morgan Kaufmann team for their ongoing support. We are proud of what we’ve achieved together. 
 
 ### Check it out
-_Designing the Search Experience: the Information Architecture of Discovery_ is finally available in print. You can [find more details](http://designingthesearchexperience.com) at the associated website, along with a [free sample chapter](http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf). Tony and I are pleased with the result—we hope you will be too.
+_Designing the Search Experience is finally available in print. You can [find more details](http://designingthesearchexperience.com) at the associated website, along with a [free sample chapter](http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf). Tony and I are pleased with the result—we hope you will be too.
