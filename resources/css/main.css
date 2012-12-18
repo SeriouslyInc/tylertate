@@ -155,6 +155,13 @@ section#mainbody article .twothirds-width {
   max-width: 475px;
   margin: 0 auto 1em auto;
 }
+section#mainbody article .onethirds-width {
+  display: block;
+  float: left;
+  width: 33%;
+  max-width: 382px;
+  margin: 0 1em 1em -5%;
+}
 section#mainbody article ol,
 section#mainbody article ul {
   margin-bottom: 1em;
