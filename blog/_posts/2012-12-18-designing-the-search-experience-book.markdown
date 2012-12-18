@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "The Information Architecture of Discovery"
+title: "Designing the Search Experience: The Book"
 snippet: "Despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. That’s why Tony Russell-Rose and I set out to write Designing the Search Experience: the Information Architecture of Discovery. For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. Tony and I are pleased with the results - we hope you will be too."
 ---
 
@@ -18,9 +18,9 @@ Yet despite the growing influence of search on our daily lives, relatively few n
 ###A new book for a new era
 For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. To help maintain our focus we established three guiding principles:
 
-1. *Integrated*: theoretical frameworks for human information seeking should be tightly integrated with practical design solutions, helping readers understand what, why, and how.
-2. *Holistic*: individual design patterns should be related to the overall user experience, and search itself re-framed within the broader context of analysis and discovery-oriented problem solving.
-3. *Readable*: The tone of voice should be informal and approachable, and the narrative driven by examples.
+1. **Integrated**: theoretical frameworks for human information seeking should be tightly integrated with practical design solutions, helping readers understand what, why, and how.
+2. **Holistic**: individual design patterns should be related to the overall user experience, and search itself re-framed within the broader context of analysis and discovery-oriented problem solving.
+3. **Readable**: The tone of voice should be informal and approachable, and the narrative driven by examples.
 
 ### Thank You
 But we haven’t worked alone. In particular, we’d like to thank [Cennydd Bowles](http://www.cennydd.co.uk), [James Kalbach](http://experiencinginformation.wordpress.com), and [Max Wilson](http://www.cs.nott.ac.uk/~mlw/) for their heroic efforts in reviewing every chapter and providing invaluable feedback all along the way. We are greatly in their debt.
@@ -29,5 +29,7 @@ We are also very appreciative to those who contributed essays to the book: [Ann 
 
 Thank you to Meg Dunkerley, Heather Scherer, Andrea Dierna, Rachel Roumeliotis, and the rest of the Morgan Kaufmann team for their ongoing support. We are proud of what we’ve achieved together. 
 
+<img src="http://designingthesearchexperience.com/images/cover/designing-the-search-experience_large.jpg" width="382" class="onethirds-width" alt="The information architecture of discovery." />
+
 ### Check it out
-_Designing the Search Experience: the Information Architecture of Discovery_ is finally available in print. You can find more details at [DesigningTheSearchExperience.com](http://designingthesearchexperience.com) along with a [free sample chapter](http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf). Tony and I are pleased with the result—we hope you will be too.
+_Designing the Search Experience: the Information Architecture of Discovery_ is finally available in print. You can find more details at **[DesigningTheSearchExperience.com](http://designingthesearchexperience.com)** along with a [free sample chapter](http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf). Tony and I are pleased with the result—we hope you will be too.
