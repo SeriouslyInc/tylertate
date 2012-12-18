@@ -4,7 +4,7 @@ title: "The Information Architecture of Discovery"
 snippet: "Despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. That’s why Tony Russell-Rose and I set out to write Designing the Search Experience: the Information Architecture of Discovery. For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. Tony and I are pleased with the results - we hope you will be too."
 ---
 
-<img src="http://tylertate.com/resources/images/2012-12-18/map.jpf" width="712" class="normal-width" alt="The information architecture of discovery." />
+<img src="http://tylertate.com/resources/images/2012-12-18/map.jpg" width="712" class="normal-width" alt="The information architecture of discovery." />
 
 Remember the [Yahoo! Directory](http://dir.yahoo.com)? It was a hand-built taxonomy that allowed users to browse and discover Internet resources. By categorizing sites by topic and location, it became the definitive map of the World Wide Web. But at the turn of the millennium, Yahoo! transformed itself from a directory into a search engine. The task of organising so many disparate items into a single coherent structure had simply become too overwhelming. 
 
