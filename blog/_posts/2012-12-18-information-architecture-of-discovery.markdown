@@ -13,10 +13,10 @@ More than a decade later, this story is all too familiar. Online stores sell hun
 
 Yet despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. While there are dozens of titles about designing web navigation, those on designing search can be counted on the fingers of one hand.
 
-###A new book for a new era
-> That’s why Tony Russell-Rose and I set out to write _[Designing the Search Experience: the Information Architecture of Discovery](http://designingthesearchexperience.com)_. For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative.
+> That’s why Tony Russell-Rose and I set out to write _[Designing the Search Experience](http://designingthesearchexperience.com): the Information Architecture of Discovery_. 
 
-To help maintain our focus we established three guiding principles:
+###A new book for a new era
+For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. To help maintain our focus we established three guiding principles:
 
 1. *Integrated*: theoretical frameworks for human information seeking should be tightly integrated with practical design solutions, helping readers understand what, why, and how.
 2. *Holistic*: individual design patterns should be related to the overall user experience, and search itself re-framed within the broader context of analysis and discovery-oriented problem solving.
