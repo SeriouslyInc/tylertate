@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'From the Page to the City: Quotations from Kevin Lynch's "The Image of the City"'
+title: "From the Page to the City: Quotations from Kevin Lynch's <em>The Image of the City</em>"
 snippet: "It's time to think differently about how people interact with information. The dominant metaphor of the last five hundred years — the *page* — is coming to a close, and a new metaphor is in order.
 
 Books were the universal repositories of information from the time of Gutenberg until the birth of the world wide web. Since then, web pages have been organized into websites with navigation and keyword search in the same way that printed pages were organized into books with a table of contents and an index. In other words, the page metaphor remains intact.
