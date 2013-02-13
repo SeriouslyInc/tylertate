@@ -2,6 +2,7 @@
 layout: blog
 title: "Out with the Old, In with the Older"
 snippet: "Browsing the web. Surfing the net. Navigating a website. Traversing a hierarchy. Going back. Scrolling up and down. Returning home. Our history of using computers to interact with information is littered with such metaphors. Haphazard though they may be, they highlight a universal truth of human psychology: we perceive the world — both physical and digital —  in spatial terms. However, despite mankind's age-old proclivity towards spatial organisation, the majority of today's web experiences are built to resemble a relatively more recent invention: the book."
+---
 
 Browsing the web. Surfing the net. Navigating a website. Traversing a hierarchy. Going back. Scrolling up and down. Returning home. Our history of using computers to interact with information is littered with such metaphors. Haphazard though they may be, they highlight a universal truth of human psychology: we perceive the world — both physical and digital —  in spatial terms. As George A. Miller observed:
 
