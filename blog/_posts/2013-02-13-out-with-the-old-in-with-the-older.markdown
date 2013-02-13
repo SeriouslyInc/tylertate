@@ -4,16 +4,16 @@ title: "Out with the Old, In with the Older"
 snippet: "Browsing the web. Surfing the net. Navigating a website. Traversing a hierarchy. Going back. Scrolling up and down. Returning home. Our history of using computers to interact with information is littered with such metaphors. Haphazard though they may be, they highlight a universal truth of human psychology: we perceive the world — both physical and digital —  in spatial terms. However, despite mankind's age-old proclivity towards spatial organisation, the majority of today's web experiences are built to resemble a relatively more recent invention: the book."
 ---
 
-Browsing the web. Surfing the net. Navigating a website. Traversing a hierarchy. Going back. Scrolling up and down. Returning home. Our history of using computers to interact with information is littered with such metaphors. Haphazard though they may be, they highlight a universal truth of human psychology: we perceive the world — both physical and digital —  in spatial terms. As George A. Miller observed:
+Browsing the web. Surfing the net. Navigating a website. Traversing a hierarchy. Going back. Scrolling up and down. Returning home. Our history of using computers to interact with information is littered with such metaphors. Haphazard though they may be, they highlight a universal truth of human psychology: we perceive the world — both physical and digital —  in spatial terms. As George A. Miller remarked:
 
 > "Mankind evolved in a world of space and time. Our memories evolved to record events that transpire in space and time. Modern attempts to externalise and enlarge that memory should not, and probably need not, neglect its spatiotemporal dimensions."
 
-This insight is as important today as when it was written in 1968. However, despite mankind's age-old proclivity towards spatial organisation, the majority of today's web experiences are built to resemble a relatively more recent invention: the book.
+This insight is as important today as when it was written in 1968. However, despite mankind's age-old proclivity towards spatial organization, the majority of today's web experiences are built to resemble a relatively more recent invention: the book.
 
 ### The book
 Books are characterised by:
 
-1. Pages of information organised into sections
+1. Pages of information organized into sections
 2. A table of contents that lists those sections
 3. An index of all the concepts mentioned throughout the book 
 
