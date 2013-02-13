@@ -32,6 +32,8 @@ This is understandable. As content shifted from print to digital in the early da
 
 It's not because users don't want it (more on this in a future post), or that the technology doesn't exist. It's simply because the architects of such websites are still applying book-like-thinking to a very un-book-like medium. They are tiptoeing around a local optimum rather than scouting out the mountain in the distance.
 
+> We need a metaphor for interacting with information that acknowledges the spatial reality of human psychology.
+
 ### Looking to the future
 The time has come to adopt a more appropriate metaphor for interacting with digital information, one that acknowledges the spatial reality of human psychology. It's time to embrace  **information wayfinding**.
 
