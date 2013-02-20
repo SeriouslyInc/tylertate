@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Information Interaction as Spatial Problem Solving"
-snippet: "Kevin Lynch coined the term wayfinding in his 1960 book, *The Image of the City*. Lynch recognized that one's ability to navigate a city is closely related to how spatially oriented the person is within that city. He quantified this as a city's imagability; that is, its likelihood of evoking a strong image in the observer, and therefore enhancing orientation. Architect and environmental psychologist Romedi Passini further developed the concept of wayfinding in the 1970s and 80s, defining the term simply as "spatial problem solving."
+snippet: "Kevin Lynch coined the term wayfinding in his 1960 book, *The Image of the City*. Lynch recognized that one's ability to navigate a city is closely related to how spatially oriented the person is within that city. He quantified this as a city's imagability; that is, its likelihood of evoking a strong image in the observer, and therefore enhancing orientation. Architect and environmental psychologist Romedi Passini further developed the concept of wayfinding in the 1970s and 80s, defining the term simply as spatial problem solving.
 
 Wayfinding has much in common with how we know people to interact with information. In particular, Marcia Bates's berrypicking model of information seeking portrays a process where, to paraphrase Peter Morville, what you find along the way changes what you seek. Likewise, Peter Pirolli and Stuart Card's information foraging theory compares information seeking to rummaging for food in the forest, where users follow information scent as they sniff their way onwards. In both cases, information seeking is presented in terms of spatial problem solving."
 ---
