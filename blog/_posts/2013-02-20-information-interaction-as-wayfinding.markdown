@@ -3,6 +3,8 @@ layout: blog
 title: "Information Interaction as Spatial Problem Solving"
 ---
 
+*A continuation of last week's blog post, [Out with the Old, In with the Older](http://tylertate.com/blog/2013/02/13/out-with-the-old-in-with-the-older.html).*
+
 ### A brief history of wayfinding
 Kevin Lynch coined the term "wayfinding" in his 1960 book, *The Image of the City*. Lynch recognized that one's ability to navigate a city is closely related to how spatially oriented the person is within that city. He quantified this as a city's "imagability"; that is, its likelihood of evoking a strong image in the observer, and therefore enhancing orientation.
 
