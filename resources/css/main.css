@@ -34,6 +34,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+code {
+  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+pre,
+pre code {
+  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+  font-weight: normal;
+}
 #container {
   position: relative;
   overflow: hidden;
@@ -136,8 +145,7 @@ section#mainbody article pre {
   padding: 0.5em 1.5em;
   margin-bottom: 1em;
   overflow-x: auto;
-  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
-  background-color: #ebebeb;
+  background-color: #e3dacf;
 }
 section#mainbody article .full-width {
   width: 163%;
