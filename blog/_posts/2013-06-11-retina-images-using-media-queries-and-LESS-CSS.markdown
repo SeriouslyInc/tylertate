@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Retina Images Using Media Queries and LESS CSS: A responsive approach to supporting multiple pixel densities"
-snippet: ""
+snippet: "I've owned a retina-equipped MacBook Pro since January, and for me, there's no going back. With retina versions of the iPhone, iPad, and many Android devices, supporting high-density devices has become unavoidable. At Twigkit, our library of user interface components has long been image-free. We were early adopters of font icons, whose vector format scales to any screen resolution or pixel density. When I set out to redesign our marketing site a couple of months ago, however, I needed an approach for images that would minimise bandwidth for low-density devices, while maximising quality for high-density screens."
 ---
 
 I've owned a retina-equipped MacBook Pro since January, and for me, there's no going back. With retina versions of the iPhone, iPad, and many [Android](http://developer.android.com/guide/webapps/targeting.html) devices, supporting high-density devices has become unavoidable.

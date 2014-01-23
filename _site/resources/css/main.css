@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a img,
+form,
+fieldset {
+  border: none;
+}
+nav,
+aside,
+header,
+article,
+section,
+footer {
+  display: block;
+}
+body {
+  font: normal normal normal 1em/1.5em Georgia, 'Times New Roman', serif;
+}
+h1,
+h2,
+h3,
+header#page-header p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+  margin-bottom: 1em;
+}
+a {
+  color: #339991;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+code {
+  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+pre,
+pre code {
+  font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+  font-weight: normal;
+}
+#container {
+  position: relative;
+  overflow: hidden;
+  max-width: 1216px;
+  padding: 0 1.5em;
+  margin: 0 auto;
+}
+header#page-header {
+  padding: 3em 0 6em 0;
+  overflow: hidden;
+}
+header#page-header h1 {
+  display: inline;
+  float: left;
+  width: 21.875%;
+  margin: 0 1.5625%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+header#page-header h1 a {
+  color: black;
+}
+header#page-header h1 a:hover {
+  text-decoration: none;
+}
+header#page-header p {
+  display: inline;
+  float: left;
+  width: 71.875%;
+  margin: 0 1.5625%;
+  margin-top: 1.375em;
+  color: #777777;
+  font-weight: 200;
+}
+header#page-header p a {
+  color: #777777;
+}
+body#blog header#page-header {
+  padding-bottom: 0;
+  margin-bottom: -3.82em;
+}
+body#blog header#page-header p {
+  display: none;
+}
+section#mainbody {
+  margin-bottom: 3em;
+}
+section#mainbody .featured-article {
+  background-color: #ece6df;
+  overflow: hidden;
+  margin: 0 -24px 7em;
+  padding: 3em 24px 0;
+}
+section#mainbody .featured-article article.post {
+  margin-bottom: 3em;
+}
+section#mainbody article {
+  display: inline;
+  float: left;
+  width: 59.375%;
+  margin: 0 1.5625%;
+  margin-left: 26.5625%;
+  margin-right: 14.0625%;
+  clear: both;
+  margin-bottom: 6em;
+}
+section#mainbody article header p {
+  margin: 0;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #777777;
+}
+section#mainbody article header p a {
+  color: #777777;
+}
+section#mainbody article header h2 {
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #339991;
+}
+section#mainbody article h3 {
+  margin: 1.5em 0 0.75em 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section#mainbody article blockquote p {
+  margin: 0 0 0.667em -5%;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #777777;
+}
+section#mainbody article pre {
+  max-height: 400px;
+  padding: 0.5em 1.5em;
+  margin-bottom: 1em;
+  overflow-x: auto;
+  background-color: #e3dacf;
+}
+section#mainbody article .full-width {
+  width: 163%;
+  margin: 0 -21% 1em -42%;
+  max-width: 1160px;
+  overflow-x: auto;
+}
+section#mainbody article .normal-width {
+  width: 100%;
+  margin-bottom: 1em;
+}
+section#mainbody article .twothirds-width {
+  display: block;
+  width: 66%;
+  max-width: 475px;
+  margin: 0 auto 1em auto;
+}
+section#mainbody article .onethirds-width {
+  display: block;
+  float: left;
+  width: 33%;
+  max-width: 382px;
+  margin: 0 1em 1em -5%;
+}
+section#mainbody article ol,
+section#mainbody article ul {
+  margin-bottom: 1em;
+}
+section#mainbody article .more {
+  margin-top: 1.714em;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  font-style: italic;
+  color: #777777;
+}
+section#mainbody article .more a {
+  color: #777777;
+}
+section#mainbody #disqus_thread {
+  border-top: 1px dotted #CCC;
+  margin-top: 6em;
+}
+@media screen and (max-width: 825px) {
+  header#page-header h1,
+  header#page-header p {
+    display: inline;
+    float: left;
+    width: 96.875%;
+    margin: 0 1.5625%;
+  }
+  body#blog header#page-header {
+    margin-bottom: 0;
+    padding-bottom: 6em;
+  }
+  section#mainbody article {
+    display: inline;
+    float: left;
+    width: 96.875%;
+    margin: 0 1.5625%;
+    margin-bottom: 7em;
+  }
+  section#mainbody article article blockquote p {
+    margin-left: 1em;
+  }
+  section#mainbody article article .full-width {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

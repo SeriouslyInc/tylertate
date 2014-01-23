@@ -16,11 +16,11 @@ Of course, books were the universal repositories of information from the time of
 
 This year I hope to elaborate on why the page metaphor is holding us back, and explore the metaphor that is poised to replace it: namely, information interaction as **spatial problem solving**, popularly known as **wayfinding**.
 
-<a href="http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0262620014&linkCode=as2&tag=dtse-21"><img src="http://tylertate.com/resources/images/2013-02-05/the-image-of-the-city.jpg" width="380" class="onethirds-width" style="float: right; margin: 0 -5% 1em 1em;" alt="The Image of the City" /></a>
+<a href="http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0262620014&amp;linkCode=as2&amp;tag=dtse-21"><img src="http://tylertate.com/resources/images/2013-02-05/the-image-of-the-city.jpg" width="380" class="onethirds-width" style="float: right; margin: 0 -5% 1em 1em;" alt="The Image of the City" /></a>
 
 ### The Image of the City
 
-For now, I simply want to share a few excerpts from a book I've been reading: Kevin Lynch's 1959 classic [The Image of the City](http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0262620014&linkCode=as2&tag=dtse-21). In it, Lynch investigates how to design cities that are conducive to wayfinding, a term coined in the opening pages of the book. While urban planners are the intended audience of the book, the parallels with information interaction are staggering. For example:
+For now, I simply want to share a few excerpts from a book I've been reading: Kevin Lynch's 1959 classic [The Image of the City](http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0262620014&amp;linkCode=as2&amp;tag=dtse-21). In it, Lynch investigates how to design cities that are conducive to wayfinding, a term coined in the opening pages of the book. While urban planners are the intended audience of the book, the parallels with information interaction are staggering. For example:
 
 > "Not only is the city an object which is perceived (and perhaps enjoyed) by millions of people of widely diverse class and character, but it is the product of many builders who are constantly modifying the structure for reasons of their own. While it may be stable in general outlines for some time, it is ever changing in detail. Only partial control can be exercised over its growth and form. There is no final result, only a continuous succession of phases."— Kevin Lynch
 

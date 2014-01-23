@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+	<link rel="alternate" type="application/rss+xml" title="Tyler Tate. Designer. Cofounder of TwigKit. Author of Designing the Search Experience. Creator of Semantic.gs." href="http://feeds.feedburner.com/TylerTate" />
+	<title>Tyler Tate. Retina Images Using Media Queries and LESS CSS: A responsive approach to supporting multiple pixel densities</title>
+
+	<link rel="stylesheet" href="http://tylertate.com/resources/css/main.css" type="text/css">
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-761992-5']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+
+<body id="blog">
+	
+	<div id="container">
+
+		<header id="page-header">
+			<h1><a href="/">Tyler Tate</a></h1>
+			<p>Designer. Cofounder of <a href="http://www.twigkit.com/">Twigkit</a>. Author of <a href="http://www.DesigningTheSearchExperience.com/">Designing the Search Experience</a>. Creator of <a href="http://Semantic.gs">Semantic.gs</a>.</p>
+		</header>
+
+		<section id="mainbody">
+			<article>
+	<header>
+		<p>
+			
+			<span class="date">Jun 11, 2013</span>
+		</p>
+		<h2>Retina Images Using Media Queries and LESS CSS: A responsive approach to supporting multiple pixel densities</h2>
+	</header>
+	
+<p>I’ve owned a retina-equipped MacBook Pro since January, and for me, there’s no going back. With retina versions of the iPhone, iPad, and many <a href="http://developer.android.com/guide/webapps/targeting.html">Android</a> devices, supporting high-density devices has become unavoidable.</p>
+
+<p>At <a href="http://www.twigkit.com/">Twigkit</a>, our library of user interface components has long been image-free. We were early adopters of font icons, whose vector format scales to any screen resolution or pixel density. When I set out to redesign our marketing site a couple of months ago, however, I needed an approach for images that would minimise bandwidth for low-density devices, while maximising quality for high-density screens.</p>
+
+<h3 id="javascript_vs_css">JavaScript vs. CSS</h3>
+
+<p>There are two main approaches to delivering images for multiple pixel densities:</p>
+
+<ol>
+<li><strong>Use image tags with JavaScript</strong> to replace the image’s source attribute when appropriate</li>
+
+<li><strong>Use CSS background images with media queries</strong> to override the background image when appropriate</li>
+</ol>
+
+<p>Both approaches are technically sound. But all else being equal, I personally prefer to use CSS for presentation and reserve JavaScript for interaction.</p>
+
+<h3 id="background_images">Background images</h3>
+
+<p>The CSS approach relies on all images being set through the <code>background-image</code> property. If we have two images to display that are both 450x300, for instance, we could do as follows:</p>
+
+<pre><code>&lt;figure id=&quot;desert&quot;&gt;&lt;/figure&gt;
+&lt;figure id=&quot;camel&quot;&gt;&lt;/figure&gt;</code></pre>
+
+<p>And the CSS:</p>
+
+<pre><code>figure {
+	width: 450px;
+	height: 300px;
+}
+figure#desert {
+	background-image: url(&#39;images/sand-dune.jpg&#39;);
+}
+figure#camel {
+	background-image: url(&#39;images/camel.jpg&#39;);
+}</code></pre>
+
+<h3 id="the_media_query">The Media Query</h3>
+
+<p>With the images displayed as <code>background-images</code>, we can then use a media query to detect the pixel density of the device viewing our page.</p>
+
+<pre><code>@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	figure#desert {
+		background-image: url(&#39;images/sand-dune_2x.jpg&#39;);
+		background-size: 100%;
+	}
+	figure#camel {
+		background-image: url(&#39;images/camel_2x.jpg&#39;);
+		background-size: 100%;
+	}
+}</code></pre>
+
+<p>While <code>min-resolution: 192dpi</code> is <a href="http://www.w3.org/TR/css3-mediaqueries/#resolution">W3C-approved</a> mechanism for targeting pixel density, it’s not yet <a href="http://drewwells.net/blog/2013/working-with-dppx/">well supported</a>. For now, the vendor specific <code>-webkit-min-device-pixel-ratio</code> and <code>min--moz-device-pixel-ratio</code> (yes, believe it or not that Mozilla prefix is <a href="http://menacingcloud.com/?c=highPixelDensityDisplays">correct</a>) are well supported by browsers likely to be used on high-density devices.</p>
+
+<p>You will notice that this media query adds a <code>_2x</code> suffix to the filenames of our two images. This assumes that we have created these image files, and that they are twice the resolution of the original. In other words, if the original image is 450x300 pixels, our <code>_2x</code> images should be 900x600.</p>
+
+<p>By default, the web browser on a retina device will automatically scale an image to its actual pixel size. That is, our 900x450 image would be scaled to occupy a full 900x450 “virtual pixels” on the screen, whereas what we actually want is for the image to be scaled down to the original 450x300 area. To achieve this, we can set <code>background-size: 100%;</code>. <a href="http://quirksmode.org/css/backgrounds-borders/">This</a> instructs the browser to make the background image equal in width to its container.</p>
+
+<h3 id="nested_media_queries_with_less">Nested Media Queries with LESS</h3>
+
+<p>So far, I’m sure you’ll agree, we’ve hardly broken new ground. The biggest problem I have with the above approach, however, is that it requires the designer to organise their CSS according to pixel densities. Instead of structuring stylesheets around the logical structure of the website, in other words, it forces us to have different stylesheets (or different blocks within a single stylesheet) to address each pixel density that we want to target. I don’t like that.</p>
+
+<p>Fortunately, CSS preprocessors like <a href="http://lesscss.org/#-nested-media-queries">LESS</a> and <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#media">SASS</a> support nesting media queries within selectors. For example, using LESS we could restructure our stylesheet as follows:</p>
+
+<pre><code>figure {
+	width: 450px;
+	height: 300px;
+}
+figure#desert {
+	background-image: url(&#39;images/sand-dune.jpg&#39;);
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-image: url(&#39;images/sand-dune_2x.jpg&#39;);
+		background-size: 100%;
+	}
+}
+figure#camel {
+	background-image: url(&#39;images/camel.jpg&#39;);
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-image: url(&#39;images/camel_2x.jpg&#39;);
+		background-size: 100%;
+	}
+}</code></pre>
+
+<p>While the compiled output of this stylesheet would resemble the original example, LESS’s nested media query support allows us to structure our stylesheet more naturally. However, having to remember to add these extra few lines for every image is still tedious.</p>
+
+<h3 id="the_mixin_take_1">The Mixin, Take 1</h3>
+
+<p>CSS preprocessors provide a second tool which can make this process easier: <em>mixins</em>. The SASS documentation describes a <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixins">mixin</a> as follows:</p>
+
+<blockquote>
+<p>“Mixins allow you to define styles that can be re-used throughout the stylesheet… They can also take arguments which allows you to produce a wide variety of styles with very few mixins.”</p>
+</blockquote>
+
+<p>Let’s experiment by moving our media query to a mixin called <code>.background-image()</code>:</p>
+
+<pre><code>.background-image(@image) {
+	background-image: url(@image);
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-image: url(@image);
+		background-size: 100%;
+	}
+}</code></pre>
+
+<p>You will notice that the mixin accepts an <code>@image</code> parameter, which is then used to set the <code>background-image</code>. Having defined this mixin, we could then rewrite our primary stylesheet to reference it:</p>
+
+<pre><code>figure {
+	width: 450px;
+	height: 300px;
+}
+figure#desert {
+	.background-image(&#39;images/sand-dune.jpg&#39;);
+}
+figure#camel {
+	.background-image(&#39;images/camel.jpg&#39;);
+}</code></pre>
+
+<p>Our compiled CSS would then look like:</p>
+
+<pre><code>figure {
+	width: 450px;
+	height: 300px;
+}
+figure#desert {
+	background-image: url(&#39;images/sand-dune.jpg&#39;);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	figure#desert {
+		background-image: url(&#39;images/sand-dune.jpg&#39;);
+		background-size: 100%;
+	}
+}
+figure#camel {
+	background-image: url(&#39;images/camel.jpg&#39;);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	figure#camel {
+		background-image: url(&#39;images/camel.jpg&#39;);
+		background-size: 100%;
+	}
+}</code></pre>
+
+<p>It’s easy to see how a mixin could simplify configuration. Of course, this mixin isn’t yet doing it’s job; you’ll notice that the retina image is still pointing to <code>images/sand-dune.jpg</code>, and not the <code>images/sand-dune_2x.jpg</code> that we need.</p>
+
+<h3 id="the_regular_expression">The Regular Expression</h3>
+
+<p>The next step requires a bit of a leap. In order to add the <code>_2x</code> suffix to the image path, we could have our <code>.background-image()</code> mixin use a regular expression to split the image path into two parts — filename and extension. We can then piece the path back together, inserting the <code>_2x</code> suffix between them.</p>
+
+<p>Ok, stay with me here. Lets first prototype our regular expression in JavaScript. I’ve created a <a href="http://jsfiddle.net/g7rqt/">fiddle</a> where you can run this code for yourself.</p>
+
+<pre><code>var image = &#39;../images/image.png&#39;;
+var regex = /(.*)\.(jpg|jpeg|png|gif)/;
+var match = regex.exec(image);
+if (match != null) {
+    alert(&quot;background-image: url(&#39;&quot;+match[1]+&quot;_2x.&quot;+match[2]+&quot;&#39;);&quot;);
+}</code></pre>
+
+<p>The regular expression has two <a href="http://www.regular-expressions.info/brackets.html">capture groups</a>, which are denoted by parenthesis: <code>(.*)</code> and <code>(jpg|jpeg|png|gif)</code>. The second capture group matches any of the listed extensions: <code>jpg</code>, <code>jpeg</code>, <code>png</code>, or <code>gif</code>. The first capture group captures everything before the full stop. Then, in the <code>alert()</code>, we reconstruct the image path.</p>
+
+<h3 id="the_mixin_take_2">The Mixin, Take 2</h3>
+
+<p>Now that we’ve created a regular expression that works, we can incorporate this into our mixin by taking advantage of LESS’s ability to evaluate JavaScript expressions.</p>
+
+<pre><code>.background-image(@image){
+	@filename:  ~`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{image})[1]`;
+	@extension: ~`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{image})[2]`;
+	background-image: ~`&quot;url(@{filename}.@{extension})&quot;`;
+
+	@media (-webkit-min-device-pixel-ratio: 2) {
+		background-image: ~`&quot;url(@{filename}_2x.@{extension})&quot;`;
+		background-size: 100%;
+	}
+}</code></pre>
+
+<p>Because there is no concept of arrays in LESS, I’ve had to run the same regular expression twice, once to grab the filename, and again to get the extension.</p>
+
+<p>With the mixin now equipped with our regular expression, we can very simply reference our images and be certain that the correct resolution image is being delivered to the browser.</p>
+
+<pre><code>figure {
+	width: 450px;
+	height: 300px;
+}
+figure#desert {
+	.background-image(&#39;images/sand-dune.jpg&#39;);
+}
+figure#camel {
+	.background-image(&#39;images/camel.jpg&#39;);
+}</code></pre>
+
+<p>You can view a <a href="http://tylertate.github.io/background-image/demo.html">working demo</a> of this solution, as well as <a href="https://github.com/tylertate/background-image">browse the code</a> on GitHub.</p>
+
+<h3 id="limitations">Limitations</h3>
+
+<p>This approach has one particular limitation that it’s important to point out. When compiled, each reference to the <code>.background-image()</code> mixin results in a few lines of CSS (in this case, five lines). A quick test seems to indicate that about five invocations of the mixin result in about 1 kilobyte of uncompressed CSS. This is acceptable if there are a couple dozen images involved, but not if there are hundreds.</p>
+
+<h3 id="advantages">Advantages</h3>
+
+<p>That said, this approach of using background images, media queries, and a LESS mixin in combination does have a number of significant advantages:</p>
+
+<ul>
+<li>It relies purely on CSS — no JavaScript is required</li>
+
+<li>It’s not necessary to restructure your stylesheets to support multiple pixel densities</li>
+
+<li>The mixin abstracts the media queries and references to retina images, so it’s not necessary to add any extra configuration to main stylesheets</li>
+
+<li>The method for referencing images — <code>.background-image(&#39;images/camel.jpg&#39;)</code> is in keeping with CSS syntax</li>
+</ul>
+
+
+		
+		<div id="disqus_thread"></div>
+		<script type="text/javascript">
+		    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		    var disqus_shortname = 'tylertate'; // required: replace example with your forum shortname
+
+		    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+		    var disqus_identifier = '/blog/2013/06/11/retina-images-using-media-queries-and-LESS-CSS.html';
+		    var disqus_url = 'http://www.tylertate.com/blog/2013/06/11/retina-images-using-media-queries-and-LESS-CSS.html';
+
+		    /* * * DON'T EDIT BELOW THIS LINE * * */
+		    (function() {
+		        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		    })();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+</article>
+		</section>
+		
+	</div>
+
+</body>
+</html>
