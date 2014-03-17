@@ -147,6 +147,9 @@ figure.my-photo img {
   }
 }
 @media screen and (max-width: 26em) {
+  .site-header {
+    font-size: .9375em;
+  }
   figure.my-photo {
     display: none;
   }
