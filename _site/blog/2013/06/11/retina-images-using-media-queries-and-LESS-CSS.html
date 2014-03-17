@@ -7,7 +7,10 @@
 	<link rel="alternate" type="application/rss+xml" title="Tyler Tate. Designer. Cofounder of TwigKit. Author of Designing the Search Experience. Creator of Semantic.gs." href="http://feeds.feedburner.com/TylerTate" />
 	<title>Tyler Tate. Retina Images Using Media Queries and LESS CSS: A responsive approach to supporting multiple pixel densities</title>
 
-	<link rel="stylesheet" href="http://tylertate.com/resources/css/main.css" type="text/css">
+	<script type="text/javascript" src="//use.typekit.net/lef3yon.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<link rel="stylesheet" href="http://localhost:4000/resources/css/main.css" type="text/css">
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	
 	<script type="text/javascript">
@@ -24,29 +27,46 @@
 </head>
 
 <body id="blog">
-	
-	<div id="container">
 
-		<header id="page-header">
-			<h1><a href="/">Tyler Tate</a></h1>
-			<p>Designer. Cofounder of <a href="http://www.twigkit.com/">Twigkit</a>. Author of <a href="http://www.DesigningTheSearchExperience.com/">Designing the Search Experience</a>. Creator of <a href="http://Semantic.gs">Semantic.gs</a>.</p>
-		</header>
-
-		<section id="mainbody">
-			<article>
-	<header>
-		<p>
-			
-			<span class="date">Jun 11, 2013</span>
-		</p>
-		<h2>Retina Images Using Media Queries and LESS CSS: A responsive approach to supporting multiple pixel densities</h2>
+	<header class="site-header">
+		<nav class="site-nav">
+			<ul>
+				<li class="site-nav-item">
+					<a class="icon-building" href="http://twigkit.com/" title="My Company: Twigkit"><span>Company</span></a>
+				</li>
+				<li class="site-nav-item">
+					<a class="icon-book-open" href="http://designingthesearchexperience.com/" title="My Book: Designing the Search Experience"><span>Book</span></a>
+				</li>
+				<li class="site-nav-item">
+					<a class="icon-linkedin-squared" href="http://uk.linkedin.com/in/tylertate/" title="My LinkedIn Profile"><span>LinkedIn</span></a>
+				</li>
+				<li class="site-nav-item">
+					<a class="icon-twitter" href="http://twitter.com/tylertate" title="Follow me on Twitter"><span>Twitter</span></a>
+				</li>
+			</ul>
+		</nav>
+		<figure class="my-photo">
+			<img src="/resources/images/tyler-tate.jpg" />
+		</figure>
+		<figure class="my-name">
+			<a href="/">Tyler Tate</a>
+		</figure>
 	</header>
-	
+
+	<article class="post">
+
+	<header class="post-header">
+		<p class="post-date">Jun 11, 2013</p>
+		<h1 class="post-title">Retina Images Using Media Queries and LESS CSS: A responsive approach to supporting multiple pixel densities</h1>
+	</header>
+
+	<section class="post-content">
+		
 <p>I’ve owned a retina-equipped MacBook Pro since January, and for me, there’s no going back. With retina versions of the iPhone, iPad, and many <a href="http://developer.android.com/guide/webapps/targeting.html">Android</a> devices, supporting high-density devices has become unavoidable.</p>
 
 <p>At <a href="http://www.twigkit.com/">Twigkit</a>, our library of user interface components has long been image-free. We were early adopters of font icons, whose vector format scales to any screen resolution or pixel density. When I set out to redesign our marketing site a couple of months ago, however, I needed an approach for images that would minimise bandwidth for low-density devices, while maximising quality for high-density screens.</p>
 
-<h3 id="javascript_vs_css">JavaScript vs. CSS</h3>
+<h2 id="javascript_vs_css">JavaScript vs. CSS</h2>
 
 <p>There are two main approaches to delivering images for multiple pixel densities:</p>
 
@@ -58,7 +78,7 @@
 
 <p>Both approaches are technically sound. But all else being equal, I personally prefer to use CSS for presentation and reserve JavaScript for interaction.</p>
 
-<h3 id="background_images">Background images</h3>
+<h2 id="background_images">Background images</h2>
 
 <p>The CSS approach relies on all images being set through the <code>background-image</code> property. If we have two images to display that are both 450x300, for instance, we could do as follows:</p>
 
@@ -78,7 +98,7 @@ figure#camel {
 	background-image: url(&#39;images/camel.jpg&#39;);
 }</code></pre>
 
-<h3 id="the_media_query">The Media Query</h3>
+<h2 id="the_media_query">The Media Query</h2>
 
 <p>With the images displayed as <code>background-images</code>, we can then use a media query to detect the pixel density of the device viewing our page.</p>
 
@@ -99,7 +119,7 @@ figure#camel {
 
 <p>By default, the web browser on a retina device will automatically scale an image to its actual pixel size. That is, our 900x450 image would be scaled to occupy a full 900x450 “virtual pixels” on the screen, whereas what we actually want is for the image to be scaled down to the original 450x300 area. To achieve this, we can set <code>background-size: 100%;</code>. <a href="http://quirksmode.org/css/backgrounds-borders/">This</a> instructs the browser to make the background image equal in width to its container.</p>
 
-<h3 id="nested_media_queries_with_less">Nested Media Queries with LESS</h3>
+<h2 id="nested_media_queries_with_less">Nested Media Queries with LESS</h2>
 
 <p>So far, I’m sure you’ll agree, we’ve hardly broken new ground. The biggest problem I have with the above approach, however, is that it requires the designer to organise their CSS according to pixel densities. Instead of structuring stylesheets around the logical structure of the website, in other words, it forces us to have different stylesheets (or different blocks within a single stylesheet) to address each pixel density that we want to target. I don’t like that.</p>
 
@@ -128,7 +148,7 @@ figure#camel {
 
 <p>While the compiled output of this stylesheet would resemble the original example, LESS’s nested media query support allows us to structure our stylesheet more naturally. However, having to remember to add these extra few lines for every image is still tedious.</p>
 
-<h3 id="the_mixin_take_1">The Mixin, Take 1</h3>
+<h2 id="the_mixin_take_1">The Mixin, Take 1</h2>
 
 <p>CSS preprocessors provide a second tool which can make this process easier: <em>mixins</em>. The SASS documentation describes a <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixins">mixin</a> as follows:</p>
 
@@ -187,7 +207,7 @@ figure#camel {
 
 <p>It’s easy to see how a mixin could simplify configuration. Of course, this mixin isn’t yet doing it’s job; you’ll notice that the retina image is still pointing to <code>images/sand-dune.jpg</code>, and not the <code>images/sand-dune_2x.jpg</code> that we need.</p>
 
-<h3 id="the_regular_expression">The Regular Expression</h3>
+<h2 id="the_regular_expression">The Regular Expression</h2>
 
 <p>The next step requires a bit of a leap. In order to add the <code>_2x</code> suffix to the image path, we could have our <code>.background-image()</code> mixin use a regular expression to split the image path into two parts — filename and extension. We can then piece the path back together, inserting the <code>_2x</code> suffix between them.</p>
 
@@ -202,7 +222,7 @@ if (match != null) {
 
 <p>The regular expression has two <a href="http://www.regular-expressions.info/brackets.html">capture groups</a>, which are denoted by parenthesis: <code>(.*)</code> and <code>(jpg|jpeg|png|gif)</code>. The second capture group matches any of the listed extensions: <code>jpg</code>, <code>jpeg</code>, <code>png</code>, or <code>gif</code>. The first capture group captures everything before the full stop. Then, in the <code>alert()</code>, we reconstruct the image path.</p>
 
-<h3 id="the_mixin_take_2">The Mixin, Take 2</h3>
+<h2 id="the_mixin_take_2">The Mixin, Take 2</h2>
 
 <p>Now that we’ve created a regular expression that works, we can incorporate this into our mixin by taking advantage of LESS’s ability to evaluate JavaScript expressions.</p>
 
@@ -234,11 +254,11 @@ figure#camel {
 
 <p>You can view a <a href="http://tylertate.github.io/background-image/demo.html">working demo</a> of this solution, as well as <a href="https://github.com/tylertate/background-image">browse the code</a> on GitHub.</p>
 
-<h3 id="limitations">Limitations</h3>
+<h2 id="limitations">Limitations</h2>
 
 <p>This approach has one particular limitation that it’s important to point out. When compiled, each reference to the <code>.background-image()</code> mixin results in a few lines of CSS (in this case, five lines). A quick test seems to indicate that about five invocations of the mixin result in about 1 kilobyte of uncompressed CSS. This is acceptable if there are a couple dozen images involved, but not if there are hundreds.</p>
 
-<h3 id="advantages">Advantages</h3>
+<h2 id="advantages">Advantages</h2>
 
 <p>That said, this approach of using background images, media queries, and a LESS mixin in combination does have a number of significant advantages:</p>
 
@@ -253,7 +273,6 @@ figure#camel {
 </ul>
 
 
-		
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
 		    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -272,11 +291,10 @@ figure#camel {
 		</script>
 		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+		
+	</section>
 	
 </article>
-		</section>
-		
-	</div>
 
 </body>
 </html>

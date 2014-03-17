@@ -7,7 +7,10 @@
 	<link rel="alternate" type="application/rss+xml" title="Tyler Tate. Designer. Cofounder of TwigKit. Author of Designing the Search Experience. Creator of Semantic.gs." href="http://feeds.feedburner.com/TylerTate" />
 	<title>Tyler Tate. Coping with Sub-pixel Rounding in IE</title>
 
-	<link rel="stylesheet" href="http://tylertate.com/resources/css/main.css" type="text/css">
+	<script type="text/javascript" src="//use.typekit.net/lef3yon.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<link rel="stylesheet" href="http://localhost:4000/resources/css/main.css" type="text/css">
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	
 	<script type="text/javascript">
@@ -24,24 +27,41 @@
 </head>
 
 <body id="blog">
-	
-	<div id="container">
 
-		<header id="page-header">
-			<h1><a href="/">Tyler Tate</a></h1>
-			<p>Designer. Cofounder of <a href="http://www.twigkit.com/">Twigkit</a>. Author of <a href="http://www.DesigningTheSearchExperience.com/">Designing the Search Experience</a>. Creator of <a href="http://Semantic.gs">Semantic.gs</a>.</p>
-		</header>
-
-		<section id="mainbody">
-			<article>
-	<header>
-		<p>
-			
-			<span class="date">Jan 05, 2012</span>
-		</p>
-		<h2>Coping with Sub-pixel Rounding in IE</h2>
+	<header class="site-header">
+		<nav class="site-nav">
+			<ul>
+				<li class="site-nav-item">
+					<a class="icon-building" href="http://twigkit.com/" title="My Company: Twigkit"><span>Company</span></a>
+				</li>
+				<li class="site-nav-item">
+					<a class="icon-book-open" href="http://designingthesearchexperience.com/" title="My Book: Designing the Search Experience"><span>Book</span></a>
+				</li>
+				<li class="site-nav-item">
+					<a class="icon-linkedin-squared" href="http://uk.linkedin.com/in/tylertate/" title="My LinkedIn Profile"><span>LinkedIn</span></a>
+				</li>
+				<li class="site-nav-item">
+					<a class="icon-twitter" href="http://twitter.com/tylertate" title="Follow me on Twitter"><span>Twitter</span></a>
+				</li>
+			</ul>
+		</nav>
+		<figure class="my-photo">
+			<img src="/resources/images/tyler-tate.jpg" />
+		</figure>
+		<figure class="my-name">
+			<a href="/">Tyler Tate</a>
+		</figure>
 	</header>
-	
+
+	<article class="post">
+
+	<header class="post-header">
+		<p class="post-date">Jan 05, 2012</p>
+		<h1 class="post-title">Coping with Sub-pixel Rounding in IE</h1>
+	</header>
+
+	<section class="post-content">
+		
 <p>An old, ugly problem still plagues fluid layouts: sub-pixel rounding. You’ve experienced this nasty issue when elements within your percentage-based layout unexpectedly wrap to the next line in Internet Explorer, or aren’t flush with the right-hand edge in Safari and Chrome.</p>
 
 <p>The culprit? How percentages are rounded into pixel values by the browser. As <a href="http://ejohn.org/blog/sub-pixel-problems-in-css/">John Resig documented</a> in 2008, browsers have adopted different rounding strategies:</p>
@@ -58,7 +78,7 @@
 
 <p>This is certainly not a new problem; it’s been the source of head-to-wall bashing for over a decade. Yet it’s an important problem to understand and address in the modern era of fluid, responsive layouts. While it’s true that the problem will mostly go away when IE6 and 7 support is no longer necessary, many of us need a solution now.</p>
 
-<h3 id="the_formula">The formula</h3>
+<h2 id="the_formula">The formula</h2>
 
 <p>Unfortunately, there’s no silver bullet.</p>
 
@@ -82,7 +102,7 @@
 
 <p>Here are two strategies for applying this correction formula.</p>
 
-<h3 id="doityourself_calculations">Do-it-yourself calculations</h3>
+<h2 id="doityourself_calculations">Do-it-yourself calculations</h2>
 
 <p>You can quickly apply the above formula to your existing fluid layouts to fix the sub-pixel rounding issue in IE6 and 7 without adversely affecting other browsers. First, lets assume you have constructed a percentage-based layout that has a set minimum width of <strong>720px</strong>. Using this number as our baseline <code>containerWidth</code>, our formula tells us that the correctionLevel is <strong>.0694%</strong>. Whenever a percentage is used as the value of a width, padding, border, or margin declaration, we’ll use the star hack to add IE6/7-specific declarations which subtract .0694% from the original value. Here’s a simplistic example:</p>
 
@@ -91,7 +111,7 @@
   *width: 24.93%;
 }</code></pre>
 
-<h3 id="css_frameworks">CSS frameworks</h3>
+<h2 id="css_frameworks">CSS frameworks</h2>
 
 <p>If you’re using a CSS framework such as <a href="http://lesscss.org/">LESS.js</a> or <a href="http://sass-lang.com">SaSS</a>, you can rely on their mathematic operations to save you from having to crunching all the numbers by hand. The LESS/SaSS code below would be compiled to the same output as in the example above.</p>
 
@@ -113,12 +133,11 @@ margin: 0 @computedMargin;
 *width: @computedWidth-@correction;
 *margin: 0 @computedMargin-@correction;</code></pre>
 
-<h3 id="the_last_word">The last word</h3>
+<h2 id="the_last_word">The last word</h2>
 
 <p>So there you have it: a predictable formula for correcting the sub-pixel rounding problem in Internet Explorer 6 and 7. It’s just one more reason we can all rejoice when IE6 and 7 go the way of the grave.</p>
 
 
-		
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
 		    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -137,11 +156,10 @@ margin: 0 @computedMargin;
 		</script>
 		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+		
+	</section>
 	
 </article>
-		</section>
-		
-	</div>
 
 </body>
 </html>

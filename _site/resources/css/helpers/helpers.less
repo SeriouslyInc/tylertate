@@ -1,0 +1,81 @@
+/////////////
+// HELPERS //
+/////////////
+
+// Rounded Corners
+.rounded-corners (@radius:0) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+}
+.rounded-corners (@top-left-radius, @top-right-radius, @bottom-right-radius, @bottom-left-radius) {
+    -webkit-border-radius: @arguments;
+       -moz-border-radius: @arguments;
+            border-radius: @arguments;
+}
+
+// Shadows
+.inner-shadow (@x:0, @y:1px, @feather:1px, @color:#fff) {
+	   -webkit-box-shadow: inset @x @y @feather @color;
+	      -moz-box-shadow: inset @x @y @feather @color;
+	           box-shadow: inset @x @y @feather @color;
+}
+.drop-shadow (@x:0, @y:1px, @feather:1px, @color:#fff) {
+   	   -webkit-box-shadow: @x @y @feather @color;
+	      -moz-box-shadow: @x @y @feather @color;
+	           box-shadow: @x @y @feather @color;
+}
+.no-shadow (@x:0, @y:0, @feather:0, @color:rgba(255,255,255,0)) {
+	   -webkit-box-shadow: @x @y @feather @color;
+	      -moz-box-shadow: @x @y @feather @color;
+	           box-shadow: @x @y @feather @color;
+}
+
+// Gradients
+.gradient(@start-color:#ffffff, @end-color:#000000) {
+	background: ((@start-color + @end-color) / 2); // Find the average of the two colors and sets that as the background-color as a fallback for browsers that don't support gradients.
+	background: -webkit-gradient(linear, left top, left bottom, from(@start-color), to(@end-color)); // Webkit
+	background: -moz-linear-gradient(@start-color, @end-color); // FireFox
+	filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr=%d, endColorstr=%d)", @start-color, @end-color)); // IE6-7
+	-ms-filter: %("progid:DXImageTransform.Microsoft.gradient(startColorstr=%d, endColorstr=%d)", @start-color, @end-color); // IE8
+	background-image: linear-gradient(@start-color, @end-color); // Standard
+	zoom: 1; // Trigger hasLayout in IE6-7
+}
+
+// Opacity
+.opacity(@opacity:100) {
+	opacity: @opacity; // Modern browsers
+	filter:alpha%("(opacity = %d)",@opacity); // IE6+
+	zoom:1; // Trigger hasLayout in IE6-7
+}
+
+// Rotate
+.rotate(@deg:0) {
+	transform: rotate(@deg);
+	-ms-transform: rotate(@deg); /* IE 9 */
+	-webkit-transform: rotate(@deg); /* Safari and Chrome */
+	-o-transform: rotate(@deg); /* Opera */
+	-moz-transform: rotate(@deg); /* Firefox */
+}
+
+// Transition
+.transition(@transition) {
+  -webkit-transition: @transition;
+     -moz-transition: @transition;
+       -o-transition: @transition;
+          transition: @transition;
+}
+
+// Micro Clearfix - http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix() {
+	zoom:1; // Trigger hasLayout in IE6-7
+	
+	&:before,
+	&:after {
+	    content:"";
+	    display:table;
+	}
+	&:after {
+	    clear:both;
+	}
+}

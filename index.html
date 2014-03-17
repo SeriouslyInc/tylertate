@@ -1,66 +1,72 @@
 ---
 layout: general
-title: Designer. Cofounder of TwigKit. Author of Designing the Search Experience. Creator of Semantic.gs.
+title: Designer. Founder. Author.
 bodyId: home
 ---
 
-{% for post in site.categories.blog limit:1 %}
-	<div class="featured-article">
-		<article class="post">
-			<header>
-				<p>
-					{% if post.publisher %}
-						<a class="publisher" href="{{ post.originalurl }}">{{ post.publisher }}</a>
-						&nbsp;&bull;&nbsp;
-					{% endif %}
-					<span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
-				</p>
-				<h2>
+<header class="hero">
+	<h2 class="hero-text">
+		<p>Hi, I'm Tyler. I am a <em>designer</em>, <em>founder</em>, and <em>author</em> working at the intersection of business, design, and code.</p>
+		<p>I cofounded <a href="http://twigkit.com/">Twigkit</a> in 2009, where I curate a library of user interface components and design search applications for our Fortune 500 customers. I am also coauthor of <a href="http://designingthesearchexperience.com/">Designing the Search Experience</a>.</p>
+		<p>Before that I was a founding member and design lead at <a href="http://nutshell.com/">Nutshell CRM</a>. I've also designed an enterprise CMS, and run a web design studio.</p>
+		<p>Below you'll find some of my writings and past talks. Feel free to reach out on <a href="http://twitter.com/tylertate">Twitter</a> or <a href="http://uk.linkedin.com/in/tylertate/">LinkedIn</a>!</p>
+	</h2>
+</header>
+
+<section id="writings">
+	<h2 class="section-title">WRITINGS</h2>
+	<div class="featured">
+		<p>A few of my favorites are <strong>Information Wayfinding</strong> (<a href="http://www.uxmatters.com/mt/archives/2013/04/information-wayfinding-part-1-a-not-so-new-metaphor.php">Part 1</a>, <a href="http://www.uxmatters.com/mt/archives/2013/05/information-wayfinding-part-2-elements-of-the-information-environment.php">Part 2</a>, <a href="http://www.uxmatters.com/mt/archives/2014/03/information-wayfinding-part-3-designing-for-wayfinding-1.php">Part3</a>) on UXMatters, <a href="http://www.alistapart.com/articles/the-ux-of-learning/"><strong>The UX of Learning</strong></a> on A List Apart, and <a href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/"><strong>The Semantic Grid System</strong></a> on Smashing Magazine.</p>
+	</div>
+
+	<ol class="content-list writing-list">
+		{% for post in site.categories.blog %}
+			<li class="writing">
+				
+				{% if post.publisher %}
+					<a class="location" href="{{ post.originalurl }}">{{ post.publisher }}</a>
+				{% else %}
+					<span class="location">&nbsp;</span>
+				{% endif %}
+
+				<h3 class="title">
 					{% if post.publisher %}
 						<a href="{{ post.originalurl }}">{{ post.title }}</a>
 					{% else %}
 						<a href="{{ post.url }}">{{ post.title }}</a>
 					{% endif %}
-				</h2>
-			</header>
-			<section>
-				{{ post.content }}
-				
-				{% if post.publisher %}
-					<p class="more">
-						<a href="{{ post.originalurl }}">Read the rest on {{ post.publisher }}.</a>
-					</p>
-				{% endif %}
-			</section>
-		</article>
-	</div>
-{% endfor %}
-{% for post in site.categories.blog offset:1 %}
-	<article class="post">
-		<header>
-			<p>
-				{% if post.publisher %}
-					<a class="publisher" href="{{ post.originalurl }}">{{ post.publisher }}</a>
-					&nbsp;&bull;&nbsp;
-				{% endif %}
-				<span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
-			</p>
-			<h2>
-				{% if post.publisher %}
-					<a href="{{ post.originalurl }}">{{ post.title }}</a>
-				{% else %}
-					<a href="{{ post.url }}">{{ post.title }}</a>
-				{% endif %}
-			</h2>
-		</header>
-		<section>
-			{{ post.snippet | markdownify }}
+				</h3>
+
+				<span class="date">{{ post.date | date: "%b %Y" }}</span>
 			
-			{% if post.publisher %}
-				<p class="more">
-					<a href="{{ post.originalurl }}">Read the rest on {{ post.publisher }}.</a>
-				</p>
-			{% endif %}
-		</section>
-	</article>
-{% endfor %}
+			</li>
+		{% endfor %}
+	</ol>
+</section>
+
+
+<section id="talks">
+	<h2 class="section-title">TALKS</h2>
+	<div class="featured">
+		<iframe width="640" height="360" src="//www.youtube.com/embed/6Q0zqqxvx5g" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<ol class="content-list talk-list">
+		{% for post in site.categories.events %}
+			<li class="talk">
+
+				<span class="location" href="{{ post.eventurl }}">{{ post.location }}</span>
+				
+				<div class="title">
+					<h3>
+						<a href="{{ post.slidesurl }}">{{ post.title }}</a>
+					</h3>
+					<a class="event" href="{{ post.eventurl }}">{{ post.event }}</a>
+				</div>
+				
+				<span class="date">{{ post.date | date: "%b %Y" }}</span>
+
+			</li>
+		{% endfor %}
+	</ol>
+</section>

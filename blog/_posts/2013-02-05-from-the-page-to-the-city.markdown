@@ -18,14 +18,14 @@ This year I hope to elaborate on why the page metaphor is holding us back, and e
 
 <a href="http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0262620014&amp;linkCode=as2&amp;tag=dtse-21"><img src="http://tylertate.com/resources/images/2013-02-05/the-image-of-the-city.jpg" width="380" class="onethirds-width" style="float: right; margin: 0 -5% 1em 1em;" alt="The Image of the City" /></a>
 
-### The Image of the City
+## The Image of the City
 
 For now, I simply want to share a few excerpts from a book I've been reading: Kevin Lynch's 1959 classic [The Image of the City](http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0262620014&amp;linkCode=as2&amp;tag=dtse-21). In it, Lynch investigates how to design cities that are conducive to wayfinding, a term coined in the opening pages of the book. While urban planners are the intended audience of the book, the parallels with information interaction are staggering. For example:
 
 > "Not only is the city an object which is perceived (and perhaps enjoyed) by millions of people of widely diverse class and character, but it is the product of many builders who are constantly modifying the structure for reasons of their own. While it may be stable in general outlines for some time, it is ever changing in detail. Only partial control can be exercised over its growth and form. There is no final result, only a continuous succession of phases."— Kevin Lynch
 
 
-### Environmental Images
+## Environmental Images
 
 The book stresses the importance of the "imageability" of a city, a quality that helps people build rich environmental images of their surroundings. The concept is very closely related mental models in user-centered design:
 
@@ -36,7 +36,7 @@ The book stresses the importance of the "imageability" of a city, a quality that
 > "A good environmental image gives its possessor an important sense of emotional security. He can establish an harmonious relationship between himself and the outside world. This is the obverse of the fear that comes with disorientation."
 
 
-### The Adaptable Image
+## The Adaptable Image
 
 Lynch's environmental images are also highly individual. As with information environments, at any given instant in the city "there is more than the eye can see, more than the ear can hear." A key aspect of wayfinding is rapidly building environmental images and applying them for localized problem solving, much as a user might do when searching for information online:
 
@@ -45,6 +45,6 @@ Lynch's environmental images are also highly individual. As with information env
 > "The observer—with great adaptability and in the light of his own purposes—selects, organises, and endows with meaning what he sees."
 
 
-### A Metaphor for the Future
+## A Metaphor for the Future
 
 As the dominant metaphor of the web shifts from *the page* to *spatial problem solving*, I think there's much we can learn about information interaction by studying how people find their way through the physical environment.

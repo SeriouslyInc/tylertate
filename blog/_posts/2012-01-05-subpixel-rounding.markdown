@@ -18,7 +18,7 @@ You'll notice that in Webkit and Opera, which use the rounding-down strategy, th
 
 This is certainly not a new problem; it's been the source of head-to-wall bashing for over a decade. Yet it's an important problem to understand and address in the modern era of fluid, responsive layouts. While it's true that the problem will mostly go away when IE6 and 7 support is no longer necessary, many of us need a solution now.
 
-### The formula
+## The formula
 Unfortunately, there's no silver bullet.
 
 > The only way to prevent layouts from breaking in IE6/7 is to fractionally reduce the percentages so that they add up to just under 100%.
@@ -39,7 +39,7 @@ But the whole point of using percentages, I hear you saying, is to be pixel-inde
 
 Here are two strategies for applying this correction formula.
 
-### Do-it-yourself calculations
+## Do-it-yourself calculations
 You can quickly apply the above formula to your existing fluid layouts to fix the sub-pixel rounding issue in IE6 and 7 without adversely affecting other browsers. First, lets assume you have constructed a percentage-based layout that has a set minimum width of **720px**. Using this number as our baseline `containerWidth`, our formula tells us that the correctionLevel is **.0694%**. Whenever a percentage is used as the value of a width, padding, border, or margin declaration, we'll use the star hack to add IE6/7-specific declarations which subtract .0694% from the original value. Here's a simplistic example:
 
 	section#sidebar {
@@ -47,7 +47,7 @@ You can quickly apply the above formula to your existing fluid layouts to fix th
 	  *width: 24.93%;
 	}
 
-### CSS frameworks
+## CSS frameworks
 If you're using a CSS framework such as [LESS.js](http://lesscss.org/) or [SaSS](http://sass-lang.com), you can rely on their mathematic operations to save you from having to crunching all the numbers by hand. The LESS/SaSS code below would be compiled to the same output as in the example above.
 
 	section#sidebar {
@@ -68,5 +68,5 @@ It then subtracts the correction level from the IE-specific width and margin dec
 	*width: @computedWidth-@correction;
 	*margin: 0 @computedMargin-@correction;
 
-### The last word
+## The last word
 So there you have it: a predictable formula for correcting the sub-pixel rounding problem in Internet Explorer 6 and 7. It's just one more reason we can all rejoice when IE6 and 7 go the way of the grave.

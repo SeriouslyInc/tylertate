@@ -7,6 +7,18 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Information Wayfinding, Part 3: Designing for Wayfinding</title>
+				<pubDate>Mon, 10 Mar 2014 00:00:00 GMT</pubDate>
+				<description>
+&lt;p&gt;That is the question I want to consider in this third and final installment of my series on information wayfinding. In Part 1, I argued that we must move beyond thinking of information architecture as designing wayfinding for a book of pages and, instead, think in terms of a spatial environment. In Part 2, I compared interacting with information to the process of finding one’s way through a city, then defined three elements of the information environment, shown in Figure 1: districts, layers, and nodes.&lt;/p&gt;
+
+&lt;p&gt;In this article, I’ll first look at how people move through such information environments—the behavior of wayfinding. Then I’ll outline a set of guidelines for building Web sites and applications that enable people to make sense of continually expanding volumes of information without their becoming overwhelmed.&lt;/p&gt;
+</description>
+				<link>http://www.tylertate.com/blog/2014/03/10/information-wayfinding-part-3.html</link>
+				<guid>http://www.tylertate.com/blog/2014/03/10/information-wayfinding-part-3.html</guid>
+			</item>
+		
+			<item>
 				<title>A Look Back at 2013</title>
 				<pubDate>Wed, 15 Jan 2014 00:00:00 GMT</pubDate>
 				<description>
@@ -37,6 +49,58 @@
 			</item>
 		
 			<item>
+				<title>Information Wayfinding: The Future of Search</title>
+				<pubDate>Wed, 06 Nov 2013 00:00:00 GMT</pubDate>
+				<description>
+&lt;p&gt;People’s interactions with information environments are strikingly similar to how we navigate physical environments. I believe that embracing this spatial approach to information — what I call information wayfinding — can help us build environments conducive to the people who use them.&lt;/p&gt;
+
+&lt;p&gt;This talk was presented at the Enterprise Search Summit in Washington D.C. on November 6, 2013.&lt;/p&gt;
+</description>
+				<link>http://www.tylertate.com/events/2013/11/06/information-wayfinding-the-future-of-search.html</link>
+				<guid>http://www.tylertate.com/events/2013/11/06/information-wayfinding-the-future-of-search.html</guid>
+			</item>
+		
+			<item>
+				<title>Designing the Search Experience: Half-day Workshop</title>
+				<pubDate>Wed, 04 Sep 2013 00:00:00 BST</pubDate>
+				<description>
+&lt;p&gt;Search is not just a box and ten blue links. Search is a journey: an exploration where what we encounter along the way changes what we seek. But in order to guide people along this journey, we must understand both the art and science of search.&lt;/p&gt;
+
+&lt;p&gt;This workshop weaves together the theories of information seeking with the practice of user interface design, providing a comprehensive guide to designing search.&lt;/p&gt;
+
+&lt;p&gt;Part 1 Participants will first learn about the concepts behind search, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The psychology of users — such as their level of expertise, cognitive style, and learning style&lt;/li&gt;
+
+&lt;li&gt;Models of information seeking and information needs — including how they’ve been shaped by theories such as information foraging and sensemaking&lt;/li&gt;
+
+&lt;li&gt;The role of context — from task, to physical, social context&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After this conceptual investigation, participants will have a guided, hands-on opportunity to identify the spectrum of information needs their search applications should address.&lt;/p&gt;
+
+&lt;p&gt;Part 2 Moving from theory to practice, we will then apply the concepts from Part 1 to the actual design of effective experiences. We will start by reviewing user interface patterns for:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Entering the query — including the search box, as-you-type suggestions, advanced search, and non-textual input&lt;/li&gt;
+
+&lt;li&gt;Search result layout — from lists and grids, to maps, augmented reality, and voice Result manipulation controls — such as pagination and sorting&lt;/li&gt;
+
+&lt;li&gt;The ins-and-outs of faceted navigation&lt;/li&gt;
+
+&lt;li&gt;Mobile and responsive design considerations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After considering these design patterns, participants will then have a chance to sketch their search user interfaces ideas for both desktop and mobile environments.&lt;/p&gt;
+
+&lt;p&gt;In summary, this workshop will enable you to create better search experiences by equipping you with both a well-rounded understanding of the theories of information seeking, and a sweeping survey of search user interface best practices.&lt;/p&gt;
+</description>
+				<link>http://www.tylertate.com/events/2013/09/04/workshop-designing-the-search-experience.html</link>
+				<guid>http://www.tylertate.com/events/2013/09/04/workshop-designing-the-search-experience.html</guid>
+			</item>
+		
+			<item>
 				<title>Retina Images Using Media Queries and LESS CSS: A responsive approach to supporting multiple pixel densities</title>
 				<pubDate>Tue, 11 Jun 2013 00:00:00 BST</pubDate>
 				<description>
@@ -44,7 +108,7 @@
 
 &lt;p&gt;At &lt;a href=&quot;http://www.twigkit.com/&quot;&gt;Twigkit&lt;/a&gt;, our library of user interface components has long been image-free. We were early adopters of font icons, whose vector format scales to any screen resolution or pixel density. When I set out to redesign our marketing site a couple of months ago, however, I needed an approach for images that would minimise bandwidth for low-density devices, while maximising quality for high-density screens.&lt;/p&gt;
 
-&lt;h3 id=&quot;javascript_vs_css&quot;&gt;JavaScript vs. CSS&lt;/h3&gt;
+&lt;h2 id=&quot;javascript_vs_css&quot;&gt;JavaScript vs. CSS&lt;/h2&gt;
 
 &lt;p&gt;There are two main approaches to delivering images for multiple pixel densities:&lt;/p&gt;
 
@@ -56,7 +120,7 @@
 
 &lt;p&gt;Both approaches are technically sound. But all else being equal, I personally prefer to use CSS for presentation and reserve JavaScript for interaction.&lt;/p&gt;
 
-&lt;h3 id=&quot;background_images&quot;&gt;Background images&lt;/h3&gt;
+&lt;h2 id=&quot;background_images&quot;&gt;Background images&lt;/h2&gt;
 
 &lt;p&gt;The CSS approach relies on all images being set through the &lt;code&gt;background-image&lt;/code&gt; property. If we have two images to display that are both 450x300, for instance, we could do as follows:&lt;/p&gt;
 
@@ -76,7 +140,7 @@ figure#camel {
 	background-image: url(&amp;#39;images/camel.jpg&amp;#39;);
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&quot;the_media_query&quot;&gt;The Media Query&lt;/h3&gt;
+&lt;h2 id=&quot;the_media_query&quot;&gt;The Media Query&lt;/h2&gt;
 
 &lt;p&gt;With the images displayed as &lt;code&gt;background-images&lt;/code&gt;, we can then use a media query to detect the pixel density of the device viewing our page.&lt;/p&gt;
 
@@ -97,7 +161,7 @@ figure#camel {
 
 &lt;p&gt;By default, the web browser on a retina device will automatically scale an image to its actual pixel size. That is, our 900x450 image would be scaled to occupy a full 900x450 “virtual pixels” on the screen, whereas what we actually want is for the image to be scaled down to the original 450x300 area. To achieve this, we can set &lt;code&gt;background-size: 100%;&lt;/code&gt;. &lt;a href=&quot;http://quirksmode.org/css/backgrounds-borders/&quot;&gt;This&lt;/a&gt; instructs the browser to make the background image equal in width to its container.&lt;/p&gt;
 
-&lt;h3 id=&quot;nested_media_queries_with_less&quot;&gt;Nested Media Queries with LESS&lt;/h3&gt;
+&lt;h2 id=&quot;nested_media_queries_with_less&quot;&gt;Nested Media Queries with LESS&lt;/h2&gt;
 
 &lt;p&gt;So far, I’m sure you’ll agree, we’ve hardly broken new ground. The biggest problem I have with the above approach, however, is that it requires the designer to organise their CSS according to pixel densities. Instead of structuring stylesheets around the logical structure of the website, in other words, it forces us to have different stylesheets (or different blocks within a single stylesheet) to address each pixel density that we want to target. I don’t like that.&lt;/p&gt;
 
@@ -126,7 +190,7 @@ figure#camel {
 
 &lt;p&gt;While the compiled output of this stylesheet would resemble the original example, LESS’s nested media query support allows us to structure our stylesheet more naturally. However, having to remember to add these extra few lines for every image is still tedious.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_mixin_take_1&quot;&gt;The Mixin, Take 1&lt;/h3&gt;
+&lt;h2 id=&quot;the_mixin_take_1&quot;&gt;The Mixin, Take 1&lt;/h2&gt;
 
 &lt;p&gt;CSS preprocessors provide a second tool which can make this process easier: &lt;em&gt;mixins&lt;/em&gt;. The SASS documentation describes a &lt;a href=&quot;http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixins&quot;&gt;mixin&lt;/a&gt; as follows:&lt;/p&gt;
 
@@ -185,7 +249,7 @@ figure#camel {
 
 &lt;p&gt;It’s easy to see how a mixin could simplify configuration. Of course, this mixin isn’t yet doing it’s job; you’ll notice that the retina image is still pointing to &lt;code&gt;images/sand-dune.jpg&lt;/code&gt;, and not the &lt;code&gt;images/sand-dune_2x.jpg&lt;/code&gt; that we need.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_regular_expression&quot;&gt;The Regular Expression&lt;/h3&gt;
+&lt;h2 id=&quot;the_regular_expression&quot;&gt;The Regular Expression&lt;/h2&gt;
 
 &lt;p&gt;The next step requires a bit of a leap. In order to add the &lt;code&gt;_2x&lt;/code&gt; suffix to the image path, we could have our &lt;code&gt;.background-image()&lt;/code&gt; mixin use a regular expression to split the image path into two parts — filename and extension. We can then piece the path back together, inserting the &lt;code&gt;_2x&lt;/code&gt; suffix between them.&lt;/p&gt;
 
@@ -200,7 +264,7 @@ if (match != null) {
 
 &lt;p&gt;The regular expression has two &lt;a href=&quot;http://www.regular-expressions.info/brackets.html&quot;&gt;capture groups&lt;/a&gt;, which are denoted by parenthesis: &lt;code&gt;(.*)&lt;/code&gt; and &lt;code&gt;(jpg|jpeg|png|gif)&lt;/code&gt;. The second capture group matches any of the listed extensions: &lt;code&gt;jpg&lt;/code&gt;, &lt;code&gt;jpeg&lt;/code&gt;, &lt;code&gt;png&lt;/code&gt;, or &lt;code&gt;gif&lt;/code&gt;. The first capture group captures everything before the full stop. Then, in the &lt;code&gt;alert()&lt;/code&gt;, we reconstruct the image path.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_mixin_take_2&quot;&gt;The Mixin, Take 2&lt;/h3&gt;
+&lt;h2 id=&quot;the_mixin_take_2&quot;&gt;The Mixin, Take 2&lt;/h2&gt;
 
 &lt;p&gt;Now that we’ve created a regular expression that works, we can incorporate this into our mixin by taking advantage of LESS’s ability to evaluate JavaScript expressions.&lt;/p&gt;
 
@@ -232,11 +296,11 @@ figure#camel {
 
 &lt;p&gt;You can view a &lt;a href=&quot;http://tylertate.github.io/background-image/demo.html&quot;&gt;working demo&lt;/a&gt; of this solution, as well as &lt;a href=&quot;https://github.com/tylertate/background-image&quot;&gt;browse the code&lt;/a&gt; on GitHub.&lt;/p&gt;
 
-&lt;h3 id=&quot;limitations&quot;&gt;Limitations&lt;/h3&gt;
+&lt;h2 id=&quot;limitations&quot;&gt;Limitations&lt;/h2&gt;
 
 &lt;p&gt;This approach has one particular limitation that it’s important to point out. When compiled, each reference to the &lt;code&gt;.background-image()&lt;/code&gt; mixin results in a few lines of CSS (in this case, five lines). A quick test seems to indicate that about five invocations of the mixin result in about 1 kilobyte of uncompressed CSS. This is acceptable if there are a couple dozen images involved, but not if there are hundreds.&lt;/p&gt;
 
-&lt;h3 id=&quot;advantages&quot;&gt;Advantages&lt;/h3&gt;
+&lt;h2 id=&quot;advantages&quot;&gt;Advantages&lt;/h2&gt;
 
 &lt;p&gt;That said, this approach of using background images, media queries, and a LESS mixin in combination does have a number of significant advantages:&lt;/p&gt;
 
@@ -255,6 +319,14 @@ figure#camel {
 			</item>
 		
 			<item>
+				<title>Designing the Search Experience</title>
+				<pubDate>Wed, 15 May 2013 00:00:00 BST</pubDate>
+				<description></description>
+				<link>http://www.tylertate.com/events/2013/05/15/designing-the-search-experience.html</link>
+				<guid>http://www.tylertate.com/events/2013/05/15/designing-the-search-experience.html</guid>
+			</item>
+		
+			<item>
 				<title>Information Wayfinding, Part 2: Elements of the Information Environment</title>
 				<pubDate>Mon, 06 May 2013 00:00:00 BST</pubDate>
 				<description>
@@ -264,6 +336,18 @@ figure#camel {
 </description>
 				<link>http://www.tylertate.com/blog/2013/05/06/information-wayfinding-part-2.html</link>
 				<guid>http://www.tylertate.com/blog/2013/05/06/information-wayfinding-part-2.html</guid>
+			</item>
+		
+			<item>
+				<title>Designing the Search Experience</title>
+				<pubDate>Fri, 03 May 2013 00:00:00 BST</pubDate>
+				<description>
+&lt;p&gt;Search is not just a box and ten blue links. Search is a journey: an exploration where what we encounter along the way changes what we seek. But in order to guide people along this journey, we must understand both the art and science of search.In this talk Tyler Tate, cofounder of TwigKit and coauthor of the new book Designing the Search Experience, weaves together the theories of information seeking with the practice of user interface design, providing a comprehensive guide to designing search.Pulling from a wealth of research conducted over the last 30 years, Tyler begins by establishing a framework of search and discovery. He outlines cognitive attributes of users—including their level of expertise, cognitive style, and learning style; describes models of information seeking and how they’ve been shaped by theories such as information foraging and sensemaking; and reviews the role that task, physical, social, and environmental context plays in the search process.&lt;/p&gt;
+
+&lt;p&gt;Tyler then moves from theory to practice, drawing on his experience of designing 50+ search user interfaces to provide practical guidance for common search requirements. He describes best practices and demonstrates reams of examples for everything from entering the query (including the search box, as-you-type suggestions, advanced search, and non-textual input), to the layout of search results (such as lists, grids, maps, augmented reality, and voice), to result manipulation (e.g. pagination and sorting) and, last but not least, the ins-and-outs of faceted navigation. Through it all, Tyler also addresses mobile interface design and how responsive design techniques can be used to achieve cross-platform search.This intensive talk will enable you to create better search experiences by equipping you with a well-rounded understanding of the theories of information seeking, and providing you with a sweeping survey of search user interface best practices.&lt;/p&gt;
+</description>
+				<link>http://www.tylertate.com/events/2013/05/03/designing-the-search-experience.html</link>
+				<guid>http://www.tylertate.com/events/2013/05/03/designing-the-search-experience.html</guid>
 			</item>
 		
 			<item>
@@ -277,22 +361,92 @@ figure#camel {
 			</item>
 		
 			<item>
+				<title>Designing Mobile Search: A workshop for eBay Classifieds Group</title>
+				<pubDate>Thu, 07 Mar 2013 00:00:00 GMT</pubDate>
+				<description></description>
+				<link>http://www.tylertate.com/events/2013/03/07/designing-mobile-search-ebay-classifieds-group-workshop.html</link>
+				<guid>http://www.tylertate.com/events/2013/03/07/designing-mobile-search-ebay-classifieds-group-workshop.html</guid>
+			</item>
+		
+			<item>
+				<title>Information Wayfinding</title>
+				<pubDate>Tue, 26 Feb 2013 00:00:00 GMT</pubDate>
+				<description>
+&lt;p&gt;Presented at the European Bioinformatics Institute in Cambridge, UK on February 26.&lt;/p&gt;
+
+&lt;p&gt;Thanks to @francisrowland for inviting me, and for the excellent blog coverage: http://ebiinterfaces.wordpress.com/2013/02/27/information-wayfinding-tyler-tate/&lt;/p&gt;
+</description>
+				<link>http://www.tylertate.com/events/2013/02/26/information-wayfinding.html</link>
+				<guid>http://www.tylertate.com/events/2013/02/26/information-wayfinding.html</guid>
+			</item>
+		
+			<item>
+				<title>Designing Cross-Channel Experiences</title>
+				<pubDate>Mon, 25 Feb 2013 00:00:00 GMT</pubDate>
+				<description>
+&lt;p&gt;Tyler Tate will present a discussion of how we can use information needs to guide design that works across a range of channels. He will also cover practical things we can do to help us meet these design challenges.&lt;/p&gt;
+
+&lt;p&gt;As people interact with information across a growing number of channels—from computers and phones to paper and the built environment—the emerging practice of cross-channel design is becoming ever more important. In fact, the most successful businesses of both today and tomorrow will be those who can provide cohesive experiences to their customers across the numerous channels that those customers demand. However, architecting effective cross-channel experiences requires a fresh approach, new skills, and novel design methods.&lt;/p&gt;
+
+&lt;p&gt;In this talk Tyler Tate, author of Designing the Search Experience and cofounder of Twigkit, sets out to provide all three. He begins by establishing a theoretical foundation for cross-channel information interaction, pulling from the fields of information retrieval and human-information interaction. Central to that framework is a matrix of information needs that synthesizes research from Gary Marchionini and Andrei Broder with recent studies of mobile behavior by Karen Church, Timothy Sohn, and others, providing a realistic understanding of the many ways in which people interact with information.&lt;/p&gt;
+
+&lt;p&gt;Moving from theory to practice, Tyler next delves into four principles for designing cohesive cross-channel experiences, each complete with examples:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Division of labor. Each channel within the ecosystem should focus on what it does best.&lt;/li&gt;
+
+&lt;li&gt;Consistency. Consistency across the ecosystem should be balanced across two dimensions: realm and nature.&lt;/li&gt;
+
+&lt;li&gt;Continuity. Propagate the user’s state across all channels of the ecosystem.&lt;/li&gt;
+
+&lt;li&gt;Persistence. Enable users to access from any channel the information they’ve stored, organized, and enriched.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Tyler then ends by outlining two hands-on methods that can be used today to build effective cross-channel experiences:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The cross-channel blueprint. The blueprint provides an overview of the ecosystem’s two most fundamental attributes: the channels of which it’s composed, and the user actions it must facilitate.&lt;/li&gt;
+
+&lt;li&gt;The experience map. A service design tool, the experience map captures how users traverse the ecosystem’s many parts. As we journey deeper into the post-desktop era, the cross-channel experiences that emerge will either make or break our businesses. This talk will help prepare you to lead your organization successfully into the future.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;For more on this topic, see:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;http://www.slideshare.net/tylertate/designing-crosschannel-experiences&lt;/li&gt;
+
+&lt;li&gt;http://uxmag.com/articles/investigating-cross-channel-consistency&lt;/li&gt;
+
+&lt;li&gt;http://uxmatters.com/mt/archives/2011/10/the-rise-of-cross-channel-ux-design.php&lt;/li&gt;
+
+&lt;li&gt;http://ceur-ws.org/Vol-836/paper3.pdf&lt;/li&gt;
+
+&lt;li&gt;http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html&lt;/li&gt;
+
+&lt;li&gt;http://tylertate.com/blog/2012/03/19/the-experience-map.html&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<link>http://www.tylertate.com/events/2013/02/25/cross-channel-information-interaction.html</link>
+				<guid>http://www.tylertate.com/events/2013/02/25/cross-channel-information-interaction.html</guid>
+			</item>
+		
+			<item>
 				<title>Information Interaction as Spatial Problem Solving</title>
 				<pubDate>Wed, 20 Feb 2013 00:00:00 GMT</pubDate>
 				<description>
 &lt;p&gt;&lt;em&gt;A continuation of last week’s blog post, &lt;a href=&quot;http://tylertate.com/blog/2013/02/13/out-with-the-old-in-with-the-older.html&quot;&gt;Out with the Old, In with the Older&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;a_brief_history_of_wayfinding&quot;&gt;A brief history of wayfinding&lt;/h3&gt;
+&lt;h2 id=&quot;a_brief_history_of_wayfinding&quot;&gt;A brief history of wayfinding&lt;/h2&gt;
 
 &lt;p&gt;Kevin Lynch coined the term “wayfinding” in his 1960 book, &lt;em&gt;The Image of the City&lt;/em&gt;. Lynch recognized that one’s ability to navigate a city is closely related to how spatially oriented the person is within that city. He quantified this as a city’s “imagability”; that is, its likelihood of evoking a strong image in the observer, and therefore enhancing orientation.&lt;/p&gt;
 
 &lt;p&gt;Architect and environmental psychologist Romedi Passini further developed the concept of wayfinding in the 1970s and 80s, defining the term simply as “spatial problem solving.”&lt;/p&gt;
 
-&lt;h3 id=&quot;information_seeking_as_wayfinding&quot;&gt;Information seeking as wayfinding&lt;/h3&gt;
+&lt;h2 id=&quot;information_seeking_as_wayfinding&quot;&gt;Information seeking as wayfinding&lt;/h2&gt;
 
 &lt;p&gt;Wayfinding has much in common with how we know people to interact with information. In particular, Marcia Bates’s berrypicking model of information seeking portrays a process where, to paraphrase Peter Morville, what you find along the way changes what you seek. Likewise, Peter Pirolli and Stuart Card’s information foraging theory compares information seeking to rummaging for food in the forest, where users follow information scent as they sniff their way onwards. In both cases, information seeking is presented in terms of spatial problem solving.&lt;/p&gt;
 
-&lt;h3 id=&quot;on_metaphor&quot;&gt;On metaphor&lt;/h3&gt;
+&lt;h2 id=&quot;on_metaphor&quot;&gt;On metaphor&lt;/h2&gt;
 
 &lt;p&gt;The metaphor we use to understand the web is a big deal. George Lakoff and Mark Johnson convey the importance of conceptual metaphors in their book &lt;em&gt;Metaphors We Live By&lt;/em&gt;:&lt;/p&gt;
 
@@ -300,7 +454,7 @@ figure#camel {
 &lt;p&gt;“Our concepts structure what we perceive, how we get around in the world, and how we relate to other people. Our conceptual system thus plays a central role in defining our everyday realities. If we are right in suggesting that our conceptual system is largely metaphorical, then the way we think, what we experience, and what we do every day is very much a matter of metaphor.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;all_change_please&quot;&gt;All change please&lt;/h3&gt;
+&lt;h2 id=&quot;all_change_please&quot;&gt;All change please&lt;/h2&gt;
 
 &lt;p&gt;If we are to build modern information environments that are coherent — which are “imageable” and facilitate orientation — then we should embrace information wayfinding as a new spatial metaphor for the web.&lt;/p&gt;
 </description>
@@ -320,7 +474,7 @@ figure#camel {
 
 &lt;p&gt;This insight is as important today as when it was written in 1968. However, despite mankind’s age-old proclivity towards spatial organization, the majority of today’s web experiences are built to resemble a relatively more recent invention: the book.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_book&quot;&gt;The book&lt;/h3&gt;
+&lt;h2 id=&quot;the_book&quot;&gt;The book&lt;/h2&gt;
 
 &lt;p&gt;Books are characterised by:&lt;/p&gt;
 
@@ -332,7 +486,7 @@ figure#camel {
 &lt;li&gt;An index of all the concepts mentioned throughout the book&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;the_website&quot;&gt;The website&lt;/h3&gt;
+&lt;h2 id=&quot;the_website&quot;&gt;The website&lt;/h2&gt;
 
 &lt;p&gt;The architecture of most websites still follows this same pattern:&lt;/p&gt;
 
@@ -344,7 +498,7 @@ figure#camel {
 &lt;li&gt;A search box for finding any concept mentioned on the website&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;an_outdated_metaphor&quot;&gt;An outdated metaphor&lt;/h3&gt;
+&lt;h2 id=&quot;an_outdated_metaphor&quot;&gt;An outdated metaphor&lt;/h2&gt;
 
 &lt;p&gt;This is understandable. As content shifted from print to digital in the early days of the web, the methods from the old medium were transferred to the new. While this may have been expedient, the practicality of the book metaphor has faded, and is now holding us back. Consider these two questions:&lt;/p&gt;
 
@@ -360,7 +514,7 @@ figure#camel {
 &lt;p&gt;We need a metaphor for interacting with information that acknowledges the spatial reality of human psychology.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;looking_to_the_future&quot;&gt;Looking to the future&lt;/h3&gt;
+&lt;h2 id=&quot;looking_to_the_future&quot;&gt;Looking to the future&lt;/h2&gt;
 
 &lt;p&gt;The time has come to adopt a more appropriate metaphor for interacting with digital information, one that acknowledges the spatial reality of human psychology. It’s time to embrace &lt;strong&gt;information wayfinding&lt;/strong&gt;.&lt;/p&gt;
 
@@ -368,6 +522,14 @@ figure#camel {
 </description>
 				<link>http://www.tylertate.com/blog/2013/02/13/out-with-the-old-in-with-the-older.html</link>
 				<guid>http://www.tylertate.com/blog/2013/02/13/out-with-the-old-in-with-the-older.html</guid>
+			</item>
+		
+			<item>
+				<title>Information Seeking</title>
+				<pubDate>Tue, 12 Feb 2013 00:00:00 GMT</pubDate>
+				<description></description>
+				<link>http://www.tylertate.com/events/2013/02/12/information-seeking.html</link>
+				<guid>http://www.tylertate.com/events/2013/02/12/information-seeking.html</guid>
 			</item>
 		
 			<item>
@@ -384,7 +546,7 @@ figure#camel {
 
 &lt;p&gt;&lt;a href=&#39;http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=19450&amp;amp;creativeASIN=0262620014&amp;amp;linkCode=as2&amp;amp;tag=dtse-21&#39;&gt;&lt;img alt=&#39;The Image of the City&#39; class=&#39;onethirds-width&#39; src=&#39;http://tylertate.com/resources/images/2013-02-05/the-image-of-the-city.jpg&#39; style=&#39;float: right; margin: 0 -5% 1em 1em;&#39; width=&#39;380&#39; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;the_image_of_the_city&quot;&gt;The Image of the City&lt;/h3&gt;
+&lt;h2 id=&quot;the_image_of_the_city&quot;&gt;The Image of the City&lt;/h2&gt;
 
 &lt;p&gt;For now, I simply want to share a few excerpts from a book I’ve been reading: Kevin Lynch’s 1959 classic &lt;a href=&quot;http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=19450&amp;amp;creativeASIN=0262620014&amp;amp;linkCode=as2&amp;amp;tag=dtse-21&quot;&gt;The Image of the City&lt;/a&gt;. In it, Lynch investigates how to design cities that are conducive to wayfinding, a term coined in the opening pages of the book. While urban planners are the intended audience of the book, the parallels with information interaction are staggering. For example:&lt;/p&gt;
 
@@ -392,7 +554,7 @@ figure#camel {
 &lt;p&gt;“Not only is the city an object which is perceived (and perhaps enjoyed) by millions of people of widely diverse class and character, but it is the product of many builders who are constantly modifying the structure for reasons of their own. While it may be stable in general outlines for some time, it is ever changing in detail. Only partial control can be exercised over its growth and form. There is no final result, only a continuous succession of phases.”— Kevin Lynch&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;environmental_images&quot;&gt;Environmental Images&lt;/h3&gt;
+&lt;h2 id=&quot;environmental_images&quot;&gt;Environmental Images&lt;/h2&gt;
 
 &lt;p&gt;The book stresses the importance of the “imageability” of a city, a quality that helps people build rich environmental images of their surroundings. The concept is very closely related mental models in user-centered design:&lt;/p&gt;
 
@@ -408,7 +570,7 @@ figure#camel {
 &lt;p&gt;“A good environmental image gives its possessor an important sense of emotional security. He can establish an harmonious relationship between himself and the outside world. This is the obverse of the fear that comes with disorientation.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;the_adaptable_image&quot;&gt;The Adaptable Image&lt;/h3&gt;
+&lt;h2 id=&quot;the_adaptable_image&quot;&gt;The Adaptable Image&lt;/h2&gt;
 
 &lt;p&gt;Lynch’s environmental images are also highly individual. As with information environments, at any given instant in the city “there is more than the eye can see, more than the ear can hear.” A key aspect of wayfinding is rapidly building environmental images and applying them for localized problem solving, much as a user might do when searching for information online:&lt;/p&gt;
 
@@ -420,7 +582,7 @@ figure#camel {
 &lt;p&gt;“The observer—with great adaptability and in the light of his own purposes—selects, organises, and endows with meaning what he sees.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;a_metaphor_for_the_future&quot;&gt;A Metaphor for the Future&lt;/h3&gt;
+&lt;h2 id=&quot;a_metaphor_for_the_future&quot;&gt;A Metaphor for the Future&lt;/h2&gt;
 
 &lt;p&gt;As the dominant metaphor of the web shifts from &lt;em&gt;the page&lt;/em&gt; to &lt;em&gt;spatial problem solving&lt;/em&gt;, I think there’s much we can learn about information interaction by studying how people find their way through the physical environment.&lt;/p&gt;
 </description>
@@ -458,7 +620,7 @@ figure#camel {
 
 &lt;p&gt;Remember the &lt;a href=&quot;http://dir.yahoo.com&quot;&gt;Yahoo! Directory&lt;/a&gt;? It was a hand-built taxonomy that allowed users to browse and discover Internet resources. By categorizing sites by topic and location, it became the definitive map of the World Wide Web. But at the turn of the millennium, Yahoo! transformed itself from a directory into a search engine. The task of organising so many disparate items into a single coherent structure had simply become too overwhelming.&lt;/p&gt;
 
-&lt;h3 id=&quot;search_is_ubiquitous&quot;&gt;Search is ubiquitous&lt;/h3&gt;
+&lt;h2 id=&quot;search_is_ubiquitous&quot;&gt;Search is ubiquitous&lt;/h2&gt;
 
 &lt;p&gt;More than a decade later, this story is all too familiar. Online stores sell hundreds of thousands of items, social networks host millions of users, and Flickr hosts billions of photos. Navigation is no longer the future: search is the key to sense-making in the digital universe.&lt;/p&gt;
 
@@ -468,7 +630,7 @@ figure#camel {
 &lt;p&gt;That’s why Tony Russell-Rose and I set out to write &lt;em&gt;&lt;a href=&quot;http://designingthesearchexperience.com&quot;&gt;Designing the Search Experience&lt;/a&gt;: the Information Architecture of Discovery&lt;/em&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;a_new_book_for_a_new_era&quot;&gt;A new book for a new era&lt;/h3&gt;
+&lt;h2 id=&quot;a_new_book_for_a_new_era&quot;&gt;A new book for a new era&lt;/h2&gt;
 
 &lt;p&gt;For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. To help maintain our focus we established three guiding principles:&lt;/p&gt;
 
@@ -482,7 +644,7 @@ figure#camel {
 
 &lt;p&gt;&lt;a href=&#39;http://designingthesearchexperience.com&#39;&gt;&lt;img alt=&#39;The information architecture of discovery.&#39; class=&#39;onethirds-width&#39; src=&#39;http://tylertate.com/resources/images/2012-12-18/cover.jpg&#39; width=&#39;382&#39; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;thank_you&quot;&gt;Thank You&lt;/h3&gt;
+&lt;h2 id=&quot;thank_you&quot;&gt;Thank You&lt;/h2&gt;
 
 &lt;p&gt;But we haven’t worked alone. In particular, we’d like to thank &lt;a href=&quot;http://www.cennydd.co.uk&quot;&gt;Cennydd Bowles&lt;/a&gt;, &lt;a href=&quot;http://experiencinginformation.wordpress.com&quot;&gt;James Kalbach&lt;/a&gt;, and &lt;a href=&quot;http://www.cs.nott.ac.uk/~mlw/&quot;&gt;Max Wilson&lt;/a&gt; for their heroic efforts in reviewing every chapter and providing invaluable feedback all along the way. We are greatly in their debt.&lt;/p&gt;
 
@@ -490,7 +652,7 @@ figure#camel {
 
 &lt;p&gt;Thank you to Meg Dunkerley, Heather Scherer, Andrea Dierna, Rachel Roumeliotis, and the rest of the Morgan Kaufmann team for their ongoing support. We are proud of what we’ve achieved together.&lt;/p&gt;
 
-&lt;h3 id=&quot;check_it_out&quot;&gt;Check it out&lt;/h3&gt;
+&lt;h2 id=&quot;check_it_out&quot;&gt;Check it out&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Designing the Search Experience&lt;/em&gt; is finally available in print. You can &lt;a href=&quot;http://designingthesearchexperience.com&quot;&gt;find more details&lt;/a&gt; at the associated website, along with a &lt;a href=&quot;http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf&quot;&gt;free sample chapter&lt;/a&gt;. Tony and I are pleased with the result—we hope you will be too.&lt;/p&gt;
 </description>
@@ -499,32 +661,42 @@ figure#camel {
 			</item>
 		
 			<item>
+				<title>Designing Cross-Channel Experiences</title>
+				<pubDate>Thu, 08 Nov 2012 00:00:00 GMT</pubDate>
+				<description>
+&lt;p&gt;As people interact with information across a growing number channels both digital (such as computers, tablets, phones) and physical (from print to the built environment), a new form of design is becoming increasingly important. The most successful businesses of today and tomorrow will be those who can provide cohesive experiences to their customers across the numerous channels that those customers demand. While designers are ideally suited to deliver on this challenge, we must expand our mindset and develop new tools in order to succeed. This talk aims to achieve just that. You will learn about three characteristics of cohesive cross-channel experiences—division of labour, consistency, and continuity—and how to put those principles into practice using two design methods: the cross-channel blueprint and the experience map.&lt;/p&gt;
+</description>
+				<link>http://www.tylertate.com/events/2012/11/08/designing-cross-channel-experiences.html</link>
+				<guid>http://www.tylertate.com/events/2012/11/08/designing-cross-channel-experiences.html</guid>
+			</item>
+		
+			<item>
 				<title>The Future of Information</title>
 				<pubDate>Thu, 01 Nov 2012 00:00:00 GMT</pubDate>
 				<description>
 &lt;p&gt;Web pages are dead. The future of information—and how people interact with it—is undergoing a profound metamorphosis. Our eulogy must begin long before web pages were conceived. Before the Internet, there was the written word; the book was the preeminent artefact for disseminating and assimilating information.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_scroll_and_the_table_of_contents&quot;&gt;The Scroll and the Table of Contents&lt;/h3&gt;
+&lt;h2 id=&quot;the_scroll_and_the_table_of_contents&quot;&gt;The Scroll and the Table of Contents&lt;/h2&gt;
 
 &lt;p&gt;In their early form, books were scrawled on scrolls. Scarcely a format conducive for rapidly jumping from place to place, scrolls were intended to be read linearly. Despite this constraint, the first tables of contents were developed for scroll manuscripts. In the first century A.D., for instance, Pliny the Elder preceded his 37-volume &lt;em&gt;Natural History&lt;/em&gt; with a detailed table of contents (Forsythe, 2012). Such tables distilled the contents of a work into a taxonomy of volumes, sections, and chapters so that a reader would not have to scroll through the entire work to find their topic of interest.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_printing_press_and_the_index&quot;&gt;The Printing Press and the Index&lt;/h3&gt;
+&lt;h2 id=&quot;the_printing_press_and_the_index&quot;&gt;The Printing Press and the Index&lt;/h2&gt;
 
 &lt;p&gt;It wasn’t until the advent of the printing press, however, that the taxonomical organisation of the book—the table of contents—was augmented with a secondary organisational scheme: the index (Wellisch, 1991). Having transformed leafless, handwritten scrolls into mass-market books with numbered pages, the printing press made it practical to create, replicate, and use an alphabetised index of topics. If the reader could not locate their topic of choice in the table of contents, they could look it up in the much more granular index and jump directly to the relevant page in the book.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_early_internet_and_the_web_page&quot;&gt;The Early Internet and the Web Page&lt;/h3&gt;
+&lt;h2 id=&quot;the_early_internet_and_the_web_page&quot;&gt;The Early Internet and the Web Page&lt;/h2&gt;
 
 &lt;p&gt;The early World Wide Web scarcely advanced this paradigm. The book had become the website, the table of contents had become the website’s navigation, and book pages had simply become web pages. Like the book that preceded it, the early website was a top-down construction: a rigid taxonomy of pages.&lt;/p&gt;
 
 &lt;p&gt;Of course, we quickly realised that these one-size-fits-all taxonomies, well, did not always fit everyone’s needs. To fix the problem, we bolted-on inferior site search tools and prepared A-Z indexes of topics. In other words, we did more or less the same thing that we’d been doing for the last five centuries.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_rise_of_faceted_search&quot;&gt;The Rise of Faceted Search&lt;/h3&gt;
+&lt;h2 id=&quot;the_rise_of_faceted_search&quot;&gt;The Rise of Faceted Search&lt;/h2&gt;
 
 &lt;p&gt;But things were about to change. Half a century earlier, an Indian librarian had proposed a new way of organising information. Rather than use a rigid taxonomy, S. R. Ranganathan suggested that information should be categorised using multiple characteristics, what we now call “facets” (Tunkelang, 2009). By the early 2000s, information retrieval systems were beginning to augment keyword searches with faceted navigation.&lt;/p&gt;
 
 &lt;p&gt;In this revolutionary development, a person could finally access information not just through someone else’s top-down taxonomy or A-Z index, but by simply interacting with the facets that match their own mental model.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_pageless_future&quot;&gt;The Pageless Future&lt;/h3&gt;
+&lt;h2 id=&quot;the_pageless_future&quot;&gt;The Pageless Future&lt;/h2&gt;
 
 &lt;p&gt;But there’s a problem. Because faceted navigation was developed as an extension of search—and search itself was added to websites to provide an alternative to traditional web navigation—these two forms of navigation often still share an awkward co-existence. Users must choose whether to follow the website’s table of contents, or whether to turn to the faceted index.&lt;/p&gt;
 
@@ -532,11 +704,11 @@ figure#camel {
 
 &lt;p&gt;Indeed, we can see this future unfolding before us. When we use the Web to shop, pick out recipes, look for a house, find a job, or choose a film to watch, we already engage in faceted, pageless interactions.&lt;/p&gt;
 
-&lt;h3 id=&quot;a_happy_ending&quot;&gt;A Happy Ending&lt;/h3&gt;
+&lt;h2 id=&quot;a_happy_ending&quot;&gt;A Happy Ending&lt;/h2&gt;
 
 &lt;p&gt;In this faceted future, there are no pages. The story that began millennia ago is finally coming to fruition: information is being liberated from the page—and the taxonomies, the fixed tables of contents—which bound them to a rigid existence. And users, unconstrained by foreign hierarchies, are finally free to explore information in its purest form.&lt;/p&gt;
 
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Forsythe, G. (2012). History of Information Retrieval. Retrieved from http://www.asindexing.org/i4a/pages/index.cfm?pageID=3300 on Oct 29, 2012.&lt;/li&gt;
@@ -563,6 +735,16 @@ figure#camel {
 			</item>
 		
 			<item>
+				<title>Designing Mobile Search</title>
+				<pubDate>Wed, 16 May 2012 00:00:00 BST</pubDate>
+				<description>
+&lt;p&gt;Presented in New York at the Enterprise Search Summit and the NY Enterprise Search meetup.&lt;/p&gt;
+</description>
+				<link>http://www.tylertate.com/events/2012/05/16/designing-mobile-search.html</link>
+				<guid>http://www.tylertate.com/events/2012/05/16/designing-mobile-search.html</guid>
+			</item>
+		
+			<item>
 				<title>On Consistency, Part 3: Cross-Channel Guidelines</title>
 				<pubDate>Wed, 21 Mar 2012 00:00:00 GMT</pubDate>
 				<description>
@@ -570,19 +752,19 @@ figure#camel {
 
 &lt;p&gt;In this third and final installment, I’d like to offer some very basic guidelines for appropriately aligning consistency across the multiple channels of an ecosystem.&lt;/p&gt;
 
-&lt;h3 id=&quot;functional&quot;&gt;Functional&lt;/h3&gt;
+&lt;h2 id=&quot;functional&quot;&gt;Functional&lt;/h2&gt;
 
 &lt;p&gt;The function of a channel should be optimized for its own comparative advantage; in other words, what it has the potential of doing better than any other channel in the ecosystem. In this way, its function need not be externally &lt;em&gt;consistent&lt;/em&gt;, as much as it should be &lt;em&gt;complimentary&lt;/em&gt; to the rest of the ecosystem, yet internally consistent.&lt;/p&gt;
 
-&lt;h3 id=&quot;behavioral&quot;&gt;Behavioral&lt;/h3&gt;
+&lt;h2 id=&quot;behavioral&quot;&gt;Behavioral&lt;/h2&gt;
 
 &lt;p&gt;There is a behavioral tension between the local habitat—be it website conventions or operating system patterns—and the process flows of the ecosystem. Great effort should be exerted to reconcile these differences. Where perfect integration isn’t possible, erring on the side of local consistency is often the more conciliatory approach.&lt;/p&gt;
 
-&lt;h3 id=&quot;organizational&quot;&gt;Organizational&lt;/h3&gt;
+&lt;h2 id=&quot;organizational&quot;&gt;Organizational&lt;/h2&gt;
 
 &lt;p&gt;Organizational consistency should almost always favor the external ecosystem over the local or internal. Using a consistent organizational scheme across all channels of the ecosystem is one of the most important factors in delivering a seamless cross-channel experience.&lt;/p&gt;
 
-&lt;h3 id=&quot;aesthetic&quot;&gt;Aesthetic&lt;/h3&gt;
+&lt;h2 id=&quot;aesthetic&quot;&gt;Aesthetic&lt;/h2&gt;
 
 &lt;p&gt;Aesthetics has major implications across all three levels. It should certainly maintain internal consistency. Yet there is again a tension between the local habitat and external ecosystem that must be carefully negotiated. While the aspects of the look and feel that involve branding, such as color, should be consistent with the ecosystem, the overriding style of the user interface should match its local habitat.&lt;/p&gt;
 </description>
@@ -596,7 +778,7 @@ figure#camel {
 				<description>
 &lt;p&gt;Last month when I blogged about the &lt;a href=&quot;http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html&quot;&gt;cross-channel blueprint&lt;/a&gt; as a tool for planning the tasks and channels of an ecosystem, several people commented that it failed to fully account for user. Indeed, those comments helped me realize that the cross-channel blueprint is itself a &lt;em&gt;system-oriented&lt;/em&gt; diagram—useful as a planning tool and for the concise overview it provides—but that it must be paired with a &lt;em&gt;user-centered&lt;/em&gt; perspective. One such tool is an obvious companion: the experience map.&lt;/p&gt;
 
-&lt;h3 id=&quot;what_is_an_experience_map&quot;&gt;What is an experience map?&lt;/h3&gt;
+&lt;h2 id=&quot;what_is_an_experience_map&quot;&gt;What is an experience map?&lt;/h2&gt;
 
 &lt;p&gt;Sometimes called a &lt;a href=&quot;http://www.servicedesigntools.org/tools/8&quot;&gt;customer journey map&lt;/a&gt; (a label which is &lt;a href=&quot;http://tylertate.com/blog/2012/03/07/employees-are-customers-too.html&quot;&gt;unnecessarily narrow&lt;/a&gt;), the experience map is a tool born out of service design. It visually represents not only a user’s interactions with the system, but is also concerned with the emotional state of the user throughout the entire process. Experience maps help everyone involved put themselves in the user’s shoes.&lt;/p&gt;
 
@@ -604,7 +786,7 @@ figure#camel {
 
 &lt;p&gt;Experience maps come in many different forms. &lt;a href=&quot;http://www.adaptivepath.com/ideas/the-anatomy-of-an-experience-map&quot;&gt;Chris Risdon&lt;/a&gt; of Adaptive Path uses five dimensions—the lens, the journey model, qualitative insight, quantitative information, and takeaways; &lt;a href=&quot;http://www.mycustomer.com/topic/customer-intelligence/customer-journey-mapping/105167&quot;&gt;Arne van Oosterom&lt;/a&gt; describes ten—including the customer journey, moments of truth, and the emotional journey; and &lt;a href=&quot;http://experiencinginformation.wordpress.com/2010/05/10/customer-journey-mapping-resources-on-the-web/&quot;&gt;James Kalbach&lt;/a&gt; has compiled a long list of related resources, each with a slightly different take on the tool.&lt;/p&gt;
 
-&lt;h3 id=&quot;creating_an_experience_map&quot;&gt;Creating an experience map&lt;/h3&gt;
+&lt;h2 id=&quot;creating_an_experience_map&quot;&gt;Creating an experience map&lt;/h2&gt;
 
 &lt;p&gt;Despite its many varieties, creating a basic experience map involves these three steps:&lt;/p&gt;
 
@@ -630,7 +812,7 @@ figure#camel {
 				<description>
 &lt;p&gt;In the opening pages of &lt;em&gt;The Wealth of Nations&lt;/em&gt;, Adam Smith demonstrates the power of the division of labor through the example of a pin factory. At that time, the process for manufacturing sewing pins consisted of about 18 operations, such as drawing out the wire, straightening it, cutting it, pointing it, sanding it, and so on. Each tasks was sufficiently involved, Smith maintained, that a single individual could perhaps “make one pin in a day, and certainly could not make twenty.” Yet when each operation was distributed to a tradesmen specialized in that task, the team “could make amongst them upwards of 48,000 pins in a day.”&lt;/p&gt;
 
-&lt;h3 id=&quot;division_of_labor_and_the_ipod&quot;&gt;Division of labor and the iPod&lt;/h3&gt;
+&lt;h2 id=&quot;division_of_labor_and_the_ipod&quot;&gt;Division of labor and the iPod&lt;/h2&gt;
 
 &lt;p&gt;Steve Jobs made a similar, though less profound realization around the turn of the millennium: he saw the computer acting as the central hub for digital devices. This strategy would allow both the computer and the device to play to their respective strengths, just as the specialized tradesmen at the pin factory were able to do. Biographer Walter Isaacson summarizes Jobs’ thoughts:&lt;/p&gt;
 
@@ -640,7 +822,7 @@ figure#camel {
 
 &lt;p&gt;This insight most notably led to Apple’s introduction of the iPod. Rather than designing the portable music player to be self-sufficient, as their competitors had done, the iPod was designed as part of a symbiotic ecosystem. The iPod was freed to do what it did best—play music—while the computer handled the more complex task of managing the music collection, and the iTunes store enabled users to acquire new songs.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_principle_of_optimization&quot;&gt;The principle of optimization&lt;/h3&gt;
+&lt;h2 id=&quot;the_principle_of_optimization&quot;&gt;The principle of optimization&lt;/h2&gt;
 
 &lt;p&gt;The division of labor between the iPod, iTunes, and Mac enabled the three to collectively achieve more than they could have on their own. This is the principle of &lt;em&gt;optimization&lt;/em&gt; at work. Each channel within the ecosystem should focus on what it does best. Put another way, each component should be optimized for its unique &lt;em&gt;affordances&lt;/em&gt;, that is, the inherent characteristics of an object that communicate its purpose.&lt;/p&gt;
 
@@ -664,7 +846,7 @@ figure#camel {
 
 &lt;p&gt;While &lt;em&gt;level&lt;/em&gt; answers the question, “Is object A similar to object B?”, &lt;em&gt;type&lt;/em&gt; is concerned with: ”&lt;em&gt;In what way&lt;/em&gt; is object A similar with object B?”&lt;/p&gt;
 
-&lt;h3 id=&quot;four_types_of_consistency&quot;&gt;Four types of consistency&lt;/h3&gt;
+&lt;h2 id=&quot;four_types_of_consistency&quot;&gt;Four types of consistency&lt;/h2&gt;
 
 &lt;p&gt;There are many ways to slice cakes and skin cats, yet these four types of consistency seem most relevant to cross-channel design:&lt;/p&gt;
 
@@ -678,7 +860,7 @@ figure#camel {
 &lt;li&gt;&lt;strong&gt;Aesthetics&lt;/strong&gt;. &lt;em&gt;How it looks&lt;/em&gt;. The visual style.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;putting_the_pieces_together&quot;&gt;Putting the pieces together&lt;/h3&gt;
+&lt;h2 id=&quot;putting_the_pieces_together&quot;&gt;Putting the pieces together&lt;/h2&gt;
 
 &lt;p&gt;Breaking consistency down into its component parts is more than just a thought exercise. A careful consideration of the levels and types of consistency is central to designing seamless cross-channel experiences.&lt;/p&gt;
 
@@ -698,7 +880,7 @@ figure#camel {
 				<description>
 &lt;p&gt;Consistency is lauded as a staple ingredient of every good user experience; a fundamental principle of interaction design; a golden rule of the user interface. Yet it’s a heuristic that’s sometimes misunderstood and often oversimplified. Consistency is more complex than intuition would lead us to believe, rife with tension and competing forces, and often seemingly contradictory.&lt;/p&gt;
 
-&lt;h3 id=&quot;consistent_with_what&quot;&gt;Consistent with what?&lt;/h3&gt;
+&lt;h2 id=&quot;consistent_with_what&quot;&gt;Consistent with what?&lt;/h2&gt;
 
 &lt;p&gt;We often judge “that’s consistent” or “that’s inconsistent” without specifying the object of our comparison. Yet something may be both consistent and inconsistent &lt;em&gt;at the same time&lt;/em&gt;. The question is: consistent with what?&lt;/p&gt;
 
@@ -708,7 +890,7 @@ figure#camel {
 
 &lt;p&gt;&lt;em&gt;The levels of consistency continuum.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;three_levels_of_consistency&quot;&gt;Three levels of consistency&lt;/h3&gt;
+&lt;h2 id=&quot;three_levels_of_consistency&quot;&gt;Three levels of consistency&lt;/h2&gt;
 
 &lt;p&gt;While the traditional continuum is useful, the points along that continuum deserve further exploration. In particular, we need to account for how consistency affects cross-channel experiences. In that light, I suggest that three points—not two—should underpin our thinking:&lt;/p&gt;
 
@@ -724,7 +906,7 @@ figure#camel {
 
 &lt;p&gt;&lt;em&gt;The three levels can be thought of in ecological terms: the creature, the habitat, and the ecosystem.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lets_be_clear&quot;&gt;Let’s be clear&lt;/h3&gt;
+&lt;h2 id=&quot;lets_be_clear&quot;&gt;Let’s be clear&lt;/h2&gt;
 
 &lt;p&gt;From this vantage point we can rationalize how some forms of consistency should trump others. For instance, certain OS conventions—such as the visual style for buttons—should usually take precedence over ecosystem-wide consistency; the local application, on the other hand, should most often be subservient to ensuring a seamless experience across the ecosystem as a whole.&lt;/p&gt;
 
@@ -740,11 +922,11 @@ figure#camel {
 				<description>
 &lt;p&gt;User experience design is growing up. We’ve finally realized that UX is less about creating end-all-be-all websites, and more about designing cross-channel ecosystems that encompass both the digital and physical.&lt;/p&gt;
 
-&lt;h3 id=&quot;multidisciplinary_is_good&quot;&gt;Multi-disciplinary is Good&lt;/h3&gt;
+&lt;h2 id=&quot;multidisciplinary_is_good&quot;&gt;Multi-disciplinary is Good&lt;/h2&gt;
 
 &lt;p&gt;As part of this journey, we’ve wisely been reaching out to other disciplines for inspiration. &lt;em&gt;Service design&lt;/em&gt; has taught us to consider customer journeys from touchpoint to touchpoint across multiple channels. &lt;em&gt;Customer experience design&lt;/em&gt; has encouraged us to put our business hats on and align user experience with business strategy. Both of these disciplines exert a positive influence on user experience design.&lt;/p&gt;
 
-&lt;h3 id=&quot;customers_arent_the_only_users&quot;&gt;Customers aren’t the only users&lt;/h3&gt;
+&lt;h2 id=&quot;customers_arent_the_only_users&quot;&gt;Customers aren’t the only users&lt;/h2&gt;
 
 &lt;p&gt;Yet there is one flaw in all of this. As we’ve been striving towards cross-channel design, mapping customer journeys, and dwelling on customer experience, our thinking has been invariably focused on just that: &lt;em&gt;customers&lt;/em&gt;. This is unsurprising—retailers with both online and brick-and-mortar presences are a natural birthplace for such innovation. Yet we must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer.&lt;/p&gt;
 
@@ -752,11 +934,11 @@ figure#camel {
 &lt;p&gt;“We must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;meet_mr_employee&quot;&gt;Meet Mr. Employee&lt;/h3&gt;
+&lt;h2 id=&quot;meet_mr_employee&quot;&gt;Meet Mr. Employee&lt;/h2&gt;
 
 &lt;p&gt;In particular, seamless cross-channel experiences are vital to &lt;em&gt;employees&lt;/em&gt; as well. Imagine a doctor moving between his private office, the clinic hallway, and the patient’s consulting room. Or an engineer moving from the design lab, to the assembly room, to the testing facility. Or a sales person rarely at her desk who stops off at coffee shops between sales calls. Understanding the user’s journey and designing effective cross-channel experiences is just as important for employees as it is for customers.&lt;/p&gt;
 
-&lt;h3 id=&quot;my_point&quot;&gt;My point?&lt;/h3&gt;
+&lt;h2 id=&quot;my_point&quot;&gt;My point?&lt;/h2&gt;
 
 &lt;p&gt;It’s not that we have nothing to learn from service design or customer experience design, quite the contrary. However, let’s not turn UX design into a discipline focused solely on &lt;em&gt;customers&lt;/em&gt;; let’s keep designing for &lt;em&gt;users&lt;/em&gt; of all sorts.&lt;/p&gt;
 </description>
@@ -770,7 +952,7 @@ figure#camel {
 				<description>
 &lt;p&gt;The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect’s skillset is well-suited for this new challenge, our existing tools are not.&lt;/p&gt;
 
-&lt;h3 id=&quot;service_blueprints_arent_exactly_what_we_need&quot;&gt;Service blueprints aren’t exactly what we need&lt;/h3&gt;
+&lt;h2 id=&quot;service_blueprints_arent_exactly_what_we_need&quot;&gt;Service blueprints aren’t exactly what we need&lt;/h2&gt;
 
 &lt;p&gt;Imported from the field of service design, G. Lynn Shostack’s &lt;em&gt;service blueprint&lt;/em&gt; is often suggested as a tool for cross-channel planning. Yet it’s not a perfect fit:&lt;/p&gt;
 
@@ -792,7 +974,7 @@ figure#camel {
 
 &lt;p&gt;&lt;em&gt;A service blueprint created by &lt;a href=&quot;http://www.flickr.com/photos/brandonschauer/3363169836/&quot;&gt;Brandon Schauer&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;what_do_we_need_then&quot;&gt;What do we need, then?&lt;/h3&gt;
+&lt;h2 id=&quot;what_do_we_need_then&quot;&gt;What do we need, then?&lt;/h2&gt;
 
 &lt;p&gt;Before brainstorming solutions, we should clarify the problem. Andrea Resmini and Lucas Rosati have discussed five principles for designing successful cross-channel experiences; &lt;a href=&quot;http://www.slideshare.net/mobile/morville/crosschannel-strategy&quot;&gt;Peter Morville&lt;/a&gt; advocates six; to me, these three seem the most fundamental:&lt;/p&gt;
 
@@ -810,7 +992,7 @@ figure#camel {
 &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;a_starting_point&quot;&gt;A starting point&lt;/h3&gt;
+&lt;h2 id=&quot;a_starting_point&quot;&gt;A starting point&lt;/h2&gt;
 
 &lt;p&gt;What would a tool that aimed to facilitate consistent, optimized, continuous cross-channel planning look like? In &lt;a href=&quot;http://pervasiveia.com/&quot;&gt;Pervasive Information Architecture&lt;/a&gt;, Resmini and Rosati presented their CHU cube which places &lt;em&gt;tasks&lt;/em&gt; and &lt;em&gt;channels&lt;/em&gt; each on their own axes.&lt;/p&gt;
 
@@ -824,7 +1006,7 @@ figure#camel {
 
 &lt;p&gt;&lt;em&gt;The Touchpoints Matrix by Gianluca Brugnoli&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;building_on_the_foundation&quot;&gt;Building on the foundation&lt;/h3&gt;
+&lt;h2 id=&quot;building_on_the_foundation&quot;&gt;Building on the foundation&lt;/h2&gt;
 
 &lt;p&gt;Juxtaposing tasks and channels is a useful starting point, though the CHUbe’s multidimensional layers make it a bit unwieldy. For our diagram, let’s do the following:&lt;/p&gt;
 
@@ -854,7 +1036,7 @@ figure#camel {
 &lt;li&gt;An overview of which components need to be shared across channels&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;what_do_you_think&quot;&gt;What do you think?&lt;/h3&gt;
+&lt;h2 id=&quot;what_do_you_think&quot;&gt;What do you think?&lt;/h2&gt;
 
 &lt;p&gt;This is but a first attempt at a developing a tool suitable for the new era of cross-channel information architecture. As such, it needs practice, iteration, and experimentation. If you’ve been working in this space, please chime in with how the cross-channel blueprint jives with your own experience.&lt;/p&gt;
 
@@ -906,7 +1088,7 @@ figure#camel {
 
 &lt;p&gt;This is certainly not a new problem; it’s been the source of head-to-wall bashing for over a decade. Yet it’s an important problem to understand and address in the modern era of fluid, responsive layouts. While it’s true that the problem will mostly go away when IE6 and 7 support is no longer necessary, many of us need a solution now.&lt;/p&gt;
 
-&lt;h3 id=&quot;the_formula&quot;&gt;The formula&lt;/h3&gt;
+&lt;h2 id=&quot;the_formula&quot;&gt;The formula&lt;/h2&gt;
 
 &lt;p&gt;Unfortunately, there’s no silver bullet.&lt;/p&gt;
 
@@ -930,7 +1112,7 @@ figure#camel {
 
 &lt;p&gt;Here are two strategies for applying this correction formula.&lt;/p&gt;
 
-&lt;h3 id=&quot;doityourself_calculations&quot;&gt;Do-it-yourself calculations&lt;/h3&gt;
+&lt;h2 id=&quot;doityourself_calculations&quot;&gt;Do-it-yourself calculations&lt;/h2&gt;
 
 &lt;p&gt;You can quickly apply the above formula to your existing fluid layouts to fix the sub-pixel rounding issue in IE6 and 7 without adversely affecting other browsers. First, lets assume you have constructed a percentage-based layout that has a set minimum width of &lt;strong&gt;720px&lt;/strong&gt;. Using this number as our baseline &lt;code&gt;containerWidth&lt;/code&gt;, our formula tells us that the correctionLevel is &lt;strong&gt;.0694%&lt;/strong&gt;. Whenever a percentage is used as the value of a width, padding, border, or margin declaration, we’ll use the star hack to add IE6/7-specific declarations which subtract .0694% from the original value. Here’s a simplistic example:&lt;/p&gt;
 
@@ -939,7 +1121,7 @@ figure#camel {
   *width: 24.93%;
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&quot;css_frameworks&quot;&gt;CSS frameworks&lt;/h3&gt;
+&lt;h2 id=&quot;css_frameworks&quot;&gt;CSS frameworks&lt;/h2&gt;
 
 &lt;p&gt;If you’re using a CSS framework such as &lt;a href=&quot;http://lesscss.org/&quot;&gt;LESS.js&lt;/a&gt; or &lt;a href=&quot;http://sass-lang.com&quot;&gt;SaSS&lt;/a&gt;, you can rely on their mathematic operations to save you from having to crunching all the numbers by hand. The LESS/SaSS code below would be compiled to the same output as in the example above.&lt;/p&gt;
 
@@ -961,7 +1143,7 @@ margin: 0 @computedMargin;
 *width: @computedWidth-@correction;
 *margin: 0 @computedMargin-@correction;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&quot;the_last_word&quot;&gt;The last word&lt;/h3&gt;
+&lt;h2 id=&quot;the_last_word&quot;&gt;The last word&lt;/h2&gt;
 
 &lt;p&gt;So there you have it: a predictable formula for correcting the sub-pixel rounding problem in Internet Explorer 6 and 7. It’s just one more reason we can all rejoice when IE6 and 7 go the way of the grave.&lt;/p&gt;
 </description>
@@ -977,6 +1159,14 @@ margin: 0 @computedMargin;
 </description>
 				<link>http://www.tylertate.com/blog/2011/12/06/mobile-information-needs.html</link>
 				<guid>http://www.tylertate.com/blog/2011/12/06/mobile-information-needs.html</guid>
+			</item>
+		
+			<item>
+				<title>Designing Mobile Search</title>
+				<pubDate>Tue, 22 Nov 2011 00:00:00 GMT</pubDate>
+				<description></description>
+				<link>http://www.tylertate.com/events/2011/11/22/designing-mobile-search.html</link>
+				<guid>http://www.tylertate.com/events/2011/11/22/designing-mobile-search.html</guid>
 			</item>
 		
 			<item>
@@ -1022,6 +1212,22 @@ margin: 0 @computedMargin;
 			</item>
 		
 			<item>
+				<title>Designing the Search Experience</title>
+				<pubDate>Wed, 14 Sep 2011 00:00:00 BST</pubDate>
+				<description></description>
+				<link>http://www.tylertate.com/events/2011/09/14/designing-the-search-experience.html</link>
+				<guid>http://www.tylertate.com/events/2011/09/14/designing-the-search-experience.html</guid>
+			</item>
+		
+			<item>
+				<title>The Dao of Learning: How Content Strategy Supports Learning on the Web</title>
+				<pubDate>Tue, 06 Sep 2011 00:00:00 BST</pubDate>
+				<description></description>
+				<link>http://www.tylertate.com/events/2011/09/06/the-dao-of-learning.html</link>
+				<guid>http://www.tylertate.com/events/2011/09/06/the-dao-of-learning.html</guid>
+			</item>
+		
+			<item>
 				<title>The Semantic Grid System</title>
 				<pubDate>Tue, 23 Aug 2011 00:00:00 BST</pubDate>
 				<description>
@@ -1042,6 +1248,14 @@ margin: 0 @computedMargin;
 			</item>
 		
 			<item>
+				<title>Cognitive Content Strategy</title>
+				<pubDate>Fri, 05 Aug 2011 00:00:00 BST</pubDate>
+				<description></description>
+				<link>http://www.tylertate.com/events/2011/08/05/cognitive-content-strategy.html</link>
+				<guid>http://www.tylertate.com/events/2011/08/05/cognitive-content-strategy.html</guid>
+			</item>
+		
+			<item>
 				<title>The UX of Learning</title>
 				<pubDate>Tue, 26 Jul 2011 00:00:00 BST</pubDate>
 				<description>
@@ -1059,6 +1273,14 @@ margin: 0 @computedMargin;
 </description>
 				<link>http://www.tylertate.com/blog/2011/06/16/learning-styles.html</link>
 				<guid>http://www.tylertate.com/blog/2011/06/16/learning-styles.html</guid>
+			</item>
+		
+			<item>
+				<title>Designing the Holistic Search Experience</title>
+				<pubDate>Wed, 25 May 2011 00:00:00 BST</pubDate>
+				<description></description>
+				<link>http://www.tylertate.com/events/2011/05/25/designing-the-holistic-search-experience.html</link>
+				<guid>http://www.tylertate.com/events/2011/05/25/designing-the-holistic-search-experience.html</guid>
 			</item>
 		
 			<item>

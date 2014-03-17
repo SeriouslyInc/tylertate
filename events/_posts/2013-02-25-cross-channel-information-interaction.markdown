@@ -1,0 +1,34 @@
+---
+layout: event
+title: Designing Cross-Channel Experiences
+event: Cambridge Usability Group Meetup
+location: Cambridge, England
+eventurl: http://www.eventbrite.co.uk/e/cross-channel-information-interaction-tickets-5506064788?aff=eorg
+slidesurl: http://www.slideshare.net/tylertate/cross-channel-2
+---
+
+Tyler Tate will present a discussion of how we can use information needs to guide design that works across a range of channels. He will also cover practical things we can do to help us meet these design challenges.
+ 
+As people interact with information across a growing number of channels—from computers and phones to paper and the built environment—the emerging practice of cross-channel design is becoming ever more important. In fact, the most successful businesses of both today and tomorrow will be those who can provide cohesive experiences to their customers across the numerous channels that those customers demand. However, architecting effective cross-channel experiences requires a fresh approach, new skills, and novel design methods. 
+ 
+In this talk Tyler Tate, author of Designing the Search Experience and cofounder of Twigkit, sets out to provide all three. He begins by establishing a theoretical foundation for cross-channel information interaction, pulling from the fields of information retrieval and human-information interaction. Central to that framework is a matrix of information needs that synthesizes research from Gary Marchionini and Andrei Broder with recent studies of mobile behavior by Karen Church, Timothy Sohn, and others, providing a realistic understanding of the many ways in which people interact with information. 
+ 
+Moving from theory to practice, Tyler next delves into four principles for designing cohesive cross-channel experiences, each complete with examples: 
+1. Division of labor. Each channel within the ecosystem should focus on what it does best.
+2. Consistency. Consistency across the ecosystem should be balanced across two dimensions: realm and nature.
+3. Continuity. Propagate the user’s state across all channels of the ecosystem.
+4. Persistence. Enable users to access from any channel the information they've stored, organized, and enriched.
+ 
+Tyler then ends by outlining two hands-on methods that can be used today to build effective cross-channel experiences:
+ 1. The cross-channel blueprint. The blueprint provides an overview of the ecosystem's two most fundamental attributes: the channels of which it's composed, and the user actions it must facilitate.
+2. The experience map. A service design tool, the experience map captures how users traverse the ecosystem's many parts. 
+As we journey deeper into the post-desktop era, the cross-channel experiences that emerge will either make or break our businesses. This talk will help prepare you to lead your organization successfully into the future.
+ 
+--
+For more on this topic, see:
+* http://www.slideshare.net/tylertate/designing-crosschannel-experiences
+* http://uxmag.com/articles/investigating-cross-channel-consistency
+* http://uxmatters.com/mt/archives/2011/10/the-rise-of-cross-channel-ux-design.php
+* http://ceur-ws.org/Vol-836/paper3.pdf
+* http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html
+* http://tylertate.com/blog/2012/03/19/the-experience-map.html
