@@ -129,7 +129,7 @@ figure.my-photo img {
   padding-top: .2em;
   font-size: 0.667em;
   vertical-align: top;
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media screen and (max-width: 54em) {
   .site-nav-item span {
@@ -176,7 +176,7 @@ figure.my-photo img {
   padding-right: 1.5625%;
   margin-left: 18.75%;
   margin-right: 12.5%;
-  font-family: "Avenir Next", "garamond-premier-pro";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif, "garamond-premier-pro";
   font-weight: 400;
   font-size: 1.5em;
   line-height: 1.44em;
@@ -186,7 +186,7 @@ figure.my-photo img {
 }
 .hero-text p {
   margin-bottom: 1em;
-  font-family: "Avenir Next", "garamond-premier-pro";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif, "garamond-premier-pro";
 }
 .hero-text p:last-child {
   margin-bottom: 0;
@@ -222,7 +222,7 @@ figure.my-photo img {
   margin-right: 18.75%;
   margin-top: 2em;
   margin-bottom: 2em;
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.5em;
   font-weight: 300;
   line-height: 1.223em;
@@ -345,7 +345,7 @@ figure.my-photo img {
   padding-right: 1.5625%;
   margin-top: 0.85em;
   text-align: right;
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: .8125em;
   letter-spacing: 1px;
@@ -374,20 +374,20 @@ figure.my-photo img {
   padding-left: 1.5625%;
   padding-right: 1.5625%;
 }
-@media screen and (min-width: 76em) {
-  #home .title {
-    display: inline;
-    float: left;
-    width: 46.875%;
-    padding-left: 1.5625%;
-    padding-right: 1.5625%;
-  }
-}
 @media screen and (min-width: 68em) {
   #home .title {
     display: inline;
     float: left;
     width: 53.125%;
+    padding-left: 1.5625%;
+    padding-right: 1.5625%;
+  }
+}
+@media screen and (min-width: 76em) {
+  #home .title {
+    display: inline;
+    float: left;
+    width: 46.875%;
     padding-left: 1.5625%;
     padding-right: 1.5625%;
   }
@@ -404,7 +404,7 @@ figure.my-photo img {
 #home .event {
   display: block;
   margin-top: 0.33em;
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 400;
   color: #63615c;
@@ -419,7 +419,7 @@ figure.my-photo img {
   padding-left: 1.5625%;
   padding-right: 1.5625%;
   margin-top: 0.85em;
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: .8125em;
   letter-spacing: 1px;
@@ -518,7 +518,7 @@ figure.my-photo img {
   margin-left: 18.75%;
   margin-right: 12.5%;
   margin-bottom: 1.667em;
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 3em;
   font-weight: 700;
   line-height: 1.223em;
@@ -534,7 +534,7 @@ figure.my-photo img {
   margin-right: 12.5%;
   margin-top: 5em;
   margin-bottom: 1em;
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #63615c;
@@ -554,6 +554,45 @@ figure.my-photo img {
   margin-top: 6em;
   margin-bottom: 2em;
 }
+#blog figcaption {
+  font-size: .8em;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #63615c;
+}
+#blog .small {
+  display: inline;
+  float: left;
+  width: 35%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin-left: -40%;
+  margin-bottom: 1em;
+}
+#blog .small img {
+  width: 100%;
+}
+#blog .medium {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#blog .medium img {
+  width: 100%;
+}
+#blog .large {
+  display: inline;
+  float: left;
+  width: 155%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin-left: -40%;
+  margin-right: -20%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#blog .large img {
+  width: 100%;
+}
 @media screen and (min-width: 72em) {
   #blog .post-date,
   #blog .post-content {
@@ -564,6 +603,23 @@ figure.my-photo img {
     padding-right: 1.5625%;
     margin-left: 25%;
     margin-right: 18.75%;
+  }
+  #blog .small {
+    display: inline;
+    float: left;
+    width: 38.88888888888889%;
+    padding-left: 2.7777777777777777%;
+    padding-right: 2.7777777777777777%;
+    margin-left: -44.44444444444444%;
+  }
+  #blog .large {
+    display: inline;
+    float: left;
+    width: 172.22222222222223%;
+    padding-left: 2.7777777777777777%;
+    padding-right: 2.7777777777777777%;
+    margin-left: -44.44444444444444%;
+    margin-right: -33.333333333333336%;
   }
   #blog .post-title {
     display: inline;
@@ -586,6 +642,23 @@ figure.my-photo img {
     margin-left: 25%;
     margin-right: 25%;
   }
+  #blog .small {
+    display: inline;
+    float: left;
+    width: 43.75%;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
+    margin-left: -50%;
+  }
+  #blog .large {
+    display: inline;
+    float: left;
+    width: 193.75%;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
+    margin-left: -50%;
+    margin-right: -50%;
+  }
   #blog .post-title {
     display: inline;
     float: left;
@@ -606,6 +679,23 @@ figure.my-photo img {
     padding-right: 1.5625%;
     margin-left: 18.75%;
     margin-right: 12.5%;
+  }
+  #blog .small {
+    display: inline;
+    float: left;
+    width: 40.909090909090914%;
+    padding-left: 2.272727272727273%;
+    padding-right: 2.272727272727273%;
+    margin-left: -27.27272727272727%;
+  }
+  #blog .large {
+    display: inline;
+    float: left;
+    width: 140.9090909090909%;
+    padding-left: 2.272727272727273%;
+    padding-right: 2.272727272727273%;
+    margin-left: -27.27272727272727%;
+    margin-right: -18.18181818181818%;
   }
   #blog .post-title {
     display: inline;
@@ -634,6 +724,29 @@ figure.my-photo img {
     margin-left: 12.5%;
     margin-right: 12.5%;
   }
+  #blog .small {
+    display: inline;
+    float: left;
+    width: 45.83333333333333%;
+    padding-left: 2.083333333333333%;
+    padding-right: 2.083333333333333%;
+    margin-left: -16.66666666666667%;
+  }
+  #blog .medium {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #blog .large {
+    display: inline;
+    float: left;
+    width: 129.16666666666669%;
+    padding-left: 2.083333333333333%;
+    padding-right: 2.083333333333333%;
+    margin-left: -16.66666666666667%;
+    margin-right: -16.66666666666667%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
   #blog .post-title {
     font-size: 2.25em;
   }
@@ -649,6 +762,24 @@ figure.my-photo img {
     padding-right: 1.5625%;
     margin-left: 6.25%;
     margin-right: 6.25%;
+  }
+  #blog .small {
+    display: inline;
+    float: left;
+    width: 67.85714285714286%;
+    padding-left: 1.7857142857142856%;
+    padding-right: 1.7857142857142856%;
+    margin-left: 14.285714285714285%;
+    margin-right: 14.285714285714285%;
+  }
+  #blog .large {
+    display: inline;
+    float: left;
+    width: 110.71428571428572%;
+    padding-left: 1.7857142857142856%;
+    padding-right: 1.7857142857142856%;
+    margin-left: -7.142857142857142%;
+    margin-right: -7.142857142857142%;
   }
   #blog .post-title {
     font-size: 2em;

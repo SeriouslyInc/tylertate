@@ -142,7 +142,7 @@ figure.my-photo {
 		padding-top: .2em;
 		font-size: 0.667em;
 		vertical-align: top;
-		font-family: "Avenir Next";
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 }
 @media screen and (max-width: 54em) {
@@ -184,7 +184,7 @@ figure.my-photo {
 	.column(11);
 	.push(3);
 	.pull(2);
-	font-family: "Avenir Next", "garamond-premier-pro";
+	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif, "garamond-premier-pro";
 	font-weight: 400;
 	font-size: 1.5em;
 	line-height: 1.44em;
@@ -195,7 +195,7 @@ figure.my-photo {
 
 	p {
 		margin-bottom: 1em;
-		font-family: "Avenir Next", "garamond-premier-pro";
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif, "garamond-premier-pro";
 
 		&:last-child {
 			margin-bottom: 0;
@@ -231,7 +231,7 @@ figure.my-photo {
 		.pull(3);
 		margin-top: 2em;
 		margin-bottom: 2em;
-		font-family: "Avenir Next";
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 2.5em;
 		font-weight: 300;
 		line-height: 1.223em;
@@ -318,7 +318,7 @@ figure.my-photo {
 		margin-top: 0.85em;
 
 		text-align: right;
-		font-family: "Avenir Next";
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
 		font-size: .8125em;
 		letter-spacing: 1px;
@@ -339,11 +339,11 @@ figure.my-photo {
 	.title {
 		.column(10);
 
-		@media screen and (min-width: 76em) {
-			.column(8);
-		}
 		@media screen and (min-width: 68em) {
 			.column(9);
+		}
+		@media screen and (min-width: 76em) {
+			.column(8);
 		}
 		@media screen and (max-width: 32em) {
 			.column(13);
@@ -352,7 +352,7 @@ figure.my-photo {
 	.event {
 		display: block;
 		margin-top: 0.33em;
-		font-family: "Avenir Next";
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 1em;
 		font-weight: 400;
 		color: @dark-tan;
@@ -377,7 +377,7 @@ figure.my-photo {
 			text-align: left;
 		}
 
-		font-family: "Avenir Next";
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
 		font-size: .8125em;
 		letter-spacing: 1px;
@@ -466,7 +466,7 @@ figure.my-photo {
 		.push(3);
 		.pull(2);
 		margin-bottom: 1.667em;
-		font-family: "Avenir Next";
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 3em;
 		font-weight: 700;
 		line-height: 1.223em;
@@ -479,7 +479,7 @@ figure.my-photo {
 		margin-top: 5em;
 		margin-bottom: 1em;
 
-		font-family: "Avenir Next";
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
 		//font-size: .8125em;
 		letter-spacing: 1px;
@@ -499,12 +499,58 @@ figure.my-photo {
 		margin-bottom: 2em;
 	}
 
+	// Image handling
+	figcaption {
+		font-size: .8em;
+		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: @dark-tan;
+	}
+	.small {
+		.column(4,10);
+		.push(-4,10);
+		margin-bottom: 1em;
+
+		img {
+			width: 100%;
+		}
+	}
+	.medium {
+		width: 100%;
+		margin-top: 2em;
+		margin-bottom: 2em;
+
+		img {
+			width: 100%;
+		}
+	}
+	.large {
+		.column(16,10);
+		.push(-4,10);
+		.pull(-2,10);
+
+		margin-top: 2em;
+		margin-bottom: 2em;
+
+		img {
+			width: 100%;
+		}
+	}
+
 	@media screen and (min-width: 72em) {
 		.post-date,
 		.post-content {
 			.column(9);
 			.push(4);
 			.pull(3);
+		}
+		.small {
+			.column(4,9);
+			.push(-4,9);
+		}
+		.large {
+			.column(16,9);
+			.push(-4,9);
+			.pull(-3,9);
 		}
 		.post-title {
 			.column(11);
@@ -519,6 +565,15 @@ figure.my-photo {
 			.push(4);
 			.pull(4);
 		}
+		.small {
+			.column(4,8);
+			.push(-4,8);
+		}
+		.large {
+			.column(16,8);
+			.push(-4,8);
+			.pull(-4,8);
+		}
 		.post-title {
 			.column(10);
 			.push(3);
@@ -532,6 +587,15 @@ figure.my-photo {
 			.column(11);
 			.push(3);
 			.pull(2);
+		}
+		.small {
+			.column(5,11);
+			.push(-3,11);
+		}
+		.large {
+			.column(16,11);
+			.push(-3,11);
+			.pull(-2,11);
 		}
 		.post-title {
 			.column(12);
@@ -553,6 +617,21 @@ figure.my-photo {
 			.push(2);
 			.pull(2);
 		}
+		.small {
+			.column(6,12);
+			.push(-2,12);
+		}
+		.medium {
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+		.large {
+			.column(16,12);
+			.push(-2,12);
+			.pull(-2,12);
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
 		.post-title {
 			font-size: 2.25em;
 		}
@@ -565,6 +644,16 @@ figure.my-photo {
 			.column(14);
 			.push(1);
 			.pull(1);
+		}
+		.small {
+			.column(10,14);
+			.push(2,14);
+			.pull(2,14);
+		}
+		.large {
+			.column(16,14);
+			.push(-1,14);
+			.pull(-1,14);
 		}
 		.post-title {
 			font-size: 2em;

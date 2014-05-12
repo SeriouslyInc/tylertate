@@ -7,6 +7,85 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Better Wayfinding on Pinterest and Spotify</title>
+				<pubDate>Mon, 12 May 2014 00:00:00 BST</pubDate>
+				<description>
+&lt;ul&gt;
+&lt;li&gt;“I want to find some new music to listen to.”&lt;/li&gt;
+
+&lt;li&gt;“I need some inspiration for my bicycle renovation project.”&lt;/li&gt;
+
+&lt;li&gt;“I’m in the mood to watch a thoughtful, uplifting film.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We face these kinds of open-ended tasks everyday, but they are often difficult and frustrating to tackle. (Ever given up in despair after spending half an hour trying to find a film to watch, for instance?)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Keyword search is a great tool for answering specific questions, but it’s less useful if we’re not sure exactly what to ask in the first place.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pinterest and Spotify have both recently made their services more effective at answering such open-ended questions. Pinterest just released what it bills as &lt;a href=&quot;http://blog.pinterest.com/post/83772264616/guided-search-a-new-way-to-find-what-youre-looking&quot;&gt;guided search&lt;/a&gt;, while Spotify’s latest version includes a reinvented &lt;a href=&quot;http://news.spotify.com/us/2014/04/02/spotify-paints-it-black-with-new-look/&quot;&gt;browse function&lt;/a&gt;. What can we learn from these two new features?&lt;/p&gt;
+
+&lt;h2 id=&quot;three_types_of_needs&quot;&gt;Three Types of Needs&lt;/h2&gt;
+
+&lt;p&gt;First, lets put these open-ended questions in context. Most information needs that a user has fall into one of three categories (see &lt;a href=&quot;http://designingthesearchexperience.com&quot;&gt;Designing the Search Experience&lt;/a&gt; for more background):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Locate.&lt;/strong&gt; I know exactly &lt;em&gt;what&lt;/em&gt; I’m looking for, I just need help finding &lt;em&gt;where&lt;/em&gt; it’s located. For example: &lt;em&gt;I want to listen to Parachutes by Coldplay&lt;/em&gt;.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Explore.&lt;/strong&gt; I have an open-ended goal, and the journey — the information I encounter along the way — is as important as the destination itself. The three opening examples all fall into this category.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Meander.&lt;/strong&gt; I’m not looking for anything in particular, I just have some spare time and want to have fun. For example: &lt;em&gt;I have a few minutes to kill… lets see what’s happening on Twitter&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Keyword search is ideal for &lt;em&gt;locating&lt;/em&gt; known-items, and social networks such as Facebook are happy to help us fill those spare minutes with &lt;em&gt;meandering&lt;/em&gt;. But &lt;em&gt;exploring&lt;/em&gt; remains underserved.&lt;/p&gt;
+
+&lt;p&gt;I like to think of exploratory questions as a process of &lt;em&gt;&lt;a href=&quot;http://twigkit.com/blog/2013/11/07/information-wayfinding.html&quot;&gt;wayfinding&lt;/a&gt;&lt;/em&gt;. When navigating across a city, a person might use maps, refer to signs, and “follow their noses.” In the same way, a person may browse, search, and pick up nuggets of information along the way as they explore a digital environment.&lt;/p&gt;
+
+&lt;p&gt;Previously, both Pinterest and Spotify heavily relied on keyword search to help people locate the pins or artists, albums, and songs that they already knew about.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Each company’s recent improvement, however, makes it easier to find your way when you aren’t sure exactly what you’re looking for.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;pinterests_guided_search&quot;&gt;Pinterest’s Guided Search&lt;/h2&gt;
+
+&lt;p&gt;Pinterest’s new guided search feature helps users find their way by suggesting relevant query refinements.&lt;/p&gt;
+
+&lt;p&gt;Lets say Harry is considering undertaking a bicycle restoration project and is looking for some inspiration. He could start by simply typing “bicycle” into the search box. While Harry may well get some interesting ideas from the pins that are returned, he would probably do even better with a more precise search.&lt;/p&gt;
+
+&lt;p&gt;That’s where the guided search feature kicks in. Having returned results for “bicycle”, Pinterest then suggests a number of related terms that Harry might want to add to his query, such as “Vintage”, “Road”, and “Accessories”. Lets say Harry selected “Road” — he would then be presented with results relevant to both “bicycle” and “road”. He would also be shown a new list of suggested refinements, such as “vintage”.&lt;/p&gt;
+&lt;figure class=&#39;large&#39;&gt;
+	&lt;img src=&#39;/resources/images/2014-05-12/pinterest-guided-search.jpg&#39; /&gt;
+	&lt;figcaption&gt;Figure 1a: Search for &quot;bicycle&quot; in the Pinterest iOS app.&lt;br /&gt;Figure 1b: See a list of suggested refinements, and choose &quot;road&quot;.&lt;br /&gt;Figure 1c: Select &quot;vintage&quot;.&lt;br /&gt; Figure 1d: Results for &quot;vintage road bicycles&quot;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;In this way, Pinterest is attempting to optimise the process of wayfinding; they are trying to guide users along a journey to help them find what interests them most. Without the guided search feature, users would need to think of the query refinements themselves. But as we know from the principle of recognition over recall, it is much easier to recognise a relevant term than it is to think of it on your own.&lt;/p&gt;
+
+&lt;p&gt;Pinterest is certainly not the first to provide such functionality — showing a list of related searches is a common pattern — but Pinterest have made it a focal point of their experience, and have executed the user interface particularly well.&lt;/p&gt;
+
+&lt;h2 id=&quot;browsing_on_spotify&quot;&gt;Browsing on Spotify&lt;/h2&gt;
+
+&lt;p&gt;Like Pinterest, earlier versions of Spotify relied heavily on the user typing in the name of a song, album, or artist into the search box. While this works well for &lt;em&gt;locating&lt;/em&gt;, it’s ineffective at helping people &lt;em&gt;explore&lt;/em&gt;. Along with Spotify’s recent dark-themed redesign, however, came a new “browse” area.&lt;/p&gt;
+&lt;figure class=&#39;large&#39;&gt;
+	&lt;img src=&#39;/resources/images/2014-05-12/spotify-genres.jpg&#39; /&gt;
+	&lt;figcaption&gt;Figure 2. Browsing by genre and mood in Spotify.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Rather than expect the user to know ahead of time what song they want to listen to, Spotify’s browse area presents a listing of 25 “genres and moods”, as they call it: party, workout, chill, country &amp;amp; folk, jazz &amp;amp; blues, and so on. Selecting one of these genres, “Country &amp;amp; Folk”, for instance, then presents a selection of playlists for that particular genre. Playlists under country and folk, for instance, include entries such as beards &amp;amp; flannel, nu-modern, indie folk, and roots revival — each with dozens of tracks that have been tastefully curated.&lt;/p&gt;
+&lt;figure class=&#39;medium&#39;&gt;
+	&lt;img src=&#39;/resources/images/2014-05-12/spotify-playlists.jpg&#39; /&gt;
+	&lt;figcaption&gt;Figure 3. A collection of playlists within the &quot;Country &amp;amp; Folk&quot; genre.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&quot;better_wayfinding&quot;&gt;Better Wayfinding&lt;/h2&gt;
+
+&lt;p&gt;Both Pinterest’s guided search and Spotify’s new browse feature help people &lt;em&gt;wayfind&lt;/em&gt; — to explore their open-ended questions. They help people hone in on the treasure buried in the midst of a vast sea of pins and songs.&lt;/p&gt;
+
+&lt;p&gt;For more ideas on designing for effective wayfinding, I’ve outlined six guidelines in a recent &lt;a href=&quot;http://www.uxmatters.com/mt/archives/2014/03/information-wayfinding-part-3-designing-for-wayfinding-1.php&quot;&gt;UX Matters article&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<link>http://www.tylertate.com/blog/2014/05/12/better-wayfinding-on-pinterest-and-spotify.html</link>
+				<guid>http://www.tylertate.com/blog/2014/05/12/better-wayfinding-on-pinterest-and-spotify.html</guid>
+			</item>
+		
+			<item>
 				<title>Information Wayfinding, Part 3: Designing for Wayfinding</title>
 				<pubDate>Mon, 10 Mar 2014 00:00:00 GMT</pubDate>
 				<description>
