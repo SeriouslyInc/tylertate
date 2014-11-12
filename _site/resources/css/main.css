@@ -23,7 +23,7 @@ body {
   background-color: #f3f3f1;
 }
 a {
-  color: #df5020;
+  color: #608074;
   text-decoration: none;
 }
 @font-face {
@@ -66,16 +66,8 @@ a {
 }
 /* '' */
 .site-header {
-  display: block;
-  float: none;
-  width: auto;
-  padding-left: 1.5625%;
-  padding-right: 1.5625%;
-  margin-left: 0;
-  margin-right: 0;
   overflow: hidden;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding: 1.5em 2em;
   border-bottom: 1px solid #d7d5d0;
 }
 #home .site-header {
@@ -86,7 +78,7 @@ a {
   color: #63615c;
 }
 .site-header a:hover {
-  color: #df5020;
+  color: #608074;
 }
 figure.my-name {
   float: left;
@@ -97,9 +89,9 @@ figure.my-name {
 }
 figure.my-photo {
   float: left;
-  width: 3em;
-  height: 3em;
-  margin-right: 0.5em;
+  width: 4em;
+  height: 4em;
+  margin: -0.5em 0.75em -0.5em 0;
   -webkit-border-radius: 2em;
   -moz-border-radius: 2em;
   border-radius: 2em;
@@ -122,7 +114,7 @@ figure.my-photo img {
   color: #63615c;
 }
 .site-nav-item a:hover {
-  color: #df5020;
+  color: #608074;
 }
 .site-nav-item span {
   display: inline-block;
@@ -138,9 +130,13 @@ figure.my-photo img {
 }
 @media screen and (max-width: 32em) {
   .site-header {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em;
     width: auto;
+  }
+  figure.my-photo {
+    width: 3em;
+    height: 3em;
+    margin: 0 0.5em 0 0;
   }
   .site-nav-item {
     margin-left: 0.25em;
@@ -157,7 +153,9 @@ figure.my-photo img {
 .hero {
   margin-top: -1px;
   margin-bottom: 4em;
-  background-color: #dc5e38;
+  background-color: #799a8e;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
   zoom: 1;
 }
 .hero:before,
@@ -290,7 +288,7 @@ figure.my-photo img {
   color: #2e291f;
 }
 #home .content-list h3 a:hover {
-  color: #df5020;
+  color: #608074;
 }
 #home .content-list a {
   text-decoration: none;
@@ -321,8 +319,8 @@ figure.my-photo img {
 @media screen and (max-width: 32em) {
   #home .content-list li {
     display: block;
-    margin-left: -1.9230769230769231%;
-    margin-right: -1.9230769230769231%;
+    margin-left: -1.92307692%;
+    margin-right: -1.92307692%;
     zoom: 1;
   }
   #home .content-list li:before,
@@ -352,7 +350,7 @@ figure.my-photo img {
   color: #63615c;
 }
 #home .location:hover {
-  color: #df5020;
+  color: #608074;
 }
 @media screen and (max-width: 32em) {
   #home .location {
@@ -410,7 +408,7 @@ figure.my-photo img {
   color: #63615c;
 }
 #home .event:hover {
-  color: #df5020;
+  color: #608074;
 }
 #home .date {
   display: inline;
@@ -490,10 +488,11 @@ figure.my-photo img {
   list-style: disc outside none;
 }
 #blog .post-content blockquote {
+  clear: both;
   margin-top: 1em;
   margin-left: -1.5em;
   padding-left: 1.4em;
-  border-left: 0.1em solid #df5020;
+  border-left: 0.1em solid #608074;
   font-size: 1.2em;
   color: #63615c;
 }
@@ -607,19 +606,19 @@ figure.my-photo img {
   #blog .small {
     display: inline;
     float: left;
-    width: 38.88888888888889%;
-    padding-left: 2.7777777777777777%;
-    padding-right: 2.7777777777777777%;
-    margin-left: -44.44444444444444%;
+    width: 38.88888889%;
+    padding-left: 2.77777778%;
+    padding-right: 2.77777778%;
+    margin-left: -44.44444444%;
   }
   #blog .large {
     display: inline;
     float: left;
-    width: 172.22222222222223%;
-    padding-left: 2.7777777777777777%;
-    padding-right: 2.7777777777777777%;
-    margin-left: -44.44444444444444%;
-    margin-right: -33.333333333333336%;
+    width: 172.22222222%;
+    padding-left: 2.77777778%;
+    padding-right: 2.77777778%;
+    margin-left: -44.44444444%;
+    margin-right: -33.33333333%;
   }
   #blog .post-title {
     display: inline;
@@ -683,19 +682,19 @@ figure.my-photo img {
   #blog .small {
     display: inline;
     float: left;
-    width: 40.909090909090914%;
-    padding-left: 2.272727272727273%;
-    padding-right: 2.272727272727273%;
-    margin-left: -27.27272727272727%;
+    width: 40.90909091%;
+    padding-left: 2.27272727%;
+    padding-right: 2.27272727%;
+    margin-left: -27.27272727%;
   }
   #blog .large {
     display: inline;
     float: left;
-    width: 140.9090909090909%;
-    padding-left: 2.272727272727273%;
-    padding-right: 2.272727272727273%;
-    margin-left: -27.27272727272727%;
-    margin-right: -18.18181818181818%;
+    width: 140.90909091%;
+    padding-left: 2.27272727%;
+    padding-right: 2.27272727%;
+    margin-left: -27.27272727%;
+    margin-right: -18.18181818%;
   }
   #blog .post-title {
     display: inline;
@@ -727,10 +726,10 @@ figure.my-photo img {
   #blog .small {
     display: inline;
     float: left;
-    width: 45.83333333333333%;
-    padding-left: 2.083333333333333%;
-    padding-right: 2.083333333333333%;
-    margin-left: -16.66666666666667%;
+    width: 45.83333333%;
+    padding-left: 2.08333333%;
+    padding-right: 2.08333333%;
+    margin-left: -16.66666667%;
   }
   #blog .medium {
     margin-top: 1em;
@@ -739,11 +738,11 @@ figure.my-photo img {
   #blog .large {
     display: inline;
     float: left;
-    width: 129.16666666666669%;
-    padding-left: 2.083333333333333%;
-    padding-right: 2.083333333333333%;
-    margin-left: -16.66666666666667%;
-    margin-right: -16.66666666666667%;
+    width: 129.16666667%;
+    padding-left: 2.08333333%;
+    padding-right: 2.08333333%;
+    margin-left: -16.66666667%;
+    margin-right: -16.66666667%;
     margin-top: 1em;
     margin-bottom: 1em;
   }
@@ -766,20 +765,20 @@ figure.my-photo img {
   #blog .small {
     display: inline;
     float: left;
-    width: 67.85714285714286%;
-    padding-left: 1.7857142857142856%;
-    padding-right: 1.7857142857142856%;
-    margin-left: 14.285714285714285%;
-    margin-right: 14.285714285714285%;
+    width: 67.85714286%;
+    padding-left: 1.78571429%;
+    padding-right: 1.78571429%;
+    margin-left: 14.28571429%;
+    margin-right: 14.28571429%;
   }
   #blog .large {
     display: inline;
     float: left;
-    width: 110.71428571428572%;
-    padding-left: 1.7857142857142856%;
-    padding-right: 1.7857142857142856%;
-    margin-left: -7.142857142857142%;
-    margin-right: -7.142857142857142%;
+    width: 110.71428571%;
+    padding-left: 1.78571429%;
+    padding-right: 1.78571429%;
+    margin-left: -7.14285714%;
+    margin-right: -7.14285714%;
   }
   #blog .post-title {
     font-size: 2em;

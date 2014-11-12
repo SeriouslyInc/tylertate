@@ -30,7 +30,7 @@
 @cream: hsl(40,8%,93%);
 @dark-tan: hsl(40,4%,37.5%);
 @light-tan: hsl(40,4%,70%);
-@orange: hsl(15,75%,50%);
+@orange: #608074;
 
 body {
 	background-color: hsl(40,7.5%,95%);
@@ -82,10 +82,8 @@ a {
 /////////////////
 
 .site-header {
-	.column();
 	overflow: hidden;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding: 1.5em 2em;
 	border-bottom: 1px solid darken(@cream,10%);
 
 	#home & {
@@ -109,9 +107,9 @@ figure.my-name {
 }
 figure.my-photo {
 	float: left;
-	width: 3em;
-	height: 3em;
-	margin-right: 0.5em;
+	width: 4em;
+	height: 4em;
+	margin: -0.5em 0.75em -0.5em 0;
 	.rounded-corners(2em);
 	overflow: hidden;
 
@@ -152,9 +150,13 @@ figure.my-photo {
 }
 @media screen and (max-width: 32em) {
 	.site-header {
-		padding-left: 1em;
-		padding-right: 1em;
+		padding: 1em;
 		width: auto;
+	}
+	figure.my-photo {
+		width: 3em;
+		height: 3em;
+		margin: 0 0.5em 0 0;
 	}
 	.site-nav-item {
 		margin-left: 0.25em;
@@ -177,7 +179,9 @@ figure.my-photo {
 .hero {
 	margin-top: -1px;
 	margin-bottom: 4em;
-	background-color: hsl(14,70%,54%);
+	background-color: lighten(@orange,10%);
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
 	.clearfix();
 }
 .hero-text {
@@ -440,6 +444,7 @@ figure.my-photo {
 			list-style: disc outside none;
 		}
 		blockquote {
+			clear: both;
 			margin-top: 1em;
 			margin-left: -1.5em;
 			padding-left: 1.4em;
@@ -527,7 +532,6 @@ figure.my-photo {
 		.column(16,10);
 		.push(-4,10);
 		.pull(-2,10);
-
 		margin-top: 2em;
 		margin-bottom: 2em;
 

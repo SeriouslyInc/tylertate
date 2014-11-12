@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="//use.typekit.net/lef3yon.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-	<link rel="stylesheet" href="http://localhost:4000//resources/css/main.css" type="text/css">
+	<link rel="stylesheet" href="http://localhost:4000/resources/css/main.css" type="text/css">
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	
 	<script type="text/javascript">
@@ -31,9 +31,9 @@
 	<header class="site-header">
 		<nav class="site-nav">
 			<ul>
-				<li class="site-nav-item">
+				<!--li class="site-nav-item">
 					<a class="icon-building" href="http://twigkit.com/" title="My Company: Twigkit"><span>Company</span></a>
-				</li>
+				</li-->
 				<li class="site-nav-item">
 					<a class="icon-book-open" href="http://designingthesearchexperience.com/" title="My Book: Designing the Search Experience"><span>Book</span></a>
 				</li>
@@ -46,7 +46,9 @@
 			</ul>
 		</nav>
 		<figure class="my-photo">
-			<img src="/resources/images/tyler-tate.jpg" />
+			<a href="/">
+				<img src="/resources/images/tyler-tate.jpg" />
+			</a>
 		</figure>
 		<figure class="my-name">
 			<a href="/">Tyler Tate</a>
@@ -61,94 +63,82 @@
 	</header>
 
 	<section class="post-content">
-		
-<p>The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect’s skillset is well-suited for this new challenge, our existing tools are not.</p>
+		<p>The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect’s skillset is well-suited for this new challenge, our existing tools are not.</p>
 
-<h2 id="service_blueprints_arent_exactly_what_we_need">Service blueprints aren’t exactly what we need</h2>
+<h2 id="service-blueprints-arent-exactly-what-we-need">Service blueprints aren’t exactly what we need</h2>
 
 <p>Imported from the field of service design, G. Lynn Shostack’s <em>service blueprint</em> is often suggested as a tool for cross-channel planning. Yet it’s not a perfect fit:</p>
 
 <ul>
-<li>
-<p><strong>Too process-oriented</strong>. Service blueprints present customer actions sequentially. While desirable for planning specific flows (such as a checkout process), it’s obstructive when trying to outline a comprehensive strategy.</p>
-</li>
-
-<li>
-<p><strong>Minimal attention to channels</strong>. Service blueprints document the “physical evidence” associated with each action, but fail to account for how a single action might be performed on multiple channels.</p>
-</li>
-
-<li>
-<p><strong>Meant for a different purpose</strong>. With their lines of interaction, visibility, and internal visibility, service blueprints simply weren’t intended to be used for planning cross-channel information architecture</p>
-</li>
+  <li>
+    <p><strong>Too process-oriented</strong>. Service blueprints present customer actions sequentially. While desirable for planning specific flows (such as a checkout process), it’s obstructive when trying to outline a comprehensive strategy.</p>
+  </li>
+  <li>
+    <p><strong>Minimal attention to channels</strong>. Service blueprints document the “physical evidence” associated with each action, but fail to account for how a single action might be performed on multiple channels.</p>
+  </li>
+  <li>
+    <p><strong>Meant for a different purpose</strong>. With their lines of interaction, visibility, and internal visibility, service blueprints simply weren’t intended to be used for planning cross-channel information architecture </p>
+  </li>
 </ul>
 
-<p><img alt='A service blueprint by Brandon Schauer' class='normal-width' src='http://tylertate.com/resources/images/2012-02-21/service-blueprint-brandonschauer.png' width='712' /></p>
+<p><img src="http://tylertate.com/resources/images/2012-02-21/service-blueprint-brandonschauer.png" width="712" class="normal-width" alt="A service blueprint by Brandon Schauer" /></p>
 
 <p><em>A service blueprint created by <a href="http://www.flickr.com/photos/brandonschauer/3363169836/">Brandon Schauer</a>.</em></p>
 
-<h2 id="what_do_we_need_then">What do we need, then?</h2>
+<h2 id="what-do-we-need-then">What do we need, then?</h2>
 
 <p>Before brainstorming solutions, we should clarify the problem. Andrea Resmini and Lucas Rosati have discussed five principles for designing successful cross-channel experiences; <a href="http://www.slideshare.net/mobile/morville/crosschannel-strategy">Peter Morville</a> advocates six; to me, these three seem the most fundamental:</p>
 
 <ul>
-<li>
-<p><strong>Consistent.</strong> Each channel should enable users to perform a given task in a like manner. For instance, a bank customer experienced in paying bills on the web should find the corresponding smartphone bill-paying facility familiar, even on first use.</p>
-</li>
-
-<li>
-<p><strong>Optimized.</strong> Each channel should play to its strengths. Desktop applications are optimized for large screens; mobile apps for small ones. Optimization is in tension with consistency.</p>
-</li>
-
-<li>
-<p><strong>Continuous.</strong> Each channel must be aware of all the others. Add a bicycle helmet to your shopping cart on the Web, and it should appear in the cart on your phone.</p>
-</li>
+  <li>
+    <p><strong>Consistent.</strong> Each channel should enable users to perform a given task in a like manner. For instance, a bank customer experienced in paying bills on the web should find the corresponding smartphone bill-paying facility familiar, even on first use.</p>
+  </li>
+  <li>
+    <p><strong>Optimized.</strong> Each channel should play to its strengths. Desktop applications are optimized for large screens; mobile apps for small ones. Optimization is in tension with consistency.</p>
+  </li>
+  <li>
+    <p><strong>Continuous.</strong> Each channel must be aware of all the others. Add a bicycle helmet to your shopping cart on the Web, and it should appear in the cart on your phone.</p>
+  </li>
 </ul>
 
-<h2 id="a_starting_point">A starting point</h2>
+<h2 id="a-starting-point">A starting point</h2>
 
 <p>What would a tool that aimed to facilitate consistent, optimized, continuous cross-channel planning look like? In <a href="http://pervasiveia.com/">Pervasive Information Architecture</a>, Resmini and Rosati presented their CHU cube which places <em>tasks</em> and <em>channels</em> each on their own axes.</p>
 
-<p><img alt='The CHU Cube' class='twothirds-width' src='http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg' width='475' /></p>
+<p><img src="http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg" width="475" class="twothirds-width" alt="The CHU Cube" /></p>
 
 <p><em><a href="http://pervasiveia.com/">Resmini and Rosati’s</a> CHU cube plots channels, heuristics, and tasks using three dimensions.</em></p>
 
 <p>Ammendment: <em>After publishing this post, <a href="https://twitter.com/#!/lowresolution">Gianluca Brugnoli</a> of Frog Design pointed out its resemblence to the <a href="http://www.servicedesigntools.org/tools/108">Touchpoints Matrix</a> he himself developed in 2009. I hadn’t come across this tool before, but the similarity is striking.</em></p>
 
-<p><img alt='The Touchpoints Matrix by Gianluca Brugnoli' class='normal-width' src='http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png' width='712' /></p>
+<p><img src="http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png" width="712" class="normal-width" alt="The Touchpoints Matrix by Gianluca Brugnoli" /></p>
 
 <p><em>The Touchpoints Matrix by Gianluca Brugnoli</em></p>
 
-<h2 id="building_on_the_foundation">Building on the foundation</h2>
+<h2 id="building-on-the-foundation">Building on the foundation</h2>
 
 <p>Juxtaposing tasks and channels is a useful starting point, though the CHUbe’s multidimensional layers make it a bit unwieldy. For our diagram, let’s do the following:</p>
 
 <ol>
-<li><strong>Identify user tasks</strong>—these become the X-axis.</li>
-
-<li><strong>List channels</strong>—these become the Y-axis.</li>
-
-<li><strong>Prioritize and describe each per-channel task</strong>—these are the table cells</li>
-
-<li><strong>Identify shared components</strong>—these are listed in a bottom row</li>
+  <li><strong>Identify user tasks</strong>—these become the X-axis.</li>
+  <li><strong>List channels</strong>—these become the Y-axis.</li>
+  <li><strong>Prioritize and describe each per-channel task</strong>—these are the table cells</li>
+  <li><strong>Identify shared components</strong>—these are listed in a bottom row</li>
 </ol>
 
-<p><img alt='A Cross-Channel Blueprint' class='full-width' src='http://tylertate.com/resources/images/2012-02-21/cross-channel-blueprint.png' width='1030' /></p>
+<p><img src="http://tylertate.com/resources/images/2012-02-21/cross-channel-blueprint.png" width="1030" class="full-width" alt="A Cross-Channel Blueprint" /></p>
 
 <p>I call this a <em>cross-channel blueprint</em>. The exercise can be performed by a lone designer or collaboratively with sticky notes or in front of a whiteboard. It brings about:</p>
 
 <ul>
-<li>A global view of important user tasks</li>
-
-<li>The possible channels through which users might attempt those tasks</li>
-
-<li>A set of task priorities for each channel</li>
-
-<li>A set of channel priorities for each task</li>
-
-<li>An overview of which components need to be shared across channels</li>
+  <li>A global view of important user tasks</li>
+  <li>The possible channels through which users might attempt those tasks</li>
+  <li>A set of task priorities for each channel</li>
+  <li>A set of channel priorities for each task</li>
+  <li>An overview of which components need to be shared across channels</li>
 </ul>
 
-<h2 id="what_do_you_think">What do you think?</h2>
+<h2 id="what-do-you-think">What do you think?</h2>
 
 <p>This is but a first attempt at a developing a tool suitable for the new era of cross-channel information architecture. As such, it needs practice, iteration, and experimentation. If you’ve been working in this space, please chime in with how the cross-channel blueprint jives with your own experience.</p>
 
