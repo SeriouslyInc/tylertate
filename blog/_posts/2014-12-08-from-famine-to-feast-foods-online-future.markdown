@@ -57,7 +57,7 @@ Not only do millennials spend the most *online*, but [Gallup][8] found that they
 
 <figure class="medium">
 	<img src="/resources/images/2014-12-08/millenial.jpg" />
-	<figcaption>Obligatory stock photo of a millenial.</figcaption>
+	<figcaption>Obligatory stock photo of a millennial.</figcaption>
 </figure>
 
 
