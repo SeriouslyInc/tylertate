@@ -63,9 +63,11 @@ Not only do millennials spend the most *online*, but [Gallup][8] found that they
 
 ## Change is in the air
 
-> A huge untapped market. Widespread experimentation. A new generation coming of age. These are ingredients for disruptive innovation.
+A huge untapped market. Widespread experimentation. A new generation coming of age. These are ingredients for disruptive innovation.
 
-But why hasn’t online grocery shopping already been solved? I’ll tackle that question in my next blog post.
+> Over the next three years, I believe that the famished state of online food commerce will be transformed into a feast of opportunity.
+
+Watch this space.
 
 
 [1]: http://www.huffingtonpost.com/2014/12/02/cyber-monday-record_n_6259082.html
