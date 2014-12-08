@@ -36,7 +36,7 @@ That is a massive gap, and one that analysts think will rapidly narrow. [Brick M
 
 
 ## Widespread experimentation
-Tech giants, supermarket chains, and startups have taken notice on the potential upside of enabling consumers to order food online, and are actively trying to figure out how to pull it off. Amazon Fresh, Google Express, and eBay Now are experimental offerings that are being rolled out in select cities. The likes of Whole Foods and Wal-Mart are cautiously dipping their toes into the online market. And...
+Tech giants, supermarket chains, and startups have taken notice of the potential upside of enabling consumers to order food online, and are actively trying to figure out how to pull it off. Amazon Fresh, Google Express, and eBay Now are experimental offerings that are being rolled out in select cities. The likes of Whole Foods and Wal-Mart are cautiously dipping their toes into the online market. And...
 
 > [Venture capitalists][6] are pouring money into online food companies, investing $788 million in the first quarter of 2014 alone.
 
