@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Online Grocery Shopping: A Hard Nut To Crack"
+title: "Online Grocery Shopping: A Hard Nut to Crack"
 snippet: "Snippet goes here."
 ---
 
