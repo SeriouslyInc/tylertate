@@ -7,6 +7,98 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Online Grocery Shopping: A Hard Nut To Crack</title>
+				<pubDate>Tue, 09 Dec 2014 00:00:00 EST</pubDate>
+				<description>&lt;figure class=&quot;large&quot; style=&quot;margin-top: -1.43em;&quot;&gt;
+	&lt;img src=&quot;/resources/images/2014-12-09/hypermarket.jpg&quot; /&gt;
+	&lt;figcaption&gt;Packaged food aisles at a Fred Meyer hypermarket in Portland, Oregon.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In my previous post, “&lt;a href=&quot;http://tylertate.com/blog/2014/12/08/from-famine-to-feast-foods-online-future.html&quot;&gt;From Famine to Feast: Food’s Online Future&lt;/a&gt;,” I outlined three reasons that I believe the food industry is poised for a profound transformation as consumers shift from brick-and-mortar to online channels. This, however, begs the question:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Why hasn’t online food shopping already taken off in the United States?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If we already buy so many other things online — from books to electronics to made-by-hand knickknacks — why not food? Does the inherent nature of food make it unsuitable for online commerce?&lt;/p&gt;
+
+&lt;p&gt;Well, to look beyond the US, online grocery shopping is already a “thing”. In the United Kingdom, for instance, online-only retailers such as Ocado, as well as major supermarket chains like Tesco, provide polished online grocery shopping and delivery services, and &lt;a href=&quot;http://www.igd.com/our-expertise/Retail/retail-outlook/3371/UK-Grocery-Retailing/&quot;&gt;statistics show&lt;/a&gt; that 4.4% of all grocery sales occurred online in 2014, some £7.7 billion.&lt;/p&gt;
+
+&lt;h2 id=&quot;three-reasons-for-failure&quot;&gt;Three reasons for failure&lt;/h2&gt;
+&lt;p&gt;The UK aside, I think there are three reasons why online grocery shopping has proven to be a hard nut to crack in the United States.&lt;/p&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2014-12-09/icon-warehouse.svg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;warehousing-cost&quot;&gt;1. Warehousing Cost&lt;/h3&gt;
+&lt;p&gt;To fulfil a customer’s order, the business must have a warehouse located nearby. In a country as large as the US, this would require an immense amount of capital to achieve nationally, and is why new services such as Google Shopping and Amazon Fresh are currently offered in just a handful of cities.&lt;/p&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2014-12-09/icon-truck.svg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;delivery-complexity&quot;&gt;2. Delivery Complexity&lt;/h3&gt;
+&lt;p&gt;Not only must the business operate a local warehouse, but they must also maintain a fleet of refrigerated trucks to keep perishable goods cool, and freezer goods frozen during transit. This adds yet another layer of both logistical complexity and capital intensity that must be rolled out across a vast geography.&lt;/p&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2014-12-09/icon-cheap.svg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;unprofitable-goods&quot;&gt;3. Unprofitable Goods&lt;/h3&gt;
+&lt;p&gt;Many grocery items are inexpensive, heavy, perishable, or some combination of the above. By the time a $1 bag of sugar is stored in the warehouse, loaded on the truck, and driven to the customer’s home, for instance, it has probably cost the business well above $1 in logistical expense. It’s hard to turn a profit on such inexpensive foodstuffs.&lt;/p&gt;
+
+&lt;figure class=&quot;small right&quot;&gt;
+	&lt;img src=&quot;/resources/images/2014-12-09/webvan.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;a-lesson-from-the-past&quot;&gt;A lesson from the past&lt;/h2&gt;
+&lt;p&gt;These three challenges were personified — even caricatured — in the textbook failure of Webvan, what &lt;a href=&quot;http://techcrunch.com/2013/09/27/why-webvan-failed-and-how-home-delivery-2-0-is-addressing-the-problems/&quot;&gt;Peter Relan&lt;/a&gt; calls “the poster child of the dot-com bubble.” Started in 1998, Webvan raised $800 million from investors to become an online grocery store providing home delivery. They devised state-of-the-art warehousing systems, secured fleets of refrigerated trucks, and committed $1 billion of capital to build warehouses across 26 cities. In 2001, Webvan filed for bankruptcy.&lt;/p&gt;
+
+&lt;h2 id=&quot;present-attempts&quot;&gt;Present attempts&lt;/h2&gt;
+&lt;p&gt;Today’s businesses are loath to repeat the mistakes of Webvan. Of current ventures, only Amazon Fresh and east coast startup Relay Foods are attempting a Webvan-style warehousing and delivery approach. A number of others, including Google Shopping, Instacart, and Postmates, are aiming to provide the &lt;strong&gt;delivery service without the warehousing&lt;/strong&gt;. That is, they will go to the local supermarket for you, and bring the goods to your home.&lt;/p&gt;
+
+&lt;p&gt;I see three flaws to such an approach:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Using a third-party delivery service will always add an &lt;strong&gt;additional layer of price markup&lt;/strong&gt;. That is, since the third-party is not profiting from the sale of an item, they will have to add their own fees on top of the store’s retail price.&lt;/li&gt;
+  &lt;li&gt;Brick-and-mortar retailers could easily launch their own delivery services. By doing so, they could either &lt;strong&gt;block the third parties&lt;/strong&gt; from accessing their stores outright, or just &lt;strong&gt;underprice&lt;/strong&gt; the third-party services (which they would have the capacity to do since they are already profiting from buying wholesale and selling retail).&lt;/li&gt;
+  &lt;li&gt;Third-party delivery services are &lt;strong&gt;limited to the selection&lt;/strong&gt; provided by local stores. Online retailers, by contrast, are often able to provide a much wider selection than their brick-and-mortar counterparts (think Amazon.com vs. a local bookstore), an advantage that third-party delivery services lack.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fortunately, there is another way.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2014-12-09/cupcake.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;a-recipe-for-the-future&quot;&gt;A recipe for the future&lt;/h2&gt;
+&lt;p&gt;I believe that the future of online food shopping is:&lt;/p&gt;
+
+&lt;h3 id=&quot;be-the-marketplace-not-warehouse&quot;&gt;1. Be the marketplace, not warehouse&lt;/h3&gt;
+&lt;p&gt;Warehousing is expensive, difficult, and tends to limit selection. Instead of being the warehouse, be the marketplace instead. &lt;strong&gt;Enable producers to list their food goods on the online marketplace, and enable customers to buy goods directly from producers.&lt;/strong&gt; It’s relational… just like food used to be.&lt;/p&gt;
+
+&lt;h3 id=&quot;outsource-delivery&quot;&gt;2. Outsource delivery&lt;/h3&gt;
+&lt;p&gt;There are existing logistic providers which do nothing but logistics and are really good at it, like the United States Postal Service and FedEx. &lt;strong&gt;Leverage those existing networks&lt;/strong&gt; rather than rolling your own… it’s worked for Amazon.com.&lt;/p&gt;
+
+&lt;h3 id=&quot;go-gourmet&quot;&gt;3. Go gourmet&lt;/h3&gt;
+&lt;p&gt;Don’t sell $1 bags of sugar. Instead, focus on specialty foods that are hard to find at the local grocery store. &lt;strong&gt;Differentiate on quality and selection&lt;/strong&gt;, not on price.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-better-world&quot;&gt;A better world?&lt;/h2&gt;
+&lt;p&gt;A marketplace that connects consumers with producers, leverages existing logistics networks, and focuses on specialty food items. I believe this would make the world a happier place…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A place where people are able to discover, buy, and enjoy delicious food that has been lovingly crafted by small, artisanal producers — all more easily than shopping at Wal-Mart.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Would you like to live in such a world?&lt;/p&gt;
+
+</description>
+				<link>http://www.tylertate.com/blog/2014/12/09/online-grocery-shopping-a-hard-nut-to-crack.html</link>
+				<guid>http://www.tylertate.com/blog/2014/12/09/online-grocery-shopping-a-hard-nut-to-crack.html</guid>
+			</item>
+		
+			<item>
 				<title>From Famine to Feast: Food’s Online Future</title>
 				<pubDate>Mon, 08 Dec 2014 00:00:00 EST</pubDate>
 				<description>&lt;figure class=&quot;large&quot; style=&quot;margin-top: -1.43em;&quot;&gt;
@@ -45,7 +137,7 @@
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;widespread-experimentation&quot;&gt;Widespread experimentation&lt;/h2&gt;
-&lt;p&gt;Tech giants, supermarket chains, and startups have taken notice on the potential upside of enabling consumers to order food online, and are actively trying to figure out how to pull it off. Amazon Fresh, Google Express, and eBay Now are experimental offerings that are being rolled out in select cities. The likes of Whole Foods and Wal-Mart are cautiously dipping their toes into the online market. And…&lt;/p&gt;
+&lt;p&gt;Tech giants, supermarket chains, and startups have taken notice of the potential upside of enabling consumers to order food online, and are actively trying to figure out how to pull it off. Amazon Fresh, Google Express, and eBay Now are experimental offerings that are being rolled out in select cities. The likes of Whole Foods and Wal-Mart are cautiously dipping their toes into the online market. And…&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;http://www.businessweek.com/articles/2014-10-23/mobile-food-startups-move-beyond-delivery-into-food-prep&quot;&gt;Venture capitalists&lt;/a&gt; are pouring money into online food companies, investing $788 million in the first quarter of 2014 alone.&lt;/p&gt;
@@ -70,7 +162,7 @@
 
 &lt;figure class=&quot;medium&quot;&gt;
 	&lt;img src=&quot;/resources/images/2014-12-08/millenial.jpg&quot; /&gt;
-	&lt;figcaption&gt;Obligatory stock photo of a millenial.&lt;/figcaption&gt;
+	&lt;figcaption&gt;Obligatory stock photo of a millennial.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;change-is-in-the-air&quot;&gt;Change is in the air&lt;/h2&gt;
