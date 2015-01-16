@@ -40,7 +40,7 @@ Americans were projected to spend over $48 billion on coffee in 2014, according 
 > Americans spend $5 Billion on gourmet coffee to brew at home.
 
 ## Case closed?
-The bottom line is that there are a lot of people spending a lot of money on a lot of specialty coffee. And while consumer attitudes are shifting towards artisanal, socially responsible coffees, there remains significant friction separating consciencious consumers from small, boutique roasters.
+The bottom line is that there are a lot of people spending a lot of money on a lot of specialty coffee. And while consumer attitudes are shifting towards artisanal, socially responsible coffees, there remains significant friction separating conscientious consumers from small, boutique roasters.
 
 That is about to change.
 
