@@ -4,7 +4,6 @@ title: Four Faces of Search
 publisher: The TwigKit Blog
 originalurl: http://twigkit.com/blog/2014/07/25/four-faces-of-search.html
 snippet: "What does search mean for the organisations in four particular industries — financial services, manufacturing, media, and the public sector?"
-
 ---
 
 Search means different things to different people.
