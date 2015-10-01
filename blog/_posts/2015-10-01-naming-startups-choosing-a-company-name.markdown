@@ -8,7 +8,7 @@ The venerable [Paul Graham](http://paulgraham.com/name.html) postulated in a blo
 
 > “If you have a US startup called X and you don’t have x.com, you should probably change your name.”
 
-This is an oversimplification. Whether a domain ends in .com is just one of several important characteristics to consider in naming a company. _When_ to go .com is the more important question.
+This is an oversimplification. Whether a domain ends in .com is just one of several important characteristics to consider in naming a startup. _When_ (and when not to) splurge on a .com is the better question.
 
 If you’ve ever named a company, I’m sure you can testify that it takes research, imagination, and an open mind. I recently went on that journey myself, and learned several things along the way: like some of the criteria to consider, how to use those criteria to effectively evaluate names, and when it’s worth going .com. Here’s how the story unfolded for me.
 
