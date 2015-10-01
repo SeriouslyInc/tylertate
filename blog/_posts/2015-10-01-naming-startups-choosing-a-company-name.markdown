@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Naming Startups"
-snippet: "Amidst the #racetogether controversy last week, Starbucks customers received an email promoting the company’s latest offering from their Reserve Roastery: a premium coffee subscription. For $24 a month, customers can become the proud recipient of an 8.8oz bag of small-lot coffee, delivered to their door."
+snippet: "The venerable Paul Graham postulated in a blog post recently: If you have a US startup called X and you don’t have x.com, you should probably change your name. This is an oversimplification. Whether the domain ends in .com is just one of several important characteristics to consider."
 ---
 
 The venerable [Paul Graham](http://paulgraham.com/name.html) postulated in a blog post recently:
@@ -78,7 +78,7 @@ Dropbox started with getdropbox.com. Stripe was getstripe.com. Airbnb was airbed
 
 The trick with .coms is that they’re expensive. It’s extremely unlikely that you’ll find a suitable .com that hasn’t already been registered, which means you have to buy it on the secondary market. And to put cost in context, the current owner of crema.com is asking six figures. (Morgan Linton's post [What Every Startup Founder Should Know About Buying Domain Names](https://medium.com/life-learning/what-every-startup-founder-should-know-about-buying-domain-names-a6f04357b135) provides a healthy dose of realism.)
 
-## The real question: how much should you spend?
+## The 1% rule
 The real question is not, “Should you go .com?”, but rather, “How much should you spend to get a strong domain?”
 
 I’d like to suggest a rule of thumb:

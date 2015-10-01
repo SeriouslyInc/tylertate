@@ -473,6 +473,12 @@ figure.my-photo img {
   line-height: 1.25em;
   margin: 1.25em 0 .3125em 0;
 }
+#blog .post-content h3 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
 #blog .post-content p,
 #blog .post-content ol,
 #blog .post-content ul {
