@@ -508,7 +508,7 @@ figure.my-photo img {
   margin: 1em -1em;
   overflow-x: auto;
 }
-#blog .post-content article a:hover {
+#blog .post-content a:hover {
   text-decoration: underline;
 }
 #blog .post-header {
