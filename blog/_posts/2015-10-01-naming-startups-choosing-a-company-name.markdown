@@ -83,7 +83,7 @@ The real question is not, “Should you go .com?”, but rather, “How much sho
 
 I’d like to suggest a rule of thumb:
 
-> Never spend more than 1% of your company’s value on a domain.
+> Never spend more than 1% of your company’s valuation on a domain.
 
 Let’s say you’re a new startup and you’ve raised $100,000 in seed funding at a $1,000,000 valuation. It would be foolish to blow half of your capital on a $50,000 domain name. At that point in the company’s life, whether the name ends in .com will have almost no impact on whether or not you’ll make it to the next stage. Cutting your runway in half by waving goodbye to $50,000 (and 5% of your company), however, _will_ have a trememdous impact. In this circumstance, $10,000 is the maximum you should consider spending — 1% of the company’s $1 million valuation.
 
