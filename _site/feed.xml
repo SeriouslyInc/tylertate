@@ -7,24 +7,51 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2016 Coffee Trends</title>
+				<pubDate>Fri, 15 Apr 2016 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2016/04/15/2016-coffee-trends.html</link>
+				<guid>http://www.tylertate.com/blog/2016/04/15/2016-coffee-trends.html</guid>
+			</item>
+		
+			<item>
+				<title>What Peet’s acquisition of Stumptown and Intelligentsia says about the state of coffee</title>
+				<pubDate>Thu, 07 Apr 2016 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2016/04/07/peets-acquisition-stumptown-intelligentsia-state-of-coffee.html</link>
+				<guid>http://www.tylertate.com/blog/2016/04/07/peets-acquisition-stumptown-intelligentsia-state-of-coffee.html</guid>
+			</item>
+		
+			<item>
+				<title>Introducing Crema.co 1.0</title>
+				<pubDate>Fri, 04 Dec 2015 00:00:00 PST</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2015/12/04/introducing-crema-1.html</link>
+				<guid>http://www.tylertate.com/blog/2015/12/04/introducing-crema-1.html</guid>
+			</item>
+		
+			<item>
 				<title>Naming Startups</title>
-				<pubDate>Tue, 08 Sep 2015 00:00:00 PDT</pubDate>
-				<description>&lt;p&gt;The venerable &lt;a href=&quot;http://paulgraham.com/name.html&quot;&gt;Paul Graham&lt;/a&gt; postulated in a blog post last month:&lt;/p&gt;
+				<pubDate>Thu, 01 Oct 2015 00:00:00 PDT</pubDate>
+				<description>&lt;p&gt;The venerable &lt;a href=&quot;http://paulgraham.com/name.html&quot;&gt;Paul Graham&lt;/a&gt; postulated in a blog post recently:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“If you have a US startup called X and you don’t have x.com, you should probably change your name.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This is an oversimplification. Whether the domain ends in .com is just one of several important characteristics to consider.&lt;/p&gt;
+&lt;p&gt;This is an oversimplification. Whether a domain ends in .com is just one of several important characteristics to consider in naming a startup. &lt;strong&gt;&lt;em&gt;When&lt;/em&gt; (and when not to) splurge on a .com is the more fundamental question&lt;/strong&gt; (hint: skip to the end for the answer, or stick around for my story).&lt;/p&gt;
 
-&lt;p&gt;If you’ve ever named a company, I’m sure you can testify that it takes research, imagination, and an open mind. I recently went on that journey myself, and learned several things along the way: like what criteria to consider, how to use those criteria to effectively evaluate candidate names, and when it’s worth going .com. Here’s how the story unfolded for me.&lt;/p&gt;
+&lt;p&gt;If you’ve ever named a company, I’m sure you can testify that it takes research, imagination, and an open mind. I recently went on that journey myself, and learned several things along the way: like some of the criteria to consider, how to use those criteria to effectively evaluate names, and when it’s worth going .com. Here’s how the story unfolded for me.&lt;/p&gt;
 
 &lt;h2 id=&quot;naming-cremaco&quot;&gt;Naming Crema.co&lt;/h2&gt;
-&lt;p&gt;Around this time last year I was in the early process of conceptualizing and naming &lt;a href=&quot;http://crema.co/&quot;&gt;Crema.co&lt;/a&gt;, the coffee marketplace of the future. I’ve been complicit in choosing names for a few companies over the years, but this was my first time naming an online consumer brand. Not only did the name itself need to be meaningful, but the &lt;em&gt;domain name&lt;/em&gt; had to be short, memorable, and affordable.&lt;/p&gt;
+&lt;p&gt;Around this time last year I was in the early process of conceptualizing and naming &lt;a href=&quot;http://crema.co/&quot;&gt;Crema.co&lt;/a&gt;, a coffee marketplace with a Netflix qeueu-like subscription model. I’ve been complicit in choosing names for a few companies over the years, but this was my first time naming an online consumer brand. Not only did the name itself need to be meaningful, but the &lt;em&gt;domain name&lt;/em&gt; had to be short, memorable, and affordable.&lt;/p&gt;
 
 &lt;p&gt;As a result, I spent &lt;em&gt;months&lt;/em&gt; trying to come up with the perfect name. I had brainstormed well over 300 (mostly bad) ideas, made around 100 enquiries with existing domain name owners, and had a “shortlist” 50 entries long. Every car trip I coerced my wife into helping me come up with ideas. I accosted friends and family to run names by then. In a word: I was obsessed.&lt;/p&gt;
 
-&lt;p&gt;The first names that I came up with were boringly straightforward. Because of this, they were also unaffordable. The subsequent waves of names relied on misspellings, made-up words, and non-dot-com extensions to try to arrive at something attainable. This is where the real creative challenge lies. (Daniel Eckler’s post, &lt;a href=&quot;https://blog.growth.supply/how-to-name-a-unicorn-what-you-need-to-know-about-naming-a-billion-dollar-startup-e52b12cd7f77&quot;&gt;How to Name a Unicorn&lt;/a&gt;, shares some great tips on the art of brainstorming.)&lt;/p&gt;
+&lt;p&gt;The first names that I thought of were boringly straightforward. Because of this, they were also unaffordable (everyone else had thought of them too). The subsequent waves of names relied on misspellings, made-up words, and non-dot-com extensions to try to arrive at something attainable. This is where the real creative challenge lies. (Daniel Eckler’s post, &lt;a href=&quot;https://blog.growth.supply/how-to-name-a-unicorn-what-you-need-to-know-about-naming-a-billion-dollar-startup-e52b12cd7f77&quot;&gt;How to Name a Unicorn&lt;/a&gt;, shares some great tips on the art of brainstorming.)&lt;/p&gt;
 
 &lt;p&gt;For me, there was a name that led the pack at any given time. Some of the leaders held their position for weeks. But uncertainty would creep back in, and the search would resume.&lt;/p&gt;
 
@@ -42,20 +69,20 @@
 &lt;p&gt;Within each of these categories, I articulated specific qualities that I was looking for.&lt;/p&gt;
 
 &lt;h3 id=&quot;meaning&quot;&gt;Meaning&lt;/h3&gt;
-&lt;p&gt;I needed a name synonymous with coffee that would connote a hand-crafted quality, and perhaps also be extendable to other food and beverage categories. Specifically:&lt;/p&gt;
+&lt;p&gt;I needed a name synonymous with coffee that would connote hand-crafted quality, and perhaps also be extendable to other food and beverage categories. Specifically:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;On encountering the name for the first time, would someone have a clue that it’s a marketplace for buying coffee?&lt;/li&gt;
-  &lt;li&gt;On encountering the name for the first time, would someone have a clue that it is an online marketplace for non-coffee foods such beer, wine, and chocolate?&lt;/li&gt;
-  &lt;li&gt;Does it convey food hand-produced by expert craftsmen/craftswomen?&lt;/li&gt;
+  &lt;li&gt;On encountering the name for the first time, would someone have a clue that it is an online marketplace for other foods and beverages?&lt;/li&gt;
+  &lt;li&gt;Does it convey coffee/food/beverages hand-produced by expert craftsmen/craftswomen?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;memorability&quot;&gt;Memorability&lt;/h3&gt;
-&lt;p&gt;Because I was creating an online consumer marketplace, I needed a name that was short and phonetic; something people could easily remember and spell.&lt;/p&gt;
+&lt;p&gt;Because I was building an online consumer marketplace, I needed a name that was short and phonetic; something people could easily remember and spell.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Would you know how to spell it if you first heard it in conversation?&lt;/li&gt;
-  &lt;li&gt;Is it short in length (&amp;lt;5 characters), medium (6-7 characters) length, or long (8+ characters)?&lt;/li&gt;
+  &lt;li&gt;Is it short in length (&amp;lt;5 characters), medium length (6-7 characters), or long (8+ characters)?&lt;/li&gt;
   &lt;li&gt;Would you remember the name (including its spelling) if you had seen it once before?&lt;/li&gt;
   &lt;li&gt;Is it hip and offbeat rather than boringly direct?&lt;/li&gt;
 &lt;/ul&gt;
@@ -76,12 +103,12 @@
 	&lt;figcaption&gt;My spreadsheet for evaluating startup names. (You&#39;re welcome to use it as a starting point.)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;At this point it’s important to keep in mind that anytime a quantitative system is used to evaluate subjective qualities, the results should be interpreted with a grain of salt. This model assumes I’ve identified all the right criteria, evaluated each name objectively, and weighted the scores proportionally, none of which are completely true. In leu of perfection, the smell test will have to suffice.&lt;/p&gt;
+&lt;p&gt;At this point it’s important to keep in mind that anytime a quantitative system is used to evaluate subjective qualities, the results should be interpreted with several grains of salt. This model assumes I’ve identified all the right criteria, evaluated each name objectively, and weighted the scores proportionally, none of which are completely true. In leu of perfection, the smell test will have to suffice.&lt;/p&gt;
 
 &lt;p&gt;In the end, Crema.co scored the highest of the 10 names I evaluated using the spreadsheet, with a total score of 81%. Before doing the analysis, I had favored Crave.co and Stache.co, which both scored around 50% by comparison. And earlier I’d been irrationally attached to Yarn.co, which garnered a dire 21% in the analysis. Had I not gone through this exercise, I may have opted for an inferior name.&lt;/p&gt;
 
 &lt;h2 id=&quot;to-com-or-not-to-com&quot;&gt;To .com, or not to .com?&lt;/h2&gt;
-&lt;p&gt;So should startups opt for a .com, as Paul Graham suggests?&lt;/p&gt;
+&lt;p&gt;So, back to the opening question: should startups opt for a .com, as Paul Graham suggests?&lt;/p&gt;
 
 &lt;p&gt;Graham rightly points out that having a .com signals strength. This is undeniably true; almost all highly successful online companies now have a short .com domain name.&lt;/p&gt;
 
@@ -93,28 +120,32 @@
 
 &lt;p&gt;Dropbox started with getdropbox.com. Stripe was getstripe.com. Airbnb was airbedandbreakfast.com. Facebook started as thefacebook.com. And more recently, plenty of other companies have started with .co and .io domains.&lt;/p&gt;
 
-&lt;p&gt;The trick with .coms is that they’re expensive. It’s extremely unlikely that you’ll find a suitable .com that hasn’t already been registered, which you means you have to buy it on the secondary market. And to put cost in context, the current owner of crema.com is asking six figures.&lt;/p&gt;
+&lt;p&gt;The trick with .coms is that they’re expensive. It’s extremely unlikely that you’ll find a suitable .com that hasn’t already been registered, which means you have to buy it on the secondary market. And to put cost in context, the current owner of crema.com is asking six figures. (Morgan Linton’s post &lt;a href=&quot;https://medium.com/life-learning/what-every-startup-founder-should-know-about-buying-domain-names-a6f04357b135&quot;&gt;What Every Startup Founder Should Know About Buying Domain Names&lt;/a&gt; provides a healthy dose of realism.)&lt;/p&gt;
 
-&lt;h2 id=&quot;the-real-question-how-much-should-you-spend&quot;&gt;The real question: how much should you spend?&lt;/h2&gt;
+&lt;h2 id=&quot;the-1-rule&quot;&gt;The 1% rule&lt;/h2&gt;
 &lt;p&gt;The real question is not, “Should you go .com?”, but rather, “How much should you spend to get a strong domain?”&lt;/p&gt;
 
 &lt;p&gt;I’d like to suggest a rule of thumb:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Don’t spend more than 1% of your company’s value on a domain.&lt;/p&gt;
+  &lt;p&gt;Don’t spend more than 1% of your company’s valuation on a domain.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Let’s say you’re a new startup and you’ve raised $100,000 in seed funding at a $1,000,000 valuation. It would be foolish to blow half of your capital on a $50,000 domain name. At that point in the company’s life, whether the name ends in .com will have almost no impact on whether or not you’ll make it to the next stage. Cutting your runway in half by waving goodbye to $50,000 (and 5% of your company), however, &lt;em&gt;will&lt;/em&gt; have a trememdous impact. At this point, $10,000 is the maximum you should consider spending — 1% of the company’s $1 million valuation.&lt;/p&gt;
+&lt;p&gt;Let’s say you’re a new startup and you’ve raised $100,000 in seed funding at a $1,000,000 valuation. It would be foolish to blow half of your capital on a $50,000 domain name. At that point in the company’s life, whether the name ends in .com will have almost no impact on whether or not you’ll make it to the next stage. Cutting your runway in half by waving goodbye to $50,000 (and 5% of your company), however, &lt;em&gt;will&lt;/em&gt; have a trememdous impact. In this circumstance, $10,000 is the maximum you should consider spending — 1% of the company’s $1 million valuation.&lt;/p&gt;
 
 &lt;p&gt;If, on the other hand, you’ve built a successful company and just raised a $2 million round at a $10 million valuation to accelerate growth, it might be time to spring for that short and sweet .com for as much as $100,000 (again, no more than 1% of the company’s valuation).&lt;/p&gt;
 
-&lt;p&gt;Rules of thumb are, by definition, sweeping generalizations. A short .com has less value to a B2B company than a consumer brand, for example, so B2Bs should spend less.&lt;/p&gt;
+&lt;p&gt;Rules of thumb are, by definition, sweeping generalizations. A short .com deliveres less value to a B2B company than to a consumer brand, for example, so B2Bs should probably spend less.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The main point is to think about domain name purchases in terms of your current valuation.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;looking-back&quot;&gt;Looking back&lt;/h2&gt;
-&lt;p&gt;In naming &lt;a href=&quot;http://crema.co/&quot;&gt;Crema.co&lt;/a&gt;, the biggest thing I learned was the importance of defining the characteristics I was looking for in a name. Getting it out of my head, onto paper — and in my case, into a spreadsheet — helped me overcome irrational emotional attachments and think more objectively about each potential name. And, contrary to Paul Graham’s advice, I’m content with a non-dot-com. For now.&lt;/p&gt;
+&lt;p&gt;In naming &lt;a href=&quot;http://crema.co/&quot;&gt;Crema.co&lt;/a&gt;, the biggest thing I learned was the importance of defining the characteristics I was looking for in a name. Getting those out of my head, onto paper — and in my case, into a spreadsheet — helped me overcome irrational emotional attachments and think more objectively about each potential name. And, contrary to Paul Graham’s advice, I’m content with a non-dot-com. For now.&lt;/p&gt;
 </description>
-				<link>http://www.tylertate.com/blog/2015/09/08/naming-startups-choosing-a-company-name.html</link>
-				<guid>http://www.tylertate.com/blog/2015/09/08/naming-startups-choosing-a-company-name.html</guid>
+				<link>http://www.tylertate.com/blog/2015/10/01/naming-startups-choosing-a-company-name.html</link>
+				<guid>http://www.tylertate.com/blog/2015/10/01/naming-startups-choosing-a-company-name.html</guid>
 			</item>
 		
 			<item>
@@ -614,9 +645,14 @@
 			<item>
 				<title>Information Wayfinding</title>
 				<pubDate>Thu, 07 Nov 2013 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;We are drowning in information. As more and more data floods in, we find ourselves in a state of information anxiety.&lt;/p&gt;
+				<description>&lt;figure class=&quot;large&quot; style=&quot;margin-top: -1.43em;&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/1-information-overload.jpg&quot; /&gt;
+	&lt;figcaption&gt;Information overload.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;“Big data” is today’s buzzword of choice. People like to talk about using clever technology to “make sense of big data.” I would suggest, however, that big data is not a technology problem. It’s a people problem.&lt;/p&gt;
+&lt;p&gt;We are drowning in information. As more and more data floods in, we find ourselves in a state of information anxiety.&lt;/p&gt;
+
+&lt;p&gt;“Big data” is today’s buzzword of choice. People like to talk about using clever technology to “make sense of big data.” I would suggest, however, that &lt;em&gt;big data is not a technology problem. It’s a people problem.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I believe the question that we need to ask is this:&lt;/p&gt;
 
@@ -625,6 +661,276 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;In my talk yesterday at the Enterprise Search Summit in Washington D.C., I attempted to outline a new vocabulary with which we can use to answer that question. But first, it’s worth putting the problem in context by reviewing the history of information.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-brief-history-of-information&quot;&gt;A Brief History of Information&lt;/h2&gt;
+&lt;p&gt;For our purposes, lets consider two eras of information: the analog era, and the digital era. The analog era begins with the written word, and concludes with the printed book, while the digital era covers early web pages through to our present state of information overload.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-tablet-and-the-written-word&quot;&gt;The Tablet And The Written Word&lt;/h3&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/2-cuiniform.jpg&quot; alt=&quot;A cuneiform tablet.&quot; /&gt;
+	&lt;figcaption&gt;A cuneiform tablet.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In its earliest form, the written word was meant to be read &lt;em&gt;linearly&lt;/em&gt;. It had no table of contents and no index.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-scroll-and-the-table-of-contents&quot;&gt;The Scroll And The Table Of Contents&lt;/h3&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/3-scroll.jpg&quot; alt=&quot;A scroll.&quot; /&gt;
+	&lt;figcaption&gt;A scroll.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Scarcely a format conducive for rapidly jumping from place to place, scrolls were also intended to be read linearly. Despite this constraint, the first tables of contents were developed for scroll manuscripts. In the first century A.D., for instance, Pliny the Elder preceded his 37-volume &lt;em&gt;Natural History&lt;/em&gt; with a detailed table of contents. Such tables distilled the contents of a work into a taxonomy of volumes, sections, and chapters so that a reader would not have to scroll through the entire work to find their topic of interest. This marks the beginning of &lt;em&gt;non-linear&lt;/em&gt; information retrieval.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-printing-press-and-the-index&quot;&gt;The Printing Press And The Index&lt;/h3&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/4-index.jpg&quot; alt=&quot;A book index.&quot; /&gt;
+	&lt;figcaption&gt;A book index.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It wasn’t until the development of the printing press, however, that the taxonomical organization of the book — the table of contents — was augmented with a secondary organizational scheme: the index. Having transformed leafless, handwritten scrolls into mass-market books with numbered pages, the printing press made it practical to create, replicate, and use an alphabetized index of topics. If the reader could not locate their topic of choice in the table of contents, they could look it up in the much more granular index and jump directly to the relevant page in the book.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-early-internet-and-the-web-page-1990s&quot;&gt;The Early Internet And The Web Page (1990’s)&lt;/h3&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/5-altavista.jpg&quot; alt=&quot;Early internet.&quot; /&gt;
+	&lt;figcaption&gt;Enter the world wide web.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The early World Wide Web simply replicated the format of the book in digital form. The book became the website, the table of contents became the website’s navigation, the index became the search box, and most obviously of all, book pages simply became Web pages. At that time, search performed exactly the same role on a website as the index had performed in a book — it was an alternative way of locating a page of information.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-cms-and-the-search-engine-2000s&quot;&gt;The CMS And The Search Engine (2000’s)&lt;/h3&gt;
+
+&lt;p&gt;The advent of Content Management System (and the Digital Asset Management System in the enterprise) meant that content was being “tagged” — enriched with structured metadata. At the same time, modern search engines were emerging with the ability to facet on this metadata. Together, these developments made search much more useful than before — helping people explore as well as locate. However, search remained subservient to navigation.&lt;/p&gt;
+
+&lt;p&gt;While search was still playing the role of a book index, faceted navigation meant that instead of there being a just single index of keywords, each facet became an index in its own right, thus compounding the usefulness of search.&lt;/p&gt;
+
+&lt;p&gt;However, tension increased between the table of contents and the index, between the interaction methods of navigation and search. People had to use separate interfaces for each of these two functions. And behind the scenes, they were each powered by different technologies.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/6-nyt.png&quot; alt=&quot;The New York Times.&quot; /&gt;
+	&lt;figcaption&gt;Left: the table of contents. Right: the index. Why such different interaction models?&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;big-data-and-information-wayfinding-2010s&quot;&gt;Big Data And Information Wayfinding (2010’s)&lt;/h3&gt;
+&lt;p&gt;While CMS and DAM systems are still used to manage content and documents, the modern company now has myriad additional sources of information with which to reckon.&lt;/p&gt;
+
+&lt;p&gt;The segregated architecture of navigation from search is creaking under the weight of ever increasing volumes of information. While separating the table of contents from the index is fine for a book, the metaphor has been stretched to its limits and needs replacing.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-information-environment-a-not-so-new-metaphor&quot;&gt;The Information Environment: A not-so-new metaphor&lt;/h2&gt;
+&lt;p&gt;Fortunately, there is an obvious alternative. Consider the language we use to describe our interaction with computers: browsing the web, surfing the net, navigating a website, traversing a hierarchy, going back, scrolling up and down, returning home. Our history of using computers to interact with information is littered with such metaphors. Haphazard though they may be, they highlight a universal reality of human psychology: we perceive the world — both physical and digital — in &lt;em&gt;spatial&lt;/em&gt; terms.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Mankind evolved in a world of space and time. Our memories evolved to record events that transpire in space and time. Modern attempts to externalize and enlarge that memory should not, and probably need not, neglect its spatiotemporal dimensions.” — George A. Miller, 1968&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We need to jettison the old “information as a book” metaphor, and embrace the even older “information as a physical environment” metaphor.&lt;/p&gt;
+
+&lt;h3 id=&quot;elements-of-the-city-image&quot;&gt;Elements Of The City Image&lt;/h3&gt;
+
+&lt;p&gt;Before unpacking the implications of the “information as a physical environment” metaphor, its worth quickly considering physical environments in their own right.&lt;/p&gt;
+
+&lt;p&gt;In his 1960 book, &lt;em&gt;The Image of the City&lt;/em&gt;, Kevin Lynch famously outlined five elements of the city image. Crucially, he considered not just the physical qualities of the environment, but sought to understand the city from a human the perspective.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We must consider not just the city as a thing itself, but the city being perceived by its inhabitants.” — Kevin Lynch&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/8-elements.png&quot; alt=&quot;Elements of the city image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The five elements Lynch identified are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Paths&lt;/strong&gt;. The roads, footpaths, and transportation lines by which a person moves through the city.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Edges&lt;/strong&gt;. The walls, railway lines, and shores which form the boundaries between areas.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Districts&lt;/strong&gt;. Broad areas of the city that possess their own sense of identity.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nodes&lt;/strong&gt;. Points of interest which a person may enter, such as a junction, building, or city square.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Landmarks&lt;/strong&gt;. A physical structure — such as a sign, building facade, or mountain — which serves as an external reference point.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lynch’s ideas on how people view and move through a city are insightful precursors to how people conceptualize and navigate information spaces today. But enough about physical elements. What about information environments?&lt;/p&gt;
+
+&lt;h2 id=&quot;elements-of-the-information-environment&quot;&gt;Elements of the Information Environment&lt;/h2&gt;
+
+&lt;p&gt;First, we must define information environments in their own right:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An information environment is a place someone goes to seek information in order to satisfy an information need.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Websites, mobile applications, scientific databases, corporate intranets, and other collections of information all qualify as information environments. Lets select a few example information environments to frame the discussion that follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Amazon.com&lt;/strong&gt;. People visit this store to look for and buy products.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New York Times&lt;/strong&gt;. People come to this environment in search of news.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Company intranet&lt;/strong&gt;. People come to this area to find documents and information relevant to their job.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Three examples&lt;/p&gt;
+
+&lt;p&gt;Following Lynch’s example, we must look beyond the brick and mortar of the environment itself to understand how people, the waypfinders who visit the territory, interact with and conceptualize that environment. To that end, I think that most information environments consist of three principle elements: districts, layers, and nodes.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/districts-layers-nodes.png&quot; alt=&quot;Elements of the information environment.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;districts&quot;&gt;Districts&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Districts are the main categories into which an environment can be logically divided.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/districts.png&quot; alt=&quot;Districts.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Any environment of substantial size, whether a city or a website, will inevitably be subdivided into smaller areas. London, for example, has districts such as Mayfair, Soho, and Southbank, while The New York Times (both in its print newspaper and on its website) has districts including World News, Politics, and Technology. Small environments may contain just a few flat districts, but bustling environments often feature rich taxonomies of districts within districts.&lt;/p&gt;
+
+&lt;h3 id=&quot;layers&quot;&gt;Layers&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Layers are secondary categories which describe a specific facet of a given node.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/layers.png&quot; alt=&quot;Layers.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Districts form the primary structure of the environment, but there are countless additional criteria that affect what a person may be looking for. Someone trying to find a place to eat in London’s Soho district, for instance, probably doesn’t want just any restaurant in the area; instead, she might be looking for a restaurant in a certain price range that serves a certain type of cuisine. In addition to a geographic preference, in other words, she also has a price criterion and a cuisine criterion.&lt;/p&gt;
+
+&lt;p&gt;These secondary criteria can be treated as &lt;em&gt;layers&lt;/em&gt;. While city districts bound an area along two dimensions — length and width — layers introduce a third dimension: depth.&lt;/p&gt;
+
+&lt;p&gt;Some digital maps allow users to select the layers of information to be presented — such as topography, roads, landmarks, and restaurants. Similarly, the layers of an information environment enable users to mould their view of the environment so that it aligns with their criteria. Layers help them filter out the noise and tune in the signal that resonates with their own mental model.&lt;/p&gt;
+
+&lt;h3 id=&quot;nodes&quot;&gt;Nodes&lt;/h3&gt;
+
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/nodes.png&quot; alt=&quot;Nodes.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Within a district there are many nodes — precise points in the environment that we might otherwise refer to as a Web page, document, or record. There are two different types of nodes: informational and directional.&lt;/p&gt;
+
+&lt;p&gt;Informational nodes, as the name suggests, contain information about a specific concept. Viewing the details of a product on Amazon.com, reading a New York Times news article, and scanning the HR vacation policy page on your company’s intranet are all examples of interacting with informational nodes.&lt;/p&gt;
+
+&lt;p&gt;Directional nodes, on the other hand, do not provide content of their own, but help direct people to the relevant informational nodes that do. Somewhat analogous to a cluster of directional signs at a large intersection, or a directory of shops at a mall or airport, directional nodes often list the key informational nodes within a given district or layer. Examples of directional nodes include viewing the HR section on a company’s intranet, clicking on World News category at NYTimes.com, and browsing used English-language hardcover economics books on Amazon.com.&lt;/p&gt;
+
+&lt;h2 id=&quot;information-wayfinding-the-human-element&quot;&gt;Information Wayfinding: The Human Element&lt;/h2&gt;
+&lt;p&gt;How do people interact with the elements of an information environment? I think of the process as &lt;em&gt;information wayfinding&lt;/em&gt;. I’ve thrown the term around once or twice already, but we haven’t yet defined it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Wayfinding&lt;/em&gt; itself is the collection of cognitive processes people use to navigate physical environments. At its root it is spatial problem solving, a process closely studied by environmental physiologists.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Information way finding, then, is the collection of cognitive processes people use to navigate information environments.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;People often engage in three different types of wayfinding, what I label as: locate, explore, and meander.&lt;/p&gt;
+
+&lt;h3 id=&quot;locate&quot;&gt;Locate&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;“Who was the director of the film ‘The Third Man’?”&lt;/li&gt;
+  &lt;li&gt;“What is the population of London?”&lt;/li&gt;
+  &lt;li&gt;“When are expense filings due?”&lt;/li&gt;
+  &lt;li&gt;“Where is Jimmy’s Pizza”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are all examples of “locate” information needs. In each case, the user has articulated precisely what they’re looking for. They just need help locating it. We sometimes call these “lookup” queries, and there is typically one right answer to the question.&lt;/p&gt;
+
+&lt;h3 id=&quot;explore&quot;&gt;Explore&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;“What kind of car should I buy?”&lt;/li&gt;
+  &lt;li&gt;“Where should I go on holiday?”&lt;/li&gt;
+  &lt;li&gt;“What film should I watch this evening?”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Exploring is much more open-ended than locating. When people explore, the journey is as important as the destination. As people encounter new information, their information need evolves, resulting in an iterative, ongoing process. In other words, users engage in information wayfinding.&lt;/p&gt;
+
+&lt;p&gt;Marcia Bates has described this process as “berrypicking” — people move from one source to another picking up nuggets of information along the way. Peter Pirolli and Stuart Card describe the process as “information foraging,” where people follow “information scent” as they go. Both of these models depict information seeking in spatial terms, and reinforce the concept of information wayfinding as a result.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/berrypicking.png&quot; alt=&quot;Marcia Bates&#39; berrypicking model of information seeking&quot; /&gt;
+	&lt;figcaption&gt;Marcia Bates&#39; berrypicking model of information seeking.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;meander&quot;&gt;Meander&lt;/h3&gt;
+&lt;p&gt;While locating and exploring are both prompted by an information need, there is a third category which is not: meandering. People sometimes aren’t looking for anything in particular, but might be prompted by other motives such as having fun or killing time. Checking email or social networks while waiting for the bus to arrive is just one example of meandering behavior.&lt;/p&gt;
+
+&lt;h2 id=&quot;principles-for-a-new-architecture&quot;&gt;Principles for a New Architecture&lt;/h2&gt;
+&lt;p&gt;So far I’ve proposed that a collection of information is best thought about in terms of an information environment, that the information environment consists of three distinct elements, and that wayfinding is a useful way for considering how people interact with these environments.&lt;/p&gt;
+
+&lt;p&gt;Finally, I would like to propose six principles that should guide how we go about constructing information environments: structured districts, flexible layers, positional cues, survey knowledge, clear paths, and coherent interaction.&lt;/p&gt;
+
+&lt;p&gt;To more effectively demonstrate these principles, one day last week I built an application using Twigkit and a collection of excellent film data curated by Nasser Ahmed.&lt;/p&gt;
+
+&lt;h3 id=&quot;structured-districts&quot;&gt;Structured Districts&lt;/h3&gt;
+&lt;p&gt;We’ve said that districts are the main categories into which an environment can be divided. Logical, clear districts are important to help users understand the information environment at its most basic level. Districts should correspond with the user’s own mental model. When people think about films, for instance, they think in terms in genres: a film is an action film or a drama film, a comedy or a thriller. Virtually every domain has some dominate organisation scheme that should form the districts of the information environment.&lt;/p&gt;
+
+&lt;p&gt;Districts should be clearly presented to users, perhaps in a form resembling traditional web navigation. Correspondingly, the URL scheme should also be based on districts.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/structured-districts.jpg&quot; alt=&quot;Structured districts&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;flexible-layers&quot;&gt;Flexible Layers&lt;/h3&gt;
+&lt;p&gt;In addition to districts — which serve as the primary organisation scheme — users should also be able to filter by secondary criteria, which we’ve said resemble layers of the information environment. The flexibility of layers is a vital companion to the rigid hierarchy of districts, and the two should operate in tandem.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/flexible-layers.jpg&quot; alt=&quot;Flexible layers&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;positional-cues&quot;&gt;Positional Cues&lt;/h3&gt;
+&lt;p&gt;Like a “you are here” marker on a map, positional cues help users orientate themselves within the information environment. Most frequently, positional cues take the form of breadcrumbs — they indicate the district in which the user is browsing, what layers they have applied, and any search terms they have entered. These positional cues give users a sense of security, and avert any feelings of lostness.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/positional-cues.jpg&quot; alt=&quot;Positional cues&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;survey-knowledge&quot;&gt;Survey Knowledge&lt;/h3&gt;
+&lt;p&gt;Helping users gain survey knowledge is a second form of enhancing orientation. But while positional cues more often depict where the user has been, survey knowledge helps them ascertain where they should go next. Like studying a map or looking at the landscape from the top of a mountain, survey knowledge gives users an overview of the information environment. Data visualisation — from subtle indicators to full fledged charts and graphs — are an excellent tool for enhancing survey knowledge.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/survey-knowledge.jpg&quot; alt=&quot;Survey knowledge&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;clear-paths&quot;&gt;Clear Paths&lt;/h3&gt;
+&lt;p&gt;In a physical environment, having a clear line of sight to the destination greatly simplifies the act of getting there. It would be orders of magnitude more difficult, I’m sure you’d agree, to navigate to a destination blindfolded. So in information environments, having clear paths ensures that users always have a path onward.&lt;/p&gt;
+
+&lt;p&gt;A good example of this principle is having links to related content. When viewing an information node (what we often call a “detail page”) for a film, for instance, having clear paths to similar films, to films by the same director, starring the same actors, and so forth, gives users a sufficient number of paths forward.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/clear-paths.jpg&quot; alt=&quot;Clear paths&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;coherent-interaction&quot;&gt;Coherent Interaction&lt;/h3&gt;
+&lt;p&gt;Most importantly of all, I believe that interacting with districts, layers, and keyword search should be a single, seamless experience. Layers should not only be available in “search mode,” and keyword search should not be divorced from districts. Instead, users should be able to navigate to districts, apply layers, and perform searches iteratively and conjunctively.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Let’s return to the question we asked at the beginning:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How can we make ever-growing volumes of information accessible and useful to people without overwhelming them?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I believe we must:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Consider information as a spatial environment&lt;/li&gt;
+  &lt;li&gt;Understand how users find their way through information environments, and support them along that journey.&lt;/li&gt;
+  &lt;li&gt;Unify navigation and search into a single, coherent experience.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If we pursue these three things, then search will no longer be just a box in the top right corner, but will become the de facto way people interact with large information environments.&lt;/p&gt;
+
+&lt;p&gt;In fact, the world’s most successful online properties — Google, Facebook, Amazon, eBay — have already embraced these three tenets. The question is: will you?&lt;/p&gt;
+
+&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Here is the full slidedeck from my talk at the Enterprise Search Summit.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/kHOd1PLi5A53i2&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/tylertate/information-wayfinding-the-future-of-search&quot; title=&quot;Information Wayfinding: The Future of Search&quot; target=&quot;_blank&quot;&gt;Information Wayfinding: The Future of Search&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/tylertate&quot; target=&quot;_blank&quot;&gt;Tyler Tate&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
 </description>
 				<link>http://www.tylertate.com/blog/2013/11/07/information-wayfinding.html</link>
 				<guid>http://www.tylertate.com/blog/2013/11/07/information-wayfinding.html</guid>
