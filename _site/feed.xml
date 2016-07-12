@@ -7,6 +7,42 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The Discovery Gap</title>
+				<pubDate>Tue, 12 Jul 2016 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2016/07/12/the-discovery-gap.html</link>
+				<guid>http://www.tylertate.com/blog/2016/07/12/the-discovery-gap.html</guid>
+			</item>
+		
+			<item>
+				<title>Personalized Recommendations: Coffees Tailored to You</title>
+				<pubDate>Tue, 28 Jun 2016 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2016/06/28/personalized-recommendations-coffees-tailored-to-you.html</link>
+				<guid>http://www.tylertate.com/blog/2016/06/28/personalized-recommendations-coffees-tailored-to-you.html</guid>
+			</item>
+		
+			<item>
+				<title>The Brew Log: Your Coffee Palate, Visualized</title>
+				<pubDate>Tue, 21 Jun 2016 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2016/06/21/brew-log-your-coffee-palate-visualized.html</link>
+				<guid>http://www.tylertate.com/blog/2016/06/21/brew-log-your-coffee-palate-visualized.html</guid>
+			</item>
+		
+			<item>
+				<title>Ratings: Remember the Coffees You Love</title>
+				<pubDate>Tue, 14 Jun 2016 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2016/06/14/ratings-remember-coffees-you-love.html</link>
+				<guid>http://www.tylertate.com/blog/2016/06/14/ratings-remember-coffees-you-love.html</guid>
+			</item>
+		
+			<item>
 				<title>2016 Coffee Trends</title>
 				<pubDate>Fri, 15 Apr 2016 00:00:00 PDT</pubDate>
 				<description>
@@ -31,6 +67,15 @@
 </description>
 				<link>http://www.tylertate.com/blog/2015/12/04/introducing-crema-1.html</link>
 				<guid>http://www.tylertate.com/blog/2015/12/04/introducing-crema-1.html</guid>
+			</item>
+		
+			<item>
+				<title>New Feature: Happier Email</title>
+				<pubDate>Mon, 05 Oct 2015 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2015/10/05/new-feature-happier-email.html</link>
+				<guid>http://www.tylertate.com/blog/2015/10/05/new-feature-happier-email.html</guid>
 			</item>
 		
 			<item>
@@ -146,6 +191,24 @@
 </description>
 				<link>http://www.tylertate.com/blog/2015/10/01/naming-startups-choosing-a-company-name.html</link>
 				<guid>http://www.tylertate.com/blog/2015/10/01/naming-startups-choosing-a-company-name.html</guid>
+			</item>
+		
+			<item>
+				<title>New Feature: Order History</title>
+				<pubDate>Wed, 16 Sep 2015 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2015/09/16/new-feature-order-history.html</link>
+				<guid>http://www.tylertate.com/blog/2015/09/16/new-feature-order-history.html</guid>
+			</item>
+		
+			<item>
+				<title>New Feature: Pause Your Brewlist</title>
+				<pubDate>Tue, 08 Sep 2015 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/2015/09/08/new-feature-pause-your-brewlist.html</link>
+				<guid>http://www.tylertate.com/blog/2015/09/08/new-feature-pause-your-brewlist.html</guid>
 			</item>
 		
 			<item>
