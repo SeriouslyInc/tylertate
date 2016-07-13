@@ -19,6 +19,19 @@
 @total-width: 100%;
 
 
+////////////////
+// TYPOGRAPHY //
+////////////////
+
+html {
+	font-size: 12px; // 1rem
+}
+body {
+	font-size: 1.334em; // 16px
+	line-height: 1.125em; // 24px or 2rem;
+}
+
+
 ////////////
 // COLORS //
 ////////////
@@ -405,8 +418,8 @@ figure.my-photo {
 		ul,
 		ol {
 			font-family: "garamond-premier-pro", Georgia, "Times New Roman", serif;
-			font-size: 1.25em;
-			line-height: 1.3em;
+			font-size: 1.9167rem;
+			line-height: 3rem;
 		}
 		pre {
 			font-size: 1.25em;
@@ -422,42 +435,53 @@ figure.my-photo {
 			background-color: darken(@cream,5%);
 		}
 		h2 {
-			font-size: 2em;
-			line-height: 1.25em;
-			margin: 1.25em 0 .3125em 0;
+			font-size: 3rem;
+			line-height: 4rem;
+			font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			margin: 6rem 0 1rem 0;
 			clear: both;
 		}
 		h3 {
-			font-size: 1.5em;
-			line-height: 1.25em;
-			margin-top: 1.5em;
+			font-size: 2rem;
+			line-height: 3rem;
+			font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			margin-top: 4rem;
 			margin-bottom: 0.5em;
 			clear: both;
 		}
 		p,
 		ol,
 		ul {
-			margin-bottom: 1em;
+			margin-bottom: 1.5rem;
 		}
 		li {
-			p {
-				font-size: 1em;
-			}
+			margin-bottom: 0.75rem;
 		}
 		ol li {
 			list-style: decimal outside none;
+			padding-left: 1rem;
+			margin-left: -1rem;
 		}
 		ul li {
 			list-style: disc outside none;
+			padding-left: 1rem;
+			margin-left: -1rem;
 		}
 		blockquote {
 			clear: both;
-			margin-top: 1em;
-			margin-left: -1.5em;
-			padding-left: 1.4em;
-			border-left: 0.1em solid @orange;
-			font-size: 1.2em;
+			margin-top: 3rem;
+			margin-left: -3rem;
+			margin-bottom: 3rem;
+			padding-left: 2.75rem;
+			border-left: 0.25rem solid @orange;
 			color: @dark-tan;
+
+			p {
+				font-size: 2.5rem;
+				line-height: 4rem;
+				font-style: italic;
+				margin-bottom: 0;
+			}
 		}
 		pre {
 			background-color: darken(@cream,5%);

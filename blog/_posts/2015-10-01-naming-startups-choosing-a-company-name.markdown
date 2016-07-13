@@ -13,7 +13,7 @@ This is an oversimplification. Whether a domain ends in .com is just one of seve
 If you’ve ever named a company, I’m sure you can testify that it takes research, imagination, and an open mind. I recently went on that journey myself, and learned several things along the way: like some of the criteria to consider, how to use those criteria to effectively evaluate names, and when it’s worth going .com. Here’s how the story unfolded for me.
 
 ## Naming Crema.co
-Around this time last year I was in the early process of conceptualizing and naming [Crema.co](http://crema.co/), a coffee marketplace with a Netflix qeueu-like subscription model. I’ve been complicit in choosing names for a few companies over the years, but this was my first time naming an online consumer brand. Not only did the name itself need to be meaningful, but the _domain name_ had to be short, memorable, and affordable.
+Around this time last year I was in the early process of conceptualizing and naming [Crema.co](http://crema.co/), a coffee marketplace with a Netflix queue-like subscription model. I’ve been complicit in choosing names for a few companies over the years, but this was my first time naming an online consumer brand. Not only did the name itself need to be meaningful, but the _domain name_ had to be short, memorable, and affordable.
 
 As a result, I spent _months_ trying to come up with the perfect name. I had brainstormed well over 300 (mostly bad) ideas, made around 100 enquiries with existing domain name owners, and had a “shortlist” 50 entries long. Every car trip I coerced my wife into helping me come up with ideas. I accosted friends and family to run names by then. In a word: I was obsessed.
 

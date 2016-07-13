@@ -121,8 +121,6 @@ Websites, mobile applications, scientific databases, corporate intranets, and ot
 * **New York Times**. People come to this environment in search of news.
 * **Company intranet**. People come to this area to find documents and information relevant to their job.
 
-Three examples
-
 Following Lynch’s example, we must look beyond the brick and mortar of the environment itself to understand how people, the waypfinders who visit the territory, interact with and conceptualize that environment. To that end, I think that most information environments consist of three principle elements: districts, layers, and nodes.
 
 <figure class="large">
