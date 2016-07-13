@@ -4,7 +4,9 @@ title: "Designing the Search Experience: The Book"
 snippet: "Despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. That’s why Tony Russell-Rose and I set out to write Designing the Search Experience: the Information Architecture of Discovery. For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. Tony and I are pleased with the results - we hope you will be too."
 ---
 
-<img src="http://tylertate.com/resources/images/2012-12-18/map.jpg" width="712" class="normal-width" alt="The information architecture of discovery." />
+<figure class="medium">
+<img src="http://tylertate.com/resources/images/2012-12-18/map.jpg" alt="The information architecture of discovery." />
+</figure>
 
 Remember the [Yahoo! Directory](http://dir.yahoo.com)? It was a hand-built taxonomy that allowed users to browse and discover Internet resources. By categorizing sites by topic and location, it became the definitive map of the World Wide Web. But at the turn of the millennium, Yahoo! transformed itself from a directory into a search engine. The task of organising so many disparate items into a single coherent structure had simply become too overwhelming. 
 
@@ -15,14 +17,18 @@ Yet despite the growing influence of search on our daily lives, relatively few n
 
 > That’s why Tony Russell-Rose and I set out to write _[Designing the Search Experience](http://designingthesearchexperience.com): the Information Architecture of Discovery_. 
 
+
 ##A new book for a new era
+
 For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. To help maintain our focus we established three guiding principles:
 
 1. **Integrated**: theoretical frameworks for human information seeking should be tightly integrated with practical design solutions, helping readers understand what, why, and how.
 2. **Holistic**: individual design patterns should be related to the overall user experience, and search itself re-framed within the broader context of analysis and discovery-oriented problem solving.
 3. **Readable**: The tone of voice should be informal and approachable, and the narrative driven by examples.
 
-<a href="http://designingthesearchexperience.com"><img src="http://tylertate.com/resources/images/2012-12-18/cover.jpg" width="382" class="onethirds-width" alt="The information architecture of discovery." /></a>
+<figure class="medium">
+	<a href="http://designingthesearchexperience.com"><img src="http://tylertate.com/resources/images/2012-12-18/cover.jpg" alt="The information architecture of discovery." /></a>
+</figure>
 
 ## Thank You
 But we haven’t worked alone. In particular, we’d like to thank [Cennydd Bowles](http://www.cennydd.co.uk), [James Kalbach](http://experiencinginformation.wordpress.com), and [Max Wilson](http://www.cs.nott.ac.uk/~mlw/) for their heroic efforts in reviewing every chapter and providing invaluable feedback all along the way. We are greatly in their debt.

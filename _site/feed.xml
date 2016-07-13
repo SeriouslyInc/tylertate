@@ -688,15 +688,6 @@
 			</item>
 		
 			<item>
-				<title>A Look Back at 2013</title>
-				<pubDate>Wed, 15 Jan 2014 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;2013 was a good year for Twigkit. We released exciting technology, worked with great customers and partners, participated in the search community, and grew our team.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2014/01/15/a-look-back-at-2013.html</link>
-				<guid>http://www.tylertate.com/blog/2014/01/15/a-look-back-at-2013.html</guid>
-			</item>
-		
-			<item>
 				<title>Information Wayfinding</title>
 				<pubDate>Thu, 07 Nov 2013 00:00:00 PST</pubDate>
 				<description>&lt;figure class=&quot;large&quot; style=&quot;margin-top: -1.43em;&quot;&gt;
@@ -1344,148 +1335,12 @@ For more on this topic, see:
 			</item>
 		
 			<item>
-				<title>Information Interaction as Spatial Problem Solving</title>
-				<pubDate>Wed, 20 Feb 2013 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;&lt;em&gt;A continuation of last week’s blog post, &lt;a href=&quot;http://tylertate.com/blog/2013/02/13/out-with-the-old-in-with-the-older.html&quot;&gt;Out with the Old, In with the Older&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;a-brief-history-of-wayfinding&quot;&gt;A brief history of wayfinding&lt;/h2&gt;
-&lt;p&gt;Kevin Lynch coined the term “wayfinding” in his 1960 book, &lt;em&gt;The Image of the City&lt;/em&gt;. Lynch recognized that one’s ability to navigate a city is closely related to how spatially oriented the person is within that city. He quantified this as a city’s “imagability”; that is, its likelihood of evoking a strong image in the observer, and therefore enhancing orientation.&lt;/p&gt;
-
-&lt;p&gt;Architect and environmental psychologist Romedi Passini further developed the concept of wayfinding in the 1970s and 80s, defining the term simply as “spatial problem solving.”&lt;/p&gt;
-
-&lt;h2 id=&quot;information-seeking-as-wayfinding&quot;&gt;Information seeking as wayfinding&lt;/h2&gt;
-&lt;p&gt;Wayfinding has much in common with how we know people to interact with information. In particular, Marcia Bates’s berrypicking model of information seeking portrays a process where, to paraphrase Peter Morville, what you find along the way changes what you seek. Likewise, Peter Pirolli and Stuart Card’s information foraging theory compares information seeking to rummaging for food in the forest, where users follow information scent as they sniff their way onwards. In both cases, information seeking is presented in terms of spatial problem solving.&lt;/p&gt;
-
-&lt;h2 id=&quot;on-metaphor&quot;&gt;On metaphor&lt;/h2&gt;
-&lt;p&gt;The metaphor we use to understand the web is a big deal. George Lakoff and Mark Johnson convey the importance of conceptual metaphors in their book &lt;em&gt;Metaphors We Live By&lt;/em&gt;: &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Our concepts structure what we perceive, how we get around in the world, and how we relate to other people. Our conceptual system thus plays a central role in defining our everyday realities. If we are right in suggesting that our conceptual system is largely metaphorical, then the way we think, what we experience, and what we do every day is very much a matter of metaphor.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;all-change-please&quot;&gt;All change please&lt;/h2&gt;
-&lt;p&gt;If we are to build modern information environments that are coherent — which are “imageable” and facilitate orientation — then we should embrace information wayfinding as a new spatial metaphor for the web.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2013/02/20/information-interaction-as-wayfinding.html</link>
-				<guid>http://www.tylertate.com/blog/2013/02/20/information-interaction-as-wayfinding.html</guid>
-			</item>
-		
-			<item>
-				<title>Out with the Old, In with the Older</title>
-				<pubDate>Wed, 13 Feb 2013 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;Browsing the web. Surfing the net. Navigating a website. Traversing a hierarchy. Going back. Scrolling up and down. Returning home. Our history of using computers to interact with information is littered with such metaphors. Haphazard though they may be, they highlight a universal truth of human psychology: we perceive the world — both physical and digital —  in spatial terms. As George A. Miller remarked:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Mankind evolved in a world of space and time. Our memories evolved to record events that transpire in space and time. Modern attempts to externalise and enlarge that memory should not, and probably need not, neglect its spatiotemporal dimensions.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This insight is as important today as when it was written in 1968. However, despite mankind’s age-old proclivity towards spatial organization, the majority of today’s web experiences are built to resemble a relatively more recent invention: the book.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-book&quot;&gt;The book&lt;/h2&gt;
-&lt;p&gt;Books are characterised by:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Pages of information organized into sections&lt;/li&gt;
-  &lt;li&gt;A table of contents that lists those sections&lt;/li&gt;
-  &lt;li&gt;An index of all the concepts mentioned throughout the book &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;the-website&quot;&gt;The website&lt;/h2&gt;
-&lt;p&gt;The architecture of most websites still follows this same pattern:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Pages of information organised into sections&lt;/li&gt;
-  &lt;li&gt;A navigation bar that lists those sections&lt;/li&gt;
-  &lt;li&gt;A search box for finding any concept mentioned on the website&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;an-outdated-metaphor&quot;&gt;An outdated metaphor&lt;/h2&gt;
-&lt;p&gt;This is understandable. As content shifted from print to digital in the early days of the web, the methods from the old medium were transferred to the new. While this may have been expedient, the practicality of the book metaphor has faded, and is now holding us back. Consider these two questions:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Why do most websites force users to choose between navigating and searching, rather than allowing them to do both in unison?&lt;/li&gt;
-  &lt;li&gt;Why do most websites not allow users to filter content by criteria such as date, format, price, or rating while browsing?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;It’s not because users don’t want it (more on this in a future post), or that the technology doesn’t exist. It’s simply because the architects of such websites are still applying book-like-thinking to a very un-book-like medium. They are tiptoeing around a local optimum rather than scouting out the mountain in the distance.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We need a metaphor for interacting with information that acknowledges the spatial reality of human psychology.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;looking-to-the-future&quot;&gt;Looking to the future&lt;/h2&gt;
-&lt;p&gt;The time has come to adopt a more appropriate metaphor for interacting with digital information, one that acknowledges the spatial reality of human psychology. It’s time to embrace  &lt;strong&gt;information wayfinding&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’m hoping to investigating the concept of information wayfinding over a series of upcoming posts, so stay tuned! In the meantime, I’d love to hear your thoughts about the ideas discussed so far.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2013/02/13/out-with-the-old-in-with-the-older.html</link>
-				<guid>http://www.tylertate.com/blog/2013/02/13/out-with-the-old-in-with-the-older.html</guid>
-			</item>
-		
-			<item>
 				<title>Information Seeking</title>
 				<pubDate>Tue, 12 Feb 2013 00:00:00 PST</pubDate>
 				<description>
 </description>
 				<link>http://www.tylertate.com/events/2013/02/12/information-seeking.html</link>
 				<guid>http://www.tylertate.com/events/2013/02/12/information-seeking.html</guid>
-			</item>
-		
-			<item>
-				<title>From the Page to the City: Quotations from Kevin Lynch&#39;s &#39;The Image of the City&#39;</title>
-				<pubDate>Tue, 05 Feb 2013 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2013-02-05/lynch-legend.jpg&quot; width=&quot;722&quot; class=&quot;normal-width&quot; alt=&quot;A legend from Kevin Lynch&#39;s book &#39;The Image of the City&#39;.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s time to think differently about how people interact with information. The dominant metaphor of the last five hundred years — the &lt;em&gt;page&lt;/em&gt; — is coming to a close, and a new metaphor is in order.&lt;/p&gt;
-
-&lt;p&gt;Of course, books were the universal repositories of information from the time of Gutenberg until the birth of the world wide web. Since then, web pages have been organized into websites with navigation and keyword search in the same way that printed pages were organized into books with a table of contents and an index. In other words, the page metaphor remains intact.&lt;/p&gt;
-
-&lt;p&gt;This year I hope to elaborate on why the page metaphor is holding us back, and explore the metaphor that is poised to replace it: namely, information interaction as &lt;strong&gt;spatial problem solving&lt;/strong&gt;, popularly known as &lt;strong&gt;wayfinding&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=19450&amp;amp;creativeASIN=0262620014&amp;amp;linkCode=as2&amp;amp;tag=dtse-21&quot;&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2013-02-05/the-image-of-the-city.jpg&quot; width=&quot;380&quot; class=&quot;onethirds-width&quot; style=&quot;float: right; margin: 0 -5% 1em 1em;&quot; alt=&quot;The Image of the City&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-image-of-the-city&quot;&gt;The Image of the City&lt;/h2&gt;
-
-&lt;p&gt;For now, I simply want to share a few excerpts from a book I’ve been reading: Kevin Lynch’s 1959 classic &lt;a href=&quot;http://www.amazon.co.uk/gp/product/0262620014/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=19450&amp;amp;creativeASIN=0262620014&amp;amp;linkCode=as2&amp;amp;tag=dtse-21&quot;&gt;The Image of the City&lt;/a&gt;. In it, Lynch investigates how to design cities that are conducive to wayfinding, a term coined in the opening pages of the book. While urban planners are the intended audience of the book, the parallels with information interaction are staggering. For example:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Not only is the city an object which is perceived (and perhaps enjoyed) by millions of people of widely diverse class and character, but it is the product of many builders who are constantly modifying the structure for reasons of their own. While it may be stable in general outlines for some time, it is ever changing in detail. Only partial control can be exercised over its growth and form. There is no final result, only a continuous succession of phases.”— Kevin Lynch&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;environmental-images&quot;&gt;Environmental Images&lt;/h2&gt;
-
-&lt;p&gt;The book stresses the importance of the “imageability” of a city, a quality that helps people build rich environmental images of their surroundings. The concept is very closely related mental models in user-centered design:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We must consider not just the city as a thing in itself, but the city being perceived by its inhabitants.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“In the process of way-finding, the strategic link is the environmental image, the generalized mental picture of the exterior physical world that is held by an individual.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“A good environmental image gives its possessor an important sense of emotional security. He can establish an harmonious relationship between himself and the outside world. This is the obverse of the fear that comes with disorientation.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;the-adaptable-image&quot;&gt;The Adaptable Image&lt;/h2&gt;
-
-&lt;p&gt;Lynch’s environmental images are also highly individual. As with information environments, at any given instant in the city “there is more than the eye can see, more than the ear can hear.” A key aspect of wayfinding is rapidly building environmental images and applying them for localized problem solving, much as a user might do when searching for information online:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The observer himself should play an active role in perceiving the world and have a creative part in developing his image.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The observer—with great adaptability and in the light of his own purposes—selects, organises, and endows with meaning what he sees.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;a-metaphor-for-the-future&quot;&gt;A Metaphor for the Future&lt;/h2&gt;
-
-&lt;p&gt;As the dominant metaphor of the web shifts from &lt;em&gt;the page&lt;/em&gt; to &lt;em&gt;spatial problem solving&lt;/em&gt;, I think there’s much we can learn about information interaction by studying how people find their way through the physical environment.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2013/02/05/from-the-page-to-the-city.html</link>
-				<guid>http://www.tylertate.com/blog/2013/02/05/from-the-page-to-the-city.html</guid>
 			</item>
 		
 			<item>
@@ -1512,7 +1367,9 @@ For more on this topic, see:
 			<item>
 				<title>Designing the Search Experience: The Book</title>
 				<pubDate>Tue, 18 Dec 2012 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-12-18/map.jpg&quot; width=&quot;712&quot; class=&quot;normal-width&quot; alt=&quot;The information architecture of discovery.&quot; /&gt;&lt;/p&gt;
+				<description>&lt;figure class=&quot;medium&quot;&gt;
+&lt;img src=&quot;http://tylertate.com/resources/images/2012-12-18/map.jpg&quot; alt=&quot;The information architecture of discovery.&quot; /&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;Remember the &lt;a href=&quot;http://dir.yahoo.com&quot;&gt;Yahoo! Directory&lt;/a&gt;? It was a hand-built taxonomy that allowed users to browse and discover Internet resources. By categorizing sites by topic and location, it became the definitive map of the World Wide Web. But at the turn of the millennium, Yahoo! transformed itself from a directory into a search engine. The task of organising so many disparate items into a single coherent structure had simply become too overwhelming. &lt;/p&gt;
 
@@ -1526,6 +1383,7 @@ For more on this topic, see:
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;a-new-book-for-a-new-era&quot;&gt;A new book for a new era&lt;/h2&gt;
+
 &lt;p&gt;For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. To help maintain our focus we established three guiding principles:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -1534,7 +1392,9 @@ For more on this topic, see:
   &lt;li&gt;&lt;strong&gt;Readable&lt;/strong&gt;: The tone of voice should be informal and approachable, and the narrative driven by examples.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://designingthesearchexperience.com&quot;&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-12-18/cover.jpg&quot; width=&quot;382&quot; class=&quot;onethirds-width&quot; alt=&quot;The information architecture of discovery.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;a href=&quot;http://designingthesearchexperience.com&quot;&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-12-18/cover.jpg&quot; alt=&quot;The information architecture of discovery.&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
 
 &lt;h2 id=&quot;thank-you&quot;&gt;Thank You&lt;/h2&gt;
 &lt;p&gt;But we haven’t worked alone. In particular, we’d like to thank &lt;a href=&quot;http://www.cennydd.co.uk&quot;&gt;Cennydd Bowles&lt;/a&gt;, &lt;a href=&quot;http://experiencinginformation.wordpress.com&quot;&gt;James Kalbach&lt;/a&gt;, and &lt;a href=&quot;http://www.cs.nott.ac.uk/~mlw/&quot;&gt;Max Wilson&lt;/a&gt; for their heroic efforts in reviewing every chapter and providing invaluable feedback all along the way. We are greatly in their debt.&lt;/p&gt;
@@ -1561,63 +1421,14 @@ This talk aims to achieve just that. You will learn about three characteristics 
 			</item>
 		
 			<item>
-				<title>The Future of Information</title>
-				<pubDate>Thu, 01 Nov 2012 00:00:00 PDT</pubDate>
-				<description>&lt;p&gt;Web pages are dead. The future of information—and how people interact with it—is undergoing a profound metamorphosis. Our eulogy must begin long before web pages were conceived. Before the Internet, there was the written word; the book was the preeminent artefact for disseminating and assimilating information.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-scroll-and-the-table-of-contents&quot;&gt;The Scroll and the Table of Contents&lt;/h2&gt;
-
-&lt;p&gt;In their early form, books were scrawled on scrolls. Scarcely a format conducive for rapidly jumping from place to place, scrolls were intended to be read linearly. Despite this constraint, the first tables of contents were developed for scroll manuscripts. In the first century A.D., for instance, Pliny the Elder preceded his 37-volume &lt;em&gt;Natural History&lt;/em&gt; with a detailed table of contents (Forsythe, 2012). Such tables distilled the contents of a work into a taxonomy of volumes, sections, and chapters so that a reader would not have to scroll through the entire work to find their topic of interest.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-printing-press-and-the-index&quot;&gt;The Printing Press and the Index&lt;/h2&gt;
-
-&lt;p&gt;It wasn’t until the advent of the printing press, however, that the taxonomical organisation of the book—the table of contents—was augmented with a secondary organisational scheme: the index (Wellisch, 1991). Having transformed leafless, handwritten scrolls into mass-market books with numbered pages, the printing press made it practical to create, replicate, and use an alphabetised index of topics. If the reader could not locate their topic of choice in the table of contents, they could look it up in the much more granular index and jump directly to the relevant page in the book.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-early-internet-and-the-web-page&quot;&gt;The Early Internet and the Web Page&lt;/h2&gt;
-
-&lt;p&gt;The early World Wide Web scarcely advanced this paradigm. The book had become the website, the table of contents had become the website’s navigation, and book pages had simply become web pages. Like the book that preceded it, the early website was a top-down construction: a rigid taxonomy of pages.&lt;/p&gt;
-
-&lt;p&gt;Of course, we quickly realised that these one-size-fits-all taxonomies, well, did not always fit everyone’s needs. To fix the problem, we bolted-on inferior site search tools and prepared A-Z indexes of topics. In other words, we did more or less the same thing that we’d been doing for the last five centuries.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-rise-of-faceted-search&quot;&gt;The Rise of Faceted Search&lt;/h2&gt;
-
-&lt;p&gt;But things were about to change. Half a century earlier, an Indian librarian had proposed a new way of organising information. Rather than use a rigid taxonomy, S. R. Ranganathan suggested that information should be categorised using multiple characteristics, what we now call “facets” (Tunkelang, 2009). By the early 2000s, information retrieval systems were beginning to augment keyword searches with faceted navigation.&lt;/p&gt;
-
-&lt;p&gt;In this revolutionary development, a person could finally access information not just through someone else’s top-down taxonomy or A-Z index, but by simply interacting with the facets that match their own mental model.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-pageless-future&quot;&gt;The Pageless Future&lt;/h2&gt;
-
-&lt;p&gt;But there’s a problem. Because faceted navigation was developed as an extension of search—and search itself was added to websites to provide an alternative to traditional web navigation—these two forms of navigation often still share an awkward co-existence. Users must choose whether to follow the website’s table of contents, or whether to turn to the faceted index.&lt;/p&gt;
-
-&lt;p&gt;In the future, this distinction will disappear. There is no need for a user to perform a keyword search in order to access faceted navigation; and there is nothing that traditional navigation accomplishes which faceted navigation does not also achieve. In other words, the table of contents and the index are destined to merge into one, faceted experience.&lt;/p&gt;
-
-&lt;p&gt;Indeed, we can see this future unfolding before us. When we use the Web to shop, pick out recipes, look for a house, find a job, or choose a film to watch, we already engage in faceted, pageless interactions.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-happy-ending&quot;&gt;A Happy Ending&lt;/h2&gt;
-
-&lt;p&gt;In this faceted future, there are no pages. The story that began millennia ago is finally coming to fruition: information is being liberated from the page—and the taxonomies, the fixed tables of contents—which bound them to a rigid existence. And users, unconstrained by foreign hierarchies, are finally free to explore information in its purest form.&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Forsythe, G. (2012). History of Information Retrieval. Retrieved from http://www.asindexing.org/i4a/pages/index.cfm?pageID=3300 on Oct 29, 2012.&lt;/li&gt;
-  &lt;li&gt;Wellisch, H. (1991). Indexing from A to Z. Hw Wilson Co.&lt;/li&gt;
-  &lt;li&gt;Tunkelang, D. (2009). Faceted Search. Synthesis Lectures on Information Concepts, Retrieval, and Services. Morgan &amp;amp; Claypool. p7.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2012/11/01/the-future-of-information.html</link>
-				<guid>http://www.tylertate.com/blog/2012/11/01/the-future-of-information.html</guid>
-			</item>
-		
-			<item>
-				<title>Designing Mobile Search</title>
-				<pubDate>Fri, 18 May 2012 00:00:00 PDT</pubDate>
+				<title>Design Principles for Mobile Search</title>
+				<pubDate>Sun, 01 Jul 2012 00:00:00 PDT</pubDate>
 				<description>&lt;p&gt;In 2010 there were more computers manufactured than mobile devices—but just barely. Starting in 2011, the number of smartphones and tablets began outpacing the number laptops and desktops being sold. While these devices are being purchased primarily by consumers rather than corporate IT departments, there’s a growing trend to Bring Your Own Device (BYOD) to work. Mobile devices are becoming ubiquitous—both at home and at work.&lt;/p&gt;
 
 &lt;p&gt;Search has long been the de facto method for interacting with information, and mobile devices are no different. Yet the temptation to replicate desktop-oriented user interface conventions on mobile devices is far from ideal. That’s why designing mobile search is an important topic.&lt;/p&gt;
 </description>
-				<link>http://www.tylertate.com/blog/2012/05/18/designing-mobile-search.html</link>
-				<guid>http://www.tylertate.com/blog/2012/05/18/designing-mobile-search.html</guid>
+				<link>http://www.tylertate.com/blog/2012/07/01/designing-mobile-search.html</link>
+				<guid>http://www.tylertate.com/blog/2012/07/01/designing-mobile-search.html</guid>
 			</item>
 		
 			<item>
@@ -1630,26 +1441,86 @@ This talk aims to achieve just that. You will learn about three characteristics 
 			</item>
 		
 			<item>
-				<title>On Consistency, Part 3: Cross-Channel Guidelines</title>
-				<pubDate>Wed, 21 Mar 2012 00:00:00 PDT</pubDate>
-				<description>&lt;p&gt;In &lt;a href=&quot;http://tylertate.com/blog/2012/03/08/on-consistency-three-levels.html&quot;&gt;Part 1&lt;/a&gt; I identified three &lt;em&gt;levels&lt;/em&gt; of consistency: internal, local, and external (analogous to creature, habitat, and ecosystem). In &lt;a href=&quot;http://tylertate.com/blog/2012/03/09/on-consistency-four-types.html&quot;&gt;Part 2&lt;/a&gt; I discussed four &lt;em&gt;types&lt;/em&gt; of consistency: functional, behavioral, organizational, and aesthetic.&lt;/p&gt;
+				<title>The Information Needs of Mobile Searchers</title>
+				<pubDate>Fri, 06 Apr 2012 00:00:00 PDT</pubDate>
+				<description>&lt;p&gt;Mobile is the new desktop. The adoption of mobile Internet makes the introduction of the World Wide Web seeming glacial by comparison; &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://www.morganstanley.com/institutional/techresearch/pdfs/Internet_Trends_041210.pdf&quot;&gt;Morgan Stanley&lt;/a&gt; predicts that mobile Internet usage will outpace desktop-based access in just three years.&lt;/p&gt;
 
-&lt;p&gt;In this third and final installment, I’d like to offer some very basic guidelines for appropriately aligning consistency across the multiple channels of an ecosystem.&lt;/p&gt;
+&lt;p&gt;Search—or &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://en.wikipedia.org/wiki/Information_seeking&quot;&gt;information seeking&lt;/a&gt; more broadly—is pivotal to circumnavigating this convergence of the digital and physical worlds. But before designing experiences for the new frontier, we must first grasp the needs of users. Specifically, we must understand the &lt;strong&gt;information needs&lt;/strong&gt; of mobile users.&lt;/p&gt;
 
-&lt;h2 id=&quot;functional&quot;&gt;Functional&lt;/h2&gt;
-&lt;p&gt;The function of a channel should be optimized for its own comparative advantage; in other words, what it has the potential of doing better than any other channel in the ecosystem. In this way, its function need not be externally &lt;em&gt;consistent&lt;/em&gt;, as much as it should be &lt;em&gt;complimentary&lt;/em&gt; to the rest of the ecosystem, yet internally consistent.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Information need is an individual or group’s desire to locate and obtain information to satisfy a conscious or unconscious need.” — &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://en.wikipedia.org/wiki/Information_needs&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id=&quot;behavioral&quot;&gt;Behavioral&lt;/h2&gt;
-&lt;p&gt;There is a behavioral tension between the local habitat—be it website conventions or operating system patterns—and the process flows of the ecosystem. Great effort should be exerted to reconcile these differences. Where perfect integration isn’t possible, erring on the side of local consistency is often the more conciliatory approach.&lt;/p&gt;
+&lt;h2 id=&quot;two-dimensions-scope-and-type&quot;&gt;Two dimensions: scope and type&lt;/h2&gt;
+&lt;p&gt;Mobile information needs can be assed by two criteria: scope and type. Scope describes the sophistication of the information need, the degree of higher-level thinking it involves, and the time commitment required to satisfy it. The lookup, learn, and investigate elements of scope are derived from &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://www.inf.unibz.it/~ricci/ISR/papers/p41-marchionini.pdf&quot;&gt;Gary Marchionini&lt;/a&gt;’s work on exploratory search, while the casual component has been more recently advocated by &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://www.cs.swansea.ac.uk/~csmax/pubs/HCIR2010.pdf&quot;&gt;Max Wilson&lt;/a&gt; and others.&lt;/p&gt;
 
-&lt;h2 id=&quot;organizational&quot;&gt;Organizational&lt;/h2&gt;
-&lt;p&gt;Organizational consistency should almost always favor the external ecosystem over the local or internal. Using a consistent organizational scheme across all channels of the ecosystem is one of the most important factors in delivering a seamless cross-channel experience.&lt;/p&gt;
+&lt;p&gt;Type, on the other hand, is concerned with the genre of the information being sought. &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://www.sigir.org/forum/F2002/broder.pdf&quot;&gt;Broder&lt;/a&gt; is often cited for recognizing the informational and transactional nature of many needs, while the geographic and personal information management goals identified by &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://irserver.ucd.ie/dspace/bitstream/10197/1209/1/church3.pdf&quot;&gt;Church &amp;amp; Smyth&lt;/a&gt; are especially prominent for mobile users.&lt;/p&gt;
 
-&lt;h2 id=&quot;aesthetic&quot;&gt;Aesthetic&lt;/h2&gt;
-&lt;p&gt;Aesthetics has major implications across all three levels. It should certainly maintain internal consistency. Yet there is again a tension between the local habitat and external ecosystem that must be carefully negotiated. While the aspects of the look and feel that involve branding, such as color, should be consistent with the ecosystem, the overriding style of the user interface should match its local habitat.&lt;/p&gt;
+&lt;h2 id=&quot;scope&quot;&gt;Scope&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Casual&lt;/strong&gt;. Undirected/semi-directed with a hedonistic rather than task-driven purpose.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lookup&lt;/strong&gt;. “Known item” searching for a concrete fact. Most common form of search.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Learn&lt;/strong&gt;. Iterative information gathering requiring greater interpretation and judgement.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Investigate&lt;/strong&gt;. Long-term research and planning demanding high-level of thinking.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;type&quot;&gt;Type&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Informational&lt;/strong&gt;. Any search for information about a topic.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Geographic&lt;/strong&gt;. Points of interest searching or retrieving directions between locations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Personal Information Management&lt;/strong&gt;. Private information not publicly available.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Transactional&lt;/strong&gt;. Goals which are action-oriented rather than informational.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-matrix-of-information-needs&quot;&gt;A matrix of information needs&lt;/h2&gt;
+
+&lt;p&gt;While the scope and type provide a framework, they don’t actually tell us about the information needs themselves. That’s where &lt;strong&gt;ethnography&lt;/strong&gt; comes in. &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://www.kevinli.net/mobileneeds.pdf&quot;&gt;Sohn et al.&lt;/a&gt; and &lt;a href=&quot;https://web.archive.org/web/20120201192440/http://irserver.ucd.ie/dspace/bitstream/10197/1209/1/church3.pdf&quot;&gt;Church &amp;amp; Smyth&lt;/a&gt; have each conducted diary studies in which smartphone-toting adults spread across the globe were instructed to record any information need that arose over a period of weeks. This research enables us to construct a matrix of mobile information needs:&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2011-12-06/mobile-information-needs-tyler-tate.png&quot; alt=&quot;A matrix of mobile information needs&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Below are quotes of information needs recorded by participants in the two studies mentioned above. Those without quotations indicate my own additions.&lt;/p&gt;
+
+&lt;h3 id=&quot;informational&quot;&gt;Informational&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Checking Notifications&lt;/strong&gt;. I’ll glance over status updates to kill time while waiting.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Trivia&lt;/strong&gt;. “What did Bob Marley die of, and when?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Information Gathering&lt;/strong&gt;. “How to tie correct knots in rope?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Research&lt;/strong&gt;. What is Keynesian economics and is it a good idea?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;geographic&quot;&gt;Geographic&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Friend Check-ins&lt;/strong&gt;. “Where are Sam and Trevor?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Directions&lt;/strong&gt;. “Directions to Sammy’s Pizza”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Local Points of Interest&lt;/strong&gt;. “Where is the nearest library or bookstore?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Travel Planning&lt;/strong&gt;. Flights, accommodations, and sights for my trip to Italy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;personal-information-management&quot;&gt;Personal Information Management&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Checking Messages&lt;/strong&gt;. “Email update for work”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Checking Calendar&lt;/strong&gt;. “Is there an open date on my family calendar?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Situation Analysis&lt;/strong&gt;. “What is my insurance coverage for CAT scans?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Personal Planning&lt;/strong&gt;. What should my New Year’s resolutions be this year?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;transactional&quot;&gt;Transactional&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;‘&lt;strong&gt;Window’ Shopping&lt;/strong&gt;. I don’t know what I want. Show me stuff.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Price Comparison&lt;/strong&gt;. “How much does the Pantech phone cost on AT&amp;amp;T.com?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Online Shopping&lt;/strong&gt;. I want to buy a watch as a gift. But which one?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Product Monitoring&lt;/strong&gt;. I know the make and model of used car I want. Alert me when new ones are listed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-penny-for-your-thoughts&quot;&gt;A penny for your thoughts?&lt;/h2&gt;
+&lt;p&gt;Though this matrix does accommodate the most common information needs identified by Sohn et al. and Church &amp;amp; Smyth, it is still a work in progress. As such, I would very much appreciate your feedback.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published on the Twigkit blog.&lt;/em&gt;&lt;/p&gt;
 </description>
-				<link>http://www.tylertate.com/blog/2012/03/21/on-consistency-part-3-guidelines-cross-channel-consistency.html</link>
-				<guid>http://www.tylertate.com/blog/2012/03/21/on-consistency-part-3-guidelines-cross-channel-consistency.html</guid>
+				<link>http://www.tylertate.com/blog/2012/04/06/mobile-information-needs.html</link>
+				<guid>http://www.tylertate.com/blog/2012/04/06/mobile-information-needs.html</guid>
 			</item>
 		
 			<item>
@@ -1675,7 +1546,9 @@ This talk aims to achieve just that. You will learn about three characteristics 
 
 &lt;p&gt;Once these basic components have been created, additional analysis can be added as needed. Here’s an example experience map I’ve created following these steps:&lt;/p&gt;
 
-&lt;div class=&quot;full-width&quot;&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-03-19/experience-map.png&quot; width=&quot;2933&quot; height=&quot;480&quot; alt=&quot;An example experience map&quot; /&gt;&lt;/div&gt;
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;http://tylertate.com/resources/images/2012-03-19/experience-map.png&quot; alt=&quot;An example experience map&quot; /&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;In summary, the experience map is an effective tool for understanding how users interact with an ecosystem, and is an ideal companion to the &lt;a href=&quot;http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html&quot;&gt;cross-channel blueprint&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1713,96 +1586,6 @@ This talk aims to achieve just that. You will learn about three characteristics 
 			</item>
 		
 			<item>
-				<title>On Consistency, Part 2: Four Types</title>
-				<pubDate>Fri, 09 Mar 2012 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;In &lt;a href=&quot;http://tylertate.com/blog/2012/03/08/on-consistency-three-levels.html&quot;&gt;part 1&lt;/a&gt; I outlined three common &lt;em&gt;levels&lt;/em&gt; of consistency: internal, local, and external (analogous to creature, habitat, ecosystem). Here I’d like to turn our attention to a second dimension: &lt;em&gt;type&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;While &lt;em&gt;level&lt;/em&gt; answers the question, “Is object A similar to object B?”, &lt;em&gt;type&lt;/em&gt; is concerned with: “&lt;em&gt;In what way&lt;/em&gt; is object A similar with object B?”&lt;/p&gt;
-
-&lt;h2 id=&quot;four-types-of-consistency&quot;&gt;Four types of consistency&lt;/h2&gt;
-&lt;p&gt;There are many ways to slice cakes and skin cats, yet these four types of consistency seem most relevant to cross-channel design:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Function&lt;/strong&gt;. &lt;em&gt;Purpose&lt;/em&gt;. The purpose of a print catalog is to encourage serendipitous discovery. The purpose of a retailer’s website is to facilitate both discovery and the lookup of known items.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Behavior&lt;/strong&gt;. &lt;em&gt;How it works&lt;/em&gt;. The interaction design. The process flow involved in completing a task.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;. &lt;em&gt;How it’s organized&lt;/em&gt;. The taxonomy driving both digital and physical wayfinding. For instance, the way in which products are organized in stores of both the online and brick-and-mortar sort.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Aesthetics&lt;/strong&gt;. &lt;em&gt;How it looks&lt;/em&gt;. The visual style.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;putting-the-pieces-together&quot;&gt;Putting the pieces together&lt;/h2&gt;
-&lt;p&gt;Breaking consistency down into its component parts is more than just a thought exercise. A careful consideration of the levels and types of consistency is central to designing seamless cross-channel experiences.&lt;/p&gt;
-
-&lt;p&gt;In particular, it’s useful to consider which levels and types of consistency should take precedence over others. A retailer creating an iPhone application, for instance, might decide that the &lt;em&gt;behavior&lt;/em&gt; should be consistent with its &lt;em&gt;local&lt;/em&gt; habitat (in this case, other iPhone apps), whereas the &lt;em&gt;organization&lt;/em&gt; scheme should match that of the &lt;em&gt;external&lt;/em&gt; ecosystem.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.tylertate.com/resources/images/2012-03-09/consistency-strategy.jpg&quot; width=&quot;712&quot; class=&quot;normal-width&quot; alt=&quot;A consistency diagram&quot; /&gt;
-&lt;em&gt;A consistency diagram.&lt;/em&gt;&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2012/03/09/on-consistency-four-types.html</link>
-				<guid>http://www.tylertate.com/blog/2012/03/09/on-consistency-four-types.html</guid>
-			</item>
-		
-			<item>
-				<title>On Consistency, Part 1: Three Levels</title>
-				<pubDate>Thu, 08 Mar 2012 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;Consistency is lauded as a staple ingredient of every good user experience; a fundamental principle of interaction design; a golden rule of the user interface. Yet it’s a heuristic that’s sometimes misunderstood and often oversimplified. Consistency is more complex than intuition would lead us to believe, rife with tension and competing forces, and often seemingly contradictory.&lt;/p&gt;
-
-&lt;h2 id=&quot;consistent-with-what&quot;&gt;Consistent with what?&lt;/h2&gt;
-&lt;p&gt;We often judge “that’s consistent” or “that’s inconsistent” without specifying the object of our comparison. Yet something may be both consistent and inconsistent &lt;em&gt;at the same time&lt;/em&gt;. The question is: consistent with what?&lt;/p&gt;
-
-&lt;p&gt;To date, the components of consistency have most often been described as internal, external, functional, and aesthetic (see &lt;a href=&quot;http://www.amazon.co.uk/Universal-Principles-Design-Usability-Perception/dp/1592530079&quot;&gt;Universal Principles of Design&lt;/a&gt;). I’d like to focus on just the first two in this post. Internal and external occupy two polarities of a single continuum that we can call the &lt;em&gt;level&lt;/em&gt; of consistency.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-03-08/continuum.jpg&quot; width=&quot;712&quot; class=&quot;normal-width&quot; alt=&quot;Three levels: internal, local, external&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The levels of consistency continuum.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;three-levels-of-consistency&quot;&gt;Three levels of consistency&lt;/h2&gt;
-&lt;p&gt;While the traditional continuum is useful, the points along that continuum deserve further exploration. In particular, we need to account for how consistency affects cross-channel experiences. In that light, I suggest that three points—not two—should underpin our thinking:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Internal&lt;/strong&gt;. The &lt;em&gt;creature&lt;/em&gt; itself. A specific website, application, or experience in isolation from all others.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Local&lt;/strong&gt;. The immediate &lt;em&gt;habitat&lt;/em&gt; in which a website, application, or experience coexists. It could be the web as a whole or a device’s operating system, for instance.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;External&lt;/strong&gt;. The &lt;em&gt;ecosystem&lt;/em&gt; encompassing the habitats in which the various websites, applications, and experiences reside.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-03-08/ecosystem.jpg&quot; width=&quot;712&quot; class=&quot;normal-width&quot; alt=&quot;Three levels: internal, local, external&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The three levels can be thought of in ecological terms: the creature, the habitat, and the ecosystem.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;lets-be-clear&quot;&gt;Let’s be clear&lt;/h2&gt;
-&lt;p&gt;From this vantage point we can rationalize how some forms of consistency should trump others. For instance, certain OS conventions—such as the visual style for buttons—should usually take precedence over ecosystem-wide consistency; the local application, on the other hand, should most often be subservient to ensuring a seamless experience across the ecosystem as a whole.&lt;/p&gt;
-
-&lt;p&gt;I hope to discuss a second dimension of consistency in a future post: &lt;em&gt;type&lt;/em&gt;.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2012/03/08/on-consistency-three-levels.html</link>
-				<guid>http://www.tylertate.com/blog/2012/03/08/on-consistency-three-levels.html</guid>
-			</item>
-		
-			<item>
-				<title>UX, CX, and Service Design: Employees Are Customers Too</title>
-				<pubDate>Wed, 07 Mar 2012 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;User experience design is growing up. We’ve finally realized that UX is less about creating end-all-be-all websites, and more about designing cross-channel ecosystems that encompass both the digital and physical.&lt;/p&gt;
-
-&lt;h2 id=&quot;multi-disciplinary-is-good&quot;&gt;Multi-disciplinary is Good&lt;/h2&gt;
-&lt;p&gt;As part of this journey, we’ve wisely been reaching out to other disciplines for inspiration. &lt;em&gt;Service design&lt;/em&gt; has taught us to consider customer journeys from touchpoint to touchpoint across multiple channels. &lt;em&gt;Customer experience design&lt;/em&gt; has encouraged us to put our business hats on and align user experience with business strategy. Both of these disciplines exert a positive influence on user experience design.&lt;/p&gt;
-
-&lt;h2 id=&quot;customers-arent-the-only-users&quot;&gt;Customers aren’t the only users&lt;/h2&gt;
-&lt;p&gt;Yet there is one flaw in all of this. As we’ve been striving towards cross-channel design, mapping customer journeys, and dwelling on customer experience, our thinking has been invariably focused on just that: &lt;em&gt;customers&lt;/em&gt;. This is unsurprising—retailers with both online and brick-and-mortar presences are a natural birthplace for such innovation. Yet we must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We must avoid assuming that strategic, cross-channel experiences belong exclusively to the consumer.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;meet-mr-employee&quot;&gt;Meet Mr. Employee&lt;/h2&gt;
-&lt;p&gt;In particular, seamless cross-channel experiences are vital to &lt;em&gt;employees&lt;/em&gt; as well. Imagine a doctor moving between his private office, the clinic hallway, and the patient’s consulting room. Or an engineer moving from the design lab, to the assembly room, to the testing facility. Or a sales person rarely at her desk who stops off at coffee shops between sales calls. Understanding the user’s journey and designing effective cross-channel experiences is just as important for employees as it is for customers.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-point&quot;&gt;My point?&lt;/h2&gt;
-&lt;p&gt;It’s not that we have nothing to learn from service design or customer experience design, quite the contrary. However, let’s not turn UX design into a discipline focused solely on &lt;em&gt;customers&lt;/em&gt;; let’s keep designing for &lt;em&gt;users&lt;/em&gt; of all sorts.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2012/03/07/employees-are-customers-too.html</link>
-				<guid>http://www.tylertate.com/blog/2012/03/07/employees-are-customers-too.html</guid>
-			</item>
-		
-			<item>
 				<title>Cross-Channel Blueprints: A tool for modern IA</title>
 				<pubDate>Tue, 21 Feb 2012 00:00:00 PST</pubDate>
 				<description>&lt;p&gt;The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect’s skillset is well-suited for this new challenge, our existing tools are not.&lt;/p&gt;
@@ -1823,9 +1606,10 @@ This talk aims to achieve just that. You will learn about three characteristics 
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/service-blueprint-brandonschauer.png&quot; width=&quot;712&quot; class=&quot;normal-width&quot; alt=&quot;A service blueprint by Brandon Schauer&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;A service blueprint created by &lt;a href=&quot;http://www.flickr.com/photos/brandonschauer/3363169836/&quot;&gt;Brandon Schauer&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/service-blueprint-brandonschauer.png&quot; width=&quot;712&quot; class=&quot;normal-width&quot; alt=&quot;A service blueprint by Brandon Schauer&quot; /&gt;
+	&lt;figcaption&gt;A service blueprint created by [Brandon Schauer](http://www.flickr.com/photos/brandonschauer/3363169836/).&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h2 id=&quot;what-do-we-need-then&quot;&gt;What do we need, then?&lt;/h2&gt;
 
@@ -1845,17 +1629,19 @@ This talk aims to achieve just that. You will learn about three characteristics 
 
 &lt;h2 id=&quot;a-starting-point&quot;&gt;A starting point&lt;/h2&gt;
 
+&lt;figure class=&quot;small&quot;&gt;
+	&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg&quot; width=&quot;475&quot; class=&quot;twothirds-width&quot; alt=&quot;The CHU Cube&quot; /&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://pervasiveia.com/&quot;&gt;Resmini and Rosati&#39;s&lt;/a&gt; CHU cube.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;What would a tool that aimed to facilitate consistent, optimized, continuous cross-channel planning look like? In &lt;a href=&quot;http://pervasiveia.com/&quot;&gt;Pervasive Information Architecture&lt;/a&gt;, Resmini and Rosati presented their CHU cube which places &lt;em&gt;tasks&lt;/em&gt; and &lt;em&gt;channels&lt;/em&gt; each on their own axes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg&quot; width=&quot;475&quot; class=&quot;twothirds-width&quot; alt=&quot;The CHU Cube&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://pervasiveia.com/&quot;&gt;Resmini and Rosati’s&lt;/a&gt; CHU cube plots channels, heuristics, and tasks using three dimensions.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Ammendment: &lt;em&gt;After publishing this post, &lt;a href=&quot;https://twitter.com/#!/lowresolution&quot;&gt;Gianluca Brugnoli&lt;/a&gt; of Frog Design pointed out its resemblence to the &lt;a href=&quot;http://www.servicedesigntools.org/tools/108&quot;&gt;Touchpoints Matrix&lt;/a&gt; he himself developed in 2009. I hadn’t come across this tool before, but the similarity is striking.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png&quot; width=&quot;712&quot; class=&quot;normal-width&quot; alt=&quot;The Touchpoints Matrix by Gianluca Brugnoli&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The Touchpoints Matrix by Gianluca Brugnoli&lt;/em&gt;&lt;/p&gt;
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png&quot; width=&quot;712&quot; class=&quot;normal-width&quot; alt=&quot;The Touchpoints Matrix by Gianluca Brugnoli&quot; /&gt;
+	&lt;figcaption&gt;The Touchpoints Matrix by Gianluca Brugnoli.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h2 id=&quot;building-on-the-foundation&quot;&gt;Building on the foundation&lt;/h2&gt;
 
@@ -1868,7 +1654,9 @@ This talk aims to achieve just that. You will learn about three characteristics 
   &lt;li&gt;&lt;strong&gt;Identify shared components&lt;/strong&gt;—these are listed in a bottom row&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/cross-channel-blueprint.png&quot; width=&quot;1030&quot; class=&quot;full-width&quot; alt=&quot;A Cross-Channel Blueprint&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/cross-channel-blueprint.png&quot; width=&quot;1030&quot; class=&quot;full-width&quot; alt=&quot;A Cross-Channel Blueprint&quot; /&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;I call this a &lt;em&gt;cross-channel blueprint&lt;/em&gt;. The exercise can be performed by a lone designer or collaboratively with sticky notes or in front of a whiteboard. It brings about:&lt;/p&gt;
 
@@ -1899,15 +1687,6 @@ This talk aims to achieve just that. You will learn about three characteristics 
 </description>
 				<link>http://www.tylertate.com/blog/2012/01/23/three-circles-of-collaborative-search.html</link>
 				<guid>http://www.tylertate.com/blog/2012/01/23/three-circles-of-collaborative-search.html</guid>
-			</item>
-		
-			<item>
-				<title>Design Principles for Mobile Search</title>
-				<pubDate>Fri, 13 Jan 2012 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;Apple’s iOS Human Interface Guidelines, Google’s Android Design Guidlines, and others such as Luke Wroblewski’s Mobile First book provide valuable guidance for designing general mobile applications. Yet there are a number of design principles unique to crafting mobile search experiences in particular. Namely: prioritizing content over controls, providing answers over results, being sensitive to context, and ensuring cross-channel continuity.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2012/01/13/design-principles-mobile-search.html</link>
-				<guid>http://www.tylertate.com/blog/2012/01/13/design-principles-mobile-search.html</guid>
 			</item>
 		
 			<item>
@@ -1994,15 +1773,6 @@ margin: 0 @computedMargin;
 			</item>
 		
 			<item>
-				<title>Mobile Information Needs</title>
-				<pubDate>Tue, 06 Dec 2011 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;Mobile information needs can be assed by two criteria: scope and type. Scope describes the sophistication of the information need, the degree of higher-level thinking it involves, and the time commitment required to satisfy it. The lookup, learn, and investigate elements of scope are derived from Gary Marchionini’s work on exploratory search, while the casual component has been more recently advocated by Max Wilson and others.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2011/12/06/mobile-information-needs.html</link>
-				<guid>http://www.tylertate.com/blog/2011/12/06/mobile-information-needs.html</guid>
-			</item>
-		
-			<item>
 				<title>Designing Mobile Search</title>
 				<pubDate>Tue, 22 Nov 2011 00:00:00 PST</pubDate>
 				<description>
@@ -2027,27 +1797,6 @@ margin: 0 @computedMargin;
 </description>
 				<link>http://www.tylertate.com/blog/2011/10/13/book-review-search-analytics.html</link>
 				<guid>http://www.tylertate.com/blog/2011/10/13/book-review-search-analytics.html</guid>
-			</item>
-		
-			<item>
-				<title>From physical to digital to ubiquitous</title>
-				<pubDate>Tue, 11 Oct 2011 00:00:00 PDT</pubDate>
-				<description>&lt;p&gt;The invention of the printing press transformed the physical object that is the book from an artefact of human transcription to that of mass production. By 1500, just 40 years after Gutenberg’s invention, an estimated 150 to 200 million copies had rolled off the press; a century later, the by then pervasive technology led to the rise of a new medium: the newspaper. This was the era of information as physical object.&lt;/p&gt;
-
-&lt;p&gt;More recently, mass adoption of the world wide web and the plethora of Internet-connected devices has led to digital information augmenting and, to a certain degree, displacing the physical. News was consumed online rather than on paper, new mediums of self expression arose from the blog to the social networks, and a new pair of shoes could be acquired without ever stepping foot in a store.&lt;/p&gt;
-
-&lt;p&gt;We are now on the cusp of yet another technological sea change. The pendulum which swung from physical to digital is swinging back to the real world, but this time, information is formless, contextual, and ubiquitous. In their book &lt;a href=&quot;http://pervasiveia.com/&quot;&gt;Pervasive Information Architecture&lt;/a&gt;, Andrea Resmini and Luca Rosati describe this brave new world of ubiquitous computing:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Information is going everywhere. It is bleeding out of the Internet and out of personal computers, and it is being embedded into the real world. Mobile devices, networked resources, and real-time information systems are making our interactions with information constant and ubiquitous. Information is becoming pervasive.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The future lies in cross-channel experiences. Interactions in which the technology fades to the background and the personal, physical, and social context of the present mediate the devices and methods with which we interact with information.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;You know the Hemingway line, “Write all the story, take out all the good lines, and see if it still works”? Well, I’m posting these simple thoughts here because I just deleted them from a longer piece, but still wanted them to see the light of day.&lt;/em&gt;&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2011/10/11/from-physical-to-digital-to-ubiquitous.html</link>
-				<guid>http://www.tylertate.com/blog/2011/10/11/from-physical-to-digital-to-ubiquitous.html</guid>
 			</item>
 		
 			<item>
@@ -2165,7 +1914,55 @@ margin: 0 @computedMargin;
 			<item>
 				<title>Search as a Flow Experience</title>
 				<pubDate>Wed, 09 Feb 2011 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;When was the last time that you were “in the zone”? Do you remember being so absorbed in an activity that you forgot about the outside world, time seemed to fade away, and you felt invigorated? Maybe you’re an avid tennis player and remember a rigorous game when you seemed on fire. Or perhaps you’re a musician and recall feeling as if the notes were flowing through your fingertips. Psychologist Mihaly Csikszentmihalyi calls this state of optimal experience flow. In his research, he found that musicians, composers, athletes, and even chess players all used the same words to explain their enjoyment. Csikszentmihalyi identified 8 elements that contribute to a flow experience.&lt;/p&gt;
+				<description>&lt;p&gt;When was the last time that you were “in the zone”? Do you remember being so absorbed in an activity that you forgot about the outside world, time seemed to fade away, and you felt invigorated? Maybe you’re an avid tennis player and remember a rigorous game when you seemed on fire. Or perhaps you’re a musician and recall feeling as if the notes were flowing through your fingertips.&lt;/p&gt;
+
+&lt;p&gt;Psychologist &lt;a href=&quot;https://web.archive.org/web/20140806021501/http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi&quot;&gt;Mihaly Csikszentmihalyi&lt;/a&gt; calls this state of optimal experience &lt;a href=&quot;https://web.archive.org/web/20140806021501/http://www.julieboyd.com.au/ILF/pages/members/cats/bkovervus/per_growth_pdfs/flow.pdf&quot;&gt;flow&lt;/a&gt;. In his research, he found that musicians, composers, athletes, and even chess players all used the same words to explain their enjoyment. Csikszentmihalyi identified 8 elements that contribute to a flow experience:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clear goals&lt;/li&gt;
+  &lt;li&gt;Concentration&lt;/li&gt;
+  &lt;li&gt;A loss of self-consciousness&lt;/li&gt;
+  &lt;li&gt;Lost sense of time&lt;/li&gt;
+  &lt;li&gt;Immediate feedback&lt;/li&gt;
+  &lt;li&gt;An adequate level of challenge&lt;/li&gt;
+  &lt;li&gt;A feeling of control&lt;/li&gt;
+  &lt;li&gt;Intrinsically rewarding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Flow certainly has its roots in the physical world, but it happens on the web as well. &lt;a href=&quot;https://web.archive.org/web/20140806021501/http://bear.warrington.ufl.edu/weitz/mar7786/Articles/online%20expereince%20flow.pdf&quot;&gt;Hoffman and Novak&lt;/a&gt; describe flow in the digital world as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The state occurring during network navigation which is characterized by a seamless sequence of responses facilitated by machine interactivity, is intrinsically enjoyable, is accompanied by a loss of self-consciousness, and is self-reinforcing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Search is particularly ripe for facilitating flow. Search results respond to the user as the user responds to the search results, entering a dance as each influences the other in an ongoing, two-step tango.&lt;/p&gt;
+
+&lt;p&gt;But that’s when everything goes right. Far too often, things go wrong. The user can’t figure out how to express his information need, or the search engine can’t find the right documents. What then?&lt;/p&gt;
+
+&lt;p&gt;Above all, users need to feel like they’re always headed in the right direction. There are four principles than can guide us in designing search experiences that always provide a next step for a users, helping them enter a state of flow.&lt;/p&gt;
+
+&lt;h2 id=&quot;help-users-form-their-query&quot;&gt;Help users form their query&lt;/h2&gt;
+&lt;p&gt;It’s easier to pick something from of a list than it is too pull it out of then air, so use the power of suggestion to help users get off on the right foot. Autocomplete, bookmarks, and saved searches can all help.&lt;/p&gt;
+
+&lt;h2 id=&quot;help-users-review-the-results&quot;&gt;Help users review the results&lt;/h2&gt;
+&lt;p&gt;Once the user has entered the initial query, they’ll then (hopefully) have a list of results to review. The most important consideration is to have descriptive titles for each result (hint: filenames usually make for poor titles). “Hit highlighting” can help the eye quickly parse the results for important words, and grouping similar results together has been shown to improve productivity.&lt;/p&gt;
+
+&lt;h2 id=&quot;help-users-reformulate-their-query&quot;&gt;Help users reformulate their query&lt;/h2&gt;
+&lt;p&gt;After reviewing the results, the user may find the answer he’s looking for, click on one of the results for more information, give up unsuccessfully, or — what often happens — try a slightly different search. Showing related searches, providing sort controls, and offering faceted navigation can help make sure the user always has a way forward.&lt;/p&gt;
+
+&lt;h2 id=&quot;help-users-recover-gracefully&quot;&gt;Help users recover gracefully&lt;/h2&gt;
+&lt;p&gt;The worse thing that can ever happen in a search interface is for there to not be any search results. Try everything to avoid it. Automatic spelling corrections, stemming, lemmatisation and other query expansion techniques can all help alleviate this situation. Just be sure to clearly notify the user if you change their query without asking them.&lt;/p&gt;
+
+&lt;p&gt;In the words of Csikszentmihalyi:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The combination of all these elements causes a sense of deep enjoyment that is so rewarding people feel that expending a great deal of energy is worthwhile simply to be able to feel it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-slides&quot;&gt;The Slides&lt;/h2&gt;
+&lt;p&gt;I presented this material as a talk at a UX Brighton meetup on February 8, 2010. Thanks to &lt;a href=&quot;http://twitter.com/harrybr&quot;&gt;Harry Brignull&lt;/a&gt; for inviting me to speak alongside Tony Russell-Rose and Glenn Jones.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published on the Twigkit blog.&lt;/em&gt;&lt;/p&gt;
 </description>
 				<link>http://www.tylertate.com/blog/2011/02/09/search-as-a-flow-experience.html</link>
 				<guid>http://www.tylertate.com/blog/2011/02/09/search-as-a-flow-experience.html</guid>
@@ -2178,15 +1975,6 @@ margin: 0 @computedMargin;
 </description>
 				<link>http://www.tylertate.com/events/2011/02/08/search-as-a-flow-experience.html</link>
 				<guid>http://www.tylertate.com/events/2011/02/08/search-as-a-flow-experience.html</guid>
-			</item>
-		
-			<item>
-				<title>A Review of Foodily’s Recipe Search</title>
-				<pubDate>Sat, 05 Feb 2011 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;This past week I discovered a new recipe search engine called Foodily. Both the interaction and the visual design are superb, and Foodily makes use of several novel patterns that I thought would be worth pointing out.&lt;/p&gt;
-</description>
-				<link>http://www.tylertate.com/blog/2011/02/05/a-review-of-foodilys-recipe-search.html</link>
-				<guid>http://www.tylertate.com/blog/2011/02/05/a-review-of-foodilys-recipe-search.html</guid>
 			</item>
 		
 			<item>
@@ -2374,6 +2162,81 @@ margin: 0 @computedMargin;
 				<title>A Bright New Future for CRM</title>
 				<pubDate>Tue, 27 Apr 2010 00:00:00 PDT</pubDate>
 				<description>&lt;p&gt;We’ve been putting together a small slide deck explaining what’s wrong with customer relationship management (CRM) as we know it, and how Nutshell is getting it right. Fortunately for us, there’s a whole lot of room for improvement.&lt;/p&gt;
+
+&lt;h2 id=&quot;crm-is-broken&quot;&gt;CRM is Broken&lt;/h2&gt;
+&lt;p&gt;Sales software is in a pretty dire state. The current CRM market offers dated, difficult-to-use products that don’t work as well as they should. Specifically:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Poor Usability&lt;/strong&gt;. CRMs have added one complicated feature after another, but continually fail at making software usable.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Double Entry&lt;/strong&gt;. People must schedule events in Outlook, then re-enter the same activities in the CRM.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Painful Reporting&lt;/strong&gt;. It takes a computer scientist to generate a meaningful report with most CRMs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Unstructured Data&lt;/strong&gt;. CRMs don’t provide enough structure to accommodate common data such as products and competitors.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Difficult Setup&lt;/strong&gt;. CRMs often take a full-time professional weeks of installation, followed by ongoing maintenance.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shared Usernames&lt;/strong&gt;. CRMs encourage sales teams to share accounts, hurting accountability and personalization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We think we can do better.&lt;/p&gt;
+
+&lt;h2 id=&quot;technological-progress&quot;&gt;Technological Progress&lt;/h2&gt;
+&lt;p&gt;The last decade saw the rise of the smartphone, social networking, and rich web applications. That’s where we come in. Unlike other CRMs on the market, we take full advantage of modern tools and technologies to make CRM both more useful and more usable.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2010-04-27/2-tech-progress.png&quot; alt=&quot;Technological progress&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;access-anywhere&quot;&gt;Access Anywhere&lt;/h2&gt;
+&lt;p&gt;On your phone while you take the elevator, on your iPad during your cab ride, or on your laptop at the cafe. Nutshell is hosted in the cloud and provided as software as a service, so it’s accessible everywhere. And with our native iPhone app, Nutshell is as mobile as you are. (You can even use it at the office.)&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2010-04-27/3-access-anywhere.png&quot; alt=&quot;Access anywhere&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;managing-the-sales-process&quot;&gt;Managing the Sales Process&lt;/h2&gt;
+&lt;p&gt;Every good sales team has a process. Nutshell facilitates that sales process by putting you in control. Define milestones and steps – complete with actions, delays, prerequisites and forms – to build, manage, and monitor the perfect sales process for your organization.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2010-04-27/4-manage-sales-process.png&quot; alt=&quot;Manage the sales process&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;powerful-reporting&quot;&gt;Powerful Reporting&lt;/h2&gt;
+&lt;p&gt;From historic sales reporting, to sales forecasting, to advanced custom reports, always know exactly where your business stands with Nutshell.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2010-04-27/5-reporting.png&quot; alt=&quot;Powerful reporting&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;cloud-infrastructure&quot;&gt;Cloud Infrastructure&lt;/h2&gt;
+&lt;p&gt;Each of our data centers in America and Europe are a high-availability cluster. Put together, they offer transatlantic redundancy and 99.999% uptime.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2010-04-27/6-cloud.png&quot; alt=&quot;Cloud infrastructure&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;be-in-control-of-your-data&quot;&gt;Be In Control of Your Data&lt;/h2&gt;
+&lt;p&gt;With our full-featured API, you can integrate Nutshell with existing business systems and third party tools.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2010-04-27/7-in-control.png&quot; alt=&quot;Be in control of your data&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;a-good-digital-citizen&quot;&gt;A Good Digital Citizen&lt;/h2&gt;
+&lt;p&gt;There’s no need to reinvent your organization’s email, calendaring, and security models. Nutshell tightly integrates with your organization’s current technology.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2010-04-27/8-good-citizen.png&quot; alt=&quot;A good digital citizen&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;who-we-are&quot;&gt;Who We Are&lt;/h2&gt;
+&lt;p&gt;Nutshell’s board boasts years of business, technology, and sales experience. Operating out of Ann Arbor and London, the Nutshell team includes specialists in business management, design, software development, and network infrastructure.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/2010-04-27/9-us.png&quot; alt=&quot;Who we are&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;whats-in-store&quot;&gt;What’s in Store&lt;/h2&gt;
+&lt;p&gt;We are busy building Nutshell and look forward to showing you more in the near future. If you’re ready to turn your department into a sales dream team, then watch this space.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published on the Nutshell blog.&lt;/em&gt;&lt;/p&gt;
 </description>
 				<link>http://www.tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html</link>
 				<guid>http://www.tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html</guid>

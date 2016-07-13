@@ -16,9 +16,10 @@ Imported from the field of service design, G. Lynn Shostack's _service blueprint
 
 * **Meant for a different purpose**. With their lines of interaction, visibility, and internal visibility, service blueprints simply weren't intended to be used for planning cross-channel information architecture 
 
-<img src="http://tylertate.com/resources/images/2012-02-21/service-blueprint-brandonschauer.png" width="712" class="normal-width" alt="A service blueprint by Brandon Schauer" />
-
-*A service blueprint created by [Brandon Schauer](http://www.flickr.com/photos/brandonschauer/3363169836/).*
+<figure class="medium">
+	<img src="http://tylertate.com/resources/images/2012-02-21/service-blueprint-brandonschauer.png" width="712" class="normal-width" alt="A service blueprint by Brandon Schauer" />
+	<figcaption>A service blueprint created by [Brandon Schauer](http://www.flickr.com/photos/brandonschauer/3363169836/).</figcaption>
+</figure>
 
 ##What do we need, then?
 
@@ -32,17 +33,19 @@ Before brainstorming solutions, we should clarify the problem. Andrea Resmini an
 
 ##A starting point
 
+<figure class="small">
+	<img src="http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg" width="475" class="twothirds-width" alt="The CHU Cube" />
+	<figcaption><a href="http://pervasiveia.com/">Resmini and Rosati's</a> CHU cube.</figcaption>
+</figure>
+
 What would a tool that aimed to facilitate consistent, optimized, continuous cross-channel planning look like? In [Pervasive Information Architecture](http://pervasiveia.com/), Resmini and Rosati presented their CHU cube which places *tasks* and *channels* each on their own axes.
-
-<img src="http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg" width="475" class="twothirds-width" alt="The CHU Cube" />
-
-*[Resmini and Rosati's](http://pervasiveia.com/) CHU cube plots channels, heuristics, and tasks using three dimensions.*
 
 Ammendment: *After publishing this post, [Gianluca Brugnoli](https://twitter.com/#!/lowresolution) of Frog Design pointed out its resemblence to the [Touchpoints Matrix](http://www.servicedesigntools.org/tools/108) he himself developed in 2009. I hadn't come across this tool before, but the similarity is striking.*
 
-<img src="http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png" width="712" class="normal-width" alt="The Touchpoints Matrix by Gianluca Brugnoli" />
-
-*The Touchpoints Matrix by Gianluca Brugnoli*
+<figure class="medium">
+	<img src="http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png" width="712" class="normal-width" alt="The Touchpoints Matrix by Gianluca Brugnoli" />
+	<figcaption>The Touchpoints Matrix by Gianluca Brugnoli.</figcaption>
+</figure>
 
 ##Building on the foundation
 
@@ -54,7 +57,9 @@ Juxtaposing tasks and channels is a useful starting point, though the CHUbe's mu
 4. **Identify shared components**—these are listed in a bottom row
 
 
-<img src="http://tylertate.com/resources/images/2012-02-21/cross-channel-blueprint.png" width="1030" class="full-width" alt="A Cross-Channel Blueprint" />
+<figure class="large">
+	<img src="http://tylertate.com/resources/images/2012-02-21/cross-channel-blueprint.png" width="1030" class="full-width" alt="A Cross-Channel Blueprint" />
+</figure>
 
 
 I call this a *cross-channel blueprint*. The exercise can be performed by a lone designer or collaboratively with sticky notes or in front of a whiteboard. It brings about:
