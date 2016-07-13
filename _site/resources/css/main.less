@@ -498,8 +498,8 @@ figure.my-photo {
 		overflow: hidden;
 	}
 	.post-title {
-		.column(11);
-		.push(3);
+		.column(12);
+		.push(2);
 		.pull(2);
 		margin-bottom: 1.667em;
 		font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -509,8 +509,8 @@ figure.my-photo {
 		color: @dark-brown;
 	}
 	.post-date {
-		.column(10);
-		.push(4);
+		.column(12);
+		.push(2);
 		.pull(2);
 		margin-top: 5em;
 		margin-bottom: 1em;
@@ -527,8 +527,8 @@ figure.my-photo {
 	}
 	.post-content {
 		.column(10);
-		.push(4);
-		.pull(2);
+		.push(3);
+		.pull(3);
 	}
 	#disqus_thread {
 		margin-top: 6em;
@@ -542,8 +542,8 @@ figure.my-photo {
 		color: @dark-tan;
 	}
 	.small {
-		.column(4,10);
-		.push(-4,10);
+		.column(3,10);
+		.push(-3,10);
 		margin-bottom: 1em;
 		clear: both;
 
@@ -552,7 +552,10 @@ figure.my-photo {
 		}
 	}
 	.medium {
-		width: 100%;
+		.column(11,10);
+		.push(-1,10);
+		.pull(-1,10);
+		float: none;
 		margin-top: 2em;
 		margin-bottom: 2em;
 
@@ -562,8 +565,9 @@ figure.my-photo {
 	}
 	.large {
 		.column(16,10);
-		.push(-4,10);
-		.pull(-2,10);
+		.push(-3,10);
+		.pull(-3,10);
+		float: none;
 		margin-top: 2em;
 		margin-bottom: 2em;
 
@@ -572,66 +576,64 @@ figure.my-photo {
 		}
 	}
 
-	@media screen and (min-width: 72em) {
-		.post-date,
-		.post-content {
-			.column(9);
-			.push(4);
-			.pull(3);
-		}
-		.small {
-			.column(4,9);
-			.push(-4,9);
-		}
-		.large {
-			.column(16,9);
-			.push(-4,9);
-			.pull(-3,9);
-		}
-		.post-title {
-			.column(11);
-			.push(3);
-			.pull(2);
-		}
-	}
-	@media screen and (min-width: 85em) {
-		.post-date,
-		.post-content {
-			.column(8);
-			.push(4);
-			.pull(4);
-		}
-		.small {
-			.column(4,8);
-			.push(-4,8);
-		}
-		.large {
-			.column(16,8);
-			.push(-4,8);
-			.pull(-4,8);
-		}
-		.post-title {
-			.column(10);
-			.push(3);
-			.pull(3);
-		}
-	}
+	// @media screen and (min-width: 72em) {
+	// 	.post-date,
+	// 	.post-content {
+	// 		.column(9);
+	// 		.push(4);
+	// 		.pull(3);
+	// 	}
+	// 	.small {
+	// 		.column(4,9);
+	// 		.push(-4,9);
+	// 	}
+	// 	.large {
+	// 		.column(16,9);
+	// 		.push(-4,9);
+	// 		.pull(-3,9);
+	// 	}
+	// 	.post-title {
+	// 		.column(11);
+	// 		.push(3);
+	// 		.pull(2);
+	// 	}
+	// }
+	// @media screen and (min-width: 85em) {
+	// 	.post-date,
+	// 	.post-content {
+	// 		.column(8);
+	// 		.push(4);
+	// 		.pull(4);
+	// 	}
+	// 	.small {
+	// 		.column(4,8);
+	// 		.push(-4,8);
+	// 	}
+	// 	.large {
+	// 		.column(16,8);
+	// 		.push(-4,8);
+	// 		.pull(-4,8);
+	// 	}
+	// 	.post-title {
+	// 		.column(10);
+	// 		.push(3);
+	// 		.pull(3);
+	// 	}
+	// }
 
 	@media screen and (max-width: 60em) {
+
 		.post-date,
 		.post-content {
 			.column(11);
 			.push(3);
 			.pull(2);
-		}
-		.small {
-			.column(5,11);
-			.push(-3,11);
 		}
 		.large {
 			.column(16,11);
 			.push(-3,11);
 			.pull(-2,11);
+			float: none;
 		}
 		.post-title {
 			.column(12);
@@ -658,13 +660,17 @@ figure.my-photo {
 			.push(-2,12);
 		}
 		.medium {
-			margin-top: 1em;
-			margin-bottom: 1em;
+			width: auto;
+			margin-left: 0;
+			margin-right: 0;
+			padding-left: 0;
+			padding-right: 0;
 		}
 		.large {
 			.column(16,12);
 			.push(-2,12);
 			.pull(-2,12);
+			float: none;
 			margin-top: 1em;
 			margin-bottom: 1em;
 		}
@@ -685,14 +691,49 @@ figure.my-photo {
 			.column(10,14);
 			.push(2,14);
 			.pull(2,14);
+			float: none;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
 		}
 		.large {
 			.column(16,14);
 			.push(-1,14);
 			.pull(-1,14);
+			float: none;
 		}
-		.post-title {
-			font-size: 2em;
+		.post-title,
+		.post-content h2 {
+			font-size: 2.67rem;
+			line-height: 3.34rem;
+		}
+		.post-content {
+			p,
+			ul,
+			ol {
+				font-size: 1.75rem;
+				line-height: 2.34rem;
+			}
+			ol li,
+			ul li {
+				padding-left: 0rem;
+				margin-left: 1.75rem;
+			}
+			h3 {
+				font-size: 1.75rem;
+				line-height: 2.34rem;
+			}
+			blockquote {
+				clear: both;
+				margin-top: 1.5rem;
+				margin-bottom: 1.5rem;
+				margin-left: 0rem;
+				padding-left: 1.75rem;
+
+				p {
+					font-size: 2rem;
+					line-height: 3rem;
+				}
+			}
 		}
 	}
 }

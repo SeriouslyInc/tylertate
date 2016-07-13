@@ -47,7 +47,7 @@
 .column(@x,@columns:@columns,@gutter-method:@gutter-method) when (@gutter-method = margin) {
 	@calculated-column-width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width);
 	@calculated-gutter-width: @total-width*((@gutter-width*.5)/@gridsystem-width);
-	display: inline;
+	display: block;
 	float: left;
 	width: @calculated-column-width;
 	margin-left: @calculated-gutter-width;
@@ -77,7 +77,7 @@
 .column(@x,@columns:@columns,@gutter-method:@gutter-method) when (@gutter-method = padding) {
 	@calculated-column-width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width);
 	@calculated-gutter-width: @total-width*((@gutter-width*.5)/@gridsystem-width);
-	display: inline;
+	display: block;
 	float: left;
 	width: @calculated-column-width;
 	padding-left: @calculated-gutter-width;
