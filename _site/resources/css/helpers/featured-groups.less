@@ -79,6 +79,7 @@
 }
 @media screen and (max-width: 44rem) {
 	.featured-groups {
+		float: none;
 		width: auto;
 		padding-left: 0;
 		padding-right: 0;
@@ -100,6 +101,31 @@
 
 		&:first-child {
 			margin-right: 4%;
+		}
+	}
+}
+@media screen and (max-width: 38rem) {
+	.featured-groups {
+		border-top: none;
+		border-bottom: none;
+	}
+	.featured-group {
+		float: none;
+		width: auto;
+
+		&:first-child {
+			margin-right: 0;
+		}
+		&:last-child {
+			display: block;
+		}
+
+		h3 {
+			margin-top: 2rem;
+			margin-bottom: 0.25rem;
+		}
+		ul {
+			margin-bottom: 2rem;
 		}
 	}
 }

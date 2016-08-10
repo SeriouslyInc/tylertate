@@ -30,6 +30,7 @@
 .site-header-nav {
 	.column(6);
 	.pull(3,16);
+	.clearfix;
 
 	ul {
 		float: right;
@@ -61,14 +62,44 @@
 		width: auto;
 		float: left;
 		padding-left: 2rem;
-		padding-right: 2rem;
+		padding-right: 1rem;
 		margin: 0;
 	}
 	.site-header-nav {
 		width: auto;
 		float: right;
-		padding-left: 2rem;
+		padding-left: 1rem;
 		padding-right: 2rem;
 		margin: 0;
+	}
+}
+@media screen and (max-width: 38rem) {
+	.site-header {
+		text-align: center;
+	}
+	.site-header-title {
+		float: none;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid #d9d4c5;
+		background-color: @tan;
+	}
+	.site-header-nav {
+		float: none;
+		padding-left: 0;
+		padding-right: 0;
+
+		ul {
+			float: none;
+		}
+	}
+	li.site-nav-item {
+		display: inline-block;
+		float: none;
+
+		a {
+			padding-top: 1.5rem;
+			padding-bottom: 1.5rem;
+		}
 	}
 }

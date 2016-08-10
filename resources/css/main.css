@@ -72,6 +72,15 @@ a {
   padding-left: 1.5625%;
   padding-right: 1.5625%;
   margin-right: 18.75%;
+  zoom: 1;
+}
+.site-header-nav:before,
+.site-header-nav:after {
+  content: "";
+  display: table;
+}
+.site-header-nav:after {
+  clear: both;
 }
 .site-header-nav ul {
   float: right;
@@ -117,15 +126,43 @@ a {
     width: auto;
     float: left;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
     margin: 0;
   }
   .site-header-nav {
     width: auto;
     float: right;
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 2rem;
     margin: 0;
+  }
+}
+@media screen and (max-width: 38rem) {
+  .site-header {
+    text-align: center;
+  }
+  .site-header-title {
+    float: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d9d4c5;
+    background-color: #edebe4;
+  }
+  .site-header-nav {
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .site-header-nav ul {
+    float: none;
+  }
+  li.site-nav-item {
+    display: inline-block;
+    float: none;
+  }
+  li.site-nav-item a {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 .site-footer {
@@ -438,6 +475,12 @@ a {
     margin-bottom: 2rem;
   }
 }
+@media screen and (max-width: 33rem) {
+  .content-blocks.medium li h3 {
+    font-size: 2.5rem;
+    line-height: 3.34rem;
+  }
+}
 .featured-groups {
   display: block;
   float: left;
@@ -565,6 +608,7 @@ a {
 }
 @media screen and (max-width: 44rem) {
   .featured-groups {
+    float: none;
     width: auto;
     padding-left: 0;
     padding-right: 0;
@@ -586,6 +630,29 @@ a {
   }
   .featured-group:first-child {
     margin-right: 4%;
+  }
+}
+@media screen and (max-width: 38rem) {
+  .featured-groups {
+    border-top: none;
+    border-bottom: none;
+  }
+  .featured-group {
+    float: none;
+    width: auto;
+  }
+  .featured-group:first-child {
+    margin-right: 0;
+  }
+  .featured-group:last-child {
+    display: block;
+  }
+  .featured-group h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.25rem;
+  }
+  .featured-group ul {
+    margin-bottom: 2rem;
   }
 }
 .site-nav-item {
@@ -726,6 +793,9 @@ a {
   }
 }
 @media screen and (max-width: 80rem) {
+  .content-list {
+    margin-bottom: 5rem;
+  }
   .content-item-title {
     display: block;
     float: left;
@@ -752,6 +822,7 @@ a {
     padding-right: 1.5625%;
     margin-left: 6.25%;
     margin-right: 6.25%;
+    margin-bottom: 4rem;
   }
   .content-item {
     display: block;
@@ -1245,20 +1316,6 @@ a {
     line-height: 3rem;
   }
 }
-#home .writing-list {
-  margin-bottom: 0;
-}
-.about-image {
-  display: block;
-  position: relative;
-  width: 20rem;
-  height: 20rem;
-  margin: -23rem auto 6rem auto;
-  -webkit-border-radius: 18rem;
-  -moz-border-radius: 18rem;
-  border-radius: 18rem;
-  z-index: 25;
-}
 .page-hero {
   position: relative;
   overflow: hidden;
@@ -1313,4 +1370,64 @@ a {
   font-size: 4rem;
   line-height: 5rem;
   font-weight: 700;
+}
+@media screen and (max-width: 80rem) {
+  .page-hero {
+    margin-bottom: 5rem;
+  }
+  .page-hero-title {
+    display: block;
+    float: left;
+    width: 84.375%;
+    padding-left: 1.5625%;
+    padding-right: 1.5625%;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+  }
+}
+@media screen and (max-width: 66rem) {
+  .page-hero {
+    margin-bottom: 4rem;
+  }
+  .page-hero-title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+#home .writing-list {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 38rem) {
+  #home .writing-list {
+    display: none;
+  }
+}
+.about-image {
+  display: block;
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  margin: -23rem auto 6rem auto;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  border-radius: 10rem;
+  z-index: 25;
+}
+@media screen and (max-width: 66rem) {
+  #about .page-hero-title {
+    text-align: center;
+  }
+  .about-image {
+    width: 16rem;
+    height: 16rem;
+    margin: -9.5rem auto 4rem auto;
+  }
+}
+@media screen and (max-width: 38rem) {
+  .site-footer {
+    padding-top: 1.5rem;
+  }
+  .site-footer .site-nav-item a {
+    padding-top: 0;
+  }
 }
