@@ -1,0 +1,144 @@
+.content-blocks {
+	background-color: #ccc;
+	.clearfix;
+	clear: both;
+
+	h3 {
+		position: relative;
+		z-index: 10;
+		font-weight: 600;
+		color: white;
+		font-family: @serif;
+	}
+
+	&.large li {
+		.column(8,16);
+		display: block;
+		height: 36rem;
+
+		h3 {
+			font-size: 4rem;
+			line-height: 4.67rem;
+			padding: 0 2rem;
+			margin-top: 4rem;
+		}
+	}
+	&.medium li {
+		.column(5.333,16);
+		display: block;
+		height: 28rem;
+
+		h3 {
+			font-size: 3rem;
+			line-height: 3.834rem;
+			padding: 0 1rem;
+			margin-top: 2.5rem;
+		}
+	}
+	
+	a:hover {
+		text-decoration: underline;
+		color: white;
+	}
+	
+	.work:nth-child(4n+1) {
+		background-color: @red;
+	}
+	.work:nth-child(4n+2) {
+		background-color: @orange;
+	}
+	.work:nth-child(4n+3) {
+		background-color: @yellow;
+	}
+	.work:nth-child(4n+4) {
+		background-color: @blue;
+	}
+}
+
+.work {
+	position: relative;
+	overflow: hidden;
+}
+.work-bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	.opacity(.25);
+	filter: ~"grayscale(100%) brightness(66%)";
+
+	img {
+		min-width: 100%;
+		min-height: 100%;
+	}
+}
+
+
+////////////////
+// RESPONSIVE // Large
+////////////////
+
+@media screen and (max-width: 80rem) {
+	.content-blocks.large li h3 {
+		font-size: 3.5rem;
+	}
+}
+@media screen and (max-width: 66rem) {
+	.content-blocks.large li h3 {
+		font-size: 3rem;
+		line-height: 4rem;
+		padding: 0 1.34rem;
+		margin-top: 2rem;
+	}
+}
+@media screen and (max-width: 44rem) {
+	.content-blocks.large li {
+		.column(16,16);
+
+		h3 {
+			font-size: 4rem;
+			line-height: 4.67rem;
+			padding: 0 2rem;
+			margin-top: 4rem;
+		}
+	}
+}
+@media screen and (max-width: 33rem) {
+	.content-blocks.large li h3 {
+		font-size: 3rem;
+		line-height: 4rem;
+		padding: 0 1.34rem;
+		margin-top: 2rem;
+	}
+}
+
+
+////////////////
+// RESPONSIVE // Medium
+////////////////
+
+@media screen and (max-width: 66rem) {
+	.content-blocks.medium li h3 {
+		font-size: 2.5rem;
+		line-height: 3rem;
+		margin-top: 2.25rem;
+		margin-bottom: 2.25rem;
+	}
+}
+@media screen and (max-width: 56rem) {
+	.content-blocks.medium li {
+		.column(16,16);
+		display: block;
+		height: 24rem;
+
+		h3 {
+			font-size: 3rem;
+			line-height: 4rem;
+			padding: 0 1.34rem;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+	}
+}

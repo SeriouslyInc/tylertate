@@ -1,0 +1,29 @@
+.site-nav-item {
+	display: block;
+	float: left;
+	font-size: 1.34rem; // 16px
+	line-height: 2rem; // 24px
+
+	&.active,
+	&.active:hover
+	&.active:active {
+		font-weight: 600;
+		background-color: @tan;
+		color: @green;
+
+		a {
+			color: @green;
+		}
+	}
+
+	a {
+		display: inline-block;
+		padding: 1.75rem 1rem;
+		color: @tan-text;
+		font-family: @sans-serif;
+
+		&:hover {
+			color: @green;
+		}
+	}
+}

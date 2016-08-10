@@ -1,0 +1,174 @@
+//////////////////
+// CONTENT LIST //
+//////////////////
+
+// List
+.content-list {
+	.column(16);
+	margin-bottom: 6rem;
+}
+
+// Item
+.content-item {
+	.row(16);
+	padding-top: 1.33rem;
+	padding-bottom: 1.33rem;
+	.transition(background 0.25s);
+
+	&:hover {
+		background-color: @tan;
+	}
+}
+
+// Shared Location/Date styles
+.content-item-location,
+.content-item-date {
+	margin-top: 0.834rem;
+	font-family: @sans-serif;
+	text-transform: uppercase;
+	font-size: 1.083rem;
+	line-height: 1.5rem;
+	letter-spacing: 1px;
+}
+
+// Location
+.content-item-location {
+	.column(4);
+	color: @tan-text;
+
+	text-align: right;
+	
+
+	&:hover {
+		color: @green;
+	}
+}
+
+// Title
+.content-item-title {
+	.column(8);
+	font-family: @serif;
+	font-size: 2.25rem;
+	line-height: 1.1852em;
+	font-weight: 2.67rem;
+
+	a {
+		color: @black;
+
+		&:hover {
+			color: @green;
+			text-decoration: underline;
+		}
+	}
+}
+
+// Date
+.content-item-date {
+	.column(2);
+	.pull(2);
+	color: lighten(@tan-text,25%);
+	text-align: right;
+}
+
+// Event name, used under title in Talks
+.content-item-event {
+	display: block;
+	margin-top: 0.5rem;
+	font-family: @sans-serif;
+	font-size: 1.34rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	color: @tan-text;
+
+	&:hover {
+		color: @green;
+	}
+}
+.content-item-title .content-item-event {
+	color: @tan-text;
+}
+
+
+////////////////
+// RESPONSIVE //
+////////////////
+
+//	4	location
+//	8	title
+//	2+2	date
+
+@media screen and (max-width: 100rem) {
+	.content-item-title {
+		.column(9);
+	}
+	.content-item-date {
+		.column(2);
+		.pull(1);
+	}
+}
+@media screen and (max-width: 80rem) {
+	.content-item-title {
+		.column(10);
+	}
+	.content-item-date {
+		.column(2);
+		.pull(0);
+		text-align: left;
+	}
+}
+@media screen and (max-width: 66rem) {
+	.content-list {
+		.column(14);
+		.push(1);
+		.pull(1);
+	}
+	.content-item {
+		.row(14);
+
+		&:hover {
+			background-color: transparent;
+		}
+	}
+	.content-item-title {
+		.column(14);
+	}
+	.content-item-location {
+		.column(14);
+		margin-top: 0;
+		margin-bottom: 0.33rem;
+		text-align: left;
+	}
+	.content-item-date {
+		.column(14);
+		margin-top: 0.33rem;
+		text-align: left;
+	}
+}
+@media screen and (max-width: 44rem) {
+	.content-list {
+		float: none;
+		width: auto;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.content-item {
+		float: none;
+		width: auto;
+		padding-top: 1.25rem;
+		padding-bottom: 1.25rem;
+		margin: 0;
+	}
+	.content-item-title,
+	.content-item-location,
+	.content-item-date {
+		display: block;
+		float: none;
+		width: auto;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}

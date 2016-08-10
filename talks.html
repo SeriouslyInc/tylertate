@@ -1,0 +1,31 @@
+---
+layout: general
+title: Talks.
+bodyId: talks
+---
+
+<header class="page-hero red">
+	<div class="page-hero-bg" style="background-image: url('/resources/images/talks-cover.jpg');"></div>
+	<h2 class="page-hero-title">Talks</h2>
+</header>
+
+<section id="talks">
+	<ol class="content-list talk-list">
+		{% for post in site.categories.events %}
+			<li class="content-item talk-item">
+
+				<span class="content-item-location" href="{{ post.eventurl }}">{{ post.location }}</span>
+				
+				<div class="content-item-title">
+					<h3>
+						<a href="{{ post.slidesurl }}">{{ post.title }}</a>
+					</h3>
+					<a class="content-item-event" href="{{ post.eventurl }}">{{ post.event }}</a>
+				</div>
+
+				<span class="content-item-date">{{ post.date | date: "%b %Y" }}</span>
+
+			</li>
+		{% endfor %}
+	</ol>
+</section>

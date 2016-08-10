@@ -268,4 +268,6 @@ In fact, the world’s most successful online properties — Google, Facebook, A
 ## Slides
 Here is the full slidedeck from my talk at the Enterprise Search Summit.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/kHOd1PLi5A53i2" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/tylertate/information-wayfinding-the-future-of-search" title="Information Wayfinding: The Future of Search" target="_blank">Information Wayfinding: The Future of Search</a> </strong> from <strong><a href="//www.slideshare.net/tylertate" target="_blank">Tyler Tate</a></strong> </div>
+<figure class="medium">
+	<iframe src="//www.slideshare.net/slideshow/embed_code/key/kHOd1PLi5A53i2" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/tylertate/information-wayfinding-the-future-of-search" title="Information Wayfinding: The Future of Search" target="_blank">Information Wayfinding: The Future of Search</a> </strong> from <strong><a href="//www.slideshare.net/tylertate" target="_blank">Tyler Tate</a></strong> </div>
+</figure>

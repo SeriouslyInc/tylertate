@@ -1,36 +1,64 @@
 ---
 layout: general
-title: Founder, designer, coder, coffee drinker.
+title: "Design, code, coffee. - Tyler Tate"
 bodyId: home
 ---
 
 <header class="hero">
-	<h2 class="hero-text">
-		<p>Design, code, coffee. I enjoy creating products people love.</p>
+	<h2 class="hero-heading">Design, code, coffee. I enjoy creating products people love.</h2>
+	<div class="hero-text">
+		<p>Hi, I'm Tyler, co-founder and CEO of <a href="https://Crema.co">Crema.co</a>, the coffee marketplace.</p>
+		<p>Previously I was co-founder at <a href="http://twigkit.com/">Twigkit</a> (enterprise search software), the first lead designer at <a href="http://nutshell.com/">Nutshell</a> (SaaS CRM), and coauthor of <a href="http://designingthesearchexperience.com/">Designing the Search Experience</a>.</p>
+		<!-- <p>I also do user experience consulting for companies building new products or taking existing ones to the next level. If that's you, then drop me a line.</p> -->
+		<p>I currently live and work in Seattle, Washington.</p>
+	</div>
 
-		<p>I'm cofounder and CEO of <a href="https://Crema.co">Crema.co</a>, the coffee marketplace. Before that I was cofounder at <a href="http://twigkit.com/">Twigkit</a> (enterprise search software), the first design lead at <a href="http://nutshell.com/">Nutshell</a> (SaaS CRM), and coauthor of the book <a href="http://designingthesearchexperience.com/">Designing the Search Experience</a>.</p>
-
-		<p>Originally from Alabama, I lived in the United Kingdom (London and Cambridge) for seven years, and currently reside in Seattle, Washington.</p>
-	</h2>
 </header>
+
 
 <section id="writings">
 	<h2 class="section-title">WRITINGS</h2>
-	<div class="featured">
-		<p>A few of my favorites are <strong>Information Wayfinding</strong> (<a href="http://www.uxmatters.com/mt/archives/2013/04/information-wayfinding-part-1-a-not-so-new-metaphor.php">Part 1</a>, <a href="http://www.uxmatters.com/mt/archives/2013/05/information-wayfinding-part-2-elements-of-the-information-environment.php">Part 2</a>, <a href="http://www.uxmatters.com/mt/archives/2014/03/information-wayfinding-part-3-designing-for-wayfinding-1.php">Part3</a>) on UXMatters, <a href="http://www.alistapart.com/articles/the-ux-of-learning/"><strong>The UX of Learning</strong></a> on A List Apart, and <a href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/"><strong>The Semantic Grid System</strong></a> on Smashing Magazine.</p>
+	<div class="featured-groups">
+		<div class="featured-groups-liner">
+
+			<div class="featured-group">
+				<h3>Search</h3>
+				<ul>
+					<li><a href="http://designingthesearchexperience.com">Designing the Search Experience</a></li>
+					<li><a href="http://tylertate.com/blog/2013/11/07/information-wayfinding.html">Information Wayfinding</a></li>
+					<li><a href="https://medium.com/@tylertate/the-discovery-gap-5474f1702dc1#.qwr9tjpq0">The Discovery Gap</a></li>
+				</ul>
+			</div>
+			<div class="featured-group">
+				<h3>User Experience</h3>
+				<ul>
+					<li><a href="https://uxmag.com/articles/designers-as-innovators-and-a-story-about-coffee">Designers as Innovators</a></li>
+					<li><a href="http://alistapart.com/article/the-ux-of-learning">The UX of Learning</a></li>
+					<li><a href="http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html">Cross-Channel Blueprints</a></li>
+				</ul>
+			</div>
+			<div class="featured-group">
+				<h3>Coffee</h3>
+				<ul>
+					<li><a href="https://blog.crema.co/what-peet-s-acquisition-of-stumptown-and-intelligentsia-says-about-the-state-of-coffee-a670042e12e3#.midwegwsi">The State of Coffee</a></li>
+					<li><a href="https://blog.crema.co/2016-coffee-trends-2103ee2bce7a#.x4lae1mmb">2016 Coffee Trends</a></li>
+					<li><a href="https://blog.crema.co/the-brew-log-your-coffee-palate-visualized-26c85142932f#.x7kllm543">Your Coffee Palate, Visualized</a></li>
+				</ul>
+			</div>
+		</div>
 	</div>
 
 	<ol class="content-list writing-list">
-		{% for post in site.categories.blog %}
-			<li class="writing">
+		{% for post in site.categories.blog limit: 3 %}
+			<li class="content-item writing-item">
 				
 				{% if post.publisher %}
-					<a class="location" href="{{ post.originalurl }}">{{ post.publisher }}</a>
+					<a class="content-item-location" href="{{ post.originalurl }}">{{ post.publisher }}</a>
 				{% else %}
-					<span class="location">&nbsp;</span>
+					<span class="content-item-location">&nbsp;</span>
 				{% endif %}
 
-				<h3 class="title">
+				<h3 class="content-item-title">
 					{% if post.publisher %}
 						<a href="{{ post.originalurl }}">{{ post.title }}</a>
 					{% else %}
@@ -38,7 +66,7 @@ bodyId: home
 					{% endif %}
 				</h3>
 
-				<span class="date">{{ post.date | date: "%b %Y" }}</span>
+				<span class="content-item-date">{{ post.date | date: "%b %Y" }}</span>
 			
 			</li>
 		{% endfor %}
@@ -46,28 +74,23 @@ bodyId: home
 </section>
 
 
-<section id="talks">
-	<h2 class="section-title">TALKS</h2>
-	<div class="featured">
-		<iframe width="640" height="360" src="//www.youtube.com/embed/6Q0zqqxvx5g" frameborder="0" allowfullscreen></iframe>
-	</div>
+<section id="work">
+	<h2 class="section-title">WORK</h2>
 
-	<ol class="content-list talk-list">
-		{% for post in site.categories.events %}
-			<li class="talk">
+	<ol class="content-blocks work-blocks medium">
+		{% for post in site.categories.works limit:3 %}
 
-				<span class="location" href="{{ post.eventurl }}">{{ post.location }}</span>
-				
-				<div class="title">
-					<h3>
-						<a href="{{ post.slidesurl }}">{{ post.title }}</a>
+			<li class="work">
+				<a href="{{ post.url }}">
+					<div class="work-bg" style="">
+						<img src="{{post.cover_image}}" />
+					</div>
+					<h3 class="title">
+						{{ post.title }}
 					</h3>
-					<a class="event" href="{{ post.eventurl }}">{{ post.event }}</a>
-				</div>
-				
-				<span class="date">{{ post.date | date: "%b %Y" }}</span>
-
+				</a>
 			</li>
+
 		{% endfor %}
 	</ol>
 </section>

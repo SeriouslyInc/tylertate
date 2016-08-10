@@ -10,7 +10,7 @@ snippet: "Despite the growing influence of search on our daily lives, relatively
 
 Remember the [Yahoo! Directory](http://dir.yahoo.com)? It was a hand-built taxonomy that allowed users to browse and discover Internet resources. By categorizing sites by topic and location, it became the definitive map of the World Wide Web. But at the turn of the millennium, Yahoo! transformed itself from a directory into a search engine. The task of organising so many disparate items into a single coherent structure had simply become too overwhelming. 
 
-##Search is ubiquitous
+## Search is ubiquitous
 More than a decade later, this story is all too familiar. Online stores sell hundreds of thousands of items, social networks host millions of users, and Flickr hosts billions of photos. Navigation is no longer the future: search is the key to sense-making in the digital universe.
 
 Yet despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. While there are dozens of titles about designing web navigation, those on designing search can be counted on the fingers of one hand.
@@ -18,7 +18,7 @@ Yet despite the growing influence of search on our daily lives, relatively few n
 > That’s why Tony Russell-Rose and I set out to write _[Designing the Search Experience](http://designingthesearchexperience.com): the Information Architecture of Discovery_. 
 
 
-##A new book for a new era
+## A new book for a new era
 
 For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. To help maintain our focus we established three guiding principles:
 

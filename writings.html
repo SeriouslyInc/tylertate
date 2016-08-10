@@ -1,0 +1,38 @@
+---
+layout: general
+title: Writings
+bodyId: writings
+---
+
+<header class="page-hero blue">
+	<div class="page-hero-bg" style="background-image: url('/resources/images/dtse-cover.jpg');">
+		
+	</div>
+	<h2 class="page-hero-title">Writings</h2>
+</header>
+
+<section id="writings">
+	<ol class="content-list writing-list">
+		{% for post in site.categories.blog %}
+			<li class="content-item">
+				
+				{% if post.publisher %}
+					<a class="content-item-location" href="{{ post.originalurl }}">{{ post.publisher }}</a>
+				{% else %}
+					<span class="content-item-location">&nbsp;</span>
+				{% endif %}
+
+				<h3 class="content-item-title">
+					{% if post.publisher %}
+						<a href="{{ post.originalurl }}">{{ post.title }}</a>
+					{% else %}
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					{% endif %}
+				</h3>
+
+				<span class="content-item-date">{{ post.date | date: "%b %Y" }}</span>
+			
+			</li>
+		{% endfor %}
+	</ol>
+</section>

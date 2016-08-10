@@ -1,0 +1,25 @@
+---
+layout: general
+title: Work
+bodyId: work
+---
+
+
+<section id="work">
+	<ol class="content-blocks work-blocks large">
+		{% for post in site.categories.works %}
+
+			<li class="work">
+				<a href="{{ post.url }}">
+					<div class="work-bg" style="">
+						<img src="{{post.cover_image}}" />
+					</div>
+					<h3 class="title">
+						{{ post.title }}
+					</h3>
+				</a>
+			</li>
+
+		{% endfor %}
+	</ol>
+</section>

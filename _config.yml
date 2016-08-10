@@ -1,1 +1,12 @@
-url: http://tylertate.com/
+url: http://localhost:4000/
+navigation:
+- text: About
+  url: /about.html
+- text: Work
+  url: /work.html
+  layout: work
+- text: Writings
+  url: /writings.html
+  layout: blog
+- text: Talks
+  url: /talks.html

@@ -1,0 +1,74 @@
+/////////////////
+// SITE HEADER //
+/////////////////
+
+.site-header {
+	.clearfix;
+	border-bottom: 1px solid @tan-border;
+	margin-bottom: -1px;
+
+	a {
+		color: @tan-text;
+
+		&:hover {
+			color: @green;
+		}
+	}
+}
+.site-header-title {
+	.column(4);
+	.push(3,16);
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	float: left;
+	font-size: 2rem; // 24
+	line-height: 3rem; // 36
+	font-family: @sans-serif;
+	font-weight: 600;
+}
+
+.site-header-nav {
+	.column(6);
+	.pull(3,16);
+
+	ul {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 80rem) {
+	.site-header-title {
+		.column(5);
+		.push(2,16);
+	}
+	.site-header-nav {
+		.column(7);
+		.pull(2,16);
+	}
+}
+@media screen and (max-width: 66rem) {
+	.site-header-title {
+		.column(5);
+		.push(1,16);
+	}
+	.site-header-nav {
+		.column(9);
+		.pull(1,16);
+	}
+}
+@media screen and (max-width: 44rem) {
+	.site-header-title {
+		width: auto;
+		float: left;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin: 0;
+	}
+	.site-header-nav {
+		width: auto;
+		float: right;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin: 0;
+	}
+}
