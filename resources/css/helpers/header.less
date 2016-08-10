@@ -93,7 +93,11 @@
 		}
 	}
 	li.site-nav-item {
-
+		&.active,
+		&.active:hover,
+		&.active:active {
+			background-color: darken(@tan,2%);
+		}
 		a {
 			padding-top: 1.5rem;
 			padding-bottom: 1.5rem;

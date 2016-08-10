@@ -155,6 +155,11 @@ a {
   .site-header-nav ul {
     float: none;
   }
+  li.site-nav-item.active,
+  li.site-nav-item.active:hover,
+  li.site-nav-item.active:active {
+    background-color: #e9e6de;
+  }
   li.site-nav-item a {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -1338,6 +1343,10 @@ a {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+  #blog .post-content h2 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
   }
 }
 .page-hero {
