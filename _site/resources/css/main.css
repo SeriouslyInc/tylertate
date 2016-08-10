@@ -139,25 +139,20 @@ a {
 }
 @media screen and (max-width: 38rem) {
   .site-header {
-    text-align: center;
+    border-bottom: none;
   }
   .site-header-title {
     float: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #d9d4c5;
-    background-color: #edebe4;
   }
   .site-header-nav {
     float: none;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #f9f9f6;
   }
   .site-header-nav ul {
-    float: none;
-  }
-  li.site-nav-item {
-    display: inline-block;
     float: none;
   }
   li.site-nav-item a {
@@ -443,6 +438,9 @@ a {
   }
 }
 @media screen and (max-width: 33rem) {
+  .content-blocks.large li {
+    height: 32rem;
+  }
   .content-blocks.large li h3 {
     font-size: 3rem;
     line-height: 4rem;
@@ -650,6 +648,7 @@ a {
   .featured-group h3 {
     margin-top: 2rem;
     margin-bottom: 0.25rem;
+    font-weight: 400;
   }
   .featured-group ul {
     margin-bottom: 2rem;
@@ -822,7 +821,7 @@ a {
     padding-right: 1.5625%;
     margin-left: 6.25%;
     margin-right: 6.25%;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   .content-item {
     display: block;
@@ -1316,6 +1315,31 @@ a {
     line-height: 3rem;
   }
 }
+@media screen and (max-width: 44rem) {
+  #blog .post-header {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #blog .post-content,
+  #blog .post-date,
+  #blog .post-title {
+    float: none;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #blog .small,
+  #blog .medium,
+  #blog .large {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .page-hero {
   position: relative;
   overflow: hidden;
@@ -1337,7 +1361,7 @@ a {
 .page-hero.green {
   background-color: #608074;
 }
-.page-hero .page-hero-bg {
+.page-hero-bg {
   position: absolute;
   top: 0;
   right: 0;
@@ -1351,11 +1375,11 @@ a {
   background-size: cover;
   background-position: 50% 50%;
 }
-.page-hero .page-hero-bg img {
+.page-hero-bg img {
   min-width: 100%;
   max-height: 100%;
 }
-.page-hero .page-hero-title {
+.page-hero-title {
   position: relative;
   z-index: 10;
   color: white;
@@ -1387,11 +1411,21 @@ a {
 }
 @media screen and (max-width: 66rem) {
   .page-hero {
-    margin-bottom: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 3rem;
   }
   .page-hero-title {
     font-size: 3rem;
     line-height: 4rem;
+  }
+}
+@media screen and (max-width: 38rem) {
+  .page-hero-title {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 #home .writing-list {
@@ -1413,6 +1447,11 @@ a {
   border-radius: 10rem;
   z-index: 25;
 }
+@media screen and (max-width: 80rem) {
+  .about-image {
+    margin-top: -22rem;
+  }
+}
 @media screen and (max-width: 66rem) {
   #about .page-hero-title {
     text-align: center;
@@ -1420,7 +1459,7 @@ a {
   .about-image {
     width: 16rem;
     height: 16rem;
-    margin: -9.5rem auto 4rem auto;
+    margin: -8.5rem auto 4rem auto;
   }
 }
 @media screen and (max-width: 38rem) {
