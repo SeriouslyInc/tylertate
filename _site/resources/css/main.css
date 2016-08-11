@@ -1302,7 +1302,7 @@ a {
   #blog .post-content ul,
   #blog .post-content ol {
     font-size: 1.9167rem;
-    line-height: 2.5rem;
+    line-height: 2.34rem;
   }
   #blog .post-content ol li,
   #blog .post-content ul li {
@@ -1311,7 +1311,7 @@ a {
   }
   #blog .post-content h3 {
     font-size: 1.9167rem;
-    line-height: 2.5rem;
+    line-height: 2.34rem;
   }
   #blog .post-content blockquote {
     clear: both;
