@@ -7,7 +7,7 @@ cover_image: "/resources/images/work/twigkit/cover_image.jpg"
 
 In 2009 I co-founded Twigkit, a London-based enterprise software company that provides tools for rapidly building data-driven applications. My responsibilities included leading the user experience, visual design, and front-end development of Twigkit’s products, spearheading our marketing efforts, and helping key customers — including The Financial Times, Rolls-Royce, Qualcomm, BASF, Thomson-Reuters, Vodafone, Gemalto, and ITV — achieve superb search user interfaces.
 
-To give you a better idea of what Twigkit does, here's a screenshot of the marketing website's homepage as I designed it prior to my departure in 2014.
+To give you a better idea of what Twigkit does, here's a screenshot of the homepage that I designed prior to my departure in 2014, followed by some of the content and customer examples we used on the website.
 
 <figure class="large">
 	<img src="/resources/images/work/twigkit/website-home.jpg" alt="The Twigkit.com homepage" />
@@ -27,12 +27,12 @@ Our sustained, single-minded focus has culminated in the **best search user expe
 * **Rolls-Royce**. Intranet and file-share search for a leading provider of aircraft engines and other sophisticated power systems. *Derby, UK*
 * **Qualcomm**. Internal search for a world leader in wireless technology and the largest fabless semiconductor producer. *San Diego, California.*
 * **PWC**. Intranet, people, customer, and project search for one of the world’s largest professional services firms. *Johannesburg, South Africa*
-* **Gemalto**. Intranet and staff directory search for the global leader in digital security. Paris, France
+* **Gemalto**. Intranet and staff directory search for the global leader in digital security. *Paris, France*
 * **MITE**. Enterprise search for the managers of federal funded research and development centers for the Dod, FAA, IRS, and other government agencies. *Bedford, Massachusetts*
 
 ## Site Search
 
-With easy to configure user interface components, semantic HTML output, and modular CSS, Twigkit has been built for seamless integration with existing websites, from look and feel to user accounts. And, optimized for tables and smartphones, Twigkit helps companies deliver great experiences to their customers on any device.
+With easy to configure user interface components, semantic HTML output, and modular CSS, Twigkit has been built for **seamless integration** with existing websites, from look and feel to user accounts. And, optimized for tables and smartphones, Twigkit helps companies deliver great experiences to their customers on any device.
 
 <figure class="medium">
 	<img src="/resources/images/work/twigkit/ft.jpg" alt="Site Search" />
@@ -70,7 +70,7 @@ By providing a layer of data abstraction, Twigkit reaches across organizational 
 
 ## How It Works
 
-At Twigkit, we developed a library of user interface components for everything from the search box and as-you-type-suggestions, to faceted navigation and pagination, to advanced charts and graphs. In my UX Magazine article [From Pattern to Component](http://uxmag.com/articles/from-pattern-to-component), I summarized this component-based approach:
+I helped Twigkit develop a library of user interface components for everything from the search box and as-you-type-suggestions, to faceted navigation and pagination, to advanced charts and graphs. In my UX Magazine article [From Pattern to Component](http://uxmag.com/articles/from-pattern-to-component), I summarized this component-based approach:
 
 > While design patterns are a structured description of how something should work, a UI component is a reusable building block that fully encapsulates all the code necessary to put that design pattern into action. A component offers a refined, tested solution that fully addresses every nuance and is easy to incorporate into the surrounding interface.
 

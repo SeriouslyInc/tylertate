@@ -7,7 +7,7 @@ cover_image: "/resources/images/work/nutshell/cover_image.jpg"
 
 I joined [Nutshell](http://nutshell.com) as lead designer just after the company was founded in late 2009. I was responsible for the initial user experience and visual design of the company's web app, iPhone app, and marketing website. We [launched the product](http://tylertate.com/blog/2010/11/18/nutshell-launches-in-nyc.html) in 2010.
 
-Why a new customer relationship management system? At the time, the market was domindated by expensize, complex solutions (Salesforce) on one end of the spectrum, and bare-bones products (Highrise) at the other end. There wasn't a slick-but-powerful solution for medium-sized businesses. (See my blog post [A Bright New Future for CRM](http://tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html).)
+Why a new customer relationship management system? At the time, the market was dominated by expensize, complex solutions (Salesforce) on one end of the spectrum, and bare-bones products (Highrise) at the other end. There wasn't a slick-but-powerful solution for medium-sized businesses. (See my blog post [A Bright New Future for CRM](http://tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html).)
 
 
 ## Process
@@ -87,4 +87,4 @@ Below are some of the other areas of the app that we designed for version one.
 
 
 ## Where are they now?
-While I ended up leaving Nutshell in 2011 to focus full-time on another startup, the company today has over 30 employees and many happy customers. And the three Nutshell founders and CEO are all investors in my startup Crema.co.
+While I ended up leaving Nutshell in 2011 to focus full-time on another startup, the company today has over 30 employees and many happy customers. The three Nutshell founders and CEO all went on to become investors in my startup, Crema.co.

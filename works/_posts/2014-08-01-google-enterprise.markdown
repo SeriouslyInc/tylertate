@@ -1,13 +1,13 @@
 ---
 layout: work
 title: "Google: Search in the Enterprise"
-excerpt: "Search means different things to different people. At Twigkit, companies across the gamut of industries use our software to build  different types of search-based applications — from behind-the-firewall enterprise search, to public-facing website search, to a variety of bespoke business applications. While powered by the same technology, the business goals and user expectations for search application vary widely from industry to industry. That's why we recently began exploring the following question with the search team at Google Enterprise: What does search mean for the organisations in four particular industries — financial services, manufacturing, media, and the public sector?"
+excerpt: "Search means different things to different people. At Twigkit, companies across the gamut of industries use our software to build  different types of search-based applications — from behind-the-firewall enterprise search, to public-facing website search, to a variety of bespoke business applications. While powered by the same technology, the business goals and user expectations for search application vary widely from industry to industry. That's why we recently began exploring the following question with the search team at Google Enterprise: What does search mean for the organizations in four particular industries — financial services, manufacturing, media, and the public sector?"
 cover_image: "/resources/images/work/twigkit-google/cover_image.jpg"
 ---
 
 In the second quarter of 2014 I led the design and development of four industry-specific applications that Twigkit built for Google Enterprise. They're intended to demonstrate what can be achieved with Google's enterprise search product and Twigkit's library of user interface components. These are not mockups; they are fully functional applications. What follows is the blog post I wrote announcing these applications, originally published on Twigkit's blog.
 
-> What does search mean for the organisations in four particular industries — financial services, manufacturing, media, and the public sector?
+> What does search mean for the organizations in four particular industries — financial services, manufacturing, media, and the public sector?
 
 Drawing from our experience of having worked with numerous customers across each of these industries, **we set out to use Twigkit and the Google Search Appliance to build a set of exemplar applications** that demonstrate the business value of search for each of these four sectors. Here's what we came up with.
 

@@ -566,7 +566,7 @@
 				<description>&lt;p&gt;In the second quarter of 2014 I led the design and development of four industry-specific applications that Twigkit built for Google Enterprise. They’re intended to demonstrate what can be achieved with Google’s enterprise search product and Twigkit’s library of user interface components. These are not mockups; they are fully functional applications. What follows is the blog post I wrote announcing these applications, originally published on Twigkit’s blog.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;What does search mean for the organisations in four particular industries — financial services, manufacturing, media, and the public sector?&lt;/p&gt;
+  &lt;p&gt;What does search mean for the organizations in four particular industries — financial services, manufacturing, media, and the public sector?&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Drawing from our experience of having worked with numerous customers across each of these industries, &lt;strong&gt;we set out to use Twigkit and the Google Search Appliance to build a set of exemplar applications&lt;/strong&gt; that demonstrate the business value of search for each of these four sectors. Here’s what we came up with.&lt;/p&gt;
@@ -861,7 +861,7 @@
 				<pubDate>Wed, 01 Jan 2014 00:00:00 PST</pubDate>
 				<description>&lt;p&gt;In 2009 I co-founded Twigkit, a London-based enterprise software company that provides tools for rapidly building data-driven applications. My responsibilities included leading the user experience, visual design, and front-end development of Twigkit’s products, spearheading our marketing efforts, and helping key customers — including The Financial Times, Rolls-Royce, Qualcomm, BASF, Thomson-Reuters, Vodafone, Gemalto, and ITV — achieve superb search user interfaces.&lt;/p&gt;
 
-&lt;p&gt;To give you a better idea of what Twigkit does, here’s a screenshot of the marketing website’s homepage as I designed it prior to my departure in 2014.&lt;/p&gt;
+&lt;p&gt;To give you a better idea of what Twigkit does, here’s a screenshot of the homepage that I designed prior to my departure in 2014, followed by some of the content and customer examples we used on the website.&lt;/p&gt;
 
 &lt;figure class=&quot;large&quot;&gt;
 	&lt;img src=&quot;/resources/images/work/twigkit/website-home.jpg&quot; alt=&quot;The Twigkit.com homepage&quot; /&gt;
@@ -882,13 +882,13 @@
   &lt;li&gt;&lt;strong&gt;Rolls-Royce&lt;/strong&gt;. Intranet and file-share search for a leading provider of aircraft engines and other sophisticated power systems. &lt;em&gt;Derby, UK&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Qualcomm&lt;/strong&gt;. Internal search for a world leader in wireless technology and the largest fabless semiconductor producer. &lt;em&gt;San Diego, California.&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;PWC&lt;/strong&gt;. Intranet, people, customer, and project search for one of the world’s largest professional services firms. &lt;em&gt;Johannesburg, South Africa&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gemalto&lt;/strong&gt;. Intranet and staff directory search for the global leader in digital security. Paris, France&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gemalto&lt;/strong&gt;. Intranet and staff directory search for the global leader in digital security. &lt;em&gt;Paris, France&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;MITE&lt;/strong&gt;. Enterprise search for the managers of federal funded research and development centers for the Dod, FAA, IRS, and other government agencies. &lt;em&gt;Bedford, Massachusetts&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;site-search&quot;&gt;Site Search&lt;/h2&gt;
 
-&lt;p&gt;With easy to configure user interface components, semantic HTML output, and modular CSS, Twigkit has been built for seamless integration with existing websites, from look and feel to user accounts. And, optimized for tables and smartphones, Twigkit helps companies deliver great experiences to their customers on any device.&lt;/p&gt;
+&lt;p&gt;With easy to configure user interface components, semantic HTML output, and modular CSS, Twigkit has been built for &lt;strong&gt;seamless integration&lt;/strong&gt; with existing websites, from look and feel to user accounts. And, optimized for tables and smartphones, Twigkit helps companies deliver great experiences to their customers on any device.&lt;/p&gt;
 
 &lt;figure class=&quot;medium&quot;&gt;
 	&lt;img src=&quot;/resources/images/work/twigkit/ft.jpg&quot; alt=&quot;Site Search&quot; /&gt;
@@ -930,7 +930,7 @@
 
 &lt;h2 id=&quot;how-it-works&quot;&gt;How It Works&lt;/h2&gt;
 
-&lt;p&gt;At Twigkit, we developed a library of user interface components for everything from the search box and as-you-type-suggestions, to faceted navigation and pagination, to advanced charts and graphs. In my UX Magazine article &lt;a href=&quot;http://uxmag.com/articles/from-pattern-to-component&quot;&gt;From Pattern to Component&lt;/a&gt;, I summarized this component-based approach:&lt;/p&gt;
+&lt;p&gt;I helped Twigkit develop a library of user interface components for everything from the search box and as-you-type-suggestions, to faceted navigation and pagination, to advanced charts and graphs. In my UX Magazine article &lt;a href=&quot;http://uxmag.com/articles/from-pattern-to-component&quot;&gt;From Pattern to Component&lt;/a&gt;, I summarized this component-based approach:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;While design patterns are a structured description of how something should work, a UI component is a reusable building block that fully encapsulates all the code necessary to put that design pattern into action. A component offers a refined, tested solution that fully addresses every nuance and is easy to incorporate into the surrounding interface.&lt;/p&gt;
@@ -2248,7 +2248,7 @@ margin: 0 @computedMargin;
 				<pubDate>Sat, 01 Jan 2011 00:00:00 PST</pubDate>
 				<description>&lt;p&gt;I joined &lt;a href=&quot;http://nutshell.com&quot;&gt;Nutshell&lt;/a&gt; as lead designer just after the company was founded in late 2009. I was responsible for the initial user experience and visual design of the company’s web app, iPhone app, and marketing website. We &lt;a href=&quot;http://tylertate.com/blog/2010/11/18/nutshell-launches-in-nyc.html&quot;&gt;launched the product&lt;/a&gt; in 2010.&lt;/p&gt;
 
-&lt;p&gt;Why a new customer relationship management system? At the time, the market was domindated by expensize, complex solutions (Salesforce) on one end of the spectrum, and bare-bones products (Highrise) at the other end. There wasn’t a slick-but-powerful solution for medium-sized businesses. (See my blog post &lt;a href=&quot;http://tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html&quot;&gt;A Bright New Future for CRM&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Why a new customer relationship management system? At the time, the market was dominated by expensize, complex solutions (Salesforce) on one end of the spectrum, and bare-bones products (Highrise) at the other end. There wasn’t a slick-but-powerful solution for medium-sized businesses. (See my blog post &lt;a href=&quot;http://tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html&quot;&gt;A Bright New Future for CRM&lt;/a&gt;.)&lt;/p&gt;
 
 &lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
 &lt;p&gt;So, how did we go about building a new product from the ground up?&lt;/p&gt;
@@ -2330,7 +2330,7 @@ margin: 0 @computedMargin;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;where-are-they-now&quot;&gt;Where are they now?&lt;/h2&gt;
-&lt;p&gt;While I ended up leaving Nutshell in 2011 to focus full-time on another startup, the company today has over 30 employees and many happy customers. And the three Nutshell founders and CEO are all investors in my startup Crema.co.&lt;/p&gt;
+&lt;p&gt;While I ended up leaving Nutshell in 2011 to focus full-time on another startup, the company today has over 30 employees and many happy customers. The three Nutshell founders and CEO all went on to become investors in my startup, Crema.co.&lt;/p&gt;
 </description>
 				<link>http://www.tylertate.com/works/2011/01/01/nutshell-designing-saas-crm-from-scratch.html</link>
 				<guid>http://www.tylertate.com/works/2011/01/01/nutshell-designing-saas-crm-from-scratch.html</guid>
