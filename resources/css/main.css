@@ -1125,49 +1125,54 @@ a {
 #blog .medium iframe {
   width: 100%;
 }
-@media screen and (min-width: 40rem) {
+@media screen and (max-width: 119rem) {
   #blog .medium iframe {
-    height: 22rem;
+    height: 47rem;
   }
 }
-@media screen and (min-width: 50rem) {
-  #blog .medium iframe {
-    height: 26rem;
-  }
-}
-@media screen and (min-width: 60rem) {
-  #blog .medium iframe {
-    height: 30rem;
-  }
-}
-@media screen and (min-width: 70rem) {
-  #blog .medium iframe {
-    height: 33rem;
-  }
-}
-@media screen and (min-width: 80rem) {
-  #blog .medium iframe {
-    height: 36rem;
-  }
-}
-@media screen and (min-width: 90rem) {
-  #blog .medium iframe {
-    height: 39rem;
-  }
-}
-@media screen and (min-width: 100rem) {
-  #blog .medium iframe {
-    height: 41rem;
-  }
-}
-@media screen and (min-width: 110rem) {
+@media screen and (max-width: 110rem) {
   #blog .medium iframe {
     height: 44rem;
   }
 }
-@media screen and (min-width: 119rem) {
+@media screen and (max-width: 100rem) {
   #blog .medium iframe {
-    height: 47rem;
+    height: 41rem;
+  }
+}
+@media screen and (max-width: 90rem) {
+  #blog .medium iframe {
+    height: 39rem;
+  }
+}
+@media screen and (max-width: 80rem) {
+  #blog .medium iframe {
+    height: 36rem;
+  }
+}
+@media screen and (max-width: 70rem) {
+  #blog .medium iframe {
+    height: 33rem;
+  }
+}
+@media screen and (max-width: 60rem) {
+  #blog .medium iframe {
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 50rem) {
+  #blog .medium iframe {
+    height: 26rem;
+  }
+}
+@media screen and (max-width: 40rem) {
+  #blog .medium iframe {
+    height: 22rem;
+  }
+}
+@media screen and (max-width: 30rem) {
+  #blog .medium iframe {
+    height: 16rem;
   }
 }
 #blog .large {
