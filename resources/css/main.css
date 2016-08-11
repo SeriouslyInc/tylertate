@@ -218,7 +218,7 @@ a {
   margin-right: 18.75%;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "garamond-premier-pro", Georgia, "Times New Roman", serif;
+  font-family: "garamond-premier-pro", "Adobe Garamond Pro", Garamond, Georgia, serif;
   font-weight: 400;
   font-size: 5rem;
   line-height: 7rem;
@@ -233,7 +233,7 @@ a {
   padding-left: 0;
   margin-left: 20.3125%;
   margin-right: 20.3125%;
-  font-family: "garamond-premier-pro", Georgia, "Times New Roman", serif;
+  font-family: "garamond-premier-pro", "Adobe Garamond Pro", Garamond, Georgia, serif;
   font-weight: 400;
   font-size: 2rem;
   line-height: 3rem;
@@ -348,7 +348,7 @@ a {
   z-index: 10;
   font-weight: 600;
   color: white;
-  font-family: "garamond-premier-pro", Georgia, "Times New Roman", serif;
+  font-family: "garamond-premier-pro", "Adobe Garamond Pro", Garamond, Georgia, serif;
 }
 .content-blocks.large li {
   float: left;
@@ -533,7 +533,7 @@ a {
 }
 .featured-group li {
   margin-bottom: 1rem;
-  font-family: "garamond-premier-pro", Georgia, "Times New Roman", serif;
+  font-family: "garamond-premier-pro", "Adobe Garamond Pro", Garamond, Georgia, serif;
   font-size: 1.75rem;
   line-height: 2rem;
 }
@@ -742,7 +742,7 @@ a {
   width: 46.875%;
   padding-left: 1.5625%;
   padding-right: 1.5625%;
-  font-family: "garamond-premier-pro", Georgia, "Times New Roman", serif;
+  font-family: "garamond-premier-pro", "Adobe Garamond Pro", Garamond, Georgia, serif;
   font-size: 2.25rem;
   line-height: 1.1852em;
   font-weight: 2.67rem;
@@ -967,7 +967,7 @@ a {
 #blog .post-content p,
 #blog .post-content ul,
 #blog .post-content ol {
-  font-family: "garamond-premier-pro", Georgia, "Times New Roman", serif;
+  font-family: "garamond-premier-pro", "Adobe Garamond Pro", Garamond, Georgia, serif;
   font-size: 2rem;
   line-height: 3rem;
 }
