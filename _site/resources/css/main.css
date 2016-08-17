@@ -409,6 +409,8 @@ a {
   filter: alpha "(opacity = 0.25)";
   zoom: 1;
   filter: grayscale(100%) brightness(66%);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .work-bg img {
   min-width: 100%;
@@ -1186,6 +1188,9 @@ a {
   float: none;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+#blog .large:first-child {
+  margin-top: 0;
 }
 #blog .large img {
   width: 100%;

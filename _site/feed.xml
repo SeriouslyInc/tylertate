@@ -7,6 +7,158 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Crema.co: The Coffee Marketplace</title>
+				<pubDate>Tue, 16 Aug 2016 00:00:00 PDT</pubDate>
+				<description>&lt;p&gt;Our team &lt;a href=&quot;http://www.geekwire.com/2015/crema-co-launches-coffee-marketplace-to-connect-shoppers-with-rare-roasts/&quot;&gt;launched&lt;/a&gt; &lt;a href=&quot;https://crema.co/&quot;&gt;Crema.co&lt;/a&gt; in December 2015 after running a successful &lt;a href=&quot;https://www.kickstarter.com/projects/2074548677/cremaco-the-single-origin-coffee-marketplace&quot;&gt;Kickstarter campaign&lt;/a&gt; earlier in the year. In addition to serving as the company’s CEO, I also designed the product, developed the front-end, and currently own the back-end development as well. My awesome co-founder, Emily McIntyre, manages our roaster partnerships and all things coffee, and we have a copywriter, coffee professional, and all-star advisory board involved as well.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/homepage.jpg&quot; alt=&quot;The Crema.co homepage&quot; /&gt;
+	&lt;figcaption&gt;The Crema.co homepage.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So what is Crema.co? In short, it’s a coffee marketplace that enables consumers to subscribe to roasted-to-order coffees from specialty roasters across the US. Every coffee is roasted to order and shipped direct from the roaster, meaning the beans arrive just days after they’ve been roasted.&lt;/p&gt;
+
+&lt;p&gt;Head on over to &lt;a href=&quot;https://crema.co&quot;&gt;Crema.co&lt;/a&gt; to experience it for yourself! Otherwise, just scroll down to see a few screenshots.&lt;/p&gt;
+
+&lt;h2 id=&quot;browse-coffees&quot;&gt;Browse Coffees&lt;/h2&gt;
+&lt;p&gt;Crema.co offers around 50 single-origin coffees from 15 specialty roasters — and counting. We opted to use photographs from the farm on which the coffee is grown to make the experience more personal.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/browse2.jpg&quot; alt=&quot;Browsing coffees on Crema.co&quot; /&gt;
+	&lt;figcaption&gt;Browsing coffees on Crema.co.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;meet-the-grower&quot;&gt;Meet the Grower&lt;/h2&gt;
+&lt;p&gt;Not only do we tell you about the coffee itself — what it tastes like, how much it costs, etc. — but we also…&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/detail.jpg&quot; alt=&quot;Coffee detail page&quot; /&gt;
+	&lt;figcaption&gt;A coffee detail page.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;…tell you the story behind each coffee, from a biography of the coffee farmer, to a snapshot of the region in which it was grown.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/story.jpg&quot; alt=&quot;Meet the grower&quot; /&gt;
+	&lt;figcaption&gt;Meet the grower who produced your coffee.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;manage-your-brew-list&quot;&gt;Manage Your Brew List&lt;/h2&gt;
+
+&lt;p&gt;Our customers subscribe to recurring coffee deliveries using a queue system called the Brew List.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/how-it-works.jpg&quot; alt=&quot;How the Brew List works&quot; /&gt;
+	&lt;figcaption&gt;An explanation of how the Brew List works.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Here’s how it works: a customer adds the coffees she’d like to try to her Brew List, sets a delivery frequency (from every week to every month), and then receive the next item on her Brew List each time.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/brewlist.jpg&quot; alt=&quot;The Brew List in action&quot; /&gt;
+	&lt;figcaption&gt;The Brew List in action: drag and drop to change the order.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Whether on desktop or mobile, customers can add or remove coffees, pause their subscription, or change their delivery frequency at any time.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/brewlist-mobile.jpg&quot; alt=&quot;The Brew List on an iPhone&quot; /&gt;
+	&lt;figcaption&gt;The Brew List on an iPhone.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;rate-coffees&quot;&gt;Rate Coffees&lt;/h2&gt;
+
+&lt;p&gt;After you try a coffee, we invite you to leave a simple thumbs up / thumbs down &lt;a href=&quot;https://blog.crema.co/ratings-remember-the-coffees-you-love-8fb796c5f146#.oyhycntoc&quot;&gt;rating&lt;/a&gt; of whether or not you liked it.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/ratings2.png&quot; alt=&quot;Ratings&quot; /&gt;
+	&lt;figcaption&gt;Ratings.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;your-coffee-palate-visualized&quot;&gt;Your Coffee Palate, Visualized&lt;/h2&gt;
+
+&lt;p&gt;As you order and rate coffees, we calculate your &lt;a href=&quot;https://blog.crema.co/the-brew-log-your-coffee-palate-visualized-26c85142932f#.6ftw0oq0u&quot;&gt;Brew Log&lt;/a&gt;: a visual representation of your coffee preferences. This utilizes the latest sensory science research and machine learning techniques to understand the characteristics present in the coffees you enjoy.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/brewlog.jpg&quot; alt=&quot;The Brew Log&quot; /&gt;
+	&lt;figcaption&gt;The Brew Log: your coffee palate, visualized.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;personalized-recommendations&quot;&gt;Personalized Recommendations&lt;/h2&gt;
+
+&lt;p&gt;Based on your personal coffee profile, our &lt;a href=&quot;https://blog.crema.co/personalized-recommendations-coffees-tailored-to-you-5e28e7d40194&quot;&gt;recommendation engine&lt;/a&gt; then suggests coffees that you’re sure to love.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/coffees.jpg&quot; alt=&quot;Personalized recommendations&quot; /&gt;
+	&lt;figcaption&gt;Personalized recommendations.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Here’s what &lt;a href=&quot;http://dailycoffeenews.com/2016/06/30/crema-co-coffee-marketplace-introduces-coffee-personality-analysis-system/&quot;&gt;Daily Coffee News&lt;/a&gt; had to say after we launched our recommendation engine:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Crema.co “appears to be pulling ahead of the pack in terms of innovation and unique consumer guidance… with an exceptional balance of preserving each roaster’s brand identity, presenting detailed information on each coffee and a convenient, flexible user experience…”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;brew-guides&quot;&gt;Brew Guides&lt;/h2&gt;
+
+&lt;p&gt;We’ve also prepared a series of guides that help educate consumers on how to brew the perfect cup of coffee.&lt;/p&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/brew-guide.jpg&quot; alt=&quot;Hario V60 Brew Guide&quot; /&gt;
+	&lt;figcaption&gt;A guide to preparing coffee using a Hario V60 pour over device.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In addition to step-by-step instructions, each brew guide also includes a video.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;iframe src=&quot;https://player.vimeo.com/video/161992254&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;packaging&quot;&gt;Packaging&lt;/h2&gt;
+
+&lt;p&gt;Each bag of coffee is delivered in a Crema.co box.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/packaging.jpg&quot; alt=&quot;Custom packaging.&quot; /&gt;
+	&lt;figcaption&gt;Custom packaging.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;logo&quot;&gt;Logo&lt;/h2&gt;
+
+&lt;p&gt;Our emblem is inspired by the rosetta pattern used in latte art. The term “crema” refers to the copper layer of foam on top of an espresso.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/mugs.jpg&quot; alt=&quot;Crema mugs&quot; /&gt;
+	&lt;figcaption&gt;Two Crema.co mugs sporting our name and emblem.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;our-purpose&quot;&gt;Our Purpose&lt;/h2&gt;
+
+&lt;p&gt;Cloud forests to office cubes, campfires to kitchen tables: coffee spans the world and touches millions of lives. At Crema.co, we firmly believe that &lt;strong&gt;coffee is a community, not a commodity&lt;/strong&gt;, and we’re on a mission to empower farmers, roasters, and coffee drinkers to truly live well.&lt;/p&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/community.jpg&quot; alt=&quot;Community, not commodity&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;recommendations&quot;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;Emily McIntyre (co-founder) says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I have the privilege of working with Tyler as co-founder of Crema.co, where together we are revolutionizing how coffee lovers find, buy, and share their coffee. For sheer professionalism, creativity, and deep-dive work, Tyler tops my list of collaborators. He’s a brilliant web designer and developer and has a strong grasp of the complexity of marketing, user experience, and product positioning.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Joe Malcoun (investor) says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“At Nutshell, Cahoots and Notion we have a high bar for excellence in many areas, but there are two in which we’re particularly snobby: design and coffee. That’s why we’ve all fallen in love with what our friend, Tyler Tate, is doing at Crema.”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+				<link>http://www.tylertate.com/works/2016/08/16/crema-coffee-marketplace.html</link>
+				<guid>http://www.tylertate.com/works/2016/08/16/crema-coffee-marketplace.html</guid>
+			</item>
+		
+			<item>
 				<title>The Discovery Gap</title>
 				<pubDate>Tue, 12 Jul 2016 00:00:00 PDT</pubDate>
 				<description>
@@ -664,7 +816,7 @@
 &lt;p&gt;To demonstrate how media companies can enhance customer engagement using search, we built an application using a collection of films that delivers:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Search and browse.&lt;/strong&gt; In the past, search and browse have too often been divorced, resulting in a disjointed experience for users (see our blog post on &lt;a href=&quot;http://twigkit.com/blog/2013/11/07/information-wayfinding.html&quot;&gt;Information Wayfinding&lt;/a&gt;). This application bridges that gap, making it easy to browse by genre (including SEO-optimised, human-friendly URLs such as “/genres/action/”), while at the same time apply filters and use keyword search.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Search and browse.&lt;/strong&gt; In the past, search and browse have too often been divorced, resulting in a disjointed experience for users (see our blog post on &lt;a href=&quot;http://tylertate.com/blog/2013/11/07/information-wayfinding.html&quot;&gt;Information Wayfinding&lt;/a&gt;). This application bridges that gap, making it easy to browse by genre (including SEO-optimised, human-friendly URLs such as “/genres/action/”), while at the same time apply filters and use keyword search.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;An editorial feel.&lt;/strong&gt; Film results are presented in an editorial style, with emphasis on the first film, followed by two columns of subsequent results, challenging the stereotype of search result presentation.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Detail pages.&lt;/strong&gt; Review the details of a particular film, click on any actor to view other films starring that actor, and peruse a list of similar films.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Topic pages.&lt;/strong&gt; View the films by any particular director, actor, writer, etc., with dynamic topic pages (for example “/actors/harrison_ford/”, or “/directors/george_lucas/”).&lt;/li&gt;
@@ -857,7 +1009,7 @@
 			</item>
 		
 			<item>
-				<title>Twigkit: User Interface Components for Rapidly Building Data-Driven Applications</title>
+				<title>Twigkit: User Interface Components for Data-Driven Applications</title>
 				<pubDate>Wed, 01 Jan 2014 00:00:00 PST</pubDate>
 				<description>&lt;p&gt;In 2009 I co-founded Twigkit, a London-based enterprise software company that provides tools for rapidly building data-driven applications. My responsibilities included leading the user experience, visual design, and front-end development of Twigkit’s products, spearheading our marketing efforts, and helping key customers — including The Financial Times, Rolls-Royce, Qualcomm, BASF, Thomson-Reuters, Vodafone, Gemalto, and ITV — achieve superb search user interfaces.&lt;/p&gt;
 
@@ -925,7 +1077,7 @@
 
 &lt;figure class=&quot;large&quot;&gt;
 	&lt;img src=&quot;/resources/images/work/twigkit/responsive.jpg&quot; alt=&quot;Responsive search and browse&quot; /&gt;
-	&lt;figcaption&gt;The Twigkit.com homepage as I designed it in 2014.&lt;/figcaption&gt;
+	&lt;figcaption&gt;Faceted navigation on desktop, tablet, and phone.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;how-it-works&quot;&gt;How It Works&lt;/h2&gt;
@@ -2734,9 +2886,17 @@ Smashing Magazine’s article on &lt;a href=&quot;https://web.archive.org/web/20
 
 &lt;h2 id=&quot;recommendations&quot;&gt;Recommendations&lt;/h2&gt;
 
-&lt;p&gt;“Quite aside from the fact that he’s a lovely guy, Tyler has that magic mixture of creativity, enthusiasm, vision and technical expertise that makes working with him a complete pleasure. Someone I can recommend without hesitation.” — Theo Bonham Carter (manager)&lt;/p&gt;
+&lt;p&gt;Theo Bonham Carter (manager) says:&lt;/p&gt;
 
-&lt;p&gt;“I have worked with Tyler on a number of projects, Tyler has been the key for that extra small detail motivated by his hunger to learn and wanting to benefit the project. Not only his UI which is at the forefront, its his ability of marketing, leading, and decision making which makes him stand out as a huge player within a team.” — Joseph McElroy (coworker)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Quite aside from the fact that he’s a lovely guy, Tyler has that magic mixture of creativity, enthusiasm, vision and technical expertise that makes working with him a complete pleasure. Someone I can recommend without hesitation.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Joseph McElroy (coworker) says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I have worked with Tyler on a number of projects, Tyler has been the key for that extra small detail motivated by his hunger to learn and wanting to benefit the project. Not only his UI which is at the forefront, its his ability of marketing, leading, and decision making which makes him stand out as a huge player within a team.”&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
 				<link>http://www.tylertate.com/works/2010/01/01/redesigning-enterprise-content-management-system.html</link>
 				<guid>http://www.tylertate.com/works/2010/01/01/redesigning-enterprise-content-management-system.html</guid>

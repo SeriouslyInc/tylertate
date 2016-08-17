@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Twigkit: User Interface Components for Rapidly Building Data-Driven Applications"
+title: "Twigkit: User Interface Components for Data-Driven Applications"
 snippet: ""
 cover_image: "/resources/images/work/twigkit/cover_image.jpg"
 ---
@@ -65,7 +65,7 @@ By providing a layer of data abstraction, Twigkit reaches across organizational 
 
 <figure class="large">
 	<img src="/resources/images/work/twigkit/responsive.jpg" alt="Responsive search and browse" />
-	<figcaption>The Twigkit.com homepage as I designed it in 2014.</figcaption>
+	<figcaption>Faceted navigation on desktop, tablet, and phone.</figcaption>
 </figure>
 
 ## How It Works

@@ -9,7 +9,6 @@ bodyId: home
 	<div class="hero-text">
 		<p>Hi, I'm Tyler, co-founder and CEO of <a href="https://Crema.co">Crema.co</a>, the coffee marketplace.</p>
 		<p>Previously I was co-founder at <a href="http://twigkit.com/">Twigkit</a> (enterprise search software), the first lead designer at <a href="http://nutshell.com/">Nutshell</a> (SaaS CRM), and co-author of <a href="http://designingthesearchexperience.com/">Designing the Search Experience</a>.</p>
-		<!-- <p>I also do user experience consulting for companies building new products or taking existing ones to the next level. If that's you, then drop me a line.</p> -->
 		<p>I currently live and work in Seattle, Washington.</p>
 	</div>
 
@@ -82,9 +81,7 @@ bodyId: home
 
 			<li class="work">
 				<a href="{{ post.url }}">
-					<div class="work-bg" style="">
-						<img src="{{post.cover_image}}" />
-					</div>
+					<div class="work-bg" style="background-image: url('{{post.cover_image}}');"> </div>
 					<h3 class="title">
 						{{ post.title }}
 					</h3>

@@ -89,7 +89,7 @@ To bolster customer engagement, media companies can use search to:
 ### Application Overview
 To demonstrate how media companies can enhance customer engagement using search, we built an application using a collection of films that delivers:
 
-* **Search and browse.** In the past, search and browse have too often been divorced, resulting in a disjointed experience for users (see our blog post on [Information Wayfinding](http://twigkit.com/blog/2013/11/07/information-wayfinding.html)). This application bridges that gap, making it easy to browse by genre (including SEO-optimised, human-friendly URLs such as "/genres/action/"), while at the same time apply filters and use keyword search.
+* **Search and browse.** In the past, search and browse have too often been divorced, resulting in a disjointed experience for users (see our blog post on [Information Wayfinding](http://tylertate.com/blog/2013/11/07/information-wayfinding.html)). This application bridges that gap, making it easy to browse by genre (including SEO-optimised, human-friendly URLs such as "/genres/action/"), while at the same time apply filters and use keyword search.
 * **An editorial feel.** Film results are presented in an editorial style, with emphasis on the first film, followed by two columns of subsequent results, challenging the stereotype of search result presentation.
 * **Detail pages.** Review the details of a particular film, click on any actor to view other films starring that actor, and peruse a list of similar films.
 * **Topic pages.** View the films by any particular director, actor, writer, etc., with dynamic topic pages (for example "/actors/harrison_ford/", or "/directors/george_lucas/").

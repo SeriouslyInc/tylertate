@@ -43,6 +43,10 @@ I wrote one of my first articles about design while working on these web applica
 
 ## Recommendations
 
-"Quite aside from the fact that he's a lovely guy, Tyler has that magic mixture of creativity, enthusiasm, vision and technical expertise that makes working with him a complete pleasure. Someone I can recommend without hesitation." — Theo Bonham Carter (manager)
+Theo Bonham Carter (manager) says:
 
-"I have worked with Tyler on a number of projects, Tyler has been the key for that extra small detail motivated by his hunger to learn and wanting to benefit the project. Not only his UI which is at the forefront, its his ability of marketing, leading, and decision making which makes him stand out as a huge player within a team." — Joseph McElroy (coworker)
+> "Quite aside from the fact that he's a lovely guy, Tyler has that magic mixture of creativity, enthusiasm, vision and technical expertise that makes working with him a complete pleasure. Someone I can recommend without hesitation."
+
+Joseph McElroy (coworker) says:
+
+> "I have worked with Tyler on a number of projects, Tyler has been the key for that extra small detail motivated by his hunger to learn and wanting to benefit the project. Not only his UI which is at the forefront, its his ability of marketing, leading, and decision making which makes him stand out as a huge player within a team."
