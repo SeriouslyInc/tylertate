@@ -6,7 +6,7 @@ snippet: The practice of information architecture is undergoing a tectonic shift
 
 The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect's skillset is well-suited for this new challenge, our existing tools are not.
 
-##Service blueprints aren't exactly what we need
+## Service blueprints aren't exactly what we need
 
 Imported from the field of service design, G. Lynn Shostack's _service blueprint_ is often suggested as a tool for cross-channel planning. Yet it's not a perfect fit:
 
@@ -21,7 +21,7 @@ Imported from the field of service design, G. Lynn Shostack's _service blueprint
 	<figcaption>A service blueprint created by [Brandon Schauer](http://www.flickr.com/photos/brandonschauer/3363169836/).</figcaption>
 </figure>
 
-##What do we need, then?
+## What do we need, then?
 
 Before brainstorming solutions, we should clarify the problem. Andrea Resmini and Lucas Rosati have discussed five principles for designing successful cross-channel experiences; [Peter Morville](http://www.slideshare.net/mobile/morville/crosschannel-strategy) advocates six; to me, these three seem the most fundamental:
 
@@ -31,7 +31,7 @@ Before brainstorming solutions, we should clarify the problem. Andrea Resmini an
 
 * **Continuous.** Each channel must be aware of all the others. Add a bicycle helmet to your shopping cart on the Web, and it should appear in the cart on your phone.
 
-##A starting point
+## A starting point
 
 <figure class="small">
 	<img src="http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg" width="475" class="twothirds-width" alt="The CHU Cube" />
@@ -47,7 +47,7 @@ Ammendment: *After publishing this post, [Gianluca Brugnoli](https://twitter.com
 	<figcaption>The Touchpoints Matrix by Gianluca Brugnoli.</figcaption>
 </figure>
 
-##Building on the foundation
+## Building on the foundation
 
 Juxtaposing tasks and channels is a useful starting point, though the CHUbe's multidimensional layers make it a bit unwieldy. For our diagram, let's do the following:
 
@@ -70,7 +70,7 @@ I call this a *cross-channel blueprint*. The exercise can be performed by a lone
 * A set of channel priorities for each task
 * An overview of which components need to be shared across channels
 
-##What do you think?
+## What do you think?
 
 This is but a first attempt at a developing a tool suitable for the new era of cross-channel information architecture. As such, it needs practice, iteration, and experimentation. If you've been working in this space, please chime in with how the cross-channel blueprint jives with your own experience.
 

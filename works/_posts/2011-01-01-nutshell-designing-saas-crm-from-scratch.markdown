@@ -22,7 +22,7 @@ Every new area of the product began with CEO Guy Suter, CTO Andy Fowler, and mys
 	<figcaption>The bi-product of brainstorming in front of a whiteboard.</figcaption>
 </figure>
 
-After that initial brainstroming session I'd go away and produce dozens of sketches exploring different directions, then bring those ideas back to discuss with Guy and Andy.
+After that initial brainstorming session I'd go away and produce dozens of sketches exploring different directions, then bring those ideas back to discuss with Guy and Andy.
 
 <figure class="large">
 	<img src="/resources/images/work/nutshell/1-lead-sketches.jpg" alt="Sketches" />
