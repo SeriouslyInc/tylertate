@@ -28,6 +28,8 @@
 						{% assign active = 'active' %}
 					{% elsif page.categories.first == 'blog' and link.text == 'Writings' %}
 						{% assign active = 'active' %}
+					{% elsif page.categories.first == 'works' and link.text == 'Work' %}
+						{% assign active = 'active' %}
 					{% endif %}
 
 					<li class="site-nav-item {{ active }}">

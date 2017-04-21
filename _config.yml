@@ -2,9 +2,6 @@ url: http://tylertate.com/
 navigation:
 - text: About
   url: /about.html
-- text: Work
-  url: /work.html
-  layout: work
 - text: Writings
   url: /writings.html
   layout: blog
