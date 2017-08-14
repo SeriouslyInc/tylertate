@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Lux: A Premium Travel App Concept"
+title: "Lux: A Premium Travel App"
 excerpt: ""
 cover_image: "/resources/images/work/lux/cover_image.jpg"
 ---
@@ -14,12 +14,12 @@ But not everyone. For the rare few who need help lightening their wallets, airli
 	<figcaption>A concept flight-booking app for luxury and business-class travelers.</figcaption>
 </figure>
 
-Most travel websites and apps cater to us price-sensitive masses. *But what would an app geared towards luxury travelers look like?* It's been a while since I designed an iOS app, so I thought it'd be a useful exercise to flex some of those design muscles and reimagine what a luxury travel app might look like. Here's what I came up with.
+Most travel websites and apps cater to us price-sensitive masses. **But what would an app geared towards luxury travelers look like?** It's been a little while since I designed an iOS app, so I thought it'd be a useful exercise to flex some of those design muscles and reimagine what a luxury travel app might look like. Here's what I came up with.
 
 > The brief: design a flight-booking app for luxury travelers.
 
 
-## Logo screen
+## Identity
 
 Since the brief was to design a luxury travel brand, I named my app “Lux" and selected a regal but modern color palette.
 
@@ -30,7 +30,7 @@ Since the brief was to design a luxury travel brand, I named my app “Lux" and 
 
 ## Flight Search
 
-Like all flight search, the user needs to be able to choose between one-way or return flights, enter the origin and destination airports, and choose dates, number of travelers, and cabin class. I thought it would also be helpful to show locations visited by the user in the past, making it convenient to book a flight to one of their often-visited destinations.
+As with all flight search tools, the user needs to be able to choose between one-way or return flights, enter the origin and destination airports, and choose dates, number of travelers, and cabin class. I thought it would also be helpful to show locations visited by the user in the past, making it convenient to book a flight to one of their often-visited destinations.
 
 <figure class="large">
 	<img src="/resources/images/work/lux/lux-2-flight-search.jpg" alt="Flight search" />
@@ -46,7 +46,7 @@ The search results contain key details for outbound and return flights in a neat
 </figure>
 
 
-## Search filters
+## Search Filters
 
 Should the user wish to further refine their search, they can tap the filter icon at the top right corner of the search results screen to reveal a dedicated panel of controls. Narrow by price, duration, airline, or by flight amenities.
 
@@ -55,10 +55,15 @@ Should the user wish to further refine their search, they can tap the filter ico
 </figure>
 
 
-## Flight details
+## Flight Details
 
-Tap on any flight to see more information. Because the experience is central to our sophisticated customers, we provide photos of the aircraft, cabin, and lounge as you might expect to see when booking a 5-star hotel, and call attention to the amenities available on the flight.
+Tap on any flight to see more information. Because the experience is central to our sophisticated customers, I provided photos of the aircraft, cabin, and lounge as you might expect to see when booking a 5-star hotel, and called attention to the amenities available on the flight.
 
 <figure class="large">
 	<img src="/resources/images/work/lux/lux-5-flight-details.jpg" alt="Flight details" />
 </figure>
+
+
+## A High-Flying App
+
+Altogether I spent about 2 days designing the app concept in Sketch. 
