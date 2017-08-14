@@ -66,4 +66,4 @@ Tap on any flight to see more information. Because the experience is central to 
 
 ## A High-Flying App
 
-Altogether I spent about 2 days designing the app concept in Sketch. 
+Altogether I spent about two days designing the app concept in Sketch. It was fun.
