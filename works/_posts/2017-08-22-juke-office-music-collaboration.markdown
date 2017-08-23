@@ -56,11 +56,11 @@ Ready to request a track? Type in the name of song, artist or album and the matc
 
 ## Upvote
 
-Has someone else already requested the song you want? Upvote it to let Ben, the station owner, know your preference. The user image on the right let's everyone see who requested each song, along with the number of upvotes it has received.
-
 <figure class="small">
-	<img src="/resources/images/work/juke/5-upvote.jpg" alt="Upvote" />
+  <img src="/resources/images/work/juke/5-upvote.jpg" alt="Upvote" />
 </figure>
+
+Has someone else already requested the song you want? Upvote it to let Ben, the station owner, know your preference. The user image on the right let's everyone see who requested each song, along with the number of upvotes it has received.
 
 
 ## Drag & Drop
@@ -74,11 +74,11 @@ If you're the station creator, approving a song request is as easy as dragging a
 
 ## Three Modes
 
-When starting a new station, the creator can set his or her station to one of three modes: solo, accepting requests, and open mic. In "solo" mode, the creator is solely responsible for choosing which songs to play. In "accepting requests" mode, as we've seen above, others can suggest songs, but the creator has approval authority. And finally, the "open mic" setting allows everyone to add songs to the playback queue, without relying on an individual curator. 
-
 <figure class="small">
   <img src="/resources/images/work/juke/7-modes.png" alt="Three Modes" />
 </figure>
+
+When starting a new station, the creator can set his or her station to one of three modes: solo, accepting requests, and open mic. In "solo" mode, the creator is solely responsible for choosing which songs to play. In "accepting requests" mode, as we've seen above, others can suggest songs, but the creator has approval authority. And finally, the "open mic" setting allows everyone to add songs to the playback queue, without relying on an individual curator. 
 
 
 ## A Rockin' Web App
