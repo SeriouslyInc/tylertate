@@ -28,7 +28,7 @@ I named my hypothetical tool "Juke" in homage to the jukebox, and selected a pla
 
 ## Station List
 
-Once you, the user, have signed in to your team's Juke account, you have two options: either listen to one of the stations created by one of your colleagues that's already streaming music, or create your own station. Offering multiple stations provides flexibility; your company's San Francisco and New York offices could each listen to their own station, or join in on a single station for coast-to-coast synchronization of Michael Jackson's greatest hits. Just what you've always wanted, right? (See note above about this being a bad business idea.)
+Once you, the user, have signed in to your team's Juke account, you have two options: either listen to a station created by one of your colleagues that's already streaming music, or create your own station. Offering multiple stations provides flexibility: your company's San Francisco and New York offices could each listen to their own station, or tune into a single station for coast-to-coast synchronized listening of Michael Jackson's greatest hits. Just what you've always wanted, right? (See note above about this being a bad business idea.)
 
 <figure class="large">
 	<img src="/resources/images/work/juke/2-stations.jpg" alt="Stations" />
