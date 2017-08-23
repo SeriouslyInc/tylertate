@@ -40,7 +40,7 @@ Once you, the user, have signed in to your team's Juke account, you have two opt
 Here's a station created by Ben called "Total Eclipse Monday." It displays the track currently playing, gives you the option to listen in, and reports a few key stats for the station. In this case Ben is open to song requests, so the screen is divided into two columns: the "Up Next" column displays the tracks Ben has approved and added to the queue; the "Requests" column shows songs that others have suggested, but Ben hasn't yet approved.
 
 
-<figure class="large">
+<figure class="medium">
 	<img src="/resources/images/work/juke/3-station-detail.jpg" alt="Station detail" />
 </figure>
 
@@ -58,7 +58,7 @@ Ready to request a track? Type in the name of song, artist or album and the matc
 
 Has someone else already requested the song you want? Upvote it to let Ben, the station owner, know your preference. The user image on the right let's everyone see who requested each song, along with the number of upvotes it has received.
 
-<figure class="medium">
+<figure class="small">
 	<img src="/resources/images/work/juke/5-upvote.png" alt="Upvote" />
 </figure>
 
@@ -76,7 +76,7 @@ If you're the station creator, approving a song request is as easy as dragging a
 
 When starting a new station, the creator can set his or her station to one of three modes: solo, accepting requests, and open mic. In "solo" mode, the creator is solely responsible for choosing which songs to play. In "accepting requests" mode, as we've seen above, others can suggest songs, but the creator has approval authority. And finally, the "open mic" setting allows everyone to add songs to the playback queue, without relying on an individual curator. 
 
-<figure class="medium">
+<figure class="small">
   <img src="/resources/images/work/juke/7-modes.png" alt="Three Modes" />
 </figure>
 
@@ -87,5 +87,5 @@ While an app allowing anyone in the office to listen to a colleague's station or
 
 
 <figure class="medium">
-  <img src="/resources/images/work/juke/8-iphone.png" alt="iPhone Responsive Web" />
+  <img src="/resources/images/work/juke/8-iphone.jpg" alt="iPhone Responsive Web" />
 </figure>
