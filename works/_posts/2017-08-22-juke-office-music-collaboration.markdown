@@ -59,7 +59,7 @@ Ready to request a track? Type in the name of song, artist or album and the matc
 Has someone else already requested the song you want? Upvote it to let Ben, the station owner, know your preference. The user image on the right let's everyone see who requested each song, along with the number of upvotes it has received.
 
 <figure class="small">
-	<img src="/resources/images/work/juke/5-upvote.png" alt="Upvote" />
+	<img src="/resources/images/work/juke/5-upvote.jpg" alt="Upvote" />
 </figure>
 
 
