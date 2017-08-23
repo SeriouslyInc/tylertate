@@ -5,12 +5,12 @@ excerpt: ""
 cover_image: "/resources/images/work/juke/cover_image.jpg"
 ---
 
-Putting on a pair of headphones and pressing play can be a great way to plunge head-down into an afternoon of focused work. But taking off those headphones and enjoying some tunes alongside your office mates can also be a fun source of camaraderie.
-
 <figure class="large">
 	<img src="/resources/images/work/juke/1-overview.jpg" alt="Juke: The Office Jukebox" />
 	<figcaption>A concept web app for listening to music at the office.</figcaption>
 </figure>
+
+Putting on a pair of headphones and pressing play can be a great way to plunge head-down into an afternoon of focused work. But taking off those headphones and enjoying some tunes alongside your office mates can also be a fun source of camaraderie.
 
 Spotify's comprehensive library is great for personal use, but it's not especially collaborative, attested to by numerous forums and Reddit threads discussing low-tech but inclusive solutions for sharing the control of the office stereo. While this is probably a bad business idea (it's pretty low on Maslow's hierarchy of needs), there's no harm in imagining what a modern day jukebox app might look like. So, I gave it a shot.
 
@@ -87,6 +87,5 @@ While an app allowing anyone in the office to listen to a colleague's station or
 
 
 <figure class="medium">
-  <!-- <img src="/resources/images/work/juke/8-iphone.jpg" alt="iPhone Responsive Web" /> -->
-  <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/OYL2a7tIyLdIY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  <img src="/resources/images/work/juke/8-iphone.jpg" alt="iPhone Responsive Web" />
 </figure>
