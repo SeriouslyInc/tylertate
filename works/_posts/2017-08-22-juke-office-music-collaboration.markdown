@@ -83,9 +83,10 @@ When starting a new station, the creator can set his or her station to one of th
 
 ## A Rockin' Web App
 
-While an app allowing anyone in the office to listen to a colleague's station or create their own with three modes of control, contextual search, and upvoting might not be the next billion dollar business, it sure would be fun app to use.
+While an app allowing anyone in the office to listen to a colleague's station or create their own with three modes of control, contextual search, and upvoting might not be the next billion dollar business, but it sure would be fun to use.
 
 
 <figure class="medium">
-  <img src="/resources/images/work/juke/8-iphone.jpg" alt="iPhone Responsive Web" />
+  <!-- <img src="/resources/images/work/juke/8-iphone.jpg" alt="iPhone Responsive Web" /> -->
+  <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/OYL2a7tIyLdIY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </figure>
