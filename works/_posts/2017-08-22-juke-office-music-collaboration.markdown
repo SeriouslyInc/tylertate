@@ -2,7 +2,7 @@
 layout: work
 title: "Juke: The Office Jukebox"
 excerpt: ""
-cover_image: "/resources/images/work/juke/cover_image.jpg"
+cover_image: "/resources/images/work/juke/cover-small.jpg"
 ---
 
 <figure class="large">

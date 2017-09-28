@@ -2,7 +2,7 @@
 layout: work
 title: "Crema.co: The Coffee Marketplace"
 excerpt: ""
-cover_image: "/resources/images/work/crema/cover_image.jpg"
+cover_image: "/resources/images/work/crema/cover-small.jpg"
 ---
 
 Our team <a href="http://www.geekwire.com/2015/crema-co-launches-coffee-marketplace-to-connect-shoppers-with-rare-roasts/">launched</a> <a href="https://crema.co/">Crema.co</a> in December 2015 after running a successful <a href="https://www.kickstarter.com/projects/2074548677/cremaco-the-single-origin-coffee-marketplace">Kickstarter campaign</a> earlier in the year. In addition to serving as the company's CEO, I also designed the product, developed the front-end, and currently own the back-end development as well. My awesome co-founder, Emily McIntyre, manages our roaster partnerships and all things coffee, and we have a copywriter, coffee professional, and all-star advisory board involved as well.

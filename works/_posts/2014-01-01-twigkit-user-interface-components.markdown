@@ -2,7 +2,7 @@
 layout: work
 title: "Twigkit: User Interface Components for Data-Driven Applications"
 snippet: ""
-cover_image: "/resources/images/work/twigkit/cover_image.jpg"
+cover_image: "/resources/images/work/twigkit/cover-small.jpg"
 ---
 
 In 2009 I co-founded Twigkit, a London-based enterprise software company that provides tools for rapidly building data-driven applications. My responsibilities included leading the user experience, visual design, and front-end development of Twigkit’s products, spearheading our marketing efforts, and helping key customers — including The Financial Times, Rolls-Royce, Qualcomm, BASF, Thomson-Reuters, Vodafone, Gemalto, and ITV — achieve superb search user interfaces.

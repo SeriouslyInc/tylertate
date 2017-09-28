@@ -10,11 +10,11 @@
 	<script src="https://use.typekit.net/lef3yon.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-	<link rel="stylesheet" href="http://localhost:4000//resources/css/main.css" type="text/css">
+	<link rel="stylesheet" href="http://localhost:4000/resources/css/main.css" type="text/css">
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
-<body id="blog">
+<body id="">
 
 	<header class="site-header">
 		<h1 class="site-header-title">
@@ -38,8 +38,6 @@
 					</li>
 				
 					
-					
-						
 					
 
 					<li class="site-nav-item active">
@@ -82,15 +80,16 @@
 <p>Both approaches are technically sound. But all else being equal, I personally prefer to use CSS for presentation and reserve JavaScript for interaction.</p>
 
 <h2 id="background-images">Background images</h2>
-<p>The CSS approach relies on all images being set through the <code>background-image</code> property. If we have two images to display that are both 450x300, for instance, we could do as follows:</p>
+<p>The CSS approach relies on all images being set through the <code class="highlighter-rouge">background-image</code> property. If we have two images to display that are both 450x300, for instance, we could do as follows:</p>
 
-<pre><code>&lt;figure id="desert"&gt;&lt;/figure&gt;
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;figure id="desert"&gt;&lt;/figure&gt;
 &lt;figure id="camel"&gt;&lt;/figure&gt;
 </code></pre>
+</div>
 
 <p>And the CSS:</p>
 
-<pre><code>figure {
+<div class="highlighter-rouge"><pre class="highlight"><code>figure {
 	width: 450px;
 	height: 300px;
 }
@@ -101,11 +100,12 @@ figure#camel {
 	background-image: url('images/camel.jpg');
 }
 </code></pre>
+</div>
 
 <h2 id="the-media-query">The Media Query</h2>
-<p>With the images displayed as <code>background-images</code>, we can then use a media query to detect the pixel density of the device viewing our page.</p>
+<p>With the images displayed as <code class="highlighter-rouge">background-images</code>, we can then use a media query to detect the pixel density of the device viewing our page.</p>
 
-<pre><code>@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+<div class="highlighter-rouge"><pre class="highlight"><code>@media only screen and (-webkit-min-device-pixel-ratio: 2) {
 	figure#desert {
 		background-image: url('images/sand-dune_2x.jpg');
 		background-size: 100%;
@@ -116,19 +116,20 @@ figure#camel {
 	}
 }
 </code></pre>
+</div>
 
-<p>While <code>min-resolution: 192dpi</code> is <a href="http://www.w3.org/TR/css3-mediaqueries/#resolution">W3C-approved</a> mechanism for targeting pixel density, it’s not yet <a href="http://drewwells.net/blog/2013/working-with-dppx/">well supported</a>. For now, the vendor specific <code>-webkit-min-device-pixel-ratio</code> and <code>min--moz-device-pixel-ratio</code> (yes, believe it or not that Mozilla prefix is <a href="http://menacingcloud.com/?c=highPixelDensityDisplays">correct</a>) are well supported by browsers likely to be used on high-density devices.</p>
+<p>While <code class="highlighter-rouge">min-resolution: 192dpi</code> is <a href="http://www.w3.org/TR/css3-mediaqueries/#resolution">W3C-approved</a> mechanism for targeting pixel density, it’s not yet <a href="http://drewwells.net/blog/2013/working-with-dppx/">well supported</a>. For now, the vendor specific <code class="highlighter-rouge">-webkit-min-device-pixel-ratio</code> and <code class="highlighter-rouge">min--moz-device-pixel-ratio</code> (yes, believe it or not that Mozilla prefix is <a href="http://menacingcloud.com/?c=highPixelDensityDisplays">correct</a>) are well supported by browsers likely to be used on high-density devices.</p>
 
-<p>You will notice that this media query adds a <code>_2x</code> suffix to the filenames of our two images. This assumes that we have created these image files, and that they are twice the resolution of the original. In other words, if the original image is 450x300 pixels, our <code>_2x</code> images should be 900x600.</p>
+<p>You will notice that this media query adds a <code class="highlighter-rouge">_2x</code> suffix to the filenames of our two images. This assumes that we have created these image files, and that they are twice the resolution of the original. In other words, if the original image is 450x300 pixels, our <code class="highlighter-rouge">_2x</code> images should be 900x600.</p>
 
-<p>By default, the web browser on a retina device will automatically scale an image to its actual pixel size. That is, our 900x450 image would be scaled to occupy a full 900x450 “virtual pixels” on the screen, whereas what we actually want is for the image to be scaled down to the original 450x300 area. To achieve this, we can set <code>background-size: 100%;</code>. <a href="http://quirksmode.org/css/backgrounds-borders/">This</a> instructs the browser to make the background image equal in width to its container.</p>
+<p>By default, the web browser on a retina device will automatically scale an image to its actual pixel size. That is, our 900x450 image would be scaled to occupy a full 900x450 “virtual pixels” on the screen, whereas what we actually want is for the image to be scaled down to the original 450x300 area. To achieve this, we can set <code class="highlighter-rouge">background-size: 100%;</code>. <a href="http://quirksmode.org/css/backgrounds-borders/">This</a> instructs the browser to make the background image equal in width to its container.</p>
 
 <h2 id="nested-media-queries-with-less">Nested Media Queries with LESS</h2>
 <p>So far, I’m sure you’ll agree, we’ve hardly broken new ground. The biggest problem I have with the above approach, however, is that it requires the designer to organise their CSS according to pixel densities. Instead of structuring stylesheets around the logical structure of the website, in other words, it forces us to have different stylesheets (or different blocks within a single stylesheet) to address each pixel density that we want to target. I don’t like that.</p>
 
 <p>Fortunately, CSS preprocessors like <a href="http://lesscss.org/#-nested-media-queries">LESS</a> and <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#media">SASS</a> support nesting media queries within selectors. For example, using LESS we could restructure our stylesheet as follows:</p>
 
-<pre><code>figure {
+<div class="highlighter-rouge"><pre class="highlight"><code>figure {
 	width: 450px;
 	height: 300px;
 }
@@ -149,6 +150,7 @@ figure#camel {
 	}
 }
 </code></pre>
+</div>
 
 <p>While the compiled output of this stylesheet would resemble the original example, LESS’s nested media query support allows us to structure our stylesheet more naturally. However, having to remember to add these extra few lines for every image is still tedious.</p>
 
@@ -159,9 +161,9 @@ figure#camel {
   <p>“Mixins allow you to define styles that can be re-used throughout the stylesheet… They can also take arguments which allows you to produce a wide variety of styles with very few mixins.”</p>
 </blockquote>
 
-<p>Let’s experiment by moving our media query to a mixin called <code>.background-image()</code>:</p>
+<p>Let’s experiment by moving our media query to a mixin called <code class="highlighter-rouge">.background-image()</code>:</p>
 
-<pre><code>.background-image(@image) {
+<div class="highlighter-rouge"><pre class="highlight"><code>.background-image(@image) {
 	background-image: url(@image);
 
 	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -170,10 +172,11 @@ figure#camel {
 	}
 }
 </code></pre>
+</div>
 
-<p>You will notice that the mixin accepts an <code>@image</code> parameter, which is then used to set the <code>background-image</code>. Having defined this mixin, we could then rewrite our primary stylesheet to reference it:</p>
+<p>You will notice that the mixin accepts an <code class="highlighter-rouge">@image</code> parameter, which is then used to set the <code class="highlighter-rouge">background-image</code>. Having defined this mixin, we could then rewrite our primary stylesheet to reference it:</p>
 
-<pre><code>figure {
+<div class="highlighter-rouge"><pre class="highlight"><code>figure {
 	width: 450px;
 	height: 300px;
 }
@@ -184,10 +187,11 @@ figure#camel {
 	.background-image('images/camel.jpg');
 }
 </code></pre>
+</div>
 
 <p>Our compiled CSS would then look like:</p>
 
-<pre><code>figure {
+<div class="highlighter-rouge"><pre class="highlight"><code>figure {
 	width: 450px;
 	height: 300px;
 }
@@ -210,28 +214,30 @@ figure#camel {
 	}
 }
 </code></pre>
+</div>
 
-<p>It’s easy to see how a mixin could simplify configuration. Of course, this mixin isn’t yet doing it’s job; you’ll notice that the retina image is still pointing to <code>images/sand-dune.jpg</code>, and not the <code>images/sand-dune_2x.jpg</code> that we need.</p>
+<p>It’s easy to see how a mixin could simplify configuration. Of course, this mixin isn’t yet doing it’s job; you’ll notice that the retina image is still pointing to <code class="highlighter-rouge">images/sand-dune.jpg</code>, and not the <code class="highlighter-rouge">images/sand-dune_2x.jpg</code> that we need.</p>
 
 <h2 id="the-regular-expression">The Regular Expression</h2>
-<p>The next step requires a bit of a leap. In order to add the <code>_2x</code> suffix to the image path, we could have our <code>.background-image()</code> mixin use a regular expression to split the image path into two parts — filename and extension. We can then piece the path back together, inserting the <code>_2x</code> suffix between them.</p>
+<p>The next step requires a bit of a leap. In order to add the <code class="highlighter-rouge">_2x</code> suffix to the image path, we could have our <code class="highlighter-rouge">.background-image()</code> mixin use a regular expression to split the image path into two parts — filename and extension. We can then piece the path back together, inserting the <code class="highlighter-rouge">_2x</code> suffix between them.</p>
 
 <p>Ok, stay with me here. Lets first prototype our regular expression in JavaScript. I’ve created a <a href="http://jsfiddle.net/g7rqt/">fiddle</a> where you can run this code for yourself.</p>
 
-<pre><code>var image = '../images/image.png';
+<div class="highlighter-rouge"><pre class="highlight"><code>var image = '../images/image.png';
 var regex = /(.*)\.(jpg|jpeg|png|gif)/;
 var match = regex.exec(image);
 if (match != null) {
     alert("background-image: url('"+match[1]+"_2x."+match[2]+"');");
 }
 </code></pre>
+</div>
 
-<p>The regular expression has two <a href="http://www.regular-expressions.info/brackets.html">capture groups</a>, which are denoted by parenthesis: <code>(.*)</code> and <code>(jpg|jpeg|png|gif)</code>. The second capture group matches any of the listed extensions: <code>jpg</code>, <code>jpeg</code>, <code>png</code>, or <code>gif</code>. The first capture group captures everything before the full stop. Then, in the <code>alert()</code>, we reconstruct the image path.</p>
+<p>The regular expression has two <a href="http://www.regular-expressions.info/brackets.html">capture groups</a>, which are denoted by parenthesis: <code class="highlighter-rouge">(.*)</code> and <code class="highlighter-rouge">(jpg|jpeg|png|gif)</code>. The second capture group matches any of the listed extensions: <code class="highlighter-rouge">jpg</code>, <code class="highlighter-rouge">jpeg</code>, <code class="highlighter-rouge">png</code>, or <code class="highlighter-rouge">gif</code>. The first capture group captures everything before the full stop. Then, in the <code class="highlighter-rouge">alert()</code>, we reconstruct the image path.</p>
 
 <h2 id="the-mixin-take-2">The Mixin, Take 2</h2>
 <p>Now that we’ve created a regular expression that works, we can incorporate this into our mixin by taking advantage of LESS’s ability to evaluate JavaScript expressions.</p>
 
-<pre><code>.background-image(@image){
+<div class="highlighter-rouge"><pre class="highlight"><code>.background-image(@image){
 	@filename:  ~`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{image})[1]`;
 	@extension: ~`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{image})[2]`;
 	background-image: ~`"url(@{filename}.@{extension})"`;
@@ -242,12 +248,13 @@ if (match != null) {
 	}
 }
 </code></pre>
+</div>
 
 <p>Because there is no concept of arrays in LESS, I’ve had to run the same regular expression twice, once to grab the filename, and again to get the extension.</p>
 
 <p>With the mixin now equipped with our regular expression, we can very simply reference our images and be certain that the correct resolution image is being delivered to the browser.</p>
 
-<pre><code>figure {
+<div class="highlighter-rouge"><pre class="highlight"><code>figure {
 	width: 450px;
 	height: 300px;
 }
@@ -258,11 +265,12 @@ figure#camel {
 	.background-image('images/camel.jpg');
 }
 </code></pre>
+</div>
 
 <p>You can view a <a href="http://tylertate.github.io/background-image/demo.html">working demo</a> of this solution, as well as <a href="https://github.com/tylertate/background-image">browse the code</a> on GitHub.</p>
 
 <h2 id="limitations">Limitations</h2>
-<p>This approach has one particular limitation that it’s important to point out. When compiled, each reference to the <code>.background-image()</code> mixin results in a few lines of CSS (in this case, five lines). A quick test seems to indicate that about five invocations of the mixin result in about 1 kilobyte of uncompressed CSS. This is acceptable if there are a couple dozen images involved, but not if there are hundreds.</p>
+<p>This approach has one particular limitation that it’s important to point out. When compiled, each reference to the <code class="highlighter-rouge">.background-image()</code> mixin results in a few lines of CSS (in this case, five lines). A quick test seems to indicate that about five invocations of the mixin result in about 1 kilobyte of uncompressed CSS. This is acceptable if there are a couple dozen images involved, but not if there are hundreds.</p>
 
 <h2 id="advantages">Advantages</h2>
 <p>That said, this approach of using background images, media queries, and a LESS mixin in combination does have a number of significant advantages:</p>
@@ -271,7 +279,7 @@ figure#camel {
   <li>It relies purely on CSS — no JavaScript is required</li>
   <li>It’s not necessary to restructure your stylesheets to support multiple pixel densities</li>
   <li>The mixin abstracts the media queries and references to retina images, so it’s not necessary to add any extra configuration to main stylesheets</li>
-  <li>The method for referencing images — <code>.background-image('images/camel.jpg')</code> is in keeping with CSS syntax</li>
+  <li>The method for referencing images — <code class="highlighter-rouge">.background-image('images/camel.jpg')</code> is in keeping with CSS syntax</li>
 </ul>
 
 

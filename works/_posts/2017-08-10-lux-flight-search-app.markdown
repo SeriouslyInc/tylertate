@@ -2,7 +2,7 @@
 layout: work
 title: "Lux: A Premium Travel App"
 excerpt: ""
-cover_image: "/resources/images/work/lux/cover_image.jpg"
+cover_image: "/resources/images/work/lux/cover-small.jpg"
 ---
 
 Flight booking is standard fare. You enter your destination, specificy travel dates, and look for the lowest price. As the rise of budget airlines proves, cost is king for most of us.
