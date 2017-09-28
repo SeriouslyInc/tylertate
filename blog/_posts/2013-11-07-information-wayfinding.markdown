@@ -2,7 +2,7 @@
 layout: blog
 title: Information Wayfinding
 snippet: "We are drowning in information. As more and more data floods in, we find ourselves in a state of information anxiety. Big data is today’s buzzword of choice. People like to talk about using clever technology to make sense of big data. I would suggest, however, that big data is not a technology problem. It’s a people problem. I believe the question that we need to ask is this: How can we make ever-growing volumes of information accessible and useful to people without overwhelming them?"
-
+category: [search,featured]
 ---
 
 <figure class="large" style="margin-top: -1.43em;">

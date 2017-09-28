@@ -2,6 +2,7 @@
 layout: blog
 title: "Naming Startups"
 snippet: "The venerable Paul Graham postulated in a blog post recently: If you have a US startup called X and you don’t have x.com, you should probably change your name. This is an oversimplification. Whether the domain ends in .com is just one of several important characteristics to consider."
+category: startup
 ---
 
 The venerable [Paul Graham](http://paulgraham.com/name.html) postulated in a blog post recently:

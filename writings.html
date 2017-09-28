@@ -6,33 +6,33 @@ bodyId: writings
 
 <header class="page-hero blue">
 	<div class="page-hero-bg" style="background-image: url('/resources/images/dtse-cover.jpg');">
-		
 	</div>
 	<h2 class="page-hero-title">Writings</h2>
 </header>
 
 <section id="writings">
-	<ol class="content-list writing-list">
-		{% for post in site.categories.blog %}
-			<li class="content-item">
-				
-				{% if post.publisher %}
-					<a class="content-item-location" href="{{ post.originalurl }}">{{ post.publisher }}</a>
-				{% else %}
-					<span class="content-item-location">&nbsp;</span>
-				{% endif %}
-
-				<h3 class="content-item-title">
-					{% if post.publisher %}
-						<a href="{{ post.originalurl }}">{{ post.title }}</a>
-					{% else %}
-						<a href="{{ post.url }}">{{ post.title }}</a>
-					{% endif %}
-				</h3>
-
-				<span class="content-item-date">{{ post.date | date: "%b %Y" }}</span>
-			
-			</li>
-		{% endfor %}
-	</ol>
+	<h2 class="section-title section-title-underline" style="margin-top: 2rem;">Startups</h2>
+	{% include writing_list.html category=site.categories.startup name="startup" %}
 </section>
+<section id="writings">
+	<h2 class="section-title section-title-underline">Crema.co</h2>
+	{% include writing_list.html category=site.categories.crema name="crema" %}
+</section>
+<section id="writings">
+	<h2 class="section-title section-title-underline">Search</h2>
+	{% include writing_list.html category=site.categories.search name="search" %}
+</section>
+<section id="writings">
+	<h2 class="section-title section-title-underline">User Experience</h2>
+	{% include writing_list.html category=site.categories.ux name="ux" %}
+</section>
+<section id="writings">
+	<h2 class="section-title section-title-underline">Front-end Dev</h2>
+	{% include writing_list.html category=site.categories.frontend name="frontend" %}
+</section>
+<section id="writings">
+	<h2 class="section-title section-title-underline">Miscellaneous</h2>
+	{% include writing_list.html category=site.categories.misc name="misc" %}
+</section>
+
+<br/><br/><br/>

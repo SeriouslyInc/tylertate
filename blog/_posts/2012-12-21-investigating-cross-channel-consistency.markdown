@@ -4,6 +4,7 @@ title: "Investigating Cross-Channel Consistency"
 publisher: UX Magazine
 originalurl: http://uxmag.com/articles/investigating-cross-channel-consistency
 snippet: "The gestalt principle of consistency has served designers well for generations. But today, the designer’s canvas is expanding to include entire ecosystems where digital channels such as web and mobile must work in harmony with physical channels, from print media to the natural environment. As our remit expands, we must revisit the principles that have made us successful in the past, and reinterpret them for the future."
+category: ux
 ---
 
 <img src="http://tylertate.com/resources/images/2012-12-21/ecosystem.png" width="712" class="twothirds-width" alt="The information architecture of discovery." />

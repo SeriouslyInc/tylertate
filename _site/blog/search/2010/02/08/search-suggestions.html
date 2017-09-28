@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+	<link rel="alternate" type="application/rss+xml" title="Tyler Tate" href="http://feeds.feedburner.com/TylerTate" />
+	<title>Search Suggestions — Tyler Tate</title>
+
+	<script src="https://use.typekit.net/lef3yon.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<link rel="stylesheet" href="http://localhost:4000/resources/css/main.css" type="text/css">
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body id="">
+
+	<header class="site-header">
+		<h1 class="site-header-title">
+			<a href="/">Tyler Tate</a>
+		</h1>
+		<nav class="site-nav site-header-nav">
+			<ul>
+				
+					
+					
+
+					<li class="site-nav-item ">
+						<a href="/about.html">About</a>
+					</li>
+				
+					
+					
+
+					<li class="site-nav-item ">
+						<a href="/work.html">Work</a>
+					</li>
+				
+					
+					
+
+					<li class="site-nav-item active">
+						<a href="/writings.html">Writings</a>
+					</li>
+				
+					
+					
+
+					<li class="site-nav-item ">
+						<a href="/talks.html">Talks</a>
+					</li>
+				
+			</ul>
+		</nav>
+	</header>
+
+
+	<div id="blog">
+	<article class="post">
+
+		<header class="post-header">
+			<p class="post-date">February 08, 2010</p>
+			<h1 class="post-title">Search Suggestions</h1>
+		</header>
+
+		<section class="post-content">
+			<p>You used to be expected to type for yourself. But today people have come to expect a reasonable amount of help at even this task. Our phones now help us form correctly-spelled words, our browsers fill in long addresses after we’ve typed only a few characters, and search engines recommend searching for “Humphrey Bogart” after we’ve typed just “boga.”</p>
+
+<p>But not all as-you-type search suggests are created equal. Careful observation seems to reveal three different approaches: completion, suggestion, and instant results. These approaches range in cognitive burden on the one hand, and utility on the other. We’ll look at several examples of each and consider when they should be used.</p>
+
+<figure class="medium">
+	<img src="/resources/images/2010-02-08/suggest1.png" alt="Cognitive burden vs. utility of search suggestions." />
+	<figcaption>Cognitive burden vs. utility of search suggestions.</figcaption>
+</figure>
+
+<h2 id="completion">Completion</h2>
+<p>The simplest of these three approaches is query completion. The sole role of completion is to reduce the friction involved in getting an idea out of your head and onto the computer screen. Just like a fluent translator improves the conversation between two people who speak different languages, so query completion helps a person and a computer communicate a bit more coherently.</p>
+
+<figure class="medium">
+	<img src="/resources/images/2010-02-08/suggest2.png" alt="Autocomplete" />
+	<figcaption>Auto-complete.</figcaption>
+</figure>
+
+<p>Completion makes the most sense when dealing with a narrow strand of finite data. It’s commonly employed for concepts like geography (airports, cities, countries), finance (ticker symbols, company names), and people.</p>
+
+<p>Query completion has many advantages over a plain-text search. It saves the user time by cutting out unnecessary keystrokes (i.e. I could type “Birm” and accept the suggestion of “Birmingham”). It also helps prevent spelling mistakes (I can just type “Mitsub” instead of remembering how to spell “Mitsubishi”). And, unlike some of the other forms of search suggestion, query completion does not suffer from being complicated or mentally tiresome. On the contrary, it can be such a natural behaviour that we almost don’t even realise it’s occurring.</p>
+
+<blockquote>
+  <p>My consensus, then, is to use completion whenever and wherever possible. It will make your users more productive without the risk of confusing them.</p>
+</blockquote>
+
+<h2 id="suggestion">Suggestion</h2>
+<p>Suggestion is by far the most ubiquitous auto-complete approach. The obvious examples are search engines such as Google and Yahoo, though it’s used on virtually every category of website.</p>
+
+<figure class="medium">
+	<img src="/resources/images/2010-02-08/suggest7.png" alt="Auto-suggest" />
+	<figcaption>Auto-suggest.</figcaption>
+</figure>
+
+<p>While completion helps get an idea from your head onto the screen, suggestion actually throws new ideas into the mix. It’s not too dissimilar to what happens when you tell your travel agent that you’d like to go on holiday. The agent comes back with a handful of suggestions like the Swiss Alps, Jamaican beach, or Vietnamese jungle. Similarly, if I type “guitar” into eBay’s search field, I get suggestions for “electric guitar,” “acoustic guitar,” and “guitar hero.”</p>
+
+<p>Not only do suggestions save the user keystrokes, but they can actually help construct a more useful query than the user would have thought of on their own.</p>
+
+<figure class="medium">
+	<img src="/resources/images/2010-02-08/suggest8.png" alt="Google's Auto-suggest" />
+	<figcaption>Google's Auto-suggest.</figcaption>
+</figure>
+
+<p>But there are a number of opportunities for maximising the power of query suggestions that are often overlooked, but which Google seem to get right. The lowest hanging fruit of these are spelling suggestions. If I type “guitaf” into Google, the first suggestion that appears in the list is the correctly-spelled word, “guitar.” Surprisingly, this elementary feature is missing from giants like eBay, Amazon.com, and Yahoo. A second technique is to display the number of results for each selected term, as Google do with a right alignment. This has a risk (which we’ll get to in a bit), but it can help the user gauge the popularity of a given suggestion. And lastly, it’s often helpful to infuse suggestions with recent searches. One approach, which Safari utilises, is to simply have two groups, one for query suggestions and another that lists the user’s recent searches. A more sophisticated approach could be to use search log data (either for one user, a group of users, or all users) to augment the scoring of the query suggestions themselves.</p>
+
+<p>When deciding what features to include in search suggestions, it is important to consider the mental load that they will exert upon the user. Every addition of new information will add precious milliseconds of processing time for the user’s brain to digest that information. The trick is to strike the right balance between usefulness and cognitive burden within the context of your application.</p>
+
+<h2 id="instant-results">Instant Results</h2>
+<p>The third approach differs greatly from the first two forms of search suggestions. In fact, instant results doesn’t offer query suggestions at all, but instead offers actual results to the user, often organised into a handful of categories.</p>
+
+<p>Apple is perhaps the most well-known purveyor of this technique, both on their website and on OS/X’s desktop search, Spotlight. When I type the letters “mou” into the search box on Apple.com, I get five search results, the first being Magic Mouse. If I accept that suggestion, however, I am not taken to a search results pages with the query of “Magic Mouse,” but am actually taken directly to the Magic Mouse product page.</p>
+
+<figure class="medium">
+	<img src="/resources/images/2010-02-08/suggest9.png" alt="Instant results on Apple.com" />
+	<figcaption>Instant results on Apple.com.</figcaption>
+</figure>
+
+<p>A key feature of instant results is that it can often diminish the need of having a dedicated search page. Instead, search results are provided in a contextual drop-down without leaving the page. The benefit is of course that the user is able to view results as they type, cutting out the additional time required to load a second page.</p>
+
+<p>However, there are risks associated with instant results. First of all, the ability to provide query suggestions is lost since results are shown instantaneously. A second concern is that instant results usually only have space to show a handful of results, and often require quite a lot of space even at that. More specifically, instant results carries with it a much greater cognitive burden on the user than do either completion or query suggestion. It simply takes more time to parse through the multiple categories and apprehend all the metadata associated with each result.</p>
+
+<p>But there is a time and place for everything. Instant results work great when there is highly structured data neatly divided into a handful of categories. Take the forthcoming Nutshell CRM application, for example. The search field only covers three entities: leads, accounts, and contacts. In this context, query suggestions would be useless. It would also be very rare for a result to be buried very far down the list, so the user would almost never need a full page of search results. In this situation, instant results helps the user find what they’re looking for quickly, and with as little friction as possible.</p>
+
+<figure class="medium">
+	<img src="/resources/images/2010-02-08/suggest11.png" alt="Instant results segmented by type on Nutshell.com" />
+	<figcaption>Instant results segmented by type on Nutshell.com.</figcaption>
+</figure>
+
+<blockquote>
+  <p>These three approaches differ greatly in both their usefulness and the effort required to use them. Completion is easy to understand and almost always results in a net benefit for the user. Suggestion, because it throws new ideas in the mix, is slightly more complex, but that is usually outweighed by its helpfulness. And finally, instant results work well for simple, highly structured data, but at times runs the risk of overwhelming.</p>
+</blockquote>
+
+<h2 id="further-resources">Further Resources</h2>
+<p>Tyler’s Flickr collection of <a href="https://web.archive.org/web/20110417161850/http://www.flickr.com/photos/tylertate/collections/72157623357650970/">search suggestion examples</a>
+Peter Morville’s collection of <a href="https://web.archive.org/web/20110417161850/http://www.flickr.com/photos/morville/collections/72157603785835882/">search patterns</a>
+Google’s original <a href="https://web.archive.org/web/20110417161850/http://googleblog.blogspot.com/2008/08/at-loss-for-words.html">blog post</a> announcing the release of search suggestions
+Jared Spool’s article on <a href="https://web.archive.org/web/20110417161850/http://www.uie.com/articles/time_search">spending quality time with your search log</a>
+Smashing Magazine’s article on <a href="https://web.archive.org/web/20110417161850/http://www.smashingmagazine.com/2008/12/04/designing-the-holy-search-box-examples-and-best-practices/">designing the search box</a></p>
+
+<h2 id="the-deck">The Deck</h2>
+<p>Tyler presented a talk on search suggestions at the Enterprise Search London Meetup on February 4, 2010. The presentation is available on SlideShare.</p>
+
+<p><em>Originally published on the Twigkit blog.</em></p>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/xvCenTeOM6f9ty" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/tylertate/search-suggestions" title="Search Suggestions" target="_blank">Search Suggestions</a> </strong> from <strong><a href="//www.slideshare.net/tylertate" target="_blank">Tyler Tate</a></strong> </div>
+
+
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+			    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+			    var disqus_shortname = 'tylertate'; // required: replace example with your forum shortname
+
+			    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+			    var disqus_identifier = '/blog/search/2010/02/08/search-suggestions.html';
+			    var disqus_url = 'http://www.tylertate.com/blog/search/2010/02/08/search-suggestions.html';
+
+			    /* * * DON'T EDIT BELOW THIS LINE * * */
+			    (function() {
+			        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+			        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			    })();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			
+		</section>
+		
+	</article>
+</div>
+
+
+	<header class="site-footer">
+		<nav class="site-nav">
+			<ul>
+				<li class="site-nav-item">
+					<a href="http://crema.co/" title="My Company: Crema.co">Company</a>
+				</li>
+				<li class="site-nav-item">
+					<a href="http://designingthesearchexperience.com/" title="My Book: Designing the Search Experience">Book</a>
+				</li>
+				<li class="site-nav-item">
+					<a href="https://www.linkedin.com/in/tylertate" title="My LinkedIn Profile">LinkedIn</a>
+				</li>
+				<li class="site-nav-item">
+					<a href="http://twitter.com/tylertate" title="Follow me on Twitter">Twitter</a>
+				</li>
+				<li class="site-nav-item">
+					<a href="mailto:tyler@tylertate.com" title="Email me">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-761992-5', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</body>
+</html>

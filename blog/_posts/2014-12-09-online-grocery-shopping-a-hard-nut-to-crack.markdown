@@ -2,6 +2,7 @@
 layout: blog
 title: "Online Grocery Shopping: A Hard Nut to Crack"
 snippet: "Snippet goes here."
+category: crema
 ---
 
 <figure class="large" style="margin-top: -1.43em;">

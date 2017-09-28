@@ -14,38 +14,13 @@ bodyId: home
 
 </header>
 
+<section id="writings">
+	<h2 class="section-title section-title-underline">Featured <a href="/writings.html">Writings</a></h2>
+	{% include writing_list.html category=site.categories.featured name="startup" %}
+</section>
 
-<section id="writings" style="overflow: hidden;">
-	<h2 class="section-title">WRITINGS</h2>
-	<div class="featured-groups">
-		<div class="featured-groups-liner">
-
-			<div class="featured-group">
-				<h3>Search</h3>
-				<ul>
-					<li><a href="http://designingthesearchexperience.com">Designing the Search Experience</a></li>
-					<li><a href="http://tylertate.com/blog/2013/11/07/information-wayfinding.html">Information Wayfinding</a></li>
-					<li><a href="https://medium.com/@tylertate/the-discovery-gap-5474f1702dc1#.qwr9tjpq0">The Discovery Gap</a></li>
-				</ul>
-			</div>
-			<div class="featured-group">
-				<h3>User Experience</h3>
-				<ul>
-					<li><a href="https://uxmag.com/articles/designers-as-innovators-and-a-story-about-coffee">Designers as Innovators</a></li>
-					<li><a href="http://alistapart.com/article/the-ux-of-learning">The UX of Learning</a></li>
-					<li><a href="http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html">Cross-Channel Blueprints</a></li>
-				</ul>
-			</div>
-			<div class="featured-group">
-				<h3>Startups</h3>
-				<ul>
-					<li><a href="https://medium.com/startup-grind/the-startup-cheat-sheet-ca7fca624da5">The Startup Cheat-Sheet</a></li>
-					<li><a href="https://medium.com/@tylertate/what-we-learned-at-500-startups-fd8e851b96d1">What I Learned at 500 Startups</a></li>
-					<li><a href="https://medium.com/startup-grind/content-growth-susan-su-on-two-frameworks-for-content-marketing-98d8fd2adc54">Content + Growth</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+<section id="writings">
+	<h2 class="section-title section-title-underline">Latest <a href="/writings.html">Writings</a></h2>
 
 	<ol class="content-list writing-list">
 		{% for post in site.categories.blog limit: 4 %}
@@ -72,10 +47,15 @@ bodyId: home
 	</ol>
 </section>
 
-<br/><br/>
+<!-- <section id="talks">
+	<h2 class="section-title section-title-underline">Featured Talks</h2>
+	{% for post in site.categories.featured_talk limit: 2 %}
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ post.youtube_id }}" frameborder="0" allowfullscreen></iframe>
+	{% endfor %}
+</section> -->
 
 <section id="work">
-	<h2 class="section-title">WORK</h2>
+	<h2 class="section-title"><a href="/work.html">Work</a></h2>
 
 	<ol class="content-blocks work-blocks medium">
 		{% for post in site.categories.works limit:3 %}

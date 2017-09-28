@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+	<link rel="alternate" type="application/rss+xml" title="Tyler Tate" href="http://feeds.feedburner.com/TylerTate" />
+	<title>Cross-Channel Blueprints: A tool for modern IA — Tyler Tate</title>
+
+	<script src="https://use.typekit.net/lef3yon.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<link rel="stylesheet" href="http://localhost:4000/resources/css/main.css" type="text/css">
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body id="">
+
+	<header class="site-header">
+		<h1 class="site-header-title">
+			<a href="/">Tyler Tate</a>
+		</h1>
+		<nav class="site-nav site-header-nav">
+			<ul>
+				
+					
+					
+
+					<li class="site-nav-item ">
+						<a href="/about.html">About</a>
+					</li>
+				
+					
+					
+
+					<li class="site-nav-item ">
+						<a href="/work.html">Work</a>
+					</li>
+				
+					
+					
+
+					<li class="site-nav-item active">
+						<a href="/writings.html">Writings</a>
+					</li>
+				
+					
+					
+
+					<li class="site-nav-item ">
+						<a href="/talks.html">Talks</a>
+					</li>
+				
+			</ul>
+		</nav>
+	</header>
+
+
+	<div id="blog">
+	<article class="post">
+
+		<header class="post-header">
+			<p class="post-date">February 21, 2012</p>
+			<h1 class="post-title">Cross-Channel Blueprints: A tool for modern IA</h1>
+		</header>
+
+		<section class="post-content">
+			<p>The practice of information architecture is undergoing a tectonic shift away from creating individual websites and towards designing cross-channel experiences that span both the digital—from desktop to mobile—and the physical—from print to storefront. While the information architect’s skillset is well-suited for this new challenge, our existing tools are not.</p>
+
+<h2 id="service-blueprints-arent-exactly-what-we-need">Service blueprints aren’t exactly what we need</h2>
+
+<p>Imported from the field of service design, G. Lynn Shostack’s <em>service blueprint</em> is often suggested as a tool for cross-channel planning. Yet it’s not a perfect fit:</p>
+
+<ul>
+  <li>
+    <p><strong>Too process-oriented</strong>. Service blueprints present customer actions sequentially. While desirable for planning specific flows (such as a checkout process), it’s obstructive when trying to outline a comprehensive strategy.</p>
+  </li>
+  <li>
+    <p><strong>Minimal attention to channels</strong>. Service blueprints document the “physical evidence” associated with each action, but fail to account for how a single action might be performed on multiple channels.</p>
+  </li>
+  <li>
+    <p><strong>Meant for a different purpose</strong>. With their lines of interaction, visibility, and internal visibility, service blueprints simply weren’t intended to be used for planning cross-channel information architecture</p>
+  </li>
+</ul>
+
+<figure class="medium">
+	<img src="http://tylertate.com/resources/images/2012-02-21/service-blueprint-brandonschauer.png" width="712" class="normal-width" alt="A service blueprint by Brandon Schauer" />
+	<figcaption>A service blueprint created by [Brandon Schauer](http://www.flickr.com/photos/brandonschauer/3363169836/).</figcaption>
+</figure>
+
+<h2 id="what-do-we-need-then">What do we need, then?</h2>
+
+<p>Before brainstorming solutions, we should clarify the problem. Andrea Resmini and Lucas Rosati have discussed five principles for designing successful cross-channel experiences; <a href="http://www.slideshare.net/mobile/morville/crosschannel-strategy">Peter Morville</a> advocates six; to me, these three seem the most fundamental:</p>
+
+<ul>
+  <li>
+    <p><strong>Consistent.</strong> Each channel should enable users to perform a given task in a like manner. For instance, a bank customer experienced in paying bills on the web should find the corresponding smartphone bill-paying facility familiar, even on first use.</p>
+  </li>
+  <li>
+    <p><strong>Optimized.</strong> Each channel should play to its strengths. Desktop applications are optimized for large screens; mobile apps for small ones. Optimization is in tension with consistency.</p>
+  </li>
+  <li>
+    <p><strong>Continuous.</strong> Each channel must be aware of all the others. Add a bicycle helmet to your shopping cart on the Web, and it should appear in the cart on your phone.</p>
+  </li>
+</ul>
+
+<h2 id="a-starting-point">A starting point</h2>
+
+<figure class="small">
+	<img src="http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg" width="475" class="twothirds-width" alt="The CHU Cube" />
+	<figcaption><a href="http://pervasiveia.com/">Resmini and Rosati's</a> CHU cube.</figcaption>
+</figure>
+
+<p>What would a tool that aimed to facilitate consistent, optimized, continuous cross-channel planning look like? In <a href="http://pervasiveia.com/">Pervasive Information Architecture</a>, Resmini and Rosati presented their CHU cube which places <em>tasks</em> and <em>channels</em> each on their own axes.</p>
+
+<p>Ammendment: <em>After publishing this post, <a href="https://twitter.com/#!/lowresolution">Gianluca Brugnoli</a> of Frog Design pointed out its resemblence to the <a href="http://www.servicedesigntools.org/tools/108">Touchpoints Matrix</a> he himself developed in 2009. I hadn’t come across this tool before, but the similarity is striking.</em></p>
+
+<figure class="medium">
+	<img src="http://tylertate.com/resources/images/2012-02-21/touchpoints-matrix.png" width="712" class="normal-width" alt="The Touchpoints Matrix by Gianluca Brugnoli" />
+	<figcaption>The Touchpoints Matrix by Gianluca Brugnoli.</figcaption>
+</figure>
+
+<h2 id="building-on-the-foundation">Building on the foundation</h2>
+
+<p>Juxtaposing tasks and channels is a useful starting point, though the CHUbe’s multidimensional layers make it a bit unwieldy. For our diagram, let’s do the following:</p>
+
+<ol>
+  <li><strong>Identify user tasks</strong>—these become the X-axis.</li>
+  <li><strong>List channels</strong>—these become the Y-axis.</li>
+  <li><strong>Prioritize and describe each per-channel task</strong>—these are the table cells</li>
+  <li><strong>Identify shared components</strong>—these are listed in a bottom row</li>
+</ol>
+
+<figure class="large">
+	<img src="http://tylertate.com/resources/images/2012-02-21/cross-channel-blueprint.png" width="1030" class="full-width" alt="A Cross-Channel Blueprint" />
+</figure>
+
+<p>I call this a <em>cross-channel blueprint</em>. The exercise can be performed by a lone designer or collaboratively with sticky notes or in front of a whiteboard. It brings about:</p>
+
+<ul>
+  <li>A global view of important user tasks</li>
+  <li>The possible channels through which users might attempt those tasks</li>
+  <li>A set of task priorities for each channel</li>
+  <li>A set of channel priorities for each task</li>
+  <li>An overview of which components need to be shared across channels</li>
+</ul>
+
+<h2 id="what-do-you-think">What do you think?</h2>
+
+<p>This is but a first attempt at a developing a tool suitable for the new era of cross-channel information architecture. As such, it needs practice, iteration, and experimentation. If you’ve been working in this space, please chime in with how the cross-channel blueprint jives with your own experience.</p>
+
+<p><em>See my article <a href="http://uxmatters.com/mt/archives/2011/10/the-rise-of-cross-channel-ux-design.php">The Rise of Cross-Channel UX Design</a> on UX Matters for related reading. You can also <a href="http://www.twitter.com/tylertate">follow me on Twitter</a>.</em></p>
+
+
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+			    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+			    var disqus_shortname = 'tylertate'; // required: replace example with your forum shortname
+
+			    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+			    var disqus_identifier = '/blog/ux/2012/02/21/cross-channel-ia-blueprint.html';
+			    var disqus_url = 'http://www.tylertate.com/blog/ux/2012/02/21/cross-channel-ia-blueprint.html';
+
+			    /* * * DON'T EDIT BELOW THIS LINE * * */
+			    (function() {
+			        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+			        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			    })();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			
+		</section>
+		
+	</article>
+</div>
+
+
+	<header class="site-footer">
+		<nav class="site-nav">
+			<ul>
+				<li class="site-nav-item">
+					<a href="http://crema.co/" title="My Company: Crema.co">Company</a>
+				</li>
+				<li class="site-nav-item">
+					<a href="http://designingthesearchexperience.com/" title="My Book: Designing the Search Experience">Book</a>
+				</li>
+				<li class="site-nav-item">
+					<a href="https://www.linkedin.com/in/tylertate" title="My LinkedIn Profile">LinkedIn</a>
+				</li>
+				<li class="site-nav-item">
+					<a href="http://twitter.com/tylertate" title="Follow me on Twitter">Twitter</a>
+				</li>
+				<li class="site-nav-item">
+					<a href="mailto:tyler@tylertate.com" title="Email me">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-761992-5', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</body>
+</html>

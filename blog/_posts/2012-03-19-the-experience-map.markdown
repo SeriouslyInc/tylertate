@@ -2,6 +2,7 @@
 layout: blog
 title: "The Experience Map"
 snippet: "Last month when I blogged about the [cross-channel blueprint](http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html) as a tool for planning the tasks and channels of an ecosystem, several people commented that it failed to fully account for user. Indeed, those comments helped me realize that the cross-channel blueprint is itself a *system-oriented* diagram—useful  as a planning tool and for the concise overview it provides—but that it must be paired with a *user-centered* perspective. One such tool is an obvious companion: the experience map."
+category: ux
 ---
 
 Last month when I blogged about the [cross-channel blueprint](http://tylertate.com/blog/2012/02/21/cross-channel-ia-blueprint.html) as a tool for planning the tasks and channels of an ecosystem, several people commented that it failed to fully account for user. Indeed, those comments helped me realize that the cross-channel blueprint is itself a *system-oriented* diagram—useful  as a planning tool and for the concise overview it provides—but that it must be paired with a *user-centered* perspective. One such tool is an obvious companion: the experience map.

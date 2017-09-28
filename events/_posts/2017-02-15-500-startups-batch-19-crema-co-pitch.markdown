@@ -6,6 +6,8 @@ location: "Mountain View, California"
 eventurl: https://500.co/anotherone-500-startups-announces-batch-19-%F0%9F%94%91/
 slidesurl: https://www.youtube.com/watch?v=s_eY4IbcS7E&list=PLOStnEM8wBOb7y6VfvXGl9fMC3RxFOby7&index=13
 videourl: https://www.youtube.com/watch?v=s_eY4IbcS7E&list=PLOStnEM8wBOb7y6VfvXGl9fMC3RxFOby7&index=13
+youtube_id: "s_eY4IbcS7E"
+category: featured_talk
 ---
 
 If you're like me, you're one of the 76 million Americans who not only drink coffee, but drink specialty coffee, every day.

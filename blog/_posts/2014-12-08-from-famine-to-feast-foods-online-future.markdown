@@ -2,6 +2,7 @@
 layout: blog
 title: "From Famine to Feast: Food’s Online Future"
 snippet: "Snippet goes here."
+category: crema
 ---
 
 <figure class="large" style="margin-top: -1.43em;">

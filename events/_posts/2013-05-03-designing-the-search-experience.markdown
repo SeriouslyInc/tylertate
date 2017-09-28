@@ -6,6 +6,8 @@ location: San Diego, USA
 eventurl: http://www.lucenerevolution.org/2013/Designing-the-Search-Experience
 slidesurl: http://www.slideshare.net/tylertate/designing-the-search-experience-by-tyler-tate-twigkit
 videourl: http://www.youtube.com/watch?v=6Q0zqqxvx5g
+youtube_id: 6Q0zqqxvx5g
+category: featured_talk
 ---
 
 Search is not just a box and ten blue links. Search is a journey: an exploration where what we encounter along the way changes what we seek. But in order to guide people along this journey, we must understand both the art and science of search.In this talk Tyler Tate, cofounder of TwigKit and coauthor of the new book Designing the Search Experience, weaves together the theories of information seeking with the practice of user interface design, providing a comprehensive guide to designing search.Pulling from a wealth of research conducted over the last 30 years, Tyler begins by establishing a framework of search and discovery. He outlines cognitive attributes of users—including their level of expertise, cognitive style, and learning style; describes models of information seeking and how they've been shaped by theories such as information foraging and sensemaking; and reviews the role that task, physical, social, and environmental context plays in the search process.

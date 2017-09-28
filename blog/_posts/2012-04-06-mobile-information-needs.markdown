@@ -4,6 +4,7 @@ title: The Information Needs of Mobile Searchers
 publisher: BCS IRSG Informer
 originalurl: http://irsg.bcs.org/informer/2012/04/the-information-needs-of-mobile-searchers/
 snippet: "Mobile information needs can be assed by two criteria: scope and type. Scope describes the sophistication of the information need, the degree of higher-level thinking it involves, and the time commitment required to satisfy it. The lookup, learn, and investigate elements of scope are derived from Gary Marchionini’s work on exploratory search, while the casual component has been more recently advocated by Max Wilson and others."
+category: search
 ---
 
 Mobile is the new desktop. The adoption of mobile Internet makes the introduction of the World Wide Web seeming glacial by comparison; [Morgan Stanley](https://web.archive.org/web/20120201192440/http://www.morganstanley.com/institutional/techresearch/pdfs/Internet_Trends_041210.pdf) predicts that mobile Internet usage will outpace desktop-based access in just three years.

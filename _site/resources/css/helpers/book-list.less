@@ -1,0 +1,116 @@
+///////////////
+// BOOK LIST //
+///////////////
+
+// .book-list-divider {
+//   .column(12,16,margin);
+//   .push(2,16,margin);
+//   .pull(2,16,margin);
+
+//   border: none;
+//   border-top: 1px solid @tan-border;
+// }
+
+// List
+.book-list {
+  clear: both;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 1.5rem 0 1.5rem 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+}
+
+.book-item {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 18rem;
+  height: 26rem;
+  padding: 3rem 2rem;
+  margin-right: 4rem;
+  background-color: black;
+}
+
+.book-item-title {
+  display: block;
+  white-space: normal;
+  font-family: @serif;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  color: white;
+  
+  a {
+    color: white;
+  }
+}
+
+.book-item-meta {
+  position: absolute;
+  top: 23rem;
+  left: 2rem;
+  right: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  margin-top: -1px;
+}
+.book-item-location,
+.book-item-date {
+  display: block;
+  font-family: @sans-serif;
+  font-size: 1.167rem;
+  line-height: 2rem;
+  color: white;
+}
+.book-item-location {
+  font-weight: 600;
+
+  a {
+    color: white;
+  }
+}
+.book-item-date {
+  font-weight: 200;
+}
+
+.book-item-startup {
+  background-color: @green;
+
+  &:hover {
+    background-color: darken(@green,4%);
+  }
+  &:active {
+    background-color: darken(@green,8%);
+  }
+}
+.book-item-crema {
+  background-color: @light-blue;
+}
+.book-item-search {
+  background-color: @blue;
+}
+.book-item-ux {
+  background-color: @pink;
+}
+.book-item-frontend {
+  background-color: @red;
+}
+.book-item-misc {
+  background-color: @orange;
+}
+
+@media screen and (max-width: 80rem) {
+  .book-list {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .book-item {
+    margin-right: 2rem;
+
+    .book-list a:first-child & {
+      margin-left: 2rem;
+    }
+  }
+}

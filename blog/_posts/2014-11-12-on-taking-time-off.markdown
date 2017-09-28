@@ -2,6 +2,7 @@
 layout: blog
 title: "On Taking Time Off"
 snippet: "I want to find some new music to listen to. I need some inspiration for my bicycle renovation project. I'm in the mood to watch a thoughtful, uplifting film. We face these kind of open-ended tasks everyday, but they are often difficult and frustrating to tackle. (Ever given up in despair after spending half an hour trying to find a film to watch, for instance?) Keyword search is a great tool for answering specific questions, but it's less useful if we're not sure exactly what to ask in the first place."
+category: misc
 ---
 
 <figure class="large" style="margin-top: -1.43em;">

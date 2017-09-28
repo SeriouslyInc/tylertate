@@ -4,6 +4,7 @@ publisher: Medium
 originalurl: https://medium.com/@tylertate/starbucks-reserve-roastery-joins-the-coffee-subscription-race-c8cc52dd4704
 title: "Starbucks Reserve Roastery Joins the Coffee Subscription Race"
 snippet: "Amidst the #racetogether controversy last week, Starbucks customers received an email promoting the company’s latest offering from their Reserve Roastery: a premium coffee subscription. For $24 a month, customers can become the proud recipient of an 8.8oz bag of small-lot coffee, delivered to their door."
+category: crema
 ---
 
 Amidst the #racetogether controversy last week, Starbucks customers received an email promoting the company’s latest offering from their Reserve Roastery: a premium coffee subscription. For $24 a month, customers can become the proud recipient of an 8.8oz bag of small-lot coffee, delivered to their door.

@@ -4,4 +4,5 @@ publisher: Medium
 originalurl: https://medium.com/@tylertate/2016-coffee-trends-2103ee2bce7a
 title: "2016 Coffee Trends"
 snippet: "While coffee professionals gather at the Specialty Coffee Association of America conference in Atlanta this weekend — the annual mecca of the industry — I’m resigned to follow along vicariously via Twitter. One thing that caught my eye today was the National Coffee Association’s study on coffee drinking trends in 2016. The fundamental story it tells is one of change; a new generation ushering in a shift away from a cheap, standardized beverage, towards a more conscientious appreciation of quality, relationship, and shared values. Here are a few points from the study that stood out to me."
+category: crema
 ---

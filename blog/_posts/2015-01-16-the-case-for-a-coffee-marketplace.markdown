@@ -2,6 +2,7 @@
 layout: blog
 title: "The Case for a Coffee Marketplace"
 snippet: "Snippet goes here."
+category: crema
 ---
 
 A tiny, four-wheel drive Geo Tracker trudges up a steep, narrow dirt path, delicately hugging the side of a mountain some 100 kilometers from San Jose, Costa Rica. After a particularly hair-pin turn, the Tracker bravely sprints up an intense incline, but is met halfway up with an aging Toyota pickup half creeping, half sliding down the hill. Only after an involved series of maneuvers — comparable to trapeze stunts in both complexity and risk of tumbling to a tragic death — do the two vehicles manage to pass, and we’re able to continue our treacherous journey to Henry’s coffee farm further up the mountain.
