@@ -1,5 +1,5 @@
-# url: http://tylertate.com/
-url: http://127.0.0.1:4000
+url: http://tylertate.com/
+# url: http://127.0.0.1:4000
 navigation:
 - text: About
   url: /about.html
