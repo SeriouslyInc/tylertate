@@ -1,0 +1,7513 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "FF63E0D2-8C1E-40B6-8B6B-B28DB996D64B"
+		}
+	],
+"creatorBuild": "25900",
+"files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
+	"\/_layouts\/blog.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_layouts\/blog.html",
+		"oF": 0
+		},
+	"\/_layouts\/general.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_layouts\/general.html",
+		"oF": 0
+		},
+	"\/_layouts\/work.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/work.html",
+		"oF": 0
+		},
+	"\/_site\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/about.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2009\/05\/29\/the-1kb-css-grid.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2009\/05\/29\/the-1kb-css-grid.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2009\/10\/07\/minimizing-complexity.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2009\/10\/07\/minimizing-complexity.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2010\/02\/08\/search-suggestions.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2010\/02\/08\/search-suggestions.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2010\/04\/27\/a-bright-new-future-for-crm.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2010\/04\/27\/a-bright-new-future-for-crm.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2010\/06\/29\/concerning-fidelity-in-design.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2010\/06\/29\/concerning-fidelity-in-design.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2010\/07\/05\/the-scent-of-search.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2010\/07\/05\/the-scent-of-search.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2010\/08\/26\/paper-and-ink-sketching-nutshell.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2010\/08\/26\/paper-and-ink-sketching-nutshell.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2010\/09\/27\/review-simple-and-usable-by-giles-colborne.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2010\/09\/27\/review-simple-and-usable-by-giles-colborne.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2010\/11\/18\/nutshell-launches-in-nyc.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2010\/11\/18\/nutshell-launches-in-nyc.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2011\/01\/05\/from-pattern-to-component.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2011\/01\/05\/from-pattern-to-component.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2011\/02\/09\/search-as-a-flow-experience.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2011\/02\/09\/search-as-a-flow-experience.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2011\/05\/12\/cognitive-styles.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2011\/05\/12\/cognitive-styles.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2011\/06\/16\/learning-styles.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2011\/06\/16\/learning-styles.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2011\/07\/26\/ux-of-learning.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2011\/07\/26\/ux-of-learning.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2011\/08\/23\/semantic-grid-system.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2011\/08\/23\/semantic-grid-system.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2011\/10\/13\/book-review-search-analytics.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2011\/10\/13\/book-review-search-analytics.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2011\/10\/17\/cross-channel-ux-design.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2011\/10\/17\/cross-channel-ux-design.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2012\/01\/05\/subpixel-rounding.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2012\/01\/05\/subpixel-rounding.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2012\/01\/23\/three-circles-of-collaborative-search.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2012\/01\/23\/three-circles-of-collaborative-search.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2012\/02\/21\/cross-channel-ia-blueprint.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2012\/02\/21\/cross-channel-ia-blueprint.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2012\/03\/19\/the-experience-map.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2012\/03\/19\/the-experience-map.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2012\/04\/06\/mobile-information-needs.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2012\/04\/06\/mobile-information-needs.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2012\/07\/01\/designing-mobile-search.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2012\/07\/01\/designing-mobile-search.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2012\/12\/18\/designing-the-search-experience-book.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2012\/12\/18\/designing-the-search-experience-book.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2012\/12\/21\/investigating-cross-channel-consistency.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2012\/12\/21\/investigating-cross-channel-consistency.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2013\/04\/01\/information-wayfinding-part-1.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2013\/04\/01\/information-wayfinding-part-1.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2013\/05\/06\/information-wayfinding-part-2.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2013\/05\/06\/information-wayfinding-part-2.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2013\/06\/11\/retina-images-using-media-queries-and-LESS-CSS.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2013\/06\/11\/retina-images-using-media-queries-and-LESS-CSS.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2013\/11\/07\/information-wayfinding.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2013\/11\/07\/information-wayfinding.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2014\/03\/10\/information-wayfinding-part-3.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2014\/03\/10\/information-wayfinding-part-3.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2014\/05\/12\/better-wayfinding-on-pinterest-and-spotify.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2014\/05\/12\/better-wayfinding-on-pinterest-and-spotify.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2014\/07\/25\/four-faces-of-search.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2014\/07\/25\/four-faces-of-search.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2014\/11\/12\/on-taking-time-off.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2014\/11\/12\/on-taking-time-off.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2014\/12\/08\/from-famine-to-feast-foods-online-future.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2014\/12\/08\/from-famine-to-feast-foods-online-future.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2014\/12\/09\/online-grocery-shopping-a-hard-nut-to-crack.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2014\/12\/09\/online-grocery-shopping-a-hard-nut-to-crack.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/01\/16\/the-case-for-a-coffee-marketplace.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/2015\/01\/16\/the-case-for-a-coffee-marketplace.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/01\/27\/hello-world-meet-crema.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/01\/27\/hello-world-meet-crema.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/03\/08\/back-us-on-kickstarter.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/03\/08\/back-us-on-kickstarter.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/03\/28\/starbucks-reserve-roastery-joins-the-coffee-subscription-race.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/03\/28\/starbucks-reserve-roastery-joins-the-coffee-subscription-race.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/04\/01\/designers-as-innovators.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/04\/01\/designers-as-innovators.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/07\/31\/a-few-things-weve-learned-from-our-kickstarter-backers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/07\/31\/a-few-things-weve-learned-from-our-kickstarter-backers.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/09\/01\/new-feature-pause-your-brewlist.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/09\/01\/new-feature-pause-your-brewlist.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/10\/01\/naming-startups-choosing-a-company-name.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/10\/01\/naming-startups-choosing-a-company-name.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/10\/05\/new-feature-happier-email.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/10\/05\/new-feature-happier-email.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2015\/12\/04\/introducing-crema-1.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2015\/12\/04\/introducing-crema-1.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/04\/07\/peets-acquisition-stumptown-intelligentsia-state-of-coffee.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/04\/07\/peets-acquisition-stumptown-intelligentsia-state-of-coffee.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/04\/15\/2016-coffee-trends.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/04\/15\/2016-coffee-trends.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/06\/14\/ratings-remember-coffees-you-love.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/06\/14\/ratings-remember-coffees-you-love.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/06\/21\/brew-log-your-coffee-palate-visualized.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/06\/21\/brew-log-your-coffee-palate-visualized.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/06\/28\/personalized-recommendations-coffees-tailored-to-you.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/06\/28\/personalized-recommendations-coffees-tailored-to-you.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/07\/12\/the-discovery-gap.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/07\/12\/the-discovery-gap.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/07\/20\/dollar-shave-club.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/07\/20\/dollar-shave-club.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/11\/07\/james-currier-on-unlocking-the-secrets-of-growth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/11\/07\/james-currier-on-unlocking-the-secrets-of-growth.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/11\/08\/george-lee-growth-instagram.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/11\/08\/george-lee-growth-instagram.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/11\/10\/susan-su-frameworks-content-marketing-growth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/11\/10\/susan-su-frameworks-content-marketing-growth.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2016\/11\/14\/where-to-spend-your-first-10k-on-marketing-steven-dupree.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2016\/11\/14\/where-to-spend-your-first-10k-on-marketing-steven-dupree.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2017\/02\/09\/500-startups-chandini-ammineni-product-market-fit.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2017\/02\/09\/500-startups-chandini-ammineni-product-market-fit.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2017\/02\/10\/500-startups-nemo-chu-marketing-brainstorming-really-simple-guessing.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2017\/02\/10\/500-startups-nemo-chu-marketing-brainstorming-really-simple-guessing.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2017\/02\/22\/what-we-learned-at-500-startups.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2017\/02\/22\/what-we-learned-at-500-startups.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2017\/07\/05\/reinventing-workplace-coffee-with-artisan-roasters-machine-learning-and-a-slack-bot.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2017\/07\/05\/reinventing-workplace-coffee-with-artisan-roasters-machine-learning-and-a-slack-bot.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2017\/07\/31\/the-startup-cheat-sheet.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2017\/07\/31\/the-startup-cheat-sheet.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2017\/08\/09\/startup-cheat-sheet-how-to-incorporate-your-company.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2017\/08\/09\/startup-cheat-sheet-how-to-incorporate-your-company.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2017\/08\/22\/startup-cheat-sheet-how-to-close-your-first-investor.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2017\/08\/22\/startup-cheat-sheet-how-to-close-your-first-investor.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/2017\/09\/19\/startup-cheat-sheet-how-to-create-a-winning-pitch-deck.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/2017\/09\/19\/startup-cheat-sheet-how-to-create-a-winning-pitch-deck.html",
+		"oF": 0
+		},
+	"\/_site\/blog\/search\/ux\/2011\/04\/20\/novices-orienteer-experts-teleport.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/blog\/search\/ux\/2011\/04\/20\/novices-orienteer-experts-teleport.html",
+		"oF": 0
+		},
+	"\/_site\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/CNAME",
+		"oF": 0
+		},
+	"\/_site\/events\/2010\/02\/04\/search-suggestions.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2010\/02\/04\/search-suggestions.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2010\/03\/02\/a-history-of-color.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2010\/03\/02\/a-history-of-color.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2010\/05\/21\/the-scent-of-search.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2010\/05\/21\/the-scent-of-search.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2010\/06\/30\/the-story-for-complexity.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2010\/06\/30\/the-story-for-complexity.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2010\/08\/18\/designing-the-search-experience.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2010\/08\/18\/designing-the-search-experience.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2010\/12\/02\/dealing-with-diverse-data.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2010\/12\/02\/dealing-with-diverse-data.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/02\/01\/from-pattern-to-component.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/02\/01\/from-pattern-to-component.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/02\/08\/search-as-a-flow-experience.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/02\/08\/search-as-a-flow-experience.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/04\/05\/from-lookup-to-learning.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/04\/05\/from-lookup-to-learning.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/04\/19\/designing-a-modern-crm.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/04\/19\/designing-a-modern-crm.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/04\/21\/from-lookup-to-learning.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/04\/21\/from-lookup-to-learning.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/05\/25\/designing-the-holistic-search-experience.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/05\/25\/designing-the-holistic-search-experience.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/08\/05\/cognitive-content-strategy.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/08\/05\/cognitive-content-strategy.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/09\/06\/the-dao-of-learning.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/09\/06\/the-dao-of-learning.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/09\/14\/designing-the-search-experience.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/09\/14\/designing-the-search-experience.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2011\/11\/22\/designing-mobile-search.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2011\/11\/22\/designing-mobile-search.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2012\/05\/16\/designing-mobile-search.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2012\/05\/16\/designing-mobile-search.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2012\/11\/08\/designing-cross-channel-experiences.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2012\/11\/08\/designing-cross-channel-experiences.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2013\/02\/12\/information-seeking.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2013\/02\/12\/information-seeking.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2013\/02\/25\/cross-channel-information-interaction.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2013\/02\/25\/cross-channel-information-interaction.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2013\/02\/26\/information-wayfinding.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2013\/02\/26\/information-wayfinding.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2013\/03\/07\/designing-mobile-search-ebay-classifieds-group-workshop.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2013\/03\/07\/designing-mobile-search-ebay-classifieds-group-workshop.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2013\/05\/03\/designing-the-search-experience.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2013\/05\/03\/designing-the-search-experience.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2013\/05\/15\/designing-the-search-experience.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2013\/05\/15\/designing-the-search-experience.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2013\/09\/04\/workshop-designing-the-search-experience.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2013\/09\/04\/workshop-designing-the-search-experience.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2013\/11\/06\/information-wayfinding-the-future-of-search.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2013\/11\/06\/information-wayfinding-the-future-of-search.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2014\/06\/18\/designing-the-search-experience-ux-scotland-workshop.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2014\/06\/18\/designing-the-search-experience-ux-scotland-workshop.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2014\/06\/19\/information-wayfinding.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/events\/2014\/06\/19\/information-wayfinding.html",
+		"oF": 0
+		},
+	"\/_site\/events\/2017\/02\/15\/500-startups-batch-19-crema-co-pitch.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/events\/2017\/02\/15\/500-startups-batch-19-crema-co-pitch.html",
+		"oF": 0
+		},
+	"\/_site\/feed.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/feed.xml",
+		"oF": 0
+		},
+	"\/_site\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/index.html",
+		"oF": 0
+		},
+	"\/_site\/resources\/css\/helpers\/blog.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/blog.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/content-blocks.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/content-blocks.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/content-list.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/content-list.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/featured-groups.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/featured-groups.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/footer.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/grid.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/grid.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/header.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/header.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/helpers.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/helpers.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/hero.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/hero.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/page-hero.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/page-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/reset.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/reset.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/section.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/helpers\/site-nav.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/css\/css\/site-nav.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/resources\/css\/main.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/_site\/resources\/downloads\/Tate and Russell-Rose 2012 - The Information Needs of Mobile Searchers.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/downloads\/Tate and Russell-Rose 2012 - The Information Needs of Mobile Searchers.pdf",
+		"oF": 0
+		},
+	"\/_site\/resources\/fonts\/config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/_site\/resources\/fonts\/config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/_site\/resources\/fonts\/tylertate-icons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/fonts\/tylertate-icons.eot",
+		"oF": 0
+		},
+	"\/_site\/resources\/fonts\/tylertate-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/fonts\/tylertate-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/resources\/fonts\/tylertate-icons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/fonts\/tylertate-icons.ttf",
+		"oF": 0
+		},
+	"\/_site\/resources\/fonts\/tylertate-icons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/fonts\/tylertate-icons.woff",
+		"oF": 0
+		},
+	"\/_site\/resources\/images\/2010-02-08\/suggest1.png": {
+		"ft": 32768,
+		"iS": 42416,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-02-08\/suggest1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-02-08\/suggest11.png": {
+		"ft": 32768,
+		"iS": 46635,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-02-08\/suggest11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-02-08\/suggest2.png": {
+		"ft": 32768,
+		"iS": 60678,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-02-08\/suggest2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-02-08\/suggest7.png": {
+		"ft": 32768,
+		"iS": 31806,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-02-08\/suggest7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-02-08\/suggest8.png": {
+		"ft": 32768,
+		"iS": 42712,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-02-08\/suggest8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-02-08\/suggest9.png": {
+		"ft": 32768,
+		"iS": 160393,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-02-08\/suggest9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/1-why-crm-is-broken.png": {
+		"ft": 32768,
+		"iS": 1237162,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/1-why-crm-is-broken.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/2-tech-progress.png": {
+		"ft": 32768,
+		"iS": 1214645,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/2-tech-progress.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/3-access-anywhere.png": {
+		"ft": 32768,
+		"iS": 1133456,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/3-access-anywhere.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/4-manage-sales-process.png": {
+		"ft": 32768,
+		"iS": 986939,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/4-manage-sales-process.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/5-reporting.png": {
+		"ft": 32768,
+		"iS": 1074583,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/5-reporting.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/6-cloud.png": {
+		"ft": 32768,
+		"iS": 1150546,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/6-cloud.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/7-in-control.png": {
+		"ft": 32768,
+		"iS": 1165664,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/7-in-control.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/8-good-citizen.png": {
+		"ft": 32768,
+		"iS": 1196463,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/8-good-citizen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-04-27\/9-us.png": {
+		"ft": 32768,
+		"iS": 1208011,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-04-27\/9-us.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-08-26\/1sketchbook.jpg": {
+		"ft": 16384,
+		"iS": 104928,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-08-26\/1sketchbook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-08-26\/2lead.jpg": {
+		"ft": 16384,
+		"iS": 214936,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-08-26\/2lead.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-08-26\/3salesprocess.jpg": {
+		"ft": 16384,
+		"iS": 165697,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-08-26\/3salesprocess.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-08-26\/4modals.jpg": {
+		"ft": 16384,
+		"iS": 179201,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-08-26\/4modals.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-08-26\/5reports.jpg": {
+		"ft": 16384,
+		"iS": 151119,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-08-26\/5reports.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-08-26\/6iphone.jpg": {
+		"ft": 16384,
+		"iS": 108080,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-08-26\/6iphone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-08-26\/7manage.jpg": {
+		"ft": 16384,
+		"iS": 144199,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-08-26\/7manage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2010-11-18\/party.jpg": {
+		"ft": 16384,
+		"iS": 634712,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2010-11-18\/party.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2011-12-06\/mobile-information-needs-tyler-tate.png": {
+		"ft": 32768,
+		"iS": 96808,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2011-12-06\/mobile-information-needs-tyler-tate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-01-05\/browser-subpixel-rounding-corrected.png": {
+		"ft": 32768,
+		"iS": 10947,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-01-05\/browser-subpixel-rounding-corrected.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-01-05\/browser-subpixel-rounding.png": {
+		"ft": 32768,
+		"iS": 13398,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-01-05\/browser-subpixel-rounding.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-02-21\/chu-cube.jpg": {
+		"ft": 16384,
+		"iS": 65920,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-02-21\/chu-cube.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-02-21\/cross-channel-blueprint.png": {
+		"ft": 32768,
+		"iS": 130547,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-02-21\/cross-channel-blueprint.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-02-21\/service-blueprint-brandonschauer.png": {
+		"ft": 32768,
+		"iS": 115672,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-02-21\/service-blueprint-brandonschauer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-02-21\/touchpoints-matrix.png": {
+		"ft": 32768,
+		"iS": 83353,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-02-21\/touchpoints-matrix.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-03-08\/continuum.jpg": {
+		"ft": 16384,
+		"iS": 19738,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-03-08\/continuum.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-03-08\/ecosystem.jpg": {
+		"ft": 16384,
+		"iS": 58704,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-03-08\/ecosystem.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-03-09\/consistency-strategy.jpg": {
+		"ft": 16384,
+		"iS": 139352,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-03-09\/consistency-strategy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-03-19\/experience-map.png": {
+		"ft": 32768,
+		"iS": 141313,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-03-19\/experience-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-12-18\/cover.jpg": {
+		"ft": 16384,
+		"iS": 205486,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-12-18\/cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-12-18\/map.jpg": {
+		"ft": 16384,
+		"iS": 155185,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-12-18\/map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2012-12-21\/ecosystem.png": {
+		"ft": 32768,
+		"iS": 52657,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2012-12-21\/ecosystem.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-02-05\/lynch-legend.jpg": {
+		"ft": 16384,
+		"iS": 137915,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-02-05\/lynch-legend.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-02-05\/the-image-of-the-city.jpg": {
+		"ft": 16384,
+		"iS": 59442,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-02-05\/the-image-of-the-city.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/1-information-overload.jpg": {
+		"ft": 16384,
+		"iS": 1158288,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/1-information-overload.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/2-cuiniform.jpg": {
+		"ft": 16384,
+		"iS": 182100,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/2-cuiniform.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/3-scroll.jpg": {
+		"ft": 16384,
+		"iS": 89998,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/3-scroll.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/4-index.jpg": {
+		"ft": 16384,
+		"iS": 126460,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/4-index.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/5-altavista.jpg": {
+		"ft": 16384,
+		"iS": 121797,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/5-altavista.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/6-nyt.png": {
+		"ft": 32768,
+		"iS": 1006609,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/6-nyt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/7-the-image-of-the-city.jpg": {
+		"ft": 16384,
+		"iS": 59442,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/7-the-image-of-the-city.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/8-elements.jpg": {
+		"ft": 16384,
+		"iS": 27876,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/8-elements.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/8-elements.png": {
+		"ft": 32768,
+		"iS": 71529,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/8-elements.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/berrypicking.png": {
+		"ft": 32768,
+		"iS": 24306,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/berrypicking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/clear-paths.jpg": {
+		"ft": 16384,
+		"iS": 477198,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/clear-paths.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/districts-layers-nodes.png": {
+		"ft": 32768,
+		"iS": 7901,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/districts-layers-nodes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/districts.png": {
+		"ft": 32768,
+		"iS": 6767,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/districts.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/elements.png": {
+		"ft": 32768,
+		"iS": 33668,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/elements.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/flexible-layers.jpg": {
+		"ft": 16384,
+		"iS": 452600,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/flexible-layers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/layers.png": {
+		"ft": 32768,
+		"iS": 15814,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/layers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/nodes.png": {
+		"ft": 32768,
+		"iS": 2412,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/nodes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/positional-cues.jpg": {
+		"ft": 16384,
+		"iS": 384374,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/positional-cues.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/structured-districts.jpg": {
+		"ft": 16384,
+		"iS": 505181,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/structured-districts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2013-11-07\/survey-knowledge.jpg": {
+		"ft": 16384,
+		"iS": 448447,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2013-11-07\/survey-knowledge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-05-12\/berrypicking.jpg": {
+		"ft": 16384,
+		"iS": 36152,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-05-12\/berrypicking.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-05-12\/pinterest-guided-search.jpg": {
+		"ft": 16384,
+		"iS": 444189,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-05-12\/pinterest-guided-search.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-05-12\/spotify-genres.jpg": {
+		"ft": 16384,
+		"iS": 267909,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-05-12\/spotify-genres.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-05-12\/spotify-playlists.jpg": {
+		"ft": 16384,
+		"iS": 303908,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-05-12\/spotify-playlists.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-11-12\/the-cottage.jpg": {
+		"ft": 16384,
+		"iS": 669445,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-11-12\/the-cottage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-11-12\/wood-pile.jpg": {
+		"ft": 16384,
+		"iS": 379247,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-11-12\/wood-pile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-12-08\/borough-market.jpg": {
+		"ft": 16384,
+		"iS": 411790,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-12-08\/borough-market.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-12-08\/millenial.jpg": {
+		"ft": 16384,
+		"iS": 125216,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-12-08\/millenial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-12-08\/online-spending-graph.png": {
+		"ft": 32768,
+		"iS": 70571,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-12-08\/online-spending-graph.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-12-08\/tech-logos.png": {
+		"ft": 32768,
+		"iS": 184536,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-12-08\/tech-logos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-12-09\/cupcake.jpg": {
+		"ft": 16384,
+		"iS": 389476,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/cupcake.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-12-09\/hypermarket.jpg": {
+		"ft": 16384,
+		"iS": 923817,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/hypermarket.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2014-12-09\/icon-cheap-no.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/icon-cheap-no.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/resources\/images\/2014-12-09\/icon-cheap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/icon-cheap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/resources\/images\/2014-12-09\/icon-truck-no.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/icon-truck-no.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/resources\/images\/2014-12-09\/icon-truck.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/icon-truck.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/resources\/images\/2014-12-09\/icon-warehouse-no.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/icon-warehouse-no.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/resources\/images\/2014-12-09\/icon-warehouse.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/icon-warehouse.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/resources\/images\/2014-12-09\/webvan.jpg": {
+		"ft": 16384,
+		"iS": 52647,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2014-12-09\/webvan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2015-01-16\/tracker.jpg": {
+		"ft": 16384,
+		"iS": 213028,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2015-01-16\/tracker.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2015-01-16\/window.jpg": {
+		"ft": 16384,
+		"iS": 155012,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2015-01-16\/window.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/2015-09-08\/spreadsheet.png": {
+		"ft": 32768,
+		"iS": 137181,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/2015-09-08\/spreadsheet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/about-cover.jpg": {
+		"ft": 16384,
+		"iS": 73395,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/about-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/bg.jpg": {
+		"ft": 16384,
+		"iS": 134761,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/dtse-cover.jpg": {
+		"ft": 16384,
+		"iS": 243848,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/dtse-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/talks-cover.jpg": {
+		"ft": 16384,
+		"iS": 72880,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/talks-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/talks-cover2.jpg": {
+		"ft": 16384,
+		"iS": 379377,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/talks-cover2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/tyler-tate.jpg": {
+		"ft": 16384,
+		"iS": 62756,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/tyler-tate.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/box.jpg": {
+		"ft": 16384,
+		"iS": 183666,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/box.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/brew-guide.jpg": {
+		"ft": 16384,
+		"iS": 343326,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/brew-guide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/brew-guide.png": {
+		"ft": 32768,
+		"iS": 2603686,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/brew-guide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/brewguides.jpg": {
+		"ft": 16384,
+		"iS": 791382,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/brewguides.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/brewlist-mobile.jpg": {
+		"ft": 16384,
+		"iS": 838363,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/brewlist-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/brewlist.jpg": {
+		"ft": 16384,
+		"iS": 866957,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/brewlist.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/brewlog.jpg": {
+		"ft": 16384,
+		"iS": 1121156,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/brewlog.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/browse.jpg": {
+		"ft": 16384,
+		"iS": 1098842,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/browse.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/browse2.jpg": {
+		"ft": 16384,
+		"iS": 1443659,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/browse2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/coffees.jpg": {
+		"ft": 16384,
+		"iS": 1139005,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/coffees.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/community.jpg": {
+		"ft": 16384,
+		"iS": 1366409,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/community.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 70551,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/detail.jpg": {
+		"ft": 16384,
+		"iS": 1146751,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/homepage.jpg": {
+		"ft": 16384,
+		"iS": 325050,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/homepage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/how-it-works.jpg": {
+		"ft": 16384,
+		"iS": 878634,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/how-it-works.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/logo.png": {
+		"ft": 32768,
+		"iS": 111605,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/mugs.jpg": {
+		"ft": 16384,
+		"iS": 810305,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/mugs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/packaging.jpg": {
+		"ft": 16384,
+		"iS": 448045,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/packaging.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/packaging1.jpg": {
+		"ft": 16384,
+		"iS": 161923,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/packaging1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/packaging2.jpg": {
+		"ft": 16384,
+		"iS": 378293,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/packaging2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/ratings.jpg": {
+		"ft": 16384,
+		"iS": 366791,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/ratings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/ratings2.png": {
+		"ft": 32768,
+		"iS": 32773,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/ratings2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/crema\/story.jpg": {
+		"ft": 16384,
+		"iS": 628713,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/crema\/story.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/1-overview.jpg": {
+		"ft": 16384,
+		"iS": 229453,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/1-overview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/2-stations.jpg": {
+		"ft": 16384,
+		"iS": 347830,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/2-stations.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/3-station-detail.jpg": {
+		"ft": 16384,
+		"iS": 228175,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/3-station-detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/4-search.jpg": {
+		"ft": 16384,
+		"iS": 292853,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/4-search.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/5-upvote.jpg": {
+		"ft": 16384,
+		"iS": 143647,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/5-upvote.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/6-dragdrop.png": {
+		"ft": 32768,
+		"iS": 519337,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/6-dragdrop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/7-modes.png": {
+		"ft": 32768,
+		"iS": 30320,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/7-modes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/8-iphone.jpg": {
+		"ft": 16384,
+		"iS": 202089,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/8-iphone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 192455,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/juke\/identity.png": {
+		"ft": 32768,
+		"iS": 9911,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/juke\/identity.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/lux\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 150742,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/lux\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/lux\/lux-1-overview.jpg": {
+		"ft": 16384,
+		"iS": 505652,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/lux\/lux-1-overview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/lux\/lux-1b-logo-screen.jpg": {
+		"ft": 16384,
+		"iS": 641534,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/lux\/lux-1b-logo-screen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/lux\/lux-2-flight-search.jpg": {
+		"ft": 16384,
+		"iS": 501950,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/lux\/lux-2-flight-search.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/lux\/lux-3-flight-results.jpg": {
+		"ft": 16384,
+		"iS": 633627,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/lux\/lux-3-flight-results.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/lux\/lux-4-filters.jpg": {
+		"ft": 16384,
+		"iS": 572795,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/lux\/lux-4-filters.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/lux\/lux-5-flight-details.jpg": {
+		"ft": 16384,
+		"iS": 512761,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/lux\/lux-5-flight-details.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/1-lead-mockup.jpg": {
+		"ft": 16384,
+		"iS": 284561,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/1-lead-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/1-lead-sketches.jpg": {
+		"ft": 16384,
+		"iS": 214936,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/1-lead-sketches.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/1-lead-whiteboard.jpg": {
+		"ft": 16384,
+		"iS": 366737,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/1-lead-whiteboard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/1-lead-wireframe-mockup.png": {
+		"ft": 32768,
+		"iS": 394441,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/1-lead-wireframe-mockup.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/1-lead-wireframe.png": {
+		"ft": 32768,
+		"iS": 76631,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/1-lead-wireframe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/1sketchbook.jpg": {
+		"ft": 16384,
+		"iS": 104928,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/1sketchbook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/2-process-mockup.jpg": {
+		"ft": 16384,
+		"iS": 273342,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/2-process-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/3-modal-mockup.jpg": {
+		"ft": 16384,
+		"iS": 177551,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/3-modal-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/3-modal-wireframe-mockup.jpg": {
+		"ft": 16384,
+		"iS": 206075,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/3-modal-wireframe-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/3-modal-wireframe.jpg": {
+		"ft": 16384,
+		"iS": 81964,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/3-modal-wireframe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/3salesprocess.jpg": {
+		"ft": 16384,
+		"iS": 165697,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/3salesprocess.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/4-reports-mockup.jpg": {
+		"ft": 16384,
+		"iS": 494481,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/4-reports-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/4modals.jpg": {
+		"ft": 16384,
+		"iS": 179201,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/4modals.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/5-iphone-mockup.jpg": {
+		"ft": 16384,
+		"iS": 215356,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/5-iphone-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/5reports.jpg": {
+		"ft": 16384,
+		"iS": 151119,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/5reports.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/6iphone.jpg": {
+		"ft": 16384,
+		"iS": 108080,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/6iphone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/7manage.jpg": {
+		"ft": 16384,
+		"iS": 144199,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/7manage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 71434,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/design-funnel.png": {
+		"ft": 32768,
+		"iS": 9948,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/design-funnel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/logo.png": {
+		"ft": 32768,
+		"iS": 19925,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/modals.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/modals.psd",
+		"oF": 0
+		},
+	"\/_site\/resources\/images\/work\/nutshell\/website.jpg": {
+		"ft": 16384,
+		"iS": 212624,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/nutshell\/website.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit-google\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 86889,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit-google\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit-google\/gov.jpg": {
+		"ft": 16384,
+		"iS": 888980,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit-google\/gov.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit-google\/industrial.jpg": {
+		"ft": 16384,
+		"iS": 763743,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit-google\/industrial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit-google\/kyc.jpg": {
+		"ft": 16384,
+		"iS": 684335,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit-google\/kyc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit-google\/media.jpg": {
+		"ft": 16384,
+		"iS": 836170,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit-google\/media.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 103089,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit\/dtse-medium.jpg": {
+		"ft": 16384,
+		"iS": 404329,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit\/dtse-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit\/ft.jpg": {
+		"ft": 16384,
+		"iS": 325376,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit\/ft.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit\/gemalto.jpg": {
+		"ft": 16384,
+		"iS": 302841,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit\/gemalto.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit\/google.jpg": {
+		"ft": 16384,
+		"iS": 235518,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit\/google.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit\/responsive.jpg": {
+		"ft": 16384,
+		"iS": 566844,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit\/responsive.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit\/website-home.jpg": {
+		"ft": 16384,
+		"iS": 1108079,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit\/website-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/twigkit\/zawya.jpg": {
+		"ft": 16384,
+		"iS": 276835,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/twigkit\/zawya.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/vyre\/1-cms.png": {
+		"ft": 32768,
+		"iS": 709218,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/vyre\/1-cms.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/vyre\/2-dam.png": {
+		"ft": 32768,
+		"iS": 937017,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/vyre\/2-dam.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/vyre\/3-mrm.png": {
+		"ft": 32768,
+		"iS": 727685,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/vyre\/3-mrm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/resources\/images\/work\/vyre\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 130804,
+		"oA": 0,
+		"oAP": "\/_site\/resources\/images\/work\/vyre\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/robots.txt",
+		"oF": 0
+		},
+	"\/_site\/talks.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/talks.html",
+		"oF": 0
+		},
+	"\/_site\/work.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work.html",
+		"oF": 0
+		},
+	"\/_site\/works\/2010\/01\/01\/redesigning-enterprise-content-management-system.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/works\/2010\/01\/01\/redesigning-enterprise-content-management-system.html",
+		"oF": 0
+		},
+	"\/_site\/works\/2011\/01\/01\/nutshell-designing-saas-crm-from-scratch.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/works\/2011\/01\/01\/nutshell-designing-saas-crm-from-scratch.html",
+		"oF": 0
+		},
+	"\/_site\/works\/2014\/01\/01\/twigkit-user-interface-components.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/works\/2014\/01\/01\/twigkit-user-interface-components.html",
+		"oF": 0
+		},
+	"\/_site\/works\/2014\/08\/01\/google-enterprise.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/works\/2014\/08\/01\/google-enterprise.html",
+		"oF": 0
+		},
+	"\/_site\/works\/2016\/08\/16\/crema-coffee-marketplace.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/works\/2016\/08\/16\/crema-coffee-marketplace.html",
+		"oF": 0
+		},
+	"\/_site\/works\/2017\/08\/10\/lux-flight-search-app.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/works\/2017\/08\/10\/lux-flight-search-app.html",
+		"oF": 0
+		},
+	"\/_site\/works\/2017\/08\/22\/juke-office-music-collaboration.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/works\/2017\/08\/22\/juke-office-music-collaboration.html",
+		"oF": 0
+		},
+	"\/_site\/writings.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/writings.html",
+		"oF": 0
+		},
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2009-05-29-the-1kb-css-grid.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2009-05-29-the-1kb-css-grid.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2009-10-07-minimizing-complexity.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2009-10-07-minimizing-complexity.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2010-02-08-search-suggestions.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2010-02-08-search-suggestions.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2010-04-27-a-bright-new-future-for-crm.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2010-04-27-a-bright-new-future-for-crm.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2010-06-29-concerning-fidelity-in-design.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2010-06-29-concerning-fidelity-in-design.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2010-07-05-the-scent-of-search.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2010-07-05-the-scent-of-search.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2010-08-26-paper-and-ink-sketching-nutshell.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2010-08-26-paper-and-ink-sketching-nutshell.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2010-09-27-review-simple-and-usable-by-giles-colborne.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2010-09-27-review-simple-and-usable-by-giles-colborne.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2010-11-18-nutshell-launches-in-nyc.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2010-11-18-nutshell-launches-in-nyc.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-01-05-from-pattern-to-component.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-01-05-from-pattern-to-component.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-02-09-search-as-a-flow-experience.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-02-09-search-as-a-flow-experience.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-04-20-novices-orienteer-experts-teleport.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-04-20-novices-orienteer-experts-teleport.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-05-12-cognitive-styles.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-05-12-cognitive-styles.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-06-16-learning-styles.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-06-16-learning-styles.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-07-26-ux-of-learning.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-07-26-ux-of-learning.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-07-29-revisiting-faceted-navigation.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-07-29-revisiting-faceted-navigation.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-08-23-semantic-grid-system.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-08-23-semantic-grid-system.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-08-24-semantic-semantics.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-08-24-semantic-semantics.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-10-13-book-review-search-analytics.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-10-13-book-review-search-analytics.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2011-10-17-cross-channel-ux-design.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2011-10-17-cross-channel-ux-design.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2012-01-05-subpixel-rounding.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2012-01-05-subpixel-rounding.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2012-01-23-three-circles-of-collaborative-search.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2012-01-23-three-circles-of-collaborative-search.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2012-02-21-cross-channel-ia-blueprint.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2012-02-21-cross-channel-ia-blueprint.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2012-03-19-the-experience-map.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2012-03-19-the-experience-map.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2012-04-06-mobile-information-needs.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2012-04-06-mobile-information-needs.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2012-07-01-designing-mobile-search.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2012-07-01-designing-mobile-search.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2012-12-18-designing-the-search-experience-book.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2012-12-18-designing-the-search-experience-book.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2012-12-21-investigating-cross-channel-consistency.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2012-12-21-investigating-cross-channel-consistency.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2013-04-01-information-wayfinding-part-1.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2013-04-01-information-wayfinding-part-1.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2013-05-06-information-wayfinding-part-2.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2013-05-06-information-wayfinding-part-2.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2013-06-11-retina-images-using-media-queries-and-LESS-CSS.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2013-06-11-retina-images-using-media-queries-and-LESS-CSS.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2013-11-07-information-wayfinding.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2013-11-07-information-wayfinding.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2014-03-10-information-wayfinding-part-3.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2014-03-10-information-wayfinding-part-3.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2014-05-12-better-wayfinding-on-pinterest-and-spotify.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2014-05-12-better-wayfinding-on-pinterest-and-spotify.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2014-07-25-four-faces-of-search.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2014-07-25-four-faces-of-search.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2014-11-12-on-taking-time-off.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2014-11-12-on-taking-time-off.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2014-12-08-from-famine-to-feast-foods-online-future.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2014-12-08-from-famine-to-feast-foods-online-future.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2014-12-09-online-grocery-shopping-a-hard-nut-to-crack.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2014-12-09-online-grocery-shopping-a-hard-nut-to-crack.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-01-16-the-case-for-a-coffee-marketplace.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-01-16-the-case-for-a-coffee-marketplace.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-01-27-hello-world-meet-crema.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-01-27-hello-world-meet-crema.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-03-08-back-us-on-kickstarter.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-03-08-back-us-on-kickstarter.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-03-28-starbucks-reserve-roastery-joins-the-coffee-subscription-race.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-03-28-starbucks-reserve-roastery-joins-the-coffee-subscription-race.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-04-01-designers-as-innovators.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-04-01-designers-as-innovators.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-07-31-a-few-things-weve-learned-from-our-kickstarter-backers.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-07-31-a-few-things-weve-learned-from-our-kickstarter-backers.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-09-01-new-feature-pause-your-brewlist.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-09-01-new-feature-pause-your-brewlist.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-10-01-naming-startups-choosing-a-company-name.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-10-01-naming-startups-choosing-a-company-name.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-10-05-new-feature-happier-email.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-10-05-new-feature-happier-email.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2015-12-04-introducing-crema-1.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2015-12-04-introducing-crema-1.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-04-07-peets-acquisition-stumptown-intelligentsia-state-of-coffee.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-04-07-peets-acquisition-stumptown-intelligentsia-state-of-coffee.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-04-15-2016-coffee-trends.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-04-15-2016-coffee-trends.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-06-14-ratings-remember-coffees-you-love.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-06-14-ratings-remember-coffees-you-love.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-06-21-brew-log-your-coffee-palate-visualized.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-06-21-brew-log-your-coffee-palate-visualized.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-06-28-personalized-recommendations-coffees-tailored-to-you.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-06-28-personalized-recommendations-coffees-tailored-to-you.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-07-12-the-discovery-gap.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-07-12-the-discovery-gap.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-07-20-dollar-shave-club.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-07-20-dollar-shave-club.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-11-07-james-currier-on-unlocking-the-secrets-of-growth.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-11-07-james-currier-on-unlocking-the-secrets-of-growth.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-11-08-george-lee-growth-instagram.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-11-08-george-lee-growth-instagram.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-11-10-susan-su-frameworks-content-marketing-growth.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-11-10-susan-su-frameworks-content-marketing-growth.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2016-11-14-where-to-spend-your-first-10k-on-marketing-steven-dupree.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2016-11-14-where-to-spend-your-first-10k-on-marketing-steven-dupree.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2017-02-09-500-startups-chandini-ammineni-product-market-fit.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2017-02-09-500-startups-chandini-ammineni-product-market-fit.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2017-02-10-500-startups-nemo-chu-marketing-brainstorming-really-simple-guessing.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2017-02-10-500-startups-nemo-chu-marketing-brainstorming-really-simple-guessing.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2017-02-22-what-we-learned-at-500-startups.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2017-02-22-what-we-learned-at-500-startups.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2017-07-05-reinventing-workplace-coffee-with-artisan-roasters-machine-learning-and-a-slack-bot.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2017-07-05-reinventing-workplace-coffee-with-artisan-roasters-machine-learning-and-a-slack-bot.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2017-07-31-the-startup-cheat-sheet.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2017-07-31-the-startup-cheat-sheet.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2017-08-09-startup-cheat-sheet-how-to-incorporate-your-company.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2017-08-09-startup-cheat-sheet-how-to-incorporate-your-company.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2017-08-22-startup-cheat-sheet-how-to-close-your-first-investor.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2017-08-22-startup-cheat-sheet-how-to-close-your-first-investor.markdown",
+		"oF": 0
+		},
+	"\/blog\/_posts\/2017-09-19-startup-cheat-sheet-how-to-create-a-winning-pitch-deck.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/_posts\/2017-09-19-startup-cheat-sheet-how-to-create-a-winning-pitch-deck.markdown",
+		"oF": 0
+		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
+	"\/events\/_posts\/2010-02-04-search-suggestions.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2010-02-04-search-suggestions.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2010-03-02-a-history-of-color.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2010-03-02-a-history-of-color.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2010-05-21-the-scent-of-search.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2010-05-21-the-scent-of-search.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2010-06-30-the-story-for-complexity.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2010-06-30-the-story-for-complexity.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2010-08-18-designing-the-search-experience.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2010-08-18-designing-the-search-experience.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2010-12-02-dealing-with-diverse-data.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2010-12-02-dealing-with-diverse-data.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-02-01-from-pattern-to-component.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-02-01-from-pattern-to-component.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-02-08-search-as-a-flow-experience.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-02-08-search-as-a-flow-experience.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-04-05-from-lookup-to-learning.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-04-05-from-lookup-to-learning.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-04-19-designing-a-modern-crm.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-04-19-designing-a-modern-crm.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-04-21-from-lookup-to-learning.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-04-21-from-lookup-to-learning.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-05-25-designing-the-holistic-search-experience.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-05-25-designing-the-holistic-search-experience.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-08-05-cognitive-content-strategy.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-08-05-cognitive-content-strategy.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-09-06-the-dao-of-learning.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-09-06-the-dao-of-learning.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-09-14-designing-the-search-experience.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-09-14-designing-the-search-experience.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2011-11-22-designing-mobile-search.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2011-11-22-designing-mobile-search.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2012-05-16-designing-mobile-search.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2012-05-16-designing-mobile-search.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2012-11-08-designing-cross-channel-experiences.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2012-11-08-designing-cross-channel-experiences.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2013-02-12-information-seeking.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2013-02-12-information-seeking.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2013-02-25-cross-channel-information-interaction.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2013-02-25-cross-channel-information-interaction.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2013-02-26-information-wayfinding.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2013-02-26-information-wayfinding.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2013-03-07-designing-mobile-search-ebay-classifieds-group-workshop.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2013-03-07-designing-mobile-search-ebay-classifieds-group-workshop.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2013-05-03-designing-the-search-experience.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2013-05-03-designing-the-search-experience.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2013-05-15-designing-the-search-experience.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2013-05-15-designing-the-search-experience.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2013-09-04-workshop-designing-the-search-experience.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2013-09-04-workshop-designing-the-search-experience.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2013-11-06-information-wayfinding-the-future-of-search.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2013-11-06-information-wayfinding-the-future-of-search.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2014-06-18-designing-the-search-experience-ux-scotland-workshop.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2014-06-18-designing-the-search-experience-ux-scotland-workshop.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2014-06-19-information-wayfinding.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2014-06-19-information-wayfinding.markdown",
+		"oF": 0
+		},
+	"\/events\/_posts\/2017-02-15-500-startups-batch-19-crema-co-pitch.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/events\/_posts\/2017-02-15-500-startups-batch-19-crema-co-pitch.markdown",
+		"oF": 0
+		},
+	"\/feed.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/feed.xml",
+		"oF": 0
+		},
+	"\/Gemfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Gemfile",
+		"oF": 0
+		},
+	"\/Gemfile.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Gemfile.lock",
+		"oF": 0
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/resources\/css\/helpers\/blog.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/blog.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/content-blocks.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/content-blocks.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/content-list.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/content-list.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/featured-groups.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/featured-groups.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/footer.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/grid.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/grid.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/header.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/header.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/helpers.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/helpers.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/hero.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/hero.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/page-hero.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/page-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/reset.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/reset.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/section.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/helpers\/site-nav.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/css\/site-nav.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/resources\/css\/main.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/resources\/css\/main.css",
+		"oF": 2,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/resources\/downloads\/Tate and Russell-Rose 2012 - The Information Needs of Mobile Searchers.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/downloads\/Tate and Russell-Rose 2012 - The Information Needs of Mobile Searchers.pdf",
+		"oF": 0
+		},
+	"\/resources\/fonts\/config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/resources\/fonts\/config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/resources\/fonts\/tylertate-icons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/fonts\/tylertate-icons.eot",
+		"oF": 0
+		},
+	"\/resources\/fonts\/tylertate-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resources\/fonts\/tylertate-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/resources\/fonts\/tylertate-icons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/fonts\/tylertate-icons.ttf",
+		"oF": 0
+		},
+	"\/resources\/fonts\/tylertate-icons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/fonts\/tylertate-icons.woff",
+		"oF": 0
+		},
+	"\/resources\/images\/2010-02-08\/suggest1.png": {
+		"ft": 32768,
+		"iS": 42416,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-02-08\/suggest1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-02-08\/suggest11.png": {
+		"ft": 32768,
+		"iS": 46635,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-02-08\/suggest11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-02-08\/suggest2.png": {
+		"ft": 32768,
+		"iS": 60678,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-02-08\/suggest2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-02-08\/suggest7.png": {
+		"ft": 32768,
+		"iS": 31806,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-02-08\/suggest7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-02-08\/suggest8.png": {
+		"ft": 32768,
+		"iS": 42712,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-02-08\/suggest8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-02-08\/suggest9.png": {
+		"ft": 32768,
+		"iS": 160393,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-02-08\/suggest9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/1-why-crm-is-broken.png": {
+		"ft": 32768,
+		"iS": 1237162,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/1-why-crm-is-broken.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/2-tech-progress.png": {
+		"ft": 32768,
+		"iS": 1214645,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/2-tech-progress.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/3-access-anywhere.png": {
+		"ft": 32768,
+		"iS": 1133456,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/3-access-anywhere.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/4-manage-sales-process.png": {
+		"ft": 32768,
+		"iS": 986939,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/4-manage-sales-process.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/5-reporting.png": {
+		"ft": 32768,
+		"iS": 1074583,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/5-reporting.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/6-cloud.png": {
+		"ft": 32768,
+		"iS": 1150546,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/6-cloud.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/7-in-control.png": {
+		"ft": 32768,
+		"iS": 1165664,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/7-in-control.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/8-good-citizen.png": {
+		"ft": 32768,
+		"iS": 1196463,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/8-good-citizen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-04-27\/9-us.png": {
+		"ft": 32768,
+		"iS": 1208011,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-04-27\/9-us.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2010-08-26\/1sketchbook.jpg": {
+		"ft": 16384,
+		"iS": 104928,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-08-26\/1sketchbook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2010-08-26\/2lead.jpg": {
+		"ft": 16384,
+		"iS": 214936,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-08-26\/2lead.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2010-08-26\/3salesprocess.jpg": {
+		"ft": 16384,
+		"iS": 165697,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-08-26\/3salesprocess.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2010-08-26\/4modals.jpg": {
+		"ft": 16384,
+		"iS": 179201,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-08-26\/4modals.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2010-08-26\/5reports.jpg": {
+		"ft": 16384,
+		"iS": 151119,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-08-26\/5reports.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2010-08-26\/6iphone.jpg": {
+		"ft": 16384,
+		"iS": 108080,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-08-26\/6iphone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2010-08-26\/7manage.jpg": {
+		"ft": 16384,
+		"iS": 144199,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-08-26\/7manage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2010-11-18\/party.jpg": {
+		"ft": 16384,
+		"iS": 634712,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2010-11-18\/party.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2011-12-06\/mobile-information-needs-tyler-tate.png": {
+		"ft": 32768,
+		"iS": 96808,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2011-12-06\/mobile-information-needs-tyler-tate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2012-01-05\/browser-subpixel-rounding-corrected.png": {
+		"ft": 32768,
+		"iS": 10947,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-01-05\/browser-subpixel-rounding-corrected.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2012-01-05\/browser-subpixel-rounding.png": {
+		"ft": 32768,
+		"iS": 13398,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-01-05\/browser-subpixel-rounding.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2012-02-21\/chu-cube.jpg": {
+		"ft": 16384,
+		"iS": 65920,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-02-21\/chu-cube.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2012-02-21\/cross-channel-blueprint.png": {
+		"ft": 32768,
+		"iS": 130547,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-02-21\/cross-channel-blueprint.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2012-02-21\/service-blueprint-brandonschauer.png": {
+		"ft": 32768,
+		"iS": 115672,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-02-21\/service-blueprint-brandonschauer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2012-02-21\/touchpoints-matrix.png": {
+		"ft": 32768,
+		"iS": 83353,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-02-21\/touchpoints-matrix.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2012-03-08\/continuum.jpg": {
+		"ft": 16384,
+		"iS": 19738,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-03-08\/continuum.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2012-03-08\/ecosystem.jpg": {
+		"ft": 16384,
+		"iS": 58704,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-03-08\/ecosystem.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2012-03-09\/consistency-strategy.jpg": {
+		"ft": 16384,
+		"iS": 139352,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-03-09\/consistency-strategy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2012-03-19\/experience-map.png": {
+		"ft": 32768,
+		"iS": 141313,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-03-19\/experience-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2012-12-18\/cover.jpg": {
+		"ft": 16384,
+		"iS": 205486,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-12-18\/cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2012-12-18\/map.jpg": {
+		"ft": 16384,
+		"iS": 155185,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-12-18\/map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2012-12-21\/ecosystem.png": {
+		"ft": 32768,
+		"iS": 52657,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2012-12-21\/ecosystem.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-02-05\/lynch-legend.jpg": {
+		"ft": 16384,
+		"iS": 137915,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-02-05\/lynch-legend.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-02-05\/the-image-of-the-city.jpg": {
+		"ft": 16384,
+		"iS": 59442,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-02-05\/the-image-of-the-city.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/1-information-overload.jpg": {
+		"ft": 16384,
+		"iS": 1158288,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/1-information-overload.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/2-cuiniform.jpg": {
+		"ft": 16384,
+		"iS": 182100,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/2-cuiniform.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/3-scroll.jpg": {
+		"ft": 16384,
+		"iS": 89998,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/3-scroll.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/4-index.jpg": {
+		"ft": 16384,
+		"iS": 126460,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/4-index.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/5-altavista.jpg": {
+		"ft": 16384,
+		"iS": 121797,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/5-altavista.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/6-nyt.png": {
+		"ft": 32768,
+		"iS": 1006609,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/6-nyt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/7-the-image-of-the-city.jpg": {
+		"ft": 16384,
+		"iS": 59442,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/7-the-image-of-the-city.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/8-elements.jpg": {
+		"ft": 16384,
+		"iS": 27876,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/8-elements.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/8-elements.png": {
+		"ft": 32768,
+		"iS": 71529,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/8-elements.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/berrypicking.png": {
+		"ft": 32768,
+		"iS": 24306,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/berrypicking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/clear-paths.jpg": {
+		"ft": 16384,
+		"iS": 477198,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/clear-paths.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/districts-layers-nodes.png": {
+		"ft": 32768,
+		"iS": 7901,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/districts-layers-nodes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/districts.png": {
+		"ft": 32768,
+		"iS": 6767,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/districts.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/elements.png": {
+		"ft": 32768,
+		"iS": 33668,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/elements.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/flexible-layers.jpg": {
+		"ft": 16384,
+		"iS": 452600,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/flexible-layers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/layers.png": {
+		"ft": 32768,
+		"iS": 15814,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/layers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/nodes.png": {
+		"ft": 32768,
+		"iS": 2412,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/nodes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/positional-cues.jpg": {
+		"ft": 16384,
+		"iS": 384374,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/positional-cues.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/structured-districts.jpg": {
+		"ft": 16384,
+		"iS": 505181,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/structured-districts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2013-11-07\/survey-knowledge.jpg": {
+		"ft": 16384,
+		"iS": 448447,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2013-11-07\/survey-knowledge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-05-12\/berrypicking.jpg": {
+		"ft": 16384,
+		"iS": 36152,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-05-12\/berrypicking.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-05-12\/pinterest-guided-search.jpg": {
+		"ft": 16384,
+		"iS": 444189,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-05-12\/pinterest-guided-search.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-05-12\/spotify-genres.jpg": {
+		"ft": 16384,
+		"iS": 267909,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-05-12\/spotify-genres.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-05-12\/spotify-playlists.jpg": {
+		"ft": 16384,
+		"iS": 303908,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-05-12\/spotify-playlists.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-11-12\/the-cottage.jpg": {
+		"ft": 16384,
+		"iS": 669445,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-11-12\/the-cottage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-11-12\/wood-pile.jpg": {
+		"ft": 16384,
+		"iS": 379247,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-11-12\/wood-pile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-12-08\/borough-market.jpg": {
+		"ft": 16384,
+		"iS": 411790,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-12-08\/borough-market.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-12-08\/millenial.jpg": {
+		"ft": 16384,
+		"iS": 125216,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-12-08\/millenial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-12-08\/online-spending-graph.png": {
+		"ft": 32768,
+		"iS": 70571,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-12-08\/online-spending-graph.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2014-12-08\/tech-logos.png": {
+		"ft": 32768,
+		"iS": 184536,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-12-08\/tech-logos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/2014-12-09\/cupcake.jpg": {
+		"ft": 16384,
+		"iS": 389476,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-12-09\/cupcake.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-12-09\/hypermarket.jpg": {
+		"ft": 16384,
+		"iS": 923817,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-12-09\/hypermarket.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2014-12-09\/icon-cheap-no.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resources\/images\/2014-12-09\/icon-cheap-no.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/resources\/images\/2014-12-09\/icon-cheap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resources\/images\/2014-12-09\/icon-cheap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/resources\/images\/2014-12-09\/icon-truck-no.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resources\/images\/2014-12-09\/icon-truck-no.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/resources\/images\/2014-12-09\/icon-truck.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resources\/images\/2014-12-09\/icon-truck.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/resources\/images\/2014-12-09\/icon-warehouse-no.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resources\/images\/2014-12-09\/icon-warehouse-no.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/resources\/images\/2014-12-09\/icon-warehouse.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/resources\/images\/2014-12-09\/icon-warehouse.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/resources\/images\/2014-12-09\/webvan.jpg": {
+		"ft": 16384,
+		"iS": 52647,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2014-12-09\/webvan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2015-01-16\/tracker.jpg": {
+		"ft": 16384,
+		"iS": 213028,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2015-01-16\/tracker.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2015-01-16\/window.jpg": {
+		"ft": 16384,
+		"iS": 155012,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2015-01-16\/window.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/2015-09-08\/spreadsheet.png": {
+		"ft": 32768,
+		"iS": 137181,
+		"oA": 0,
+		"oAP": "\/resources\/images\/2015-09-08\/spreadsheet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/about-cover.jpg": {
+		"ft": 16384,
+		"iS": 73395,
+		"oA": 0,
+		"oAP": "\/resources\/images\/about-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/bg.jpg": {
+		"ft": 16384,
+		"iS": 87795,
+		"oA": 0,
+		"oAP": "\/resources\/images\/bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/dtse-cover.jpg": {
+		"ft": 16384,
+		"iS": 243848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/dtse-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/talks-cover.jpg": {
+		"ft": 16384,
+		"iS": 72880,
+		"oA": 0,
+		"oAP": "\/resources\/images\/talks-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/talks-cover2.jpg": {
+		"ft": 16384,
+		"iS": 379377,
+		"oA": 0,
+		"oAP": "\/resources\/images\/talks-cover2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tyler-tate.jpg": {
+		"ft": 16384,
+		"iS": 32176,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tyler-tate.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/box.jpg": {
+		"ft": 16384,
+		"iS": 183666,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/box.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/brew-guide.jpg": {
+		"ft": 16384,
+		"iS": 343326,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/brew-guide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/brew-guide.png": {
+		"ft": 32768,
+		"iS": 2603686,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/brew-guide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/brewguides.jpg": {
+		"ft": 16384,
+		"iS": 791382,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/brewguides.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/brewlist-mobile.jpg": {
+		"ft": 16384,
+		"iS": 838363,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/brewlist-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/brewlist.jpg": {
+		"ft": 16384,
+		"iS": 866957,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/brewlist.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/brewlog.jpg": {
+		"ft": 16384,
+		"iS": 1121156,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/brewlog.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/browse.jpg": {
+		"ft": 16384,
+		"iS": 1098842,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/browse.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/browse2.jpg": {
+		"ft": 16384,
+		"iS": 1443659,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/browse2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/coffees.jpg": {
+		"ft": 16384,
+		"iS": 1139005,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/coffees.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/community.jpg": {
+		"ft": 16384,
+		"iS": 1366409,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/community.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 70551,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/detail.jpg": {
+		"ft": 16384,
+		"iS": 1146751,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/homepage.jpg": {
+		"ft": 16384,
+		"iS": 325050,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/homepage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/how-it-works.jpg": {
+		"ft": 16384,
+		"iS": 878634,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/how-it-works.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/logo.png": {
+		"ft": 32768,
+		"iS": 111605,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/mugs.jpg": {
+		"ft": 16384,
+		"iS": 810305,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/mugs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/packaging.jpg": {
+		"ft": 16384,
+		"iS": 448045,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/packaging.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/packaging1.jpg": {
+		"ft": 16384,
+		"iS": 161923,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/packaging1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/packaging2.jpg": {
+		"ft": 16384,
+		"iS": 378293,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/packaging2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/ratings.jpg": {
+		"ft": 16384,
+		"iS": 366791,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/ratings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/ratings2.png": {
+		"ft": 32768,
+		"iS": 32773,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/ratings2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/crema\/story.jpg": {
+		"ft": 16384,
+		"iS": 628713,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/crema\/story.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/1-overview.jpg": {
+		"ft": 16384,
+		"iS": 229453,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/1-overview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/2-stations.jpg": {
+		"ft": 16384,
+		"iS": 347830,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/2-stations.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/3-station-detail.jpg": {
+		"ft": 16384,
+		"iS": 228175,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/3-station-detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/4-search.jpg": {
+		"ft": 16384,
+		"iS": 292853,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/4-search.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/5-upvote.jpg": {
+		"ft": 16384,
+		"iS": 143647,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/5-upvote.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/6-dragdrop.png": {
+		"ft": 32768,
+		"iS": 519337,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/6-dragdrop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/7-modes.png": {
+		"ft": 32768,
+		"iS": 30320,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/7-modes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/8-iphone.jpg": {
+		"ft": 16384,
+		"iS": 202089,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/8-iphone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 192455,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/juke\/identity.png": {
+		"ft": 32768,
+		"iS": 9911,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/juke\/identity.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/lux\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 150742,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/lux\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/lux\/lux-1-overview.jpg": {
+		"ft": 16384,
+		"iS": 505652,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/lux\/lux-1-overview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/lux\/lux-1b-logo-screen.jpg": {
+		"ft": 16384,
+		"iS": 641534,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/lux\/lux-1b-logo-screen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/lux\/lux-2-flight-search.jpg": {
+		"ft": 16384,
+		"iS": 501950,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/lux\/lux-2-flight-search.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/lux\/lux-3-flight-results.jpg": {
+		"ft": 16384,
+		"iS": 633627,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/lux\/lux-3-flight-results.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/lux\/lux-4-filters.jpg": {
+		"ft": 16384,
+		"iS": 572795,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/lux\/lux-4-filters.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/lux\/lux-5-flight-details.jpg": {
+		"ft": 16384,
+		"iS": 512761,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/lux\/lux-5-flight-details.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/1-lead-mockup.jpg": {
+		"ft": 16384,
+		"iS": 284561,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/1-lead-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/1-lead-sketches.jpg": {
+		"ft": 16384,
+		"iS": 214936,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/1-lead-sketches.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/1-lead-whiteboard.jpg": {
+		"ft": 16384,
+		"iS": 366737,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/1-lead-whiteboard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/1-lead-wireframe-mockup.png": {
+		"ft": 32768,
+		"iS": 394441,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/1-lead-wireframe-mockup.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/1-lead-wireframe.png": {
+		"ft": 32768,
+		"iS": 76631,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/1-lead-wireframe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/1sketchbook.jpg": {
+		"ft": 16384,
+		"iS": 104928,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/1sketchbook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/2-process-mockup.jpg": {
+		"ft": 16384,
+		"iS": 273342,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/2-process-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/3-modal-mockup.jpg": {
+		"ft": 16384,
+		"iS": 177551,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/3-modal-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/3-modal-wireframe-mockup.jpg": {
+		"ft": 16384,
+		"iS": 206075,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/3-modal-wireframe-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/3-modal-wireframe.jpg": {
+		"ft": 16384,
+		"iS": 81964,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/3-modal-wireframe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/3salesprocess.jpg": {
+		"ft": 16384,
+		"iS": 165697,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/3salesprocess.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/4-reports-mockup.jpg": {
+		"ft": 16384,
+		"iS": 494481,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/4-reports-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/4modals.jpg": {
+		"ft": 16384,
+		"iS": 179201,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/4modals.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/5-iphone-mockup.jpg": {
+		"ft": 16384,
+		"iS": 215356,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/5-iphone-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/5reports.jpg": {
+		"ft": 16384,
+		"iS": 151119,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/5reports.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/6iphone.jpg": {
+		"ft": 16384,
+		"iS": 108080,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/6iphone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/7manage.jpg": {
+		"ft": 16384,
+		"iS": 144199,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/7manage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 71434,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/design-funnel.png": {
+		"ft": 32768,
+		"iS": 9948,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/design-funnel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/logo.png": {
+		"ft": 32768,
+		"iS": 19925,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/nutshell\/modals.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/images\/work\/nutshell\/modals.psd",
+		"oF": 0
+		},
+	"\/resources\/images\/work\/nutshell\/website.jpg": {
+		"ft": 16384,
+		"iS": 212624,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/nutshell\/website.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit-google\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 86889,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit-google\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit-google\/gov.jpg": {
+		"ft": 16384,
+		"iS": 888980,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit-google\/gov.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit-google\/industrial.jpg": {
+		"ft": 16384,
+		"iS": 763743,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit-google\/industrial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit-google\/kyc.jpg": {
+		"ft": 16384,
+		"iS": 684335,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit-google\/kyc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit-google\/media.jpg": {
+		"ft": 16384,
+		"iS": 836170,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit-google\/media.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 103089,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit\/dtse-medium.jpg": {
+		"ft": 16384,
+		"iS": 404329,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit\/dtse-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit\/ft.jpg": {
+		"ft": 16384,
+		"iS": 325376,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit\/ft.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit\/gemalto.jpg": {
+		"ft": 16384,
+		"iS": 302841,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit\/gemalto.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit\/google.jpg": {
+		"ft": 16384,
+		"iS": 235518,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit\/google.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit\/responsive.jpg": {
+		"ft": 16384,
+		"iS": 566844,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit\/responsive.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit\/website-home.jpg": {
+		"ft": 16384,
+		"iS": 1108079,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit\/website-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/twigkit\/zawya.jpg": {
+		"ft": 16384,
+		"iS": 276835,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/twigkit\/zawya.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/work\/vyre\/1-cms.png": {
+		"ft": 32768,
+		"iS": 709218,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/vyre\/1-cms.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/vyre\/2-dam.png": {
+		"ft": 32768,
+		"iS": 937017,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/vyre\/2-dam.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/vyre\/3-mrm.png": {
+		"ft": 32768,
+		"iS": 727685,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/vyre\/3-mrm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/work\/vyre\/cover_image.jpg": {
+		"ft": 16384,
+		"iS": 130804,
+		"oA": 0,
+		"oAP": "\/resources\/images\/work\/vyre\/cover_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/robots.txt",
+		"oF": 0
+		},
+	"\/talks.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/talks.html",
+		"oF": 0
+		},
+	"\/work.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work.html",
+		"oF": 0
+		},
+	"\/works\/_posts\/2010-01-01-redesigning-enterprise-content-management-system.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/works\/_posts\/2010-01-01-redesigning-enterprise-content-management-system.markdown",
+		"oF": 0
+		},
+	"\/works\/_posts\/2011-01-01-nutshell-designing-saas-crm-from-scratch.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/works\/_posts\/2011-01-01-nutshell-designing-saas-crm-from-scratch.markdown",
+		"oF": 0
+		},
+	"\/works\/_posts\/2014-01-01-twigkit-user-interface-components.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/works\/_posts\/2014-01-01-twigkit-user-interface-components.markdown",
+		"oF": 0
+		},
+	"\/works\/_posts\/2014-08-01-google-enterprise.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/works\/_posts\/2014-08-01-google-enterprise.markdown",
+		"oF": 0
+		},
+	"\/works\/_posts\/2016-08-16-crema-coffee-marketplace.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/works\/_posts\/2016-08-16-crema-coffee-marketplace.markdown",
+		"oF": 0
+		},
+	"\/works\/_posts\/2017-08-10-lux-flight-search-app.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/works\/_posts\/2017-08-10-lux-flight-search-app.markdown",
+		"oF": 0
+		},
+	"\/works\/_posts\/2017-08-22-juke-office-music-collaboration.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/works\/_posts\/2017-08-22-juke-office-music-collaboration.markdown",
+		"oF": 0
+		},
+	"\/writings.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/writings.html",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 528166399,
+	"displayValue": "tylertate",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-maroney"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
