@@ -1,26 +1,26 @@
 ---
 layout: work
-title: "Twigkit: User Interface Components for Data-Driven Applications"
+title: "Twigkit: User Interface Components for Search-Driven Applications"
 snippet: ""
 cover_image: "/resources/images/work/twigkit/cover-small.jpg"
 ---
+
+<figure class="large">
+	<img src="/resources/images/work/twigkit/cover-wide.jpg" alt="The Twigkit.com homepage" />
+	<figcaption>The Twigkit.com homepage as I designed it in 2014.</figcaption>
+</figure>
 
 In 2009 I co-founded Twigkit, a London-based enterprise software company that provides tools for rapidly building data-driven applications. My responsibilities included leading the user experience, visual design, and front-end development of Twigkit’s products, spearheading our marketing efforts, and helping key customers — including The Financial Times, Rolls-Royce, Qualcomm, BASF, Thomson-Reuters, Vodafone, Gemalto, and ITV — achieve superb search user interfaces.
 
 To give you a better idea of what Twigkit does, here's a screenshot of the homepage that I designed prior to my departure in 2014, followed by some of the content and customer examples we used on the website.
 
-<figure class="large">
-	<img src="/resources/images/work/twigkit/website-home.jpg" alt="The Twigkit.com homepage" />
-	<figcaption>The Twigkit.com homepage as I designed it in 2014.</figcaption>
-</figure>
-
 ## Enterprise Search
 
-Our sustained, single-minded focus has culminated in the **best search user experience in enterprise software**. Beyond being easy to use, Twigkit’s suite of tools enables knowledge workers to do their jobs better by collaboratively saving searches, bookmarking search results, annotating documents, and more. Built for enterprise architecture, Twigkit also abstracts access to disparate data providers, and integrates with Active Directory for document-level security.
+Twigkit's sustained, single-minded focus has culminated in the **best search user experience in enterprise software**. Beyond being easy to use, Twigkit’s suite of tools enables knowledge workers to do their jobs better by collaboratively saving searches, bookmarking search results, annotating documents, and more. Built for enterprise architecture, Twigkit also abstracts access to disparate data providers, and integrates with Active Directory for document-level security.
 
 <figure class="medium">
-	<img src="/resources/images/work/twigkit/google.jpg" alt="Enterprise Search" />
-	<figcaption>While Twigkit is used for search within a number of enterprises, such companies won't allow screenshots of their intranets to be shared publicly. This example gives you the general idea.</figcaption>
+	<img src="/resources/images/work/twigkit/ft.jpg" alt="Site Search" />
+	<figcaption>Site search on the Financial Times.</figcaption>
 </figure>
 
 ### Used by…
@@ -35,8 +35,8 @@ Our sustained, single-minded focus has culminated in the **best search user expe
 With easy to configure user interface components, semantic HTML output, and modular CSS, Twigkit has been built for **seamless integration** with existing websites, from look and feel to user accounts. And, optimized for tables and smartphones, Twigkit helps companies deliver great experiences to their customers on any device.
 
 <figure class="medium">
-	<img src="/resources/images/work/twigkit/ft.jpg" alt="Site Search" />
-	<figcaption>Site search on the Financial Times.</figcaption>
+	<img src="/resources/images/work/twigkit/vodafone.jpg" alt="Ecommerce Search" />
+	<figcaption>Ecommerce search for Vodafone UK.</figcaption>
 </figure>
 
 ### Used by…
@@ -50,8 +50,8 @@ With easy to configure user interface components, semantic HTML output, and modu
 By providing a layer of data abstraction, Twigkit reaches across organizational silos, making it possible to surface data from numerous search platforms and data warehouses in a single application. When combined with our data visualization library, geospatial mapping components, and collaborative features such as commenting and bookmarking, Twigkit delivers the flexibility to create specialized research and discovery applications more easily than ever before.
 
 <figure class="medium">
-	<img src="/resources/images/work/twigkit/zawya.jpg" alt="Zawya" />
-	<figcaption>A specialized application for Zawya/Thomson Reuters.</figcaption>
+	<img src="/resources/images/work/twigkit/kyc.jpg" alt="Know Your Customer" />
+	<figcaption>A financial services application built in conjunction with Google Enterprise. <a href="http://tylertate.com/blog/search/featured/2014/07/25/four-faces-of-search.html">Read my blog post about the project.</a></figcaption>
 </figure>
 
 ### Used by…
@@ -61,12 +61,6 @@ By providing a layer of data abstraction, Twigkit reaches across organizational 
 * **WGSN**. Image search for the worldwide leader in fashion trend forecasting. *London, UK*
 * **ITV**. Digital asset search for archived television programs for the network behind Downton Abbey. *London, UK*
 
-## Responsive Search & Browse
-
-<figure class="large">
-	<img src="/resources/images/work/twigkit/responsive.jpg" alt="Responsive search and browse" />
-	<figcaption>Faceted navigation on desktop, tablet, and phone.</figcaption>
-</figure>
 
 ## How It Works
 

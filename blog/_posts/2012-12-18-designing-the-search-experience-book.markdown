@@ -1,8 +1,10 @@
 ---
 layout: blog
-title: "Designing the Search Experience: The Book"
+title: "Designing the Search Experience"
+publisher: Morgan Kaufmann
+originalurl: http://designingthesearchexperience.com
 snippet: "Despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. That’s why Tony Russell-Rose and I set out to write Designing the Search Experience: the Information Architecture of Discovery. For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. Tony and I are pleased with the results - we hope you will be too."
-category: search
+category: [search,featured]
 ---
 
 <figure class="medium">

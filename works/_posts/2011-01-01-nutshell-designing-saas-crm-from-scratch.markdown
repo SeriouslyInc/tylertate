@@ -5,6 +5,10 @@ snippet: "What does building a brand new CRM for medium-sized businesses look li
 cover_image: "/resources/images/work/nutshell/cover-small.jpg"
 ---
 
+<figure class="large">
+	<img src="/resources/images/work/nutshell/cover-wide.jpg" alt="Nutshell.com" />
+</figure>
+
 I joined [Nutshell](http://nutshell.com) as lead designer just after the company was founded in late 2009. I was responsible for the initial user experience and visual design of the company's web app, iPhone app, and marketing website. We [launched the product](http://tylertate.com/blog/2010/11/18/nutshell-launches-in-nyc.html) in 2010.
 
 Why a new customer relationship management system? At the time, the market was dominated by expensize, complex solutions (Salesforce) on one end of the spectrum, and bare-bones products (Highrise) at the other end. There wasn't a slick-but-powerful solution for medium-sized businesses. (See my blog post [A Bright New Future for CRM](http://tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html).)
@@ -24,7 +28,7 @@ Every new area of the product began with CEO Guy Suter, CTO Andy Fowler, and mys
 
 After that initial brainstorming session I'd go away and produce dozens of sketches exploring different directions, then bring those ideas back to discuss with Guy and Andy.
 
-<figure class="large">
+<figure class="medium">
 	<img src="/resources/images/work/nutshell/1-lead-sketches.jpg" alt="Sketches" />
 	<figcaption>Quick sketches exploring different ideas.</figcaption>
 </figure>
@@ -71,18 +75,6 @@ Below are some of the other areas of the app that we designed for version one.
 
 <figure class="large">
 	<img src="/resources/images/work/nutshell/5-iphone-mockup.jpg" alt="iPhone app" />
-</figure>
-
-## Logo
-
-<figure class="medium">
-	<img src="/resources/images/work/nutshell/logo.png" alt="Logo" />
-</figure>
-
-## Website
-
-<figure class="medium">
-	<img src="/resources/images/work/nutshell/website.jpg" alt="Website" />
 </figure>
 
 

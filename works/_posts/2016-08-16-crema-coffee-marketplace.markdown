@@ -5,13 +5,11 @@ excerpt: ""
 cover_image: "/resources/images/work/crema/cover-small.jpg"
 ---
 
-Our team <a href="http://www.geekwire.com/2015/crema-co-launches-coffee-marketplace-to-connect-shoppers-with-rare-roasts/">launched</a> <a href="https://crema.co/">Crema.co</a> in December 2015 after running a successful <a href="https://www.kickstarter.com/projects/2074548677/cremaco-the-single-origin-coffee-marketplace">Kickstarter campaign</a> earlier in the year. In addition to serving as the company's CEO, I also designed the product, developed the front-end, and currently own the back-end development as well. My awesome co-founder, Emily McIntyre, manages our roaster partnerships and all things coffee, and we have a copywriter, coffee professional, and all-star advisory board involved as well.
-
-
 <figure class="large">
-	<img src="/resources/images/work/crema/homepage.jpg" alt="The Crema.co homepage" />
-	<figcaption>The Crema.co homepage.</figcaption>
+	<img src="/resources/images/work/crema/cover-wide.jpg" alt="Crema.co" />
 </figure>
+
+Our team <a href="http://www.geekwire.com/2015/crema-co-launches-coffee-marketplace-to-connect-shoppers-with-rare-roasts/">launched</a> <a href="https://crema.co/">Crema.co</a> in December 2015 after running a successful <a href="https://www.kickstarter.com/projects/2074548677/cremaco-the-single-origin-coffee-marketplace">Kickstarter campaign</a> earlier in the year. In addition to serving as the company's CEO, I also designed the product, developed the front-end, and currently own the back-end development as well. My awesome co-founder, Emily McIntyre, manages our roaster partnerships and all things coffee, and we have a copywriter, coffee professional, and all-star advisory board involved as well.
 
 So what is Crema.co? In short, it's a coffee marketplace that enables consumers to subscribe to roasted-to-order coffees from specialty roasters across the US. Every coffee is roasted to order and shipped direct from the roaster, meaning the beans arrive just days after they've been roasted.
 
@@ -46,16 +44,9 @@ Not only do we tell you about the coffee itself — what it tastes like, how muc
 
 ## Manage Your Brew List
 
-Our customers subscribe to recurring coffee deliveries using a queue system called the Brew List.
+Our customers subscribe to recurring coffee deliveries using a queue system called the Brew List. Here's how it works: a customer adds the coffees she'd like to try to her Brew List, sets a delivery frequency (from every week to every month), and then receive the next item on her Brew List each time.
 
 <figure class="medium">
-	<img src="/resources/images/work/crema/how-it-works.jpg" alt="How the Brew List works" />
-	<figcaption>An explanation of how the Brew List works.</figcaption>
-</figure>
-
-Here's how it works: a customer adds the coffees she'd like to try to her Brew List, sets a delivery frequency (from every week to every month), and then receive the next item on her Brew List each time.
-
-<figure class="large">
 	<img src="/resources/images/work/crema/brewlist.jpg" alt="The Brew List in action" />
 	<figcaption>The Brew List in action: drag and drop to change the order.</figcaption>
 </figure>

@@ -5,14 +5,14 @@ excerpt: ""
 cover_image: "/resources/images/work/lux/cover-small.jpg"
 ---
 
+<figure class="large">
+  <img src="/resources/images/work/lux/cover-wide.jpg" alt="Lux. Luxury travel, reimagined." />
+  <figcaption>A concept flight-booking app for luxury and business-class travelers.</figcaption>
+</figure>
+
 Flight booking is standard fare. You enter your destination, specificy travel dates, and look for the lowest price. As the rise of budget airlines proves, cost is king for most of us.
 
 But not everyone. For the rare few who need help lightening their wallets, airlines are there to oblige. For a mere $25,000 you can fly first-class from San Francisco to Dubai and sleep in your private room, lounge around the bar, feast on a five-course meal, and even visit the spa or shower, all while cruising along at 30,000 feet. Or so I'm told.
-
-<figure class="large">
-	<img src="/resources/images/work/lux/lux-1-overview.jpg" alt="Lux. Luxury travel, reimagined." />
-	<figcaption>A concept flight-booking app for luxury and business-class travelers.</figcaption>
-</figure>
 
 Most travel websites and apps cater to us price-sensitive masses. **But what would an app geared towards luxury travelers look like?** It's been a little while since I designed an iOS app, so I thought it'd be a useful exercise to flex some of those design muscles and reimagine what a luxury travel app might look like. Here's what I came up with.
 

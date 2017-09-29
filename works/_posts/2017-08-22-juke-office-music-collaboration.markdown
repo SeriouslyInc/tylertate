@@ -6,7 +6,7 @@ cover_image: "/resources/images/work/juke/cover-small.jpg"
 ---
 
 <figure class="large">
-	<img src="/resources/images/work/juke/1-overview.jpg" alt="Juke: The Office Jukebox" />
+	<img src="/resources/images/work/juke/cover-wide.jpg" alt="Juke: The Office Jukebox" />
 	<figcaption>A concept web app for listening to music at the office.</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ I named my hypothetical tool "Juke" in homage to the jukebox, and selected a pla
 
 Once you, the user, have signed in to your team's Juke account, you have two options: either listen to a station created by one of your colleagues that's already streaming music, or create your own station. Offering multiple stations provides flexibility: your company's San Francisco and New York offices could each listen to their own station, or tune into a single station for coast-to-coast synchronized listening of Michael Jackson's greatest hits. Just what you've always wanted, right? (See note above about this being a bad business idea.)
 
-<figure class="large">
+<figure class="medium">
 	<img src="/resources/images/work/juke/2-stations.jpg" alt="Stations" />
 </figure>
 
@@ -49,7 +49,7 @@ Here's a station created by Ben called "Total Eclipse Monday." It displays the t
 
 Ready to request a track? Type in the name of song, artist or album and the matching results appear in a sidebar. This make it easy to find the perfect song without leaving the context of the station you're trying to add it to.
 
-<figure class="large">
+<figure class="medium">
 	<img src="/resources/images/work/juke/4-search.jpg" alt="Contextual search" />
 </figure>
 
@@ -81,11 +81,18 @@ If you're the station creator, approving a song request is as easy as dragging a
 When starting a new station, the creator can set his or her station to one of three modes: solo, accepting requests, and open mic. In "solo" mode, the creator is solely responsible for choosing which songs to play. In "accepting requests" mode, as we've seen above, others can suggest songs, but the creator has approval authority. And finally, the "open mic" setting allows everyone to add songs to the playback queue, without relying on an individual curator. 
 
 
-## A Rockin' Web App
+## A Rockin, Responsive Web App
 
 While an app allowing anyone in the office to listen to a colleague's station or create their own with three modes of control, contextual search, and upvoting might not be the next billion dollar business, but it sure would be fun to use.
 
 
 <figure class="medium">
   <img src="/resources/images/work/juke/8-iphone.jpg" alt="iPhone Responsive Web" />
+</figure>
+
+
+## Presentation
+
+<figure class="medium">
+  <iframe src="//www.slideshare.net/slideshow/embed_code/key/wXLm0gJHTREBSV" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>

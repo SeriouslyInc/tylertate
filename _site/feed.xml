@@ -189,7 +189,7 @@
 				<title>Juke: The Office Jukebox</title>
 				<pubDate>Tue, 22 Aug 2017 00:00:00 PDT</pubDate>
 				<description>&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/juke/1-overview.jpg&quot; alt=&quot;Juke: The Office Jukebox&quot; /&gt;
+	&lt;img src=&quot;/resources/images/work/juke/cover-wide.jpg&quot; alt=&quot;Juke: The Office Jukebox&quot; /&gt;
 	&lt;figcaption&gt;A concept web app for listening to music at the office.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -213,7 +213,7 @@
 
 &lt;p&gt;Once you, the user, have signed in to your team’s Juke account, you have two options: either listen to a station created by one of your colleagues that’s already streaming music, or create your own station. Offering multiple stations provides flexibility: your company’s San Francisco and New York offices could each listen to their own station, or tune into a single station for coast-to-coast synchronized listening of Michael Jackson’s greatest hits. Just what you’ve always wanted, right? (See note above about this being a bad business idea.)&lt;/p&gt;
 
-&lt;figure class=&quot;large&quot;&gt;
+&lt;figure class=&quot;medium&quot;&gt;
 	&lt;img src=&quot;/resources/images/work/juke/2-stations.jpg&quot; alt=&quot;Stations&quot; /&gt;
 &lt;/figure&gt;
 
@@ -229,7 +229,7 @@
 
 &lt;p&gt;Ready to request a track? Type in the name of song, artist or album and the matching results appear in a sidebar. This make it easy to find the perfect song without leaving the context of the station you’re trying to add it to.&lt;/p&gt;
 
-&lt;figure class=&quot;large&quot;&gt;
+&lt;figure class=&quot;medium&quot;&gt;
 	&lt;img src=&quot;/resources/images/work/juke/4-search.jpg&quot; alt=&quot;Contextual search&quot; /&gt;
 &lt;/figure&gt;
 
@@ -257,12 +257,18 @@
 
 &lt;p&gt;When starting a new station, the creator can set his or her station to one of three modes: solo, accepting requests, and open mic. In “solo” mode, the creator is solely responsible for choosing which songs to play. In “accepting requests” mode, as we’ve seen above, others can suggest songs, but the creator has approval authority. And finally, the “open mic” setting allows everyone to add songs to the playback queue, without relying on an individual curator.&lt;/p&gt;
 
-&lt;h2 id=&quot;a-rockin-web-app&quot;&gt;A Rockin’ Web App&lt;/h2&gt;
+&lt;h2 id=&quot;a-rockin-responsive-web-app&quot;&gt;A Rockin, Responsive Web App&lt;/h2&gt;
 
 &lt;p&gt;While an app allowing anyone in the office to listen to a colleague’s station or create their own with three modes of control, contextual search, and upvoting might not be the next billion dollar business, but it sure would be fun to use.&lt;/p&gt;
 
 &lt;figure class=&quot;medium&quot;&gt;
   &lt;img src=&quot;/resources/images/work/juke/8-iphone.jpg&quot; alt=&quot;iPhone Responsive Web&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;presentation&quot;&gt;Presentation&lt;/h2&gt;
+
+&lt;figure class=&quot;medium&quot;&gt;
+  &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/wXLm0gJHTREBSV&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 &lt;/figure&gt;
 </description>
 				<link>http://www.tylertate.com/works/2017/08/22/juke-office-music-collaboration.html</link>
@@ -281,14 +287,14 @@
 			<item>
 				<title>Lux: A Premium Travel App</title>
 				<pubDate>Thu, 10 Aug 2017 00:00:00 PDT</pubDate>
-				<description>&lt;p&gt;Flight booking is standard fare. You enter your destination, specificy travel dates, and look for the lowest price. As the rise of budget airlines proves, cost is king for most of us.&lt;/p&gt;
+				<description>&lt;figure class=&quot;large&quot;&gt;
+  &lt;img src=&quot;/resources/images/work/lux/cover-wide.jpg&quot; alt=&quot;Lux. Luxury travel, reimagined.&quot; /&gt;
+  &lt;figcaption&gt;A concept flight-booking app for luxury and business-class travelers.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Flight booking is standard fare. You enter your destination, specificy travel dates, and look for the lowest price. As the rise of budget airlines proves, cost is king for most of us.&lt;/p&gt;
 
 &lt;p&gt;But not everyone. For the rare few who need help lightening their wallets, airlines are there to oblige. For a mere $25,000 you can fly first-class from San Francisco to Dubai and sleep in your private room, lounge around the bar, feast on a five-course meal, and even visit the spa or shower, all while cruising along at 30,000 feet. Or so I’m told.&lt;/p&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/lux/lux-1-overview.jpg&quot; alt=&quot;Lux. Luxury travel, reimagined.&quot; /&gt;
-	&lt;figcaption&gt;A concept flight-booking app for luxury and business-class travelers.&lt;/figcaption&gt;
-&lt;/figure&gt;
 
 &lt;p&gt;Most travel websites and apps cater to us price-sensitive masses. &lt;strong&gt;But what would an app geared towards luxury travelers look like?&lt;/strong&gt; It’s been a little while since I designed an iOS app, so I thought it’d be a useful exercise to flex some of those design muscles and reimagine what a luxury travel app might look like. Here’s what I came up with.&lt;/p&gt;
 
@@ -441,12 +447,11 @@
 			<item>
 				<title>Crema.co: The Coffee Marketplace</title>
 				<pubDate>Tue, 16 Aug 2016 00:00:00 PDT</pubDate>
-				<description>&lt;p&gt;Our team &lt;a href=&quot;http://www.geekwire.com/2015/crema-co-launches-coffee-marketplace-to-connect-shoppers-with-rare-roasts/&quot;&gt;launched&lt;/a&gt; &lt;a href=&quot;https://crema.co/&quot;&gt;Crema.co&lt;/a&gt; in December 2015 after running a successful &lt;a href=&quot;https://www.kickstarter.com/projects/2074548677/cremaco-the-single-origin-coffee-marketplace&quot;&gt;Kickstarter campaign&lt;/a&gt; earlier in the year. In addition to serving as the company’s CEO, I also designed the product, developed the front-end, and currently own the back-end development as well. My awesome co-founder, Emily McIntyre, manages our roaster partnerships and all things coffee, and we have a copywriter, coffee professional, and all-star advisory board involved as well.&lt;/p&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/crema/homepage.jpg&quot; alt=&quot;The Crema.co homepage&quot; /&gt;
-	&lt;figcaption&gt;The Crema.co homepage.&lt;/figcaption&gt;
+				<description>&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/crema/cover-wide.jpg&quot; alt=&quot;Crema.co&quot; /&gt;
 &lt;/figure&gt;
+
+&lt;p&gt;Our team &lt;a href=&quot;http://www.geekwire.com/2015/crema-co-launches-coffee-marketplace-to-connect-shoppers-with-rare-roasts/&quot;&gt;launched&lt;/a&gt; &lt;a href=&quot;https://crema.co/&quot;&gt;Crema.co&lt;/a&gt; in December 2015 after running a successful &lt;a href=&quot;https://www.kickstarter.com/projects/2074548677/cremaco-the-single-origin-coffee-marketplace&quot;&gt;Kickstarter campaign&lt;/a&gt; earlier in the year. In addition to serving as the company’s CEO, I also designed the product, developed the front-end, and currently own the back-end development as well. My awesome co-founder, Emily McIntyre, manages our roaster partnerships and all things coffee, and we have a copywriter, coffee professional, and all-star advisory board involved as well.&lt;/p&gt;
 
 &lt;p&gt;So what is Crema.co? In short, it’s a coffee marketplace that enables consumers to subscribe to roasted-to-order coffees from specialty roasters across the US. Every coffee is roasted to order and shipped direct from the roaster, meaning the beans arrive just days after they’ve been roasted.&lt;/p&gt;
 
@@ -477,16 +482,9 @@
 
 &lt;h2 id=&quot;manage-your-brew-list&quot;&gt;Manage Your Brew List&lt;/h2&gt;
 
-&lt;p&gt;Our customers subscribe to recurring coffee deliveries using a queue system called the Brew List.&lt;/p&gt;
+&lt;p&gt;Our customers subscribe to recurring coffee deliveries using a queue system called the Brew List. Here’s how it works: a customer adds the coffees she’d like to try to her Brew List, sets a delivery frequency (from every week to every month), and then receive the next item on her Brew List each time.&lt;/p&gt;
 
 &lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/crema/how-it-works.jpg&quot; alt=&quot;How the Brew List works&quot; /&gt;
-	&lt;figcaption&gt;An explanation of how the Brew List works.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Here’s how it works: a customer adds the coffees she’d like to try to her Brew List, sets a delivery frequency (from every week to every month), and then receive the next item on her Brew List each time.&lt;/p&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
 	&lt;img src=&quot;/resources/images/work/crema/brewlist.jpg&quot; alt=&quot;The Brew List in action&quot; /&gt;
 	&lt;figcaption&gt;The Brew List in action: drag and drop to change the order.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -588,15 +586,6 @@
 </description>
 				<link>http://www.tylertate.com/works/2016/08/16/crema-coffee-marketplace.html</link>
 				<guid>http://www.tylertate.com/works/2016/08/16/crema-coffee-marketplace.html</guid>
-			</item>
-		
-			<item>
-				<title>Dollar Shave Club and the Disruption of Retail</title>
-				<pubDate>Wed, 20 Jul 2016 00:00:00 PDT</pubDate>
-				<description>
-</description>
-				<link>http://www.tylertate.com/blog/startup/2016/07/20/dollar-shave-club.html</link>
-				<guid>http://www.tylertate.com/blog/startup/2016/07/20/dollar-shave-club.html</guid>
 			</item>
 		
 			<item>
@@ -843,14 +832,15 @@
 			<item>
 				<title>The Case for a Coffee Marketplace</title>
 				<pubDate>Fri, 16 Jan 2015 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;A tiny, four-wheel drive Geo Tracker trudges up a steep, narrow dirt path, delicately hugging the side of a mountain some 100 kilometers from San Jose, Costa Rica. After a particularly hair-pin turn, the Tracker bravely sprints up an intense incline, but is met halfway up with an aging Toyota pickup half creeping, half sliding down the hill. Only after an involved series of maneuvers — comparable to trapeze stunts in both complexity and risk of tumbling to a tragic death — do the two vehicles manage to pass, and we’re able to continue our treacherous journey to Henry’s coffee farm further up the mountain.&lt;/p&gt;
+				<description>&lt;figure class=&quot;small&quot;&gt;
+  &lt;img src=&quot;/resources/images/2015-01-16/window.jpg&quot; /&gt;
+  &lt;figcaption&gt;The valley below. Or: where we would have ended up if our left wheels had been an inch or two closer to the edge of the &quot;road&quot;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A tiny, four-wheel drive Geo Tracker trudges up a steep, narrow dirt path, delicately hugging the side of a mountain some 100 kilometers from San Jose, Costa Rica. After a particularly hair-pin turn, the Tracker bravely sprints up an intense incline, but is met halfway up with an aging Toyota pickup half creeping, half sliding down the hill. Only after an involved series of maneuvers — comparable to trapeze stunts in both complexity and risk of tumbling to a tragic death — do the two vehicles manage to pass, and we’re able to continue our treacherous journey to Henry’s coffee farm further up the mountain.&lt;/p&gt;
 
 &lt;p&gt;That was 2006. It was the summer before my last year of university, and I was spending four weeks working with an upstart coffee roaster in Costa Rica called Green Earth Coffee. Their goal: to provide consumers with exceptional coffee, while providing local farmers and agricultural workers  higher wages and better access to medical care.&lt;/p&gt;
 
-&lt;figure class=&quot;small left&quot; style=&quot;margin-top: 0.75em;&quot;&gt;
-	&lt;img src=&quot;/resources/images/2015-01-16/window.jpg&quot; /&gt;
-	&lt;figcaption&gt;The valley below. Or: where we would have ended up if our left wheels had been an inch or two closer to the edge of the &quot;road&quot;.&lt;/figcaption&gt;
-&lt;/figure&gt;
 &lt;figure class=&quot;medium&quot;&gt;
 	&lt;img src=&quot;/resources/images/2015-01-16/tracker.jpg&quot; /&gt;
 	&lt;figcaption&gt;In a Geo Tracker on the side of a mountain, somewhere near Los Sabos, Costa Rica.&lt;/figcaption&gt;
@@ -982,8 +972,8 @@
 &lt;p&gt;Would you like to live in such a world?&lt;/p&gt;
 
 </description>
-				<link>http://www.tylertate.com/blog/crema/2014/12/09/online-grocery-shopping-a-hard-nut-to-crack.html</link>
-				<guid>http://www.tylertate.com/blog/crema/2014/12/09/online-grocery-shopping-a-hard-nut-to-crack.html</guid>
+				<link>http://www.tylertate.com/blog/misc/2014/12/09/online-grocery-shopping-a-hard-nut-to-crack.html</link>
+				<guid>http://www.tylertate.com/blog/misc/2014/12/09/online-grocery-shopping-a-hard-nut-to-crack.html</guid>
 			</item>
 		
 			<item>
@@ -1064,8 +1054,8 @@
 &lt;p&gt;Watch this space.&lt;/p&gt;
 
 </description>
-				<link>http://www.tylertate.com/blog/crema/2014/12/08/from-famine-to-feast-foods-online-future.html</link>
-				<guid>http://www.tylertate.com/blog/crema/2014/12/08/from-famine-to-feast-foods-online-future.html</guid>
+				<link>http://www.tylertate.com/blog/misc/2014/12/08/from-famine-to-feast-foods-online-future.html</link>
+				<guid>http://www.tylertate.com/blog/misc/2014/12/08/from-famine-to-feast-foods-online-future.html</guid>
 			</item>
 		
 			<item>
@@ -1379,24 +1369,24 @@
 			</item>
 		
 			<item>
-				<title>Twigkit: User Interface Components for Data-Driven Applications</title>
+				<title>Twigkit: User Interface Components for Search-Driven Applications</title>
 				<pubDate>Wed, 01 Jan 2014 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;In 2009 I co-founded Twigkit, a London-based enterprise software company that provides tools for rapidly building data-driven applications. My responsibilities included leading the user experience, visual design, and front-end development of Twigkit’s products, spearheading our marketing efforts, and helping key customers — including The Financial Times, Rolls-Royce, Qualcomm, BASF, Thomson-Reuters, Vodafone, Gemalto, and ITV — achieve superb search user interfaces.&lt;/p&gt;
-
-&lt;p&gt;To give you a better idea of what Twigkit does, here’s a screenshot of the homepage that I designed prior to my departure in 2014, followed by some of the content and customer examples we used on the website.&lt;/p&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/website-home.jpg&quot; alt=&quot;The Twigkit.com homepage&quot; /&gt;
+				<description>&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/twigkit/cover-wide.jpg&quot; alt=&quot;The Twigkit.com homepage&quot; /&gt;
 	&lt;figcaption&gt;The Twigkit.com homepage as I designed it in 2014.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
+&lt;p&gt;In 2009 I co-founded Twigkit, a London-based enterprise software company that provides tools for rapidly building data-driven applications. My responsibilities included leading the user experience, visual design, and front-end development of Twigkit’s products, spearheading our marketing efforts, and helping key customers — including The Financial Times, Rolls-Royce, Qualcomm, BASF, Thomson-Reuters, Vodafone, Gemalto, and ITV — achieve superb search user interfaces.&lt;/p&gt;
+
+&lt;p&gt;To give you a better idea of what Twigkit does, here’s a screenshot of the homepage that I designed prior to my departure in 2014, followed by some of the content and customer examples we used on the website.&lt;/p&gt;
+
 &lt;h2 id=&quot;enterprise-search&quot;&gt;Enterprise Search&lt;/h2&gt;
 
-&lt;p&gt;Our sustained, single-minded focus has culminated in the &lt;strong&gt;best search user experience in enterprise software&lt;/strong&gt;. Beyond being easy to use, Twigkit’s suite of tools enables knowledge workers to do their jobs better by collaboratively saving searches, bookmarking search results, annotating documents, and more. Built for enterprise architecture, Twigkit also abstracts access to disparate data providers, and integrates with Active Directory for document-level security.&lt;/p&gt;
+&lt;p&gt;Twigkit’s sustained, single-minded focus has culminated in the &lt;strong&gt;best search user experience in enterprise software&lt;/strong&gt;. Beyond being easy to use, Twigkit’s suite of tools enables knowledge workers to do their jobs better by collaboratively saving searches, bookmarking search results, annotating documents, and more. Built for enterprise architecture, Twigkit also abstracts access to disparate data providers, and integrates with Active Directory for document-level security.&lt;/p&gt;
 
 &lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/google.jpg&quot; alt=&quot;Enterprise Search&quot; /&gt;
-	&lt;figcaption&gt;While Twigkit is used for search within a number of enterprises, such companies won't allow screenshots of their intranets to be shared publicly. This example gives you the general idea.&lt;/figcaption&gt;
+	&lt;img src=&quot;/resources/images/work/twigkit/ft.jpg&quot; alt=&quot;Site Search&quot; /&gt;
+	&lt;figcaption&gt;Site search on the Financial Times.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;used-by&quot;&gt;Used by…&lt;/h3&gt;
@@ -1413,8 +1403,8 @@
 &lt;p&gt;With easy to configure user interface components, semantic HTML output, and modular CSS, Twigkit has been built for &lt;strong&gt;seamless integration&lt;/strong&gt; with existing websites, from look and feel to user accounts. And, optimized for tables and smartphones, Twigkit helps companies deliver great experiences to their customers on any device.&lt;/p&gt;
 
 &lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/ft.jpg&quot; alt=&quot;Site Search&quot; /&gt;
-	&lt;figcaption&gt;Site search on the Financial Times.&lt;/figcaption&gt;
+	&lt;img src=&quot;/resources/images/work/twigkit/vodafone.jpg&quot; alt=&quot;Ecommerce Search&quot; /&gt;
+	&lt;figcaption&gt;Ecommerce search for Vodafone UK.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;used-by-1&quot;&gt;Used by…&lt;/h3&gt;
@@ -1430,8 +1420,8 @@
 &lt;p&gt;By providing a layer of data abstraction, Twigkit reaches across organizational silos, making it possible to surface data from numerous search platforms and data warehouses in a single application. When combined with our data visualization library, geospatial mapping components, and collaborative features such as commenting and bookmarking, Twigkit delivers the flexibility to create specialized research and discovery applications more easily than ever before.&lt;/p&gt;
 
 &lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/zawya.jpg&quot; alt=&quot;Zawya&quot; /&gt;
-	&lt;figcaption&gt;A specialized application for Zawya/Thomson Reuters.&lt;/figcaption&gt;
+	&lt;img src=&quot;/resources/images/work/twigkit/kyc.jpg&quot; alt=&quot;Know Your Customer&quot; /&gt;
+	&lt;figcaption&gt;A financial services application built in conjunction with Google Enterprise. &lt;a href=&quot;http://tylertate.com/blog/search/featured/2014/07/25/four-faces-of-search.html&quot;&gt;Read my blog post about the project.&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;used-by-2&quot;&gt;Used by…&lt;/h3&gt;
@@ -1442,13 +1432,6 @@
   &lt;li&gt;&lt;strong&gt;WGSN&lt;/strong&gt;. Image search for the worldwide leader in fashion trend forecasting. &lt;em&gt;London, UK&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;ITV&lt;/strong&gt;. Digital asset search for archived television programs for the network behind Downton Abbey. &lt;em&gt;London, UK&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id=&quot;responsive-search--browse&quot;&gt;Responsive Search &amp;amp; Browse&lt;/h2&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/responsive.jpg&quot; alt=&quot;Responsive search and browse&quot; /&gt;
-	&lt;figcaption&gt;Faceted navigation on desktop, tablet, and phone.&lt;/figcaption&gt;
-&lt;/figure&gt;
 
 &lt;h2 id=&quot;how-it-works&quot;&gt;How It Works&lt;/h2&gt;
 
@@ -2160,7 +2143,7 @@ For more on this topic, see:&lt;/p&gt;
 			</item>
 		
 			<item>
-				<title>Designing the Search Experience: The Book</title>
+				<title>Designing the Search Experience</title>
 				<pubDate>Tue, 18 Dec 2012 00:00:00 PST</pubDate>
 				<description>&lt;figure class=&quot;medium&quot;&gt;
 &lt;img src=&quot;http://tylertate.com/resources/images/2012-12-18/map.jpg&quot; alt=&quot;The information architecture of discovery.&quot; /&gt;
@@ -2201,8 +2184,8 @@ For more on this topic, see:&lt;/p&gt;
 &lt;h2 id=&quot;check-it-out&quot;&gt;Check it out&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Designing the Search Experience&lt;/em&gt; is finally available in print. You can &lt;a href=&quot;http://designingthesearchexperience.com&quot;&gt;find more details&lt;/a&gt; at the associated website, along with a &lt;a href=&quot;http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf&quot;&gt;free sample chapter&lt;/a&gt;. Tony and I are pleased with the result—we hope you will be too.&lt;/p&gt;
 </description>
-				<link>http://www.tylertate.com/blog/search/2012/12/18/designing-the-search-experience-book.html</link>
-				<guid>http://www.tylertate.com/blog/search/2012/12/18/designing-the-search-experience-book.html</guid>
+				<link>http://www.tylertate.com/blog/search/featured/2012/12/18/designing-the-search-experience-book.html</link>
+				<guid>http://www.tylertate.com/blog/search/featured/2012/12/18/designing-the-search-experience-book.html</guid>
 			</item>
 		
 			<item>
@@ -2769,7 +2752,11 @@ margin: 0 @computedMargin;
 			<item>
 				<title>Nutshell: Designing a SaaS CRM from Scratch</title>
 				<pubDate>Sat, 01 Jan 2011 00:00:00 PST</pubDate>
-				<description>&lt;p&gt;I joined &lt;a href=&quot;http://nutshell.com&quot;&gt;Nutshell&lt;/a&gt; as lead designer just after the company was founded in late 2009. I was responsible for the initial user experience and visual design of the company’s web app, iPhone app, and marketing website. We &lt;a href=&quot;http://tylertate.com/blog/2010/11/18/nutshell-launches-in-nyc.html&quot;&gt;launched the product&lt;/a&gt; in 2010.&lt;/p&gt;
+				<description>&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/nutshell/cover-wide.jpg&quot; alt=&quot;Nutshell.com&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I joined &lt;a href=&quot;http://nutshell.com&quot;&gt;Nutshell&lt;/a&gt; as lead designer just after the company was founded in late 2009. I was responsible for the initial user experience and visual design of the company’s web app, iPhone app, and marketing website. We &lt;a href=&quot;http://tylertate.com/blog/2010/11/18/nutshell-launches-in-nyc.html&quot;&gt;launched the product&lt;/a&gt; in 2010.&lt;/p&gt;
 
 &lt;p&gt;Why a new customer relationship management system? At the time, the market was dominated by expensize, complex solutions (Salesforce) on one end of the spectrum, and bare-bones products (Highrise) at the other end. There wasn’t a slick-but-powerful solution for medium-sized businesses. (See my blog post &lt;a href=&quot;http://tylertate.com/blog/2010/04/27/a-bright-new-future-for-crm.html&quot;&gt;A Bright New Future for CRM&lt;/a&gt;.)&lt;/p&gt;
 
@@ -2789,7 +2776,7 @@ margin: 0 @computedMargin;
 
 &lt;p&gt;After that initial brainstorming session I’d go away and produce dozens of sketches exploring different directions, then bring those ideas back to discuss with Guy and Andy.&lt;/p&gt;
 
-&lt;figure class=&quot;large&quot;&gt;
+&lt;figure class=&quot;medium&quot;&gt;
 	&lt;img src=&quot;/resources/images/work/nutshell/1-lead-sketches.jpg&quot; alt=&quot;Sketches&quot; /&gt;
 	&lt;figcaption&gt;Quick sketches exploring different ideas.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -2838,18 +2825,6 @@ margin: 0 @computedMargin;
 
 &lt;figure class=&quot;large&quot;&gt;
 	&lt;img src=&quot;/resources/images/work/nutshell/5-iphone-mockup.jpg&quot; alt=&quot;iPhone app&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;logo&quot;&gt;Logo&lt;/h2&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/nutshell/logo.png&quot; alt=&quot;Logo&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;website&quot;&gt;Website&lt;/h2&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/nutshell/website.jpg&quot; alt=&quot;Website&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;where-are-they-now&quot;&gt;Where are they now?&lt;/h2&gt;
