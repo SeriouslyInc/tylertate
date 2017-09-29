@@ -341,19 +341,22 @@ a {
 .content-blocks:after {
   clear: both;
 }
-.content-blocks.large li {
-  width: 50%;
+.content-blocks li {
   display: block;
   float: left;
+  transition: filter 0.15s;
+}
+.content-blocks li:hover {
+  filter: brightness(1.05);
+}
+.content-blocks li:active {
+  filter: brightness(0.95);
+}
+.content-blocks.large li {
+  width: 50%;
 }
 .content-blocks.medium li {
   width: 33.33%;
-  display: block;
-  float: left;
-}
-.content-blocks a:hover {
-  text-decoration: underline;
-  color: white;
 }
 .work {
   position: relative;

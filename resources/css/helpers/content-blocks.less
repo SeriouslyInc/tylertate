@@ -2,62 +2,26 @@
 	.clearfix;
 	clear: both;
 
-	// h3 {
-	// 	position: relative;
-	// 	z-index: 10;
-	// 	font-weight: 600;
-	// 	color: white;
-	// 	font-family: @serif;
-	// }
+	li {
+		display: block;
+		float: left;
+		transition: filter 0.15s;
+
+		&:hover {
+			filter: brightness(1.05);
+		}
+		&:active {
+			filter: brightness(0.95);
+		}
+	}
 
 	&.large li {
 		width: 50%;
-		display: block;
-		float: left;
-
-		// h3 {
-		// 	font-size: 4rem;
-		// 	line-height: 4.67rem;
-		// 	padding: 0 2rem;
-		// 	margin-top: 4rem;
-		// }
+		
 	}
 	&.medium li {
 		width: 33.33%;
-		display: block;
-		float: left;
-
-		// h3 {
-		// 	font-size: 3rem;
-		// 	line-height: 3.834rem;
-		// 	padding: 0 1rem;
-		// 	margin-top: 2.5rem;
-		// }
 	}
-	
-	a:hover {
-		text-decoration: underline;
-		color: white;
-	}
-	
-	// .work:nth-child(4n+1) {
-	// 	background-color: @green;
-	// }
-	// .work:nth-child(4n+2) {
-	// 	background-color: @light-blue;
-	// }
-	// .work:nth-child(4n+3) {
-	// 	background-color: @blue;
-	// }
-	// .work:nth-child(4n+4) {
-	// 	background-color: @pink;
-	// }
-	// .work:nth-child(4n+5) {
-	// 	background-color: @red;
-	// }
-	// .work:nth-child(4n+6) {
-	// 	background-color: @orange;
-	// }
 }
 
 .work {
@@ -75,42 +39,12 @@
 // RESPONSIVE // Large
 ////////////////
 
-// @media screen and (max-width: 80rem) {
-// 	.content-blocks.large li h3 {
-// 		font-size: 3.5rem;
-// 	}
-// }
-// @media screen and (max-width: 66rem) {
-// 	.content-blocks.large li h3 {
-// 		font-size: 3rem;
-// 		line-height: 4rem;
-// 		padding: 0 1.34rem;
-// 		margin-top: 2rem;
-// 	}
-// }
 @media screen and (max-width: 44rem) {
 	.content-blocks.large li {
 		.column(16,16);
 		padding: 0;
-
-		// h3 {
-		// 	font-size: 4rem;
-		// 	line-height: 4.67rem;
-		// 	padding: 0 2rem;
-		// 	margin-top: 4rem;
-		// }
 	}
 }
-// @media screen and (max-width: 33rem) {
-// 	.content-blocks.large li {
-// 		h3 {
-// 			font-size: 3rem;
-// 			line-height: 4rem;
-// 			padding: 0 1.34rem;
-// 			margin-top: 2rem;
-// 		}
-// 	}
-// }
 
 
 ////////////////
@@ -131,21 +65,5 @@
 		float: none;
 		width: 100%;
 		padding: 0;
-
-		// h3 {
-		// 	font-size: 3rem;
-		// 	line-height: 4rem;
-		// 	padding: 0 1.34rem;
-		// 	margin-top: 2rem;
-		// 	margin-bottom: 2rem;
-		// }
-	}
-}
-@media screen and (max-width: 33rem) {
-	.content-blocks.medium li {
-		// h3 {
-		// 	font-size: 2.5rem;
-		// 	line-height: 3.34rem;
-		// }
 	}
 }
