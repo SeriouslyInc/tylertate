@@ -6,19 +6,108 @@
 	.clearfix;
 	clear: both;
 	border-top: 1px solid @tan-border;
-	text-align: center;
 	margin-top: -1px;
+}
 
-	a {
-		color: @tan-text;
+// Also affects social nav in header
+.social-nav {
+	ul {
+		overflow: hidden;
+		margin-left: -0.75rem;
+	}
+	.site-nav-item {
+		height: 5.5rem;
 
-		&:hover {
-			color: @green;
+		a {
+			padding: 1.5rem 0.75rem;
 		}
 	}
 
-	.site-nav-item {
-		display: inline-block;
+	svg {
+		display: block;
+		width: 2.5rem;
+		height: 2.5rem;
+		opacity: 0.75;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.site-footer-social {
+	.column(4);
+	.push(3,16);
+}
+.site-footer-nav {
+	.column(6);
+	.pull(3,16);
+	.clearfix;
+
+	ul {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 80rem) {
+	.site-footer-social {
+		.column(5);
+		.push(2,16);
+	}
+	.site-footer-nav {
+		.column(7);
+		.pull(2,16);
+	}
+}
+@media screen and (max-width: 66rem) {
+	.site-footer-social {
+		.column(5);
+		.push(1,16);
+	}
+	.site-footer-nav {
+		.column(9);
+		.pull(1,16);
+	}
+}
+@media screen and (max-width: 44rem) {
+	.site-footer-social {
+		width: auto;
+		float: left;
+		padding-left: 2rem;
+		padding-right: 1rem;
+		margin: 0;
+	}
+	.site-footer-nav {
+		width: auto;
+		float: right;
+		padding-left: 1rem;
+		padding-right: 2rem;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 41rem) {
+	.site-footer-social {
+		display: none;
+	}
+	.site-footer-nav {
 		float: none;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		background-color: @tan;
+
+		ul {
+			float: none;
+		}
+	}
+	li.site-nav-item {
+		&.active,
+		&.active:hover,
+		&.active:active {
+			background-color: @tan-border;
+		}
+		a {
+			padding-top: 1.5rem;
+			padding-bottom: 1.5rem;
+		}
 	}
 }
