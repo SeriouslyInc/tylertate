@@ -1827,7 +1827,7 @@ Result manipulation controls — such as pagination and sorting&lt;/li&gt;
 			</item>
 		
 			<item>
-				<title>Retina Images Using Media Queries and LESS CSS: A responsive approach to supporting multiple pixel densities</title>
+				<title>Retina Images Using Media Queries and LESS CSS</title>
 				<pubDate>Tue, 11 Jun 2013 00:00:00 PDT</pubDate>
 				<description>&lt;p&gt;I’ve owned a retina-equipped MacBook Pro since January, and for me, there’s no going back. With retina versions of the iPhone, iPad, and many &lt;a href=&quot;http://developer.android.com/guide/webapps/targeting.html&quot;&gt;Android&lt;/a&gt; devices, supporting high-density devices has become unavoidable.&lt;/p&gt;
 

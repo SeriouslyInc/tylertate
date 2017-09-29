@@ -1368,9 +1368,8 @@ a {
   overflow-x: scroll;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  padding: 1.5rem 0 1.5rem 4rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding: 1.5rem 0 3rem 4rem;
+  margin-bottom: -1.5rem;
   white-space: nowrap;
 }
 .book-item {
@@ -1382,6 +1381,10 @@ a {
   padding: 3rem 2rem;
   margin-right: 4rem;
   background-color: black;
+  transition: transform 0.15s, background-color 0.15s;
+}
+.book-item:hover {
+  transform: scale(1.1);
 }
 .book-item-title {
   display: block;
@@ -1424,25 +1427,55 @@ a {
   background-color: #64C7A6;
 }
 .book-item-startup:hover {
-  background-color: #55c29d;
+  background-color: #51c09b;
 }
 .book-item-startup:active {
-  background-color: #46bc95;
+  background-color: #42b68f;
 }
 .book-item-crema {
   background-color: #53cde5;
 }
+.book-item-crema:hover {
+  background-color: #3dc7e2;
+}
+.book-item-crema:active {
+  background-color: #27c0de;
+}
 .book-item-search {
   background-color: #73a1ff;
+}
+.book-item-search:hover {
+  background-color: #5a90ff;
+}
+.book-item-search:active {
+  background-color: #407fff;
 }
 .book-item-ux {
   background-color: #f279a1;
 }
+.book-item-ux:hover {
+  background-color: #f06291;
+}
+.book-item-ux:active {
+  background-color: #ed4b80;
+}
 .book-item-frontend {
   background-color: #e6735c;
 }
+.book-item-frontend:hover {
+  background-color: #e36046;
+}
+.book-item-frontend:active {
+  background-color: #df4d30;
+}
 .book-item-misc {
   background-color: #e6a15c;
+}
+.book-item-misc:hover {
+  background-color: #e39446;
+}
+.book-item-misc:active {
+  background-color: #df8730;
 }
 @media screen and (max-width: 80rem) {
   .book-list {
