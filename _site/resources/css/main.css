@@ -1495,6 +1495,9 @@ a {
     margin-left: 2rem;
   }
 }
+#home .writing-list {
+  margin-bottom: 0;
+}
 .about-image {
   display: block;
   position: relative;

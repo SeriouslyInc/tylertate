@@ -1,4 +1,4 @@
-<ol class="book-list writing-list writing-list-{{ include.name }}">
+<ol class="book-list">
   {% for post in include.category %}      
     <li class="book-item book-item-{{post.categories[1]}}">
       {% if post.publisher %}
@@ -22,7 +22,7 @@
 
           <span class="book-item-date">{{ post.date | date: "%b %Y" }}</span>
         </div>
-        
+
       </a>
     </li>
   {% endfor %}
