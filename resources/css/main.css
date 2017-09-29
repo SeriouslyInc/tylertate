@@ -880,6 +880,9 @@ a {
     font-size: 2.5rem;
     line-height: 3rem;
   }
+  .section-title-underline {
+    padding-bottom: 1.5rem;
+  }
 }
 #blog .post-content {
   margin-bottom: 4rem;
@@ -1491,7 +1494,7 @@ a {
   .book-item {
     margin-right: 2rem;
   }
-  .book-list a:first-child .book-item {
+  .book-list .book-item:first-child {
     margin-left: 2rem;
   }
 }
