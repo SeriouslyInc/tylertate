@@ -1376,8 +1376,6 @@ a {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  width: 18rem;
-  height: 26rem;
   padding: 3rem 2rem;
   margin-right: 4rem;
   background-color: black;
@@ -1385,6 +1383,11 @@ a {
 }
 .book-item:hover {
   transform: scale(1.1);
+}
+.book-item a {
+  display: block;
+  width: 18rem;
+  height: 26rem;
 }
 .book-item-title {
   display: block;

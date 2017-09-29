@@ -1,12 +1,11 @@
 <ol class="book-list writing-list writing-list-{{ include.name }}">
-  {% for post in include.category %}
-    {% if post.publisher %}
-      <a href="{{ post.originalurl }}">
-    {% else %}
-      <a href="{{ post.url }}">
-    {% endif %}
-      
-      <li class="book-item book-item-{{post.categories[1]}}">
+  {% for post in include.category %}      
+    <li class="book-item book-item-{{post.categories[1]}}">
+      {% if post.publisher %}
+        <a href="{{ post.originalurl }}">
+      {% else %}
+        <a href="{{ post.url }}">
+      {% endif %}
 
         <h3 class="book-item-title">
           {{ post.title }}
@@ -23,8 +22,8 @@
 
           <span class="book-item-date">{{ post.date | date: "%b %Y" }}</span>
         </div>
-    
-      </li>
-    </a>
+        
+      </a>
+    </li>
   {% endfor %}
 </ol>
