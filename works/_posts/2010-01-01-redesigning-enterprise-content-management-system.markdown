@@ -2,7 +2,7 @@
 layout: work
 title: "Vyre: Reinventing Enterprise Content Management"
 snippet: ""
-cover_image: "/resources/images/work/vyre/cover_image.jpg"
+cover_image: "/resources/images/work/vyre/cover-small.jpg"
 ---
 
 I was a user interface designer at Vyre, a London-based enterprise content management company, from November 2008 through November 2009. During that time I led the redesign of Vyre's enterprise CMS, and also designed  two new applications, expanding the company's reach into Digital Asset Management (DAM) and Marketing Resource Management (MRM). In addition to my work on these products, I also contributed to projects for prestigious clients such as Diageo and Royal Dutch Shell. Vyre was acquired by North Plains in 2012.
