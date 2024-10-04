@@ -2,7 +2,7 @@
 layout: blog
 title: "Designing the Search Experience"
 publisher: Morgan Kaufmann
-originalurl: http://designingthesearchexperience.com
+originalurl: http://designingsearch.com
 snippet: "Despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. That’s why Tony Russell-Rose and I set out to write Designing the Search Experience: the Information Architecture of Discovery. For the last year and half we have been researching, drafting and editing; striving to transform our ideas and insights into a coherent narrative. Tony and I are pleased with the results - we hope you will be too."
 category: [search,featured]
 ---
@@ -18,7 +18,7 @@ More than a decade later, this story is all too familiar. Online stores sell hun
 
 Yet despite the growing influence of search on our daily lives, relatively few non-academic books have been published on the topic. While there are dozens of titles about designing web navigation, those on designing search can be counted on the fingers of one hand.
 
-> That’s why Tony Russell-Rose and I set out to write _[Designing the Search Experience](http://designingthesearchexperience.com): the Information Architecture of Discovery_. 
+> That’s why Tony Russell-Rose and I set out to write _[Designing the Search Experience](http://designingsearch.com): the Information Architecture of Discovery_. 
 
 
 ## A new book for a new era
@@ -30,7 +30,7 @@ For the last year and half we have been researching, drafting and editing; striv
 3. **Readable**: The tone of voice should be informal and approachable, and the narrative driven by examples.
 
 <figure class="medium">
-	<a href="http://designingthesearchexperience.com"><img src="http://tylertate.com/resources/images/2012-12-18/cover.jpg" alt="The information architecture of discovery." /></a>
+	<a href="http://designingsearch.com"><img src="http://tylertate.com/resources/images/2012-12-18/cover.jpg" alt="The information architecture of discovery." /></a>
 </figure>
 
 ## Thank You
@@ -41,4 +41,4 @@ We are also very appreciative to those who contributed essays to the book: [Ann 
 Thank you to Meg Dunkerley, Heather Scherer, Andrea Dierna, Rachel Roumeliotis, and the rest of the Morgan Kaufmann team for their ongoing support. We are proud of what we’ve achieved together. 
 
 ## Check it out
-_Designing the Search Experience_ is finally available in print. You can [find more details](http://designingthesearchexperience.com) at the associated website, along with a [free sample chapter](http://designingthesearchexperience.com/downloads/dtse-chapter2.pdf). Tony and I are pleased with the result—we hope you will be too.
+_Designing the Search Experience_ is finally available in print. You can [find more details](http://designingsearch.com) at the associated website, along with a [free sample chapter](http://designingsearch.com/downloads/dtse-chapter2.pdf). Tony and I are pleased with the result—we hope you will be too.

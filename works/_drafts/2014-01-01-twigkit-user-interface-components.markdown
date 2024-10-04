@@ -79,7 +79,7 @@ The video below walks through the process of using Twigkit's components to rapid
 While at Twigkit I frequently wrote and spoke about the user experience of search.
 
 <figure class="medium">
-	<a href="http://designingthesearchexperience.com"><img src="/resources/images/work/twigkit/dtse-medium.jpg" alt="The information architecture of discovery." /></a>
+	<a href="http://designingsearch.com"><img src="/resources/images/work/twigkit/dtse-medium.jpg" alt="The information architecture of discovery." /></a>
 </figure>
 
 <figure class="medium">

@@ -17,7 +17,7 @@ We face these kinds of open-ended tasks everyday, but they are often difficult a
 Pinterest and Spotify have both recently made their services more effective at answering such open-ended questions. Pinterest just released what it bills as [guided search](http://blog.pinterest.com/post/83772264616/guided-search-a-new-way-to-find-what-youre-looking), while Spotify's latest version includes a reinvented [browse function](http://news.spotify.com/us/2014/04/02/spotify-paints-it-black-with-new-look/). What can we learn from these two new features?
 
 ## Three Types of Needs
-First, lets put these open-ended questions in context. Most information needs that a user has fall into one of three categories (see [Designing the Search Experience](http://designingthesearchexperience.com) for more background):
+First, lets put these open-ended questions in context. Most information needs that a user has fall into one of three categories (see [Designing the Search Experience](http://designingsearch.com) for more background):
 
 * **Locate.** I know exactly _what_ I'm looking for, I just need help finding _where_ it's located. For example: _I want to listen to Parachutes by Coldplay_.
 * **Explore.** I have an open-ended goal, and the journey — the information I encounter along the way — is as important as the destination itself. The three opening examples all fall into this category.
