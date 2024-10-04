@@ -113,11 +113,10 @@
 
 <p>But the tricky bit is getting from pixels back to percentages. What percentage do we need to subtract in order to produce a half-pixel reduction in the computed pixel value? The answer: <strong>it depends on the pixel width of the parent container</strong>. Here’s the formula:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>O.5 / containerWidth = correctionLevel
-</code></pre>
-</div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>O.5 / containerWidth = correctionLevel
+</code></pre></div></div>
 
-<p><code class="highlighter-rouge">ContainerWidth</code> is the pixel width of the container, while <code class="highlighter-rouge">correctionLevel</code> represents the percentage that needs to be subtracted in order for IE to round down to the nearest pixel. Thus for our 50px container above, the <code class="highlighter-rouge">correctionLevel</code> is <code class="highlighter-rouge">0.5 / 50 = 0.01</code>, or 1%. That means instead of the four columns each being 25%, they would need to be 24% (25 - 1). With that corretion applied, the columns would each be computed as 12px rather than 12.5px, and our layout will display correctly, as shown below.</p>
+<p><code class="language-plaintext highlighter-rouge">ContainerWidth</code> is the pixel width of the container, while <code class="language-plaintext highlighter-rouge">correctionLevel</code> represents the percentage that needs to be subtracted in order for IE to round down to the nearest pixel. Thus for our 50px container above, the <code class="language-plaintext highlighter-rouge">correctionLevel</code> is <code class="language-plaintext highlighter-rouge">0.5 / 50 = 0.01</code>, or 1%. That means instead of the four columns each being 25%, they would need to be 24% (25 - 1). With that corretion applied, the columns would each be computed as 12px rather than 12.5px, and our layout will display correctly, as shown below.</p>
 
 <p><img src="http://tylertate.com/resources/images/2012-01-05/browser-subpixel-rounding-corrected.png" width="620" style="width: 100%; max-width: 620px;" alt="Sub-pixel rounding with the correction formula applied" /></p>
 
@@ -126,41 +125,37 @@
 <p>Here are two strategies for applying this correction formula.</p>
 
 <h2 id="do-it-yourself-calculations">Do-it-yourself calculations</h2>
-<p>You can quickly apply the above formula to your existing fluid layouts to fix the sub-pixel rounding issue in IE6 and 7 without adversely affecting other browsers. First, lets assume you have constructed a percentage-based layout that has a set minimum width of <strong>720px</strong>. Using this number as our baseline <code class="highlighter-rouge">containerWidth</code>, our formula tells us that the correctionLevel is <strong>.0694%</strong>. Whenever a percentage is used as the value of a width, padding, border, or margin declaration, we’ll use the star hack to add IE6/7-specific declarations which subtract .0694% from the original value. Here’s a simplistic example:</p>
+<p>You can quickly apply the above formula to your existing fluid layouts to fix the sub-pixel rounding issue in IE6 and 7 without adversely affecting other browsers. First, lets assume you have constructed a percentage-based layout that has a set minimum width of <strong>720px</strong>. Using this number as our baseline <code class="language-plaintext highlighter-rouge">containerWidth</code>, our formula tells us that the correctionLevel is <strong>.0694%</strong>. Whenever a percentage is used as the value of a width, padding, border, or margin declaration, we’ll use the star hack to add IE6/7-specific declarations which subtract .0694% from the original value. Here’s a simplistic example:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>section#sidebar {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>section#sidebar {
   width: 25%;
   *width: 24.93%;
 }
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="css-frameworks">CSS frameworks</h2>
 <p>If you’re using a CSS framework such as <a href="http://lesscss.org/">LESS.js</a> or <a href="http://sass-lang.com">SaSS</a>, you can rely on their mathematic operations to save you from having to crunching all the numbers by hand. The LESS/SaSS code below would be compiled to the same output as in the example above.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>section#sidebar {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>section#sidebar {
   width: 25%;
   *width: 25%-0.0694%;
 }
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><em>Updated January 11, 2012.</em> The newly-released version 1.2 of <a href="http://Semantic.gs">The Semantic Grid System</a>—which uses the power of CSS frameworks to elegantly power fixed, fluid, and responsive layouts—incorporates the above formula. It allows you to specify the minimum width of your layout, from which it then derives the correction level.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>@min-width: 960;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@min-width: 960;
 @correction: 0.5 / @min-width * 100 * 1%;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>It then subtracts the correction level from the IE-specific width and margin declarations of each column in the layout:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>width: @computedWidth;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>width: @computedWidth;
 margin: 0 @computedMargin;
 
 *width: @computedWidth-@correction;
 *margin: 0 @computedMargin-@correction;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="the-last-word">The last word</h2>
 <p>So there you have it: a predictable formula for correcting the sub-pixel rounding problem in Internet Explorer 6 and 7. It’s just one more reason we can all rejoice when IE6 and 7 go the way of the grave.</p>

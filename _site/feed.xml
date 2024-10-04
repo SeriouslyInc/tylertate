@@ -7,6 +7,15 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Crema’s Next Chapter</title>
+				<pubDate>Fri, 10 Nov 2017 00:00:00 PST</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/crema/featured/2017/11/10/cremas-next-chapter.html</link>
+				<guid>http://www.tylertate.com/blog/crema/featured/2017/11/10/cremas-next-chapter.html</guid>
+			</item>
+		
+			<item>
 				<title>Rideshare: Improving Surge</title>
 				<pubDate>Thu, 28 Sep 2017 00:00:00 PDT</pubDate>
 				<description>&lt;figure class=&quot;large&quot;&gt;
@@ -718,7 +727,7 @@
 
 &lt;figure class=&quot;medium&quot;&gt;
 	&lt;a href=&quot;https://docs.google.com/a/crema.co/spreadsheets/d/1dP-i-gWNh7yyJemKN6-PjdsXZbu_h0-_mz4XJmWa_ek/edit?usp=sharing&quot;&gt;&lt;img src=&quot;/resources/images/2015-09-08/spreadsheet.png&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;My spreadsheet for evaluating startup names. (You're welcome to use it as a starting point.)&lt;/figcaption&gt;
+	&lt;figcaption&gt;My spreadsheet for evaluating startup names. (You&apos;re welcome to use it as a starting point.)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;At this point it’s important to keep in mind that anytime a quantitative system is used to evaluate subjective qualities, the results should be interpreted with several grains of salt. This model assumes I’ve identified all the right criteria, evaluated each name objectively, and weighted the scores proportionally, none of which are completely true. In leu of perfection, the smell test will have to suffice.&lt;/p&gt;
@@ -1099,166 +1108,6 @@
 			</item>
 		
 			<item>
-				<title>Four Faces of Search</title>
-				<pubDate>Fri, 25 Jul 2014 00:00:00 PDT</pubDate>
-				<description>&lt;p&gt;In the second quarter of 2014 I led the design and development of four industry-specific applications that Twigkit built for Google Enterprise. They’re intended to demonstrate what can be achieved with Google’s enterprise search product and Twigkit’s library of user interface components. These are not mockups; they are fully functional applications. What follows is the blog post I wrote announcing these applications, originally published on Twigkit’s blog.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What does search mean for the organizations in four particular industries — financial services, manufacturing, media, and the public sector?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Drawing from our experience of having worked with numerous customers across each of these industries, &lt;strong&gt;we set out to use Twigkit and the Google Search Appliance to build a set of exemplar applications&lt;/strong&gt; that demonstrate the business value of search for each of these four sectors. Here’s what we came up with.&lt;/p&gt;
-
-&lt;h2 id=&quot;financial-services&quot;&gt;Financial Services&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;For financial companies such as banks, investment firms, and insurers, search-driven “know your customer” applications can help drive sales, enhance customer experience, and mitigate regulatory risk by providing a &lt;strong&gt;360-degree view of customers&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;business-objectives&quot;&gt;Business Objectives&lt;/h3&gt;
-&lt;p&gt;Financial services companies can use search to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Drive sales&lt;/strong&gt; across channels by equipping sales staff to engage in targeted cross-selling with existing customers.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Increase customer satisfaction&lt;/strong&gt; and &lt;strong&gt;reduce the cost of support&lt;/strong&gt; by enabling support staff to instantly access and search customer information — including their documents, messages, and transactions.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mitigate regulatory risk&lt;/strong&gt; by enabling compliance officers to accurately identify non-compliant customers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit-google/kyc.jpg&quot; alt=&quot;Know Your Customer&quot; /&gt;
-	&lt;figcaption&gt;A 360-degree 'know your customer' application for financial services.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;application-overview&quot;&gt;Application Overview&lt;/h3&gt;
-&lt;p&gt;To demonstrate how these business objectives can be achieved, we built a customer-centric search application that provides:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Customer search.&lt;/strong&gt; Quickly lookup an individual customer using search-as-you-type, or filter by customer criteria such as the financial products they hold, how long they’ve been a customer, their credit score, and much more.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Customer overview.&lt;/strong&gt; Get a 360-degree view of the customer, including their account details, the products they hold, the identity documents they’ve provided, notes on their account, and their correspondence and transaction history.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Message search.&lt;/strong&gt; View the message history to and from the customer, and search across those messages.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Transaction search.&lt;/strong&gt; Because there may be thousands of transactions per customer, we chose not to index transactions in the search platform, but instead search and display the records directly from a database, an easy task thanks to Twigkit’s ability to abstract data platforms — search engines and databases alike.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;iframe src=&quot;https://player.vimeo.com/video/101280622?color=05c263&quot; width=&quot;640&quot; height=&quot;400&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;manufacturing&quot;&gt;Manufacturing&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Manufacturing companies can leverage search to &lt;strong&gt;streamline the product lifecycle&lt;/strong&gt; — bringing together the documents, defect reports, ideas, and people that are foundational to every manufacturer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;business-objectives-1&quot;&gt;Business Objectives&lt;/h3&gt;
-&lt;p&gt;Search can enable manufacturers to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Gain insights&lt;/strong&gt; by reviewing research documents and idea submissions during product design and development.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Drive continuous innovation&lt;/strong&gt; by identifying and addressing defects early.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Encourage collaboration&lt;/strong&gt; by enabling staff to find people with relevant expertise.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Streamline servicing&lt;/strong&gt; by providing one-stop access for all the documents and resources related to a specific product.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit-google/industrial.jpg&quot; alt=&quot;Streamlining the product lifecycle&quot; /&gt;
-	&lt;figcaption&gt;Streamlining the product lifecycle for manufacturing companies.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;application-overview-1&quot;&gt;Application Overview&lt;/h3&gt;
-&lt;p&gt;To show how manufacturers can achieve these business objectives with search, we built a product-focused application that provides:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Product search.&lt;/strong&gt; Quickly find the right product using search-as-you-type, or a dedicated search page. When reviewing product results, jump straight to the related documents, cases, ideas, and experts for a given product.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Document search.&lt;/strong&gt; Search for any document in the corporate intranet, document management system, or file system, encouraging knowledge transfer across teams and departments.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Case search.&lt;/strong&gt; Search and review defect cases across the product portfolio to identify and address quality issues.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Idea search.&lt;/strong&gt; Review ideas for improvements and new products submitted by internal experts.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;People search.&lt;/strong&gt; Find anyone in the organisation by their name, role, or expertise.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Product overview page.&lt;/strong&gt; Quickly gain an overview of a given product’s key details, and its related documents, cases, ideas, people, related products, and product notes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;iframe src=&quot;https://player.vimeo.com/video/101280203?color=05c263&quot; width=&quot;640&quot; height=&quot;400&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;media&quot;&gt;Media&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Forward-thinking media companies are increasingly using search to &lt;strong&gt;strengthen customer engagement&lt;/strong&gt; through next-generation content exploration and discovery.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;business-objectives-2&quot;&gt;Business Objectives&lt;/h3&gt;
-&lt;p&gt;To bolster customer engagement, media companies can use search to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Provide a &lt;strong&gt;seamless experience&lt;/strong&gt; that bridges the gap between search and browse.&lt;/li&gt;
-  &lt;li&gt;Help users &lt;strong&gt;jump straight to the content&lt;/strong&gt; they’re interested in with search-as-you-type.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Increase retention&lt;/strong&gt; by using search to provide links to related content.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Leverage the long-tail&lt;/strong&gt; of content with search-driven topic pages that deliver content in a discoverable, editorial format.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit-google/media.jpg&quot; alt=&quot;Media&quot; /&gt;
-	&lt;figcaption&gt;Strengthing customer engagement for media companies.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;application-overview-2&quot;&gt;Application Overview&lt;/h3&gt;
-&lt;p&gt;To demonstrate how media companies can enhance customer engagement using search, we built an application using a collection of films that delivers:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Search and browse.&lt;/strong&gt; In the past, search and browse have too often been divorced, resulting in a disjointed experience for users (see our blog post on &lt;a href=&quot;http://tylertate.com/blog/2013/11/07/information-wayfinding.html&quot;&gt;Information Wayfinding&lt;/a&gt;). This application bridges that gap, making it easy to browse by genre (including SEO-optimised, human-friendly URLs such as “/genres/action/”), while at the same time apply filters and use keyword search.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;An editorial feel.&lt;/strong&gt; Film results are presented in an editorial style, with emphasis on the first film, followed by two columns of subsequent results, challenging the stereotype of search result presentation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Detail pages.&lt;/strong&gt; Review the details of a particular film, click on any actor to view other films starring that actor, and peruse a list of similar films.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Topic pages.&lt;/strong&gt; View the films by any particular director, actor, writer, etc., with dynamic topic pages (for example “/actors/harrison_ford/”, or “/directors/george_lucas/”).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;iframe src=&quot;https://player.vimeo.com/video/101280204?color=05c263&quot; width=&quot;640&quot; height=&quot;400&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;public-sector&quot;&gt;Public Sector&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Increase the efficiency and transparency&lt;/strong&gt; of public sector procurement by gaining deeper insight into the tenders, tender actions, buyers, and sellers involved in the procurement process.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;business-objectives-3&quot;&gt;Business Objectives&lt;/h3&gt;
-&lt;p&gt;Government organisations can take advantage of search in the procurement process to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Accurately &lt;strong&gt;review individual contracts&lt;/strong&gt; with a comprehensive view of the contract’s constituent actions, documents, buyer, seller, and people, all in one place.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Search and explore contracts&lt;/strong&gt; using criteria such as buyer and seller, category, and financials.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Discover big-picture insights&lt;/strong&gt; across all contracts with a 40,000 foot visual dashboard.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Investigate buyers and sellers&lt;/strong&gt; by reviewing all contracts and contract actions for any entity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit-google/gov.jpg&quot; alt=&quot;Government Procurement&quot; /&gt;
-	&lt;figcaption&gt;Strengthing customer engagement for media companies.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;application-overview-3&quot;&gt;Application Overview&lt;/h3&gt;
-&lt;p&gt;To demonstrate these objectives, we built a procurement application that features:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;A dashboard.&lt;/strong&gt; Get a bird’s-eye view of all contracts thanks to a panel of charts and graphs.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Contract search.&lt;/strong&gt; Use search-as-you-type to jump straight to a contract if the contract ID is already known. Or, when exploring for insights, refine the search using criteria such as the contact’s financials, the buyer and seller, contract type, contract category, and so on.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Contract action search.&lt;/strong&gt; For each contract there are one or more contract actions. Search, filter, and sort the table to find contract actions of interest.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Vendor search.&lt;/strong&gt; Search for vendors, and get a 360-degree view of all the contracts they’re involved in.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Contract overview page.&lt;/strong&gt; Review all the information known about a given contract, all in one place, including all the associated contract actions and  documents.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;iframe src=&quot;https://player.vimeo.com/video/101280202?color=05c263&quot; width=&quot;640&quot; height=&quot;400&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;recommendations&quot;&gt;Recommendations&lt;/h2&gt;
-&lt;p&gt;Here’s what Rahul Talati from Google Enterprise had to say about the project:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Tyler is a rare talent. He worked on a project with me at Google while he was at Twigkit. His flawless execution and attention to detail made him very easy to work with and his the final project outcome was exceptional. I hold Tyler in high regard and consider him an esteemed colleague. I would absolutely work with him again.”&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-				<link>http://www.tylertate.com/blog/search/featured/2014/07/25/four-faces-of-search.html</link>
-				<guid>http://www.tylertate.com/blog/search/featured/2014/07/25/four-faces-of-search.html</guid>
-			</item>
-		
-			<item>
 				<title>Information Wayfinding</title>
 				<pubDate>Thu, 19 Jun 2014 00:00:00 PDT</pubDate>
 				<description>&lt;p&gt;I gave this talk at the UX Scotland conference in Edinburgh on June 19, 2014.&lt;/p&gt;
@@ -1366,106 +1215,6 @@
 </description>
 				<link>http://www.tylertate.com/blog/search/2014/05/12/better-wayfinding-on-pinterest-and-spotify.html</link>
 				<guid>http://www.tylertate.com/blog/search/2014/05/12/better-wayfinding-on-pinterest-and-spotify.html</guid>
-			</item>
-		
-			<item>
-				<title>Twigkit: User Interface Components for Search-Driven Applications</title>
-				<pubDate>Wed, 01 Jan 2014 00:00:00 PST</pubDate>
-				<description>&lt;figure class=&quot;large&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/cover-wide.jpg&quot; alt=&quot;The Twigkit.com homepage&quot; /&gt;
-	&lt;figcaption&gt;The Twigkit.com homepage as I designed it in 2014.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In 2009 I co-founded Twigkit, a London-based enterprise software company that provides tools for rapidly building data-driven applications. My responsibilities included leading the user experience, visual design, and front-end development of Twigkit’s products, spearheading our marketing efforts, and helping key customers — including The Financial Times, Rolls-Royce, Qualcomm, BASF, Thomson-Reuters, Vodafone, Gemalto, and ITV — achieve superb search user interfaces.&lt;/p&gt;
-
-&lt;p&gt;To give you a better idea of what Twigkit does, here’s a screenshot of the homepage that I designed prior to my departure in 2014, followed by some of the content and customer examples we used on the website.&lt;/p&gt;
-
-&lt;h2 id=&quot;enterprise-search&quot;&gt;Enterprise Search&lt;/h2&gt;
-
-&lt;p&gt;Twigkit’s sustained, single-minded focus has culminated in the &lt;strong&gt;best search user experience in enterprise software&lt;/strong&gt;. Beyond being easy to use, Twigkit’s suite of tools enables knowledge workers to do their jobs better by collaboratively saving searches, bookmarking search results, annotating documents, and more. Built for enterprise architecture, Twigkit also abstracts access to disparate data providers, and integrates with Active Directory for document-level security.&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/ft.jpg&quot; alt=&quot;Site Search&quot; /&gt;
-	&lt;figcaption&gt;Site search on the Financial Times.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;used-by&quot;&gt;Used by…&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Rolls-Royce&lt;/strong&gt;. Intranet and file-share search for a leading provider of aircraft engines and other sophisticated power systems. &lt;em&gt;Derby, UK&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Qualcomm&lt;/strong&gt;. Internal search for a world leader in wireless technology and the largest fabless semiconductor producer. &lt;em&gt;San Diego, California.&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;PWC&lt;/strong&gt;. Intranet, people, customer, and project search for one of the world’s largest professional services firms. &lt;em&gt;Johannesburg, South Africa&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gemalto&lt;/strong&gt;. Intranet and staff directory search for the global leader in digital security. &lt;em&gt;Paris, France&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;MITE&lt;/strong&gt;. Enterprise search for the managers of federal funded research and development centers for the Dod, FAA, IRS, and other government agencies. &lt;em&gt;Bedford, Massachusetts&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;site-search&quot;&gt;Site Search&lt;/h2&gt;
-
-&lt;p&gt;With easy to configure user interface components, semantic HTML output, and modular CSS, Twigkit has been built for &lt;strong&gt;seamless integration&lt;/strong&gt; with existing websites, from look and feel to user accounts. And, optimized for tables and smartphones, Twigkit helps companies deliver great experiences to their customers on any device.&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/vodafone.jpg&quot; alt=&quot;Ecommerce Search&quot; /&gt;
-	&lt;figcaption&gt;Ecommerce search for Vodafone UK.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;used-by-1&quot;&gt;Used by…&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The Financial Times&lt;/strong&gt;. News search for one of the world’s most trusted business news organizations. &lt;em&gt;London, UK&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Vodafone&lt;/strong&gt;. Handset, phone plan, and support material search for the world’s second-largest telecom. &lt;em&gt;London, UK&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Informatics India&lt;/strong&gt;. Journal search for a collection of 30+ million journal articles. &lt;em&gt;Bangalore, India&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ASCE&lt;/strong&gt;. Site search for the 140,000 member-strong American Society of Civil Engineers. &lt;em&gt;Washington, D.C&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;specialized-applications&quot;&gt;Specialized Applications&lt;/h2&gt;
-
-&lt;p&gt;By providing a layer of data abstraction, Twigkit reaches across organizational silos, making it possible to surface data from numerous search platforms and data warehouses in a single application. When combined with our data visualization library, geospatial mapping components, and collaborative features such as commenting and bookmarking, Twigkit delivers the flexibility to create specialized research and discovery applications more easily than ever before.&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/work/twigkit/kyc.jpg&quot; alt=&quot;Know Your Customer&quot; /&gt;
-	&lt;figcaption&gt;A financial services application built in conjunction with Google Enterprise. &lt;a href=&quot;http://tylertate.com/blog/search/featured/2014/07/25/four-faces-of-search.html&quot;&gt;Read my blog post about the project.&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;used-by-2&quot;&gt;Used by…&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Thomson Reuters&lt;/strong&gt;. News, company, people, and financial search for Zawya, the Middle Eastern arm of Thomson Reuters. &lt;em&gt;Dubai, UAE&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;The UK National Health Service&lt;/strong&gt;. Electronic medial record search for clinicians in NHS hospitals. &lt;em&gt;London, UK&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;BASF&lt;/strong&gt;. Scientific patent search and analysis for the world’s largest chemical company. &lt;em&gt;Ludwigshafen, Germany&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;WGSN&lt;/strong&gt;. Image search for the worldwide leader in fashion trend forecasting. &lt;em&gt;London, UK&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ITV&lt;/strong&gt;. Digital asset search for archived television programs for the network behind Downton Abbey. &lt;em&gt;London, UK&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-it-works&quot;&gt;How It Works&lt;/h2&gt;
-
-&lt;p&gt;I helped Twigkit develop a library of user interface components for everything from the search box and as-you-type-suggestions, to faceted navigation and pagination, to advanced charts and graphs. In my UX Magazine article &lt;a href=&quot;http://uxmag.com/articles/from-pattern-to-component&quot;&gt;From Pattern to Component&lt;/a&gt;, I summarized this component-based approach:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;While design patterns are a structured description of how something should work, a UI component is a reusable building block that fully encapsulates all the code necessary to put that design pattern into action. A component offers a refined, tested solution that fully addresses every nuance and is easy to incorporate into the surrounding interface.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The video below walks through the process of using Twigkit’s components to rapidly build an application.&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;iframe src=&quot;https://player.vimeo.com/video/78578346?color=05c263&quot; width=&quot;640&quot; height=&quot;400&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;thought-leadership&quot;&gt;Thought Leadership&lt;/h2&gt;
-
-&lt;p&gt;While at Twigkit I frequently wrote and spoke about the user experience of search.&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;a href=&quot;http://designingthesearchexperience.com&quot;&gt;&lt;img src=&quot;/resources/images/work/twigkit/dtse-medium.jpg&quot; alt=&quot;The information architecture of discovery.&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/6Q0zqqxvx5g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/HiBPKBOwIYaqhD&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
-&lt;/figure&gt;
-
-</description>
-				<link>http://www.tylertate.com/works/2014/01/01/twigkit-user-interface-components.html</link>
-				<guid>http://www.tylertate.com/works/2014/01/01/twigkit-user-interface-components.html</guid>
 			</item>
 		
 			<item>
@@ -1675,8 +1424,8 @@
 &lt;p&gt;Marcia Bates has described this process as “berrypicking” — people move from one source to another picking up nuggets of information along the way. Peter Pirolli and Stuart Card describe the process as “information foraging,” where people follow “information scent” as they go. Both of these models depict information seeking in spatial terms, and reinforce the concept of information wayfinding as a result.&lt;/p&gt;
 
 &lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/2013-11-07/berrypicking.png&quot; alt=&quot;Marcia Bates' berrypicking model of information seeking&quot; /&gt;
-	&lt;figcaption&gt;Marcia Bates' berrypicking model of information seeking.&lt;/figcaption&gt;
+	&lt;img src=&quot;/resources/images/2013-11-07/berrypicking.png&quot; alt=&quot;Marcia Bates&apos; berrypicking model of information seeking&quot; /&gt;
+	&lt;figcaption&gt;Marcia Bates&apos; berrypicking model of information seeking.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;meander&quot;&gt;Meander&lt;/h3&gt;
@@ -1807,230 +1556,6 @@ Result manipulation controls — such as pagination and sorting&lt;/li&gt;
 </description>
 				<link>http://www.tylertate.com/events/2013/09/04/workshop-designing-the-search-experience.html</link>
 				<guid>http://www.tylertate.com/events/2013/09/04/workshop-designing-the-search-experience.html</guid>
-			</item>
-		
-			<item>
-				<title>Retina Images Using Media Queries and LESS CSS</title>
-				<pubDate>Tue, 11 Jun 2013 00:00:00 PDT</pubDate>
-				<description>&lt;p&gt;I’ve owned a retina-equipped MacBook Pro since January, and for me, there’s no going back. With retina versions of the iPhone, iPad, and many &lt;a href=&quot;http://developer.android.com/guide/webapps/targeting.html&quot;&gt;Android&lt;/a&gt; devices, supporting high-density devices has become unavoidable.&lt;/p&gt;
-
-&lt;p&gt;At &lt;a href=&quot;http://www.twigkit.com/&quot;&gt;Twigkit&lt;/a&gt;, our library of user interface components has long been image-free. We were early adopters of font icons, whose vector format scales to any screen resolution or pixel density. When I set out to redesign our marketing site a couple of months ago, however, I needed an approach for images that would minimise bandwidth for low-density devices, while maximising quality for high-density screens.&lt;/p&gt;
-
-&lt;h2 id=&quot;javascript-vs-css&quot;&gt;JavaScript vs. CSS&lt;/h2&gt;
-&lt;p&gt;There are two main approaches to delivering images for multiple pixel densities:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Use image tags with JavaScript&lt;/strong&gt; to replace the image’s source attribute when appropriate&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Use CSS background images with media queries&lt;/strong&gt; to override the background image when appropriate&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Both approaches are technically sound. But all else being equal, I personally prefer to use CSS for presentation and reserve JavaScript for interaction.&lt;/p&gt;
-
-&lt;h2 id=&quot;background-images&quot;&gt;Background images&lt;/h2&gt;
-&lt;p&gt;The CSS approach relies on all images being set through the &lt;code class=&quot;highlighter-rouge&quot;&gt;background-image&lt;/code&gt; property. If we have two images to display that are both 450x300, for instance, we could do as follows:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;figure id=&quot;desert&quot;&amp;gt;&amp;lt;/figure&amp;gt;
-&amp;lt;figure id=&quot;camel&quot;&amp;gt;&amp;lt;/figure&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;And the CSS:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;figure {
-	width: 450px;
-	height: 300px;
-}
-figure#desert {
-	background-image: url('images/sand-dune.jpg');
-}
-figure#camel {
-	background-image: url('images/camel.jpg');
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;the-media-query&quot;&gt;The Media Query&lt;/h2&gt;
-&lt;p&gt;With the images displayed as &lt;code class=&quot;highlighter-rouge&quot;&gt;background-images&lt;/code&gt;, we can then use a media query to detect the pixel density of the device viewing our page.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-	figure#desert {
-		background-image: url('images/sand-dune_2x.jpg');
-		background-size: 100%;
-	}
-	figure#camel {
-		background-image: url('images/camel_2x.jpg');
-		background-size: 100%;
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;While &lt;code class=&quot;highlighter-rouge&quot;&gt;min-resolution: 192dpi&lt;/code&gt; is &lt;a href=&quot;http://www.w3.org/TR/css3-mediaqueries/#resolution&quot;&gt;W3C-approved&lt;/a&gt; mechanism for targeting pixel density, it’s not yet &lt;a href=&quot;http://drewwells.net/blog/2013/working-with-dppx/&quot;&gt;well supported&lt;/a&gt;. For now, the vendor specific &lt;code class=&quot;highlighter-rouge&quot;&gt;-webkit-min-device-pixel-ratio&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;min--moz-device-pixel-ratio&lt;/code&gt; (yes, believe it or not that Mozilla prefix is &lt;a href=&quot;http://menacingcloud.com/?c=highPixelDensityDisplays&quot;&gt;correct&lt;/a&gt;) are well supported by browsers likely to be used on high-density devices.&lt;/p&gt;
-
-&lt;p&gt;You will notice that this media query adds a &lt;code class=&quot;highlighter-rouge&quot;&gt;_2x&lt;/code&gt; suffix to the filenames of our two images. This assumes that we have created these image files, and that they are twice the resolution of the original. In other words, if the original image is 450x300 pixels, our &lt;code class=&quot;highlighter-rouge&quot;&gt;_2x&lt;/code&gt; images should be 900x600.&lt;/p&gt;
-
-&lt;p&gt;By default, the web browser on a retina device will automatically scale an image to its actual pixel size. That is, our 900x450 image would be scaled to occupy a full 900x450 “virtual pixels” on the screen, whereas what we actually want is for the image to be scaled down to the original 450x300 area. To achieve this, we can set &lt;code class=&quot;highlighter-rouge&quot;&gt;background-size: 100%;&lt;/code&gt;. &lt;a href=&quot;http://quirksmode.org/css/backgrounds-borders/&quot;&gt;This&lt;/a&gt; instructs the browser to make the background image equal in width to its container.&lt;/p&gt;
-
-&lt;h2 id=&quot;nested-media-queries-with-less&quot;&gt;Nested Media Queries with LESS&lt;/h2&gt;
-&lt;p&gt;So far, I’m sure you’ll agree, we’ve hardly broken new ground. The biggest problem I have with the above approach, however, is that it requires the designer to organise their CSS according to pixel densities. Instead of structuring stylesheets around the logical structure of the website, in other words, it forces us to have different stylesheets (or different blocks within a single stylesheet) to address each pixel density that we want to target. I don’t like that.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, CSS preprocessors like &lt;a href=&quot;http://lesscss.org/#-nested-media-queries&quot;&gt;LESS&lt;/a&gt; and &lt;a href=&quot;http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#media&quot;&gt;SASS&lt;/a&gt; support nesting media queries within selectors. For example, using LESS we could restructure our stylesheet as follows:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;figure {
-	width: 450px;
-	height: 300px;
-}
-figure#desert {
-	background-image: url('images/sand-dune.jpg');
-
-	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-		background-image: url('images/sand-dune_2x.jpg');
-		background-size: 100%;
-	}
-}
-figure#camel {
-	background-image: url('images/camel.jpg');
-
-	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-		background-image: url('images/camel_2x.jpg');
-		background-size: 100%;
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;While the compiled output of this stylesheet would resemble the original example, LESS’s nested media query support allows us to structure our stylesheet more naturally. However, having to remember to add these extra few lines for every image is still tedious.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-mixin-take-1&quot;&gt;The Mixin, Take 1&lt;/h2&gt;
-&lt;p&gt;CSS preprocessors provide a second tool which can make this process easier: &lt;em&gt;mixins&lt;/em&gt;. The SASS documentation describes a &lt;a href=&quot;http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixins&quot;&gt;mixin&lt;/a&gt; as follows:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Mixins allow you to define styles that can be re-used throughout the stylesheet… They can also take arguments which allows you to produce a wide variety of styles with very few mixins.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Let’s experiment by moving our media query to a mixin called &lt;code class=&quot;highlighter-rouge&quot;&gt;.background-image()&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.background-image(@image) {
-	background-image: url(@image);
-
-	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-		background-image: url(@image);
-		background-size: 100%;
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You will notice that the mixin accepts an &lt;code class=&quot;highlighter-rouge&quot;&gt;@image&lt;/code&gt; parameter, which is then used to set the &lt;code class=&quot;highlighter-rouge&quot;&gt;background-image&lt;/code&gt;. Having defined this mixin, we could then rewrite our primary stylesheet to reference it:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;figure {
-	width: 450px;
-	height: 300px;
-}
-figure#desert {
-	.background-image('images/sand-dune.jpg');
-}
-figure#camel {
-	.background-image('images/camel.jpg');
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Our compiled CSS would then look like:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;figure {
-	width: 450px;
-	height: 300px;
-}
-figure#desert {
-	background-image: url('images/sand-dune.jpg');
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-	figure#desert {
-		background-image: url('images/sand-dune.jpg');
-		background-size: 100%;
-	}
-}
-figure#camel {
-	background-image: url('images/camel.jpg');
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-	figure#camel {
-		background-image: url('images/camel.jpg');
-		background-size: 100%;
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;It’s easy to see how a mixin could simplify configuration. Of course, this mixin isn’t yet doing it’s job; you’ll notice that the retina image is still pointing to &lt;code class=&quot;highlighter-rouge&quot;&gt;images/sand-dune.jpg&lt;/code&gt;, and not the &lt;code class=&quot;highlighter-rouge&quot;&gt;images/sand-dune_2x.jpg&lt;/code&gt; that we need.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-regular-expression&quot;&gt;The Regular Expression&lt;/h2&gt;
-&lt;p&gt;The next step requires a bit of a leap. In order to add the &lt;code class=&quot;highlighter-rouge&quot;&gt;_2x&lt;/code&gt; suffix to the image path, we could have our &lt;code class=&quot;highlighter-rouge&quot;&gt;.background-image()&lt;/code&gt; mixin use a regular expression to split the image path into two parts — filename and extension. We can then piece the path back together, inserting the &lt;code class=&quot;highlighter-rouge&quot;&gt;_2x&lt;/code&gt; suffix between them.&lt;/p&gt;
-
-&lt;p&gt;Ok, stay with me here. Lets first prototype our regular expression in JavaScript. I’ve created a &lt;a href=&quot;http://jsfiddle.net/g7rqt/&quot;&gt;fiddle&lt;/a&gt; where you can run this code for yourself.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var image = '../images/image.png';
-var regex = /(.*)\.(jpg|jpeg|png|gif)/;
-var match = regex.exec(image);
-if (match != null) {
-    alert(&quot;background-image: url('&quot;+match[1]+&quot;_2x.&quot;+match[2]+&quot;');&quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The regular expression has two &lt;a href=&quot;http://www.regular-expressions.info/brackets.html&quot;&gt;capture groups&lt;/a&gt;, which are denoted by parenthesis: &lt;code class=&quot;highlighter-rouge&quot;&gt;(.*)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;(jpg|jpeg|png|gif)&lt;/code&gt;. The second capture group matches any of the listed extensions: &lt;code class=&quot;highlighter-rouge&quot;&gt;jpg&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;jpeg&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;png&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;gif&lt;/code&gt;. The first capture group captures everything before the full stop. Then, in the &lt;code class=&quot;highlighter-rouge&quot;&gt;alert()&lt;/code&gt;, we reconstruct the image path.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-mixin-take-2&quot;&gt;The Mixin, Take 2&lt;/h2&gt;
-&lt;p&gt;Now that we’ve created a regular expression that works, we can incorporate this into our mixin by taking advantage of LESS’s ability to evaluate JavaScript expressions.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.background-image(@image){
-	@filename:  ~`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{image})[1]`;
-	@extension: ~`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{image})[2]`;
-	background-image: ~`&quot;url(@{filename}.@{extension})&quot;`;
-
-	@media (-webkit-min-device-pixel-ratio: 2) {
-		background-image: ~`&quot;url(@{filename}_2x.@{extension})&quot;`;
-		background-size: 100%;
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Because there is no concept of arrays in LESS, I’ve had to run the same regular expression twice, once to grab the filename, and again to get the extension.&lt;/p&gt;
-
-&lt;p&gt;With the mixin now equipped with our regular expression, we can very simply reference our images and be certain that the correct resolution image is being delivered to the browser.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;figure {
-	width: 450px;
-	height: 300px;
-}
-figure#desert {
-	.background-image('images/sand-dune.jpg');
-}
-figure#camel {
-	.background-image('images/camel.jpg');
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You can view a &lt;a href=&quot;http://tylertate.github.io/background-image/demo.html&quot;&gt;working demo&lt;/a&gt; of this solution, as well as &lt;a href=&quot;https://github.com/tylertate/background-image&quot;&gt;browse the code&lt;/a&gt; on GitHub.&lt;/p&gt;
-
-&lt;h2 id=&quot;limitations&quot;&gt;Limitations&lt;/h2&gt;
-&lt;p&gt;This approach has one particular limitation that it’s important to point out. When compiled, each reference to the &lt;code class=&quot;highlighter-rouge&quot;&gt;.background-image()&lt;/code&gt; mixin results in a few lines of CSS (in this case, five lines). A quick test seems to indicate that about five invocations of the mixin result in about 1 kilobyte of uncompressed CSS. This is acceptable if there are a couple dozen images involved, but not if there are hundreds.&lt;/p&gt;
-
-&lt;h2 id=&quot;advantages&quot;&gt;Advantages&lt;/h2&gt;
-&lt;p&gt;That said, this approach of using background images, media queries, and a LESS mixin in combination does have a number of significant advantages:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It relies purely on CSS — no JavaScript is required&lt;/li&gt;
-  &lt;li&gt;It’s not necessary to restructure your stylesheets to support multiple pixel densities&lt;/li&gt;
-  &lt;li&gt;The mixin abstracts the media queries and references to retina images, so it’s not necessary to add any extra configuration to main stylesheets&lt;/li&gt;
-  &lt;li&gt;The method for referencing images — &lt;code class=&quot;highlighter-rouge&quot;&gt;.background-image('images/camel.jpg')&lt;/code&gt; is in keeping with CSS syntax&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<link>http://www.tylertate.com/blog/frontend/2013/06/11/retina-images-using-media-queries-and-LESS-CSS.html</link>
-				<guid>http://www.tylertate.com/blog/frontend/2013/06/11/retina-images-using-media-queries-and-LESS-CSS.html</guid>
 			</item>
 		
 			<item>
@@ -2380,7 +1905,7 @@ This talk aims to achieve just that. You will learn about three characteristics 
 
 &lt;figure class=&quot;small&quot;&gt;
 	&lt;img src=&quot;http://tylertate.com/resources/images/2012-02-21/chu-cube.jpg&quot; width=&quot;475&quot; class=&quot;twothirds-width&quot; alt=&quot;The CHU Cube&quot; /&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://pervasiveia.com/&quot;&gt;Resmini and Rosati's&lt;/a&gt; CHU cube.&lt;/figcaption&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://pervasiveia.com/&quot;&gt;Resmini and Rosati&apos;s&lt;/a&gt; CHU cube.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;What would a tool that aimed to facilitate consistent, optimized, continuous cross-channel planning look like? In &lt;a href=&quot;http://pervasiveia.com/&quot;&gt;Pervasive Information Architecture&lt;/a&gt;, Resmini and Rosati presented their CHU cube which places &lt;em&gt;tasks&lt;/em&gt; and &lt;em&gt;channels&lt;/em&gt; each on their own axes.&lt;/p&gt;
@@ -2470,11 +1995,10 @@ This talk aims to achieve just that. You will learn about three characteristics 
 
 &lt;p&gt;But the tricky bit is getting from pixels back to percentages. What percentage do we need to subtract in order to produce a half-pixel reduction in the computed pixel value? The answer: &lt;strong&gt;it depends on the pixel width of the parent container&lt;/strong&gt;. Here’s the formula:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;O.5 / containerWidth = correctionLevel
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;O.5 / containerWidth = correctionLevel
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ContainerWidth&lt;/code&gt; is the pixel width of the container, while &lt;code class=&quot;highlighter-rouge&quot;&gt;correctionLevel&lt;/code&gt; represents the percentage that needs to be subtracted in order for IE to round down to the nearest pixel. Thus for our 50px container above, the &lt;code class=&quot;highlighter-rouge&quot;&gt;correctionLevel&lt;/code&gt; is &lt;code class=&quot;highlighter-rouge&quot;&gt;0.5 / 50 = 0.01&lt;/code&gt;, or 1%. That means instead of the four columns each being 25%, they would need to be 24% (25 - 1). With that corretion applied, the columns would each be computed as 12px rather than 12.5px, and our layout will display correctly, as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ContainerWidth&lt;/code&gt; is the pixel width of the container, while &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;correctionLevel&lt;/code&gt; represents the percentage that needs to be subtracted in order for IE to round down to the nearest pixel. Thus for our 50px container above, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;correctionLevel&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.5 / 50 = 0.01&lt;/code&gt;, or 1%. That means instead of the four columns each being 25%, they would need to be 24% (25 - 1). With that corretion applied, the columns would each be computed as 12px rather than 12.5px, and our layout will display correctly, as shown below.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://tylertate.com/resources/images/2012-01-05/browser-subpixel-rounding-corrected.png&quot; width=&quot;620&quot; style=&quot;width: 100%; max-width: 620px;&quot; alt=&quot;Sub-pixel rounding with the correction formula applied&quot; /&gt;&lt;/p&gt;
 
@@ -2483,41 +2007,37 @@ This talk aims to achieve just that. You will learn about three characteristics 
 &lt;p&gt;Here are two strategies for applying this correction formula.&lt;/p&gt;
 
 &lt;h2 id=&quot;do-it-yourself-calculations&quot;&gt;Do-it-yourself calculations&lt;/h2&gt;
-&lt;p&gt;You can quickly apply the above formula to your existing fluid layouts to fix the sub-pixel rounding issue in IE6 and 7 without adversely affecting other browsers. First, lets assume you have constructed a percentage-based layout that has a set minimum width of &lt;strong&gt;720px&lt;/strong&gt;. Using this number as our baseline &lt;code class=&quot;highlighter-rouge&quot;&gt;containerWidth&lt;/code&gt;, our formula tells us that the correctionLevel is &lt;strong&gt;.0694%&lt;/strong&gt;. Whenever a percentage is used as the value of a width, padding, border, or margin declaration, we’ll use the star hack to add IE6/7-specific declarations which subtract .0694% from the original value. Here’s a simplistic example:&lt;/p&gt;
+&lt;p&gt;You can quickly apply the above formula to your existing fluid layouts to fix the sub-pixel rounding issue in IE6 and 7 without adversely affecting other browsers. First, lets assume you have constructed a percentage-based layout that has a set minimum width of &lt;strong&gt;720px&lt;/strong&gt;. Using this number as our baseline &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;containerWidth&lt;/code&gt;, our formula tells us that the correctionLevel is &lt;strong&gt;.0694%&lt;/strong&gt;. Whenever a percentage is used as the value of a width, padding, border, or margin declaration, we’ll use the star hack to add IE6/7-specific declarations which subtract .0694% from the original value. Here’s a simplistic example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;section#sidebar {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;section#sidebar {
   width: 25%;
   *width: 24.93%;
 }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;css-frameworks&quot;&gt;CSS frameworks&lt;/h2&gt;
 &lt;p&gt;If you’re using a CSS framework such as &lt;a href=&quot;http://lesscss.org/&quot;&gt;LESS.js&lt;/a&gt; or &lt;a href=&quot;http://sass-lang.com&quot;&gt;SaSS&lt;/a&gt;, you can rely on their mathematic operations to save you from having to crunching all the numbers by hand. The LESS/SaSS code below would be compiled to the same output as in the example above.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;section#sidebar {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;section#sidebar {
   width: 25%;
   *width: 25%-0.0694%;
 }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Updated January 11, 2012.&lt;/em&gt; The newly-released version 1.2 of &lt;a href=&quot;http://Semantic.gs&quot;&gt;The Semantic Grid System&lt;/a&gt;—which uses the power of CSS frameworks to elegantly power fixed, fluid, and responsive layouts—incorporates the above formula. It allows you to specify the minimum width of your layout, from which it then derives the correction level.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@min-width: 960;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@min-width: 960;
 @correction: 0.5 / @min-width * 100 * 1%;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;It then subtracts the correction level from the IE-specific width and margin declarations of each column in the layout:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;width: @computedWidth;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;width: @computedWidth;
 margin: 0 @computedMargin;
 
 *width: @computedWidth-@correction;
 *margin: 0 @computedMargin-@correction;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;the-last-word&quot;&gt;The last word&lt;/h2&gt;
 &lt;p&gt;So there you have it: a predictable formula for correcting the sub-pixel rounding problem in Internet Explorer 6 and 7. It’s just one more reason we can all rejoice when IE6 and 7 go the way of the grave.&lt;/p&gt;
@@ -3131,8 +2651,8 @@ margin: 0 @computedMargin;
 &lt;p&gt;Not only do suggestions save the user keystrokes, but they can actually help construct a more useful query than the user would have thought of on their own.&lt;/p&gt;
 
 &lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/2010-02-08/suggest8.png&quot; alt=&quot;Google's Auto-suggest&quot; /&gt;
-	&lt;figcaption&gt;Google's Auto-suggest.&lt;/figcaption&gt;
+	&lt;img src=&quot;/resources/images/2010-02-08/suggest8.png&quot; alt=&quot;Google&apos;s Auto-suggest&quot; /&gt;
+	&lt;figcaption&gt;Google&apos;s Auto-suggest.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;But there are a number of opportunities for maximising the power of query suggestions that are often overlooked, but which Google seem to get right. The lowest hanging fruit of these are spelling suggestions. If I type “guitaf” into Google, the first suggestion that appears in the list is the correctly-spelled word, “guitar.” Surprisingly, this elementary feature is missing from giants like eBay, Amazon.com, and Yahoo. A second technique is to display the number of results for each selected term, as Google do with a right alignment. This has a risk (which we’ll get to in a bit), but it can help the user gauge the popularity of a given suggestion. And lastly, it’s often helpful to infuse suggestions with recent searches. One approach, which Safari utilises, is to simply have two groups, one for query suggestions and another that lists the user’s recent searches. A more sophisticated approach could be to use search log data (either for one user, a group of users, or all users) to augment the scoring of the query suggestions themselves.&lt;/p&gt;
@@ -3190,6 +2710,62 @@ Smashing Magazine’s article on &lt;a href=&quot;https://web.archive.org/web/20
 </description>
 				<link>http://www.tylertate.com/events/2010/02/04/search-suggestions.html</link>
 				<guid>http://www.tylertate.com/events/2010/02/04/search-suggestions.html</guid>
+			</item>
+		
+			<item>
+				<title>Vyre: Reinventing Enterprise Content Management</title>
+				<pubDate>Fri, 01 Jan 2010 00:00:00 PST</pubDate>
+				<description>&lt;p&gt;I was a user interface designer at Vyre, a London-based enterprise content management company, from November 2008 through November 2009. During that time I led the redesign of Vyre’s enterprise CMS, and also designed  two new applications, expanding the company’s reach into Digital Asset Management (DAM) and Marketing Resource Management (MRM). In addition to my work on these products, I also contributed to projects for prestigious clients such as Diageo and Royal Dutch Shell. Vyre was acquired by North Plains in 2012.&lt;/p&gt;
+
+&lt;h2 id=&quot;content-management&quot;&gt;Content Management&lt;/h2&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/vyre/1-cms.png&quot; alt=&quot;Enterprise Content Management&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I led the redesign of Vyre’s enterprise content management system, and worked closely with two engineers to complete the redesign. The three of us received the company’s annual innovation award for our work, and six months after completion the redesigned CMS was being used by clients including Nokia, Virgin Holidays, The National Trust, Inghams, and Lowe Worldwide. The improvements also received praise from the industry’s top analyst, CMS Watch, saying:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The redesigned CMS “presents a clean and quite logical interface… The new UI has a slicker look than what VYRE previously offered [and is] a very pleasant environment for editors” (The Web CMS Report 2010).”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;digital-asset-management&quot;&gt;Digital Asset Management&lt;/h2&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/vyre/2-dam.png&quot; alt=&quot;Digital Asset Management&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In addition to redesigning Vyre’s enterprise CMS, I also designed two new applications—a digital asset management system (DAM) and a marketing resource management system (MRM). Usually these are three disparate apps; Vyre’s vision was to bring the enterprise’s entire marketing process into one suite of tools. While I completed the design of these new products, they were not implemented during my tenure.&lt;/p&gt;
+
+&lt;p&gt;A DAM system is typically used by the marketing division of an organization to keep track of their marketing photos, videos, music, artwork, and other assets, as well as the usage rights associated with them.&lt;/p&gt;
+
+&lt;h2 id=&quot;marketing-resource-management&quot;&gt;Marketing Resource Management&lt;/h2&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+	&lt;img src=&quot;/resources/images/work/vyre/3-mrm.png&quot; alt=&quot;Marketing Resource Management&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A MRM system is a project management tool used by marketing teams to orchestrate the processes, people, and assets required to complete a creative project.&lt;/p&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
+&lt;p&gt;I wrote one of my first articles about design while working on these web applications at Vyre. &lt;a href=&quot;https://www.smashingmagazine.com/2009/10/minimizing-complexity-in-user-interfaces/&quot;&gt;Minimizing Complexity In User Interfaces&lt;/a&gt;, published on Smashing Magazine, outlines some of the principles that helped me bring clarity to the complex world of enterprise apps.&lt;/p&gt;
+
+&lt;h2 id=&quot;recommendations&quot;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;Theo Bonham Carter (manager) says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Quite aside from the fact that he’s a lovely guy, Tyler has that magic mixture of creativity, enthusiasm, vision and technical expertise that makes working with him a complete pleasure. Someone I can recommend without hesitation.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Joseph McElroy (coworker) says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I have worked with Tyler on a number of projects, Tyler has been the key for that extra small detail motivated by his hunger to learn and wanting to benefit the project. Not only his UI which is at the forefront, its his ability of marketing, leading, and decision making which makes him stand out as a huge player within a team.”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+				<link>http://www.tylertate.com/works/2010/01/01/redesigning-enterprise-content-management-system.html</link>
+				<guid>http://www.tylertate.com/works/2010/01/01/redesigning-enterprise-content-management-system.html</guid>
 			</item>
 		
 			<item>
