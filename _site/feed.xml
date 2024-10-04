@@ -7,12 +7,21 @@
 		<atom:link href="http://tylertate.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The Explorer&apos;s Journey</title>
+				<pubDate>Tue, 23 Jun 2020 00:00:00 PDT</pubDate>
+				<description>
+</description>
+				<link>http://www.tylertate.com/blog/search/featured/2020/06/23/explorers-journey.html</link>
+				<guid>http://www.tylertate.com/blog/search/featured/2020/06/23/explorers-journey.html</guid>
+			</item>
+		
+			<item>
 				<title>Crema’s Next Chapter</title>
 				<pubDate>Fri, 10 Nov 2017 00:00:00 PST</pubDate>
 				<description>
 </description>
-				<link>http://www.tylertate.com/blog/crema/featured/2017/11/10/cremas-next-chapter.html</link>
-				<guid>http://www.tylertate.com/blog/crema/featured/2017/11/10/cremas-next-chapter.html</guid>
+				<link>http://www.tylertate.com/blog/crema/2017/11/10/cremas-next-chapter.html</link>
+				<guid>http://www.tylertate.com/blog/crema/2017/11/10/cremas-next-chapter.html</guid>
 			</item>
 		
 			<item>
@@ -611,8 +620,8 @@
 				<pubDate>Tue, 28 Jun 2016 00:00:00 PDT</pubDate>
 				<description>
 </description>
-				<link>http://www.tylertate.com/blog/crema/featured/2016/06/28/personalized-recommendations-coffees-tailored-to-you.html</link>
-				<guid>http://www.tylertate.com/blog/crema/featured/2016/06/28/personalized-recommendations-coffees-tailored-to-you.html</guid>
+				<link>http://www.tylertate.com/blog/crema/2016/06/28/personalized-recommendations-coffees-tailored-to-you.html</link>
+				<guid>http://www.tylertate.com/blog/crema/2016/06/28/personalized-recommendations-coffees-tailored-to-you.html</guid>
 			</item>
 		
 			<item>
@@ -795,8 +804,8 @@
 
 &lt;p&gt;What follows are personal observations I’ve made over the last four months as a designer turned founder of Crema.co, an online marketplace for single-origin coffee. I’ve noticed four design practices that, when broadened, are crucial to successful innovation: identifying a problem, formulating a solution, talking to customers, and iterating.&lt;/p&gt;
 </description>
-				<link>http://www.tylertate.com/blog/ux/2015/04/01/designers-as-innovators.html</link>
-				<guid>http://www.tylertate.com/blog/ux/2015/04/01/designers-as-innovators.html</guid>
+				<link>http://www.tylertate.com/blog/crema/2015/04/01/designers-as-innovators.html</link>
+				<guid>http://www.tylertate.com/blog/crema/2015/04/01/designers-as-innovators.html</guid>
 			</item>
 		
 			<item>
@@ -891,220 +900,6 @@
 </description>
 				<link>http://www.tylertate.com/blog/crema/2015/01/16/the-case-for-a-coffee-marketplace.html</link>
 				<guid>http://www.tylertate.com/blog/crema/2015/01/16/the-case-for-a-coffee-marketplace.html</guid>
-			</item>
-		
-			<item>
-				<title>Online Grocery Shopping: A Hard Nut to Crack</title>
-				<pubDate>Tue, 09 Dec 2014 00:00:00 PST</pubDate>
-				<description>&lt;figure class=&quot;large&quot; style=&quot;margin-top: -1.43em;&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-09/hypermarket.jpg&quot; /&gt;
-	&lt;figcaption&gt;Packaged food aisles at a Fred Meyer hypermarket in Portland, Oregon.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In my previous post, “&lt;a href=&quot;http://tylertate.com/blog/2014/12/08/from-famine-to-feast-foods-online-future.html&quot;&gt;From Famine to Feast: Food’s Online Future&lt;/a&gt;,” I outlined three reasons that I believe the food industry is poised for a profound transformation as consumers shift from brick-and-mortar to online channels. This, however, begs the question:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Why hasn’t online food shopping already taken off in the United States?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If we already buy so many other things online — from books to electronics to made-by-hand knickknacks — why not food? Does the inherent nature of food make it unsuitable for online commerce?&lt;/p&gt;
-
-&lt;p&gt;Well, to look beyond the US, online grocery shopping is already a “thing”. In the United Kingdom, for instance, online-only retailers such as Ocado, as well as major supermarket chains like Tesco, provide polished online grocery shopping and delivery services, and &lt;a href=&quot;http://www.igd.com/our-expertise/Retail/retail-outlook/3371/UK-Grocery-Retailing/&quot;&gt;statistics show&lt;/a&gt; that 4.4% of all grocery sales occurred online in 2014, some £7.7 billion.&lt;/p&gt;
-
-&lt;h2 id=&quot;three-reasons-for-failure&quot;&gt;Three reasons for failure&lt;/h2&gt;
-&lt;p&gt;The UK aside, I think there are three reasons why online grocery shopping has proven to be a hard nut to crack in the United States.&lt;/p&gt;
-
-&lt;figure class=&quot;small&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-09/icon-warehouse.svg&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;1-warehousing-cost&quot;&gt;1. Warehousing Cost&lt;/h3&gt;
-&lt;p&gt;To fulfil a customer’s order, the business must have a warehouse located nearby. In a country as large as the US, this would require an immense amount of capital to achieve nationally, and is why new services such as Google Shopping and Amazon Fresh are currently offered in just a handful of cities.&lt;/p&gt;
-
-&lt;figure class=&quot;small&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-09/icon-truck.svg&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;2-delivery-complexity&quot;&gt;2. Delivery Complexity&lt;/h3&gt;
-&lt;p&gt;Not only must the business operate a local warehouse, but they must also maintain a fleet of refrigerated trucks to keep perishable goods cool, and freezer goods frozen during transit. This adds yet another layer of both logistical complexity and capital intensity that must be rolled out across a vast geography.&lt;/p&gt;
-
-&lt;figure class=&quot;small&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-09/icon-cheap.svg&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;3-unprofitable-goods&quot;&gt;3. Unprofitable Goods&lt;/h3&gt;
-&lt;p&gt;Many grocery items are inexpensive, heavy, perishable, or some combination of the above. By the time a $1 bag of sugar is stored in the warehouse, loaded on the truck, and driven to the customer’s home, for instance, it has probably cost the business well above $1 in logistical expense. It’s hard to turn a profit on such inexpensive foodstuffs.&lt;/p&gt;
-
-&lt;figure class=&quot;small right&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-09/webvan.jpg&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;a-lesson-from-the-past&quot;&gt;A lesson from the past&lt;/h2&gt;
-&lt;p&gt;These three challenges were personified — even caricatured — in the textbook failure of Webvan, what &lt;a href=&quot;http://techcrunch.com/2013/09/27/why-webvan-failed-and-how-home-delivery-2-0-is-addressing-the-problems/&quot;&gt;Peter Relan&lt;/a&gt; calls “the poster child of the dot-com bubble.” Started in 1998, Webvan raised $800 million from investors to become an online grocery store providing home delivery. They devised state-of-the-art warehousing systems, secured fleets of refrigerated trucks, and committed $1 billion of capital to build warehouses across 26 cities. In 2001, Webvan filed for bankruptcy.&lt;/p&gt;
-
-&lt;h2 id=&quot;present-attempts&quot;&gt;Present attempts&lt;/h2&gt;
-&lt;p&gt;Today’s businesses are loath to repeat the mistakes of Webvan. Of current ventures, only Amazon Fresh and east coast startup Relay Foods are attempting a Webvan-style warehousing and delivery approach. A number of others, including Google Shopping, Instacart, and Postmates, are aiming to provide the &lt;strong&gt;delivery service without the warehousing&lt;/strong&gt;. That is, they will go to the local supermarket for you, and bring the goods to your home.&lt;/p&gt;
-
-&lt;p&gt;I see three flaws to such an approach:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Using a third-party delivery service will always add an &lt;strong&gt;additional layer of price markup&lt;/strong&gt;. That is, since the third-party is not profiting from the sale of an item, they will have to add their own fees on top of the store’s retail price.&lt;/li&gt;
-  &lt;li&gt;Brick-and-mortar retailers could easily launch their own delivery services. By doing so, they could either &lt;strong&gt;block the third parties&lt;/strong&gt; from accessing their stores outright, or just &lt;strong&gt;underprice&lt;/strong&gt; the third-party services (which they would have the capacity to do since they are already profiting from buying wholesale and selling retail).&lt;/li&gt;
-  &lt;li&gt;Third-party delivery services are &lt;strong&gt;limited to the selection&lt;/strong&gt; provided by local stores. Online retailers, by contrast, are often able to provide a much wider selection than their brick-and-mortar counterparts (think Amazon.com vs. a local bookstore), an advantage that third-party delivery services lack.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Fortunately, there is another way.&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-09/cupcake.jpg&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;a-recipe-for-the-future&quot;&gt;A recipe for the future&lt;/h2&gt;
-&lt;p&gt;I believe that the future of online food shopping is:&lt;/p&gt;
-
-&lt;h3 id=&quot;1-be-the-marketplace-not-warehouse&quot;&gt;1. Be the marketplace, not warehouse&lt;/h3&gt;
-&lt;p&gt;Warehousing is expensive, difficult, and tends to limit selection. Instead of being the warehouse, be the marketplace instead. &lt;strong&gt;Enable producers to list their food goods on the online marketplace, and enable customers to buy goods directly from producers.&lt;/strong&gt; It’s relational… just like food used to be.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-outsource-delivery&quot;&gt;2. Outsource delivery&lt;/h3&gt;
-&lt;p&gt;There are existing logistic providers which do nothing but logistics and are really good at it, like the United States Postal Service and FedEx. &lt;strong&gt;Leverage those existing networks&lt;/strong&gt; rather than rolling your own… it’s worked for Amazon.com.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-go-gourmet&quot;&gt;3. Go gourmet&lt;/h3&gt;
-&lt;p&gt;Don’t sell $1 bags of sugar. Instead, focus on specialty foods that are hard to find at the local grocery store. &lt;strong&gt;Differentiate on quality and selection&lt;/strong&gt;, not on price.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-better-world&quot;&gt;A better world?&lt;/h2&gt;
-&lt;p&gt;A marketplace that connects consumers with producers, leverages existing logistics networks, and focuses on specialty food items. I believe this would make the world a happier place…&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A place where people are able to discover, buy, and enjoy delicious food that has been lovingly crafted by small, artisanal producers — all more easily than shopping at Wal-Mart.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Would you like to live in such a world?&lt;/p&gt;
-
-</description>
-				<link>http://www.tylertate.com/blog/misc/2014/12/09/online-grocery-shopping-a-hard-nut-to-crack.html</link>
-				<guid>http://www.tylertate.com/blog/misc/2014/12/09/online-grocery-shopping-a-hard-nut-to-crack.html</guid>
-			</item>
-		
-			<item>
-				<title>From Famine to Feast: Food’s Online Future</title>
-				<pubDate>Mon, 08 Dec 2014 00:00:00 PST</pubDate>
-				<description>&lt;figure class=&quot;large&quot; style=&quot;margin-top: -1.43em;&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-08/borough-market.jpg&quot; /&gt;
-	&lt;figcaption&gt;A cake stall at Borough Market in London. Photo by David Iliff.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Online commerce is a mature, saturated market with little room for new entrants… Or is it?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A cursory glance seems to side with the status quo: &lt;a href=&quot;http://www.huffingtonpost.com/2014/12/02/cyber-monday-record_n_6259082.html&quot;&gt;Cyber Monday&lt;/a&gt; in the United States raked in a whopping $2 billion for online retailers; nearly as many books are sold &lt;a href=&quot;http://www.digitalbookworld.com/2013/online-retail-now-accounts-for-nearly-half-all-u-s-book-sales/&quot;&gt;electronically&lt;/a&gt; as at brick and mortar stores; and established giants like Amazon seem &lt;a href=&quot;http://www.forbes.com/sites/jeffbercovici/2014/02/10/amazon-vs-book-publishers-by-the-numbers/&quot;&gt;impenetrable&lt;/a&gt;. Surely ecommerce is best left alone, right?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Not so fast.&lt;/em&gt; While online retailers have a large market share in certain product categories like books, electronics, and sporting goods, other categories remain infantile.&lt;/p&gt;
-
-&lt;p&gt;Among the most underdeveloped of segments: &lt;strong&gt;food and drink&lt;/strong&gt;. Americans spend six times more money on groceries than they do on books, but some 40 times more books are purchased online than food and beverages (as a proportion of total sales). This is a &lt;strong&gt;huge, virtually untapped market&lt;/strong&gt;. What’s more, &lt;strong&gt;widespread experimentation&lt;/strong&gt; is underway as tech giants, supermarket chains, and startups try to figure out how to conquer this space. And lastly, a &lt;strong&gt;new generation&lt;/strong&gt; of specialty-food-buying, online-shopping millennials is coming of age.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Together, I believe these three elements set the stage for a profound transformation of the food industry.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;a-huge-untapped-market&quot;&gt;A huge, untapped market&lt;/h2&gt;
-&lt;p&gt;In 2013, the grocery bill in the United States totalled around &lt;strong&gt;$1 trillion&lt;/strong&gt; according to &lt;a href=&quot;http://www.plunkettresearch.com/food-beverage-grocery-market-research/industry-and-business-data&quot;&gt;Plunkett Research&lt;/a&gt;. The average household spent $3,921 on goods to eat and drink at home, the biggest household expenditure after housing and transportation.&lt;/p&gt;
-
-&lt;p&gt;But though consumers spend a lot on food and drink, they don’t spend that money online. While 38% of media and sporting goods are purchased online, &lt;a href=&quot;https://intelligence.businessinsider.com/this-is-how-much-e-commerce-is-disrupting-the-different-retail-categories-2014-5&quot;&gt;Business Insider&lt;/a&gt; found that…&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Less than 1% of food and beverage sales occurred online in 2012.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That is a massive gap, and one that analysts think will rapidly narrow. &lt;a href=&quot;http://www.brickmeetsclick.com/stuff/contentmgr/files/.../pdf/bmc_online_grocery_forecast_10_8_final.pdf&quot;&gt;Brick Meets Click&lt;/a&gt;, for example, predicts that online grocery sales will &lt;strong&gt;rise to 11%-17&lt;/strong&gt;% of the total by 2023, increasing from less than $1 billion today to between $80 and $123 billion. (And it’s worth noting that in other markets such as the United Kingdom, online grocery shopping is already a more substantial 4.4% of the total, according to &lt;a href=&quot;http://www.igd.com/our-expertise/Retail/retail-outlook/3371/UK-Grocery-Retailing/&quot;&gt;IDG&lt;/a&gt;.)&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-08/online-spending-graph.png&quot; /&gt;
-	&lt;figcaption&gt;Percentage of online sales by category. Data from Business Insider.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;widespread-experimentation&quot;&gt;Widespread experimentation&lt;/h2&gt;
-&lt;p&gt;Tech giants, supermarket chains, and startups have taken notice of the potential upside of enabling consumers to order food online, and are actively trying to figure out how to pull it off. Amazon Fresh, Google Express, and eBay Now are experimental offerings that are being rolled out in select cities. The likes of Whole Foods and Wal-Mart are cautiously dipping their toes into the online market. And…&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;http://www.businessweek.com/articles/2014-10-23/mobile-food-startups-move-beyond-delivery-into-food-prep&quot;&gt;Venture capitalists&lt;/a&gt; are pouring money into online food companies, investing $788 million in the first quarter of 2014 alone.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;While these attempts are still in their early days, such widespread experimentation is evidence that today’s business leaders agree that selling food and drink online is a business they can’t afford &lt;em&gt;not&lt;/em&gt; to be part of.&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-08/tech-logos.png&quot; /&gt;
-	&lt;figcaption&gt;A few noteable entrants.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;a-new-generation&quot;&gt;A new generation&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Millennials&lt;/strong&gt;, those aged 18-34, &lt;strong&gt;spend more money online than any other age group&lt;/strong&gt; — despite having not yet reached their prime spending years. While they earned an average of just $36,000 in 2013, &lt;a href=&quot;http://www.businessinsider.com/the-surprising-demographics-of-who-shops-online-and-on-mobile-2014-6&quot;&gt;5.33% of that was spent online&lt;/a&gt;, totalling just under $2,000 annually. (For comparison, Generation X-ers spent 3.85% of their $48,000 average income.) As millennials increase their earning capacity, they are likely to continue spending a high percentage of their income online.&lt;/p&gt;
-
-&lt;p&gt;Not only do millennials spend the most &lt;em&gt;online&lt;/em&gt;, but &lt;a href=&quot;http://www.gallup.com/poll/156416/americans-spend-151-week-food-high-income-180.aspx&quot;&gt;Gallup&lt;/a&gt; found that they also &lt;strong&gt;spend more money on food&lt;/strong&gt; than any other age group, nearly $750 per month. In addition, 70% of them regularly &lt;a href=&quot;https://www.specialtyfood.com/news/article/todays-consumer-14/&quot;&gt;buy &lt;em&gt;specialty&lt;/em&gt; food items&lt;/a&gt;, a higher percentage than any other generation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In other words, millennials have more of an appetite for buying food products online than any other age group.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-12-08/millenial.jpg&quot; /&gt;
-	&lt;figcaption&gt;Obligatory stock photo of a millennial.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;change-is-in-the-air&quot;&gt;Change is in the air&lt;/h2&gt;
-
-&lt;p&gt;A huge untapped market. Widespread experimentation. A new generation coming of age. These are ingredients for disruptive innovation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Over the next three years, I believe that the famished state of online food commerce will be transformed into a feast of opportunity.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Watch this space.&lt;/p&gt;
-
-</description>
-				<link>http://www.tylertate.com/blog/misc/2014/12/08/from-famine-to-feast-foods-online-future.html</link>
-				<guid>http://www.tylertate.com/blog/misc/2014/12/08/from-famine-to-feast-foods-online-future.html</guid>
-			</item>
-		
-			<item>
-				<title>On Taking Time Off</title>
-				<pubDate>Wed, 12 Nov 2014 00:00:00 PST</pubDate>
-				<description>&lt;figure class=&quot;large&quot; style=&quot;margin-top: -1.43em;&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-11-12/the-cottage.jpg&quot; /&gt;
-	&lt;figcaption&gt;Our humble autumn abode in the Dordogne region of France.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Thus for the first time since his creation man will be faced with his real, his permanent problem — how to use his freedom from pressing economic cares, how to occupy the leisure, which science and compound interest will have won for him, to live wisely and agreeably and well.” — John Maynard Keynes&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Today I woke up to a cool, crisp November morning. During the night the chill air had managed to gradually, patiently creep in through the windows, under the door. It was cold. Galileo and Atticus, my four- and two-year-old boys, were already into mischief in the living room by the time I emerged from beneath the duvet. The three of us slipped on our waterproof boots, embraced the fresh air, and located the axe in the woodshed. The boys took turns exerting their full strength to cart a hardwood log onto the shopping block, and then scamper a safe distance away so that I could let the axe fall through the air and perform its duty. Half an hour later, the Godin wood burner sung its song of warmth in the kitchen, a day’s supply of fuel stacked snuggly by its side.&lt;/p&gt;
-
-&lt;figure class=&quot;medium&quot;&gt;
-	&lt;img src=&quot;/resources/images/2014-11-12/wood-pile.jpg&quot; /&gt;
-	&lt;figcaption&gt;Wood delivery day.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Such simple but satisfying avocations are all too uncommon in the hubbub of modern life — they have been in mine, at least. That is, except for the past few months. After five years of working in a startup — one year of which involved straddling two companies, and a further year multitasking to write a book — I decided to take a break.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;And so, my family and I have spent August, September, and October camping in Scotland and Cornwall,  cycling through the Cotswolds, and living in the Dordogne region of France, chopping firewood and fuelling the wood burner.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;a-life-of-leisure&quot;&gt;A Life of Leisure?&lt;/h2&gt;
-&lt;p&gt;John Maynard Keynes, in his 1930 essay &lt;em&gt;Economic Possibilities for our Grandchildren&lt;/em&gt;, predicted that you and I would only need to work perhaps 15 hours per week, and that the challenge of our generation would be in occupying our overabundant leisure time. How distant from reality this now sounds as, for most of us, work occupies the lion’s share of our attention, effort, and time. Which isn’t a bad thing, for work is about much more than simply making a living; at its best work is challenging, rewarding, and thoroughly enjoyable in its own right. But every so often, it’s worth taking a break from the fast and furious to appreciate life’s simple pleasures, to go outside and chop firewood in the crisp morning air.&lt;/p&gt;
-
-&lt;p&gt;Now three months in, I feel relaxed, rejuvenated, and full of enthusiasm for my next work project, now quietly underway.&lt;/p&gt;
-
-&lt;p&gt;My conclusion:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Work hard. Enjoy your work. But take a break every now and then to, in the words of Keynes, “cultivate the art of life itself.”&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-				<link>http://www.tylertate.com/blog/misc/2014/11/12/on-taking-time-off.html</link>
-				<guid>http://www.tylertate.com/blog/misc/2014/11/12/on-taking-time-off.html</guid>
 			</item>
 		
 			<item>
@@ -2042,8 +1837,8 @@ margin: 0 @computedMargin;
 &lt;h2 id=&quot;the-last-word&quot;&gt;The last word&lt;/h2&gt;
 &lt;p&gt;So there you have it: a predictable formula for correcting the sub-pixel rounding problem in Internet Explorer 6 and 7. It’s just one more reason we can all rejoice when IE6 and 7 go the way of the grave.&lt;/p&gt;
 </description>
-				<link>http://www.tylertate.com/blog/frontend/2012/01/05/subpixel-rounding.html</link>
-				<guid>http://www.tylertate.com/blog/frontend/2012/01/05/subpixel-rounding.html</guid>
+				<link>http://www.tylertate.com/blog/misc/2012/01/05/subpixel-rounding.html</link>
+				<guid>http://www.tylertate.com/blog/misc/2012/01/05/subpixel-rounding.html</guid>
 			</item>
 		
 			<item>
@@ -2096,8 +1891,8 @@ margin: 0 @computedMargin;
 				<pubDate>Tue, 23 Aug 2011 00:00:00 PDT</pubDate>
 				<description>&lt;p&gt;CSS grid frameworks can make your life easier, but they’re not without their faults. Fortunately for us, modern techniques offer a new approach to constructing page layouts. But before getting to the solution, we must first understand the three seemingly insurmountable flaws currently affecting CSS grids.&lt;/p&gt;
 </description>
-				<link>http://www.tylertate.com/blog/frontend/2011/08/23/semantic-grid-system.html</link>
-				<guid>http://www.tylertate.com/blog/frontend/2011/08/23/semantic-grid-system.html</guid>
+				<link>http://www.tylertate.com/blog/misc/2011/08/23/semantic-grid-system.html</link>
+				<guid>http://www.tylertate.com/blog/misc/2011/08/23/semantic-grid-system.html</guid>
 			</item>
 		
 			<item>
@@ -2782,8 +2577,8 @@ Smashing Magazine’s article on &lt;a href=&quot;https://web.archive.org/web/20
 				<pubDate>Fri, 29 May 2009 00:00:00 PDT</pubDate>
 				<description>&lt;p&gt;Other CSS frameworks try to do everything—grid system, style reset, basic typography, form styles. But complex systems are, well, complex. Looking for a simple, lightweight approach that doesn’t require a PhD? Meet The 1KB CSS Grid.&lt;/p&gt;
 </description>
-				<link>http://www.tylertate.com/blog/frontend/2009/05/29/the-1kb-css-grid.html</link>
-				<guid>http://www.tylertate.com/blog/frontend/2009/05/29/the-1kb-css-grid.html</guid>
+				<link>http://www.tylertate.com/blog/misc/2009/05/29/the-1kb-css-grid.html</link>
+				<guid>http://www.tylertate.com/blog/misc/2009/05/29/the-1kb-css-grid.html</guid>
 			</item>
 		
 	</channel>

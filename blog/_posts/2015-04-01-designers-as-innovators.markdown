@@ -4,7 +4,7 @@ title: "Designers as Innovators, and a Story About Coffee"
 publisher: UX Magazine
 originalurl: https://uxmag.com/articles/designers-as-innovators-and-a-story-about-coffee
 snippet: "The creation of an online marketplace for single-origin coffee leads to some realizations about the connections between design thinking and innovation."
-category: ux
+category: crema
 ---
 
 Designers are problem solvers. They ask the question: “How can we make it easier and more enjoyable for people to achieve their goals?” They create prototypes, put them in front of users, and then iterate their design solutions until the experience matches the user’s needs and wants.
